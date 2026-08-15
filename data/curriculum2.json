@@ -1,0 +1,1805 @@
+[
+ {
+  "lesson": 1,
+  "titleZh": "九月去北京旅游最好",
+  "titleVi": "Đi du lịch Bắc Kinh vào tháng 9 là tốt nhất",
+  "titlePinyin": "jiǔ yuè qù Běijīng lǚyóu zuì hǎo",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在学校",
+    "titleVi": "Ở trường",
+    "titlePinyin": null,
+    "contentZh": "A：我要去北京旅游你觉得什么时候去最好？\nB：九月去北京旅游最好。\nA：为什么？\nB：九月的北京天气不冷也不热？",
+    "pinyin": "Wǒ yào qù Běijīng lǚyóu nǐ juéde shénme shíhòu qù zuì hǎo?\nJiǔ yuè qù Běijīng lǚyóu zuì hǎo\nWèishénme?\nJiǔ yuè de Běijīng tiānqì bù lěng yě bù rè?",
+    "vi": "A: Tôi muốn đi Bắc Kinh du lịch. Bạn thấy đi vào lúc nào là tốt nhất?\nB: Tháng Chín đi du lịch Bắc Kinh là tốt nhất.\nA: Tại sao?\nB: Thời tiết Bắc Kinh vào tháng Chín không lạnh cũng không nóng."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你喜欢什么运动？\nB：我最喜欢踢足球。\nA：下午我们一起去踢足球吧？\nB：好啊！",
+    "pinyin": "Nǐ xǐhuān shénme yùndòng?\nWǒ zuì xǐhuān tī zúqiú\nXiàwǔ wǒmen yīqǐ qù tī zúqiú ba?\nHǎo a!",
+    "vi": "A: Bạn thích môn thể thao nào?\nB: Tôi thích đá bóng nhất.\nA: Chiều nay chúng ta cùng đi đá bóng nhé?\nB: Được thôi!"
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A：我们要不要买几个新的椅子？\nB：好啊，什么时候去买。\nA：明天下午怎么样？你明天几点能回来？\nB：三点多。",
+    "pinyin": "Wǒmen yào bù yāo mǎi jǐ gè xīn de yǐzi?\nHǎo a, shénme shíhòu qù mǎi.\nMíngtiān xiàwǔ zěnme yàng? Nǐ míngtiān jǐ diǎn néng huílái?\nSān diǎn duō",
+    "vi": "A: Chúng ta có nên mua mấy chiếc ghế mới không?\nB: Được đấy, khi nào đi mua?\nA: Chiều mai thế nào? Ngày mai mấy giờ bạn có thể về?\nB: Hơn ba giờ."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A：桌子下面有一只猫？\nB：那是我的猫，它叫花花。\nA：它很漂亮？\nB: 是啊，我觉得他的眼睛最漂亮？\nA：它多大了？\nB：六个多月了。",
+    "pinyin": "Zhuōzi xiàmiàn yǒuyī zhǐ māo?\nNà shì wǒ de māo, tā jiào Huāhuā.\nTā hěn piàoliang?\nShì a, wǒ juéde tā de yǎnjīng zuì piàoliang?\nTā duōdà le?\nLiù gè duō yuè le",
+    "vi": "A: Dưới bàn có một con mèo à?\nB: Đó là mèo của tôi, nó tên là Hoa Hoa.\nA: Nó rất đẹp nhỉ?\nB: Đúng vậy, tôi thấy đôi mắt của nó là đẹp nhất.\nA: Nó bao nhiêu tháng tuổi rồi?\nB: Hơn sáu tháng rồi."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "能愿动词“要”",
+    "meaning": "Động từ năng nguyện “要”",
+    "structure": "S + 要 + V/O; 否定 thường dùng 不想",
+    "explain": "“要” đứng trước động từ để biểu thị nguyện vọng muốn làm việc gì đó. Theo slide, dạng phủ định thường dùng “不想”.",
+    "examples": [
+     {
+      "zh": "小王要去。/ 我不想去。",
+      "vi": "Tiểu Vương muốn đi. / Tôi không muốn đi."
+     },
+     {
+      "zh": "你要吃米饭吗？/ 我不想吃米饭。",
+      "vi": "Bạn muốn ăn cơm không? / Tôi không muốn ăn cơm."
+     },
+     {
+      "zh": "我要去商店买椅子，你去吗？/ 我不去，我不想买椅子。",
+      "vi": "Tôi muốn ra cửa hàng mua ghế, bạn đi không? / Tôi không đi, tôi không muốn mua ghế."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“最”",
+    "meaning": "“最” – mức độ cao nhất",
+    "structure": "最 + Adj/V",
+    "explain": "Dùng để biểu thị mức độ cao nhất so với những đối tượng cùng loại.",
+    "examples": [
+     {
+      "zh": "大卫的汉语最好。",
+      "vi": "Tiếng Trung của David là tốt nhất."
+     },
+     {
+      "zh": "我最喜欢吃米饭。",
+      "vi": "Tôi thích ăn cơm nhất."
+     },
+     {
+      "zh": "它的眼睛最漂亮。",
+      "vi": "Đôi mắt của nó đẹp nhất."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "数词“几”",
+    "meaning": "Số từ ước lượng “几”",
+    "structure": "几 + 量词 + N; 十 + 几 + 量词 + N",
+    "explain": "“几” dùng để chỉ số lượng không xác định dưới 10; theo slide, “几” cũng có thể đứng sau “十” để biểu thị số lượng trong khoảng hàng chục.",
+    "examples": [
+     {
+      "zh": "车上有几个人。",
+      "vi": "Trên xe có mấy người?"
+     },
+     {
+      "zh": "我想买几本书。",
+      "vi": "Tôi muốn mua mấy quyển sách."
+     },
+     {
+      "zh": "我们要不要买几个新的椅子？",
+      "vi": "Chúng ta có nên mua mấy chiếc ghế mới không?"
+     },
+     {
+      "zh": "几十个人。",
+      "vi": "Mấy chục người."
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "数词“多”",
+    "meaning": "Cách dùng “多” với số lượng",
+    "structure": "<10: 数 + 量词 + 多; >10: 数 + 多 + 量词",
+    "explain": "Theo slide, với số lượng dưới 10, “多” đứng sau lượng từ; với số lượng trên 10, “多” đứng trước lượng từ.",
+    "examples": [
+     {
+      "zh": "五年多。",
+      "vi": "Hơn năm năm."
+     },
+     {
+      "zh": "六个多月。",
+      "vi": "Hơn sáu tháng."
+     },
+     {
+      "zh": "八天多。",
+      "vi": "Hơn tám ngày."
+     },
+     {
+      "zh": "一百多个。",
+      "vi": "Hơn một trăm cái/người."
+     },
+     {
+      "zh": "十个多月。",
+      "vi": "Hơn mười tháng."
+     },
+     {
+      "zh": "二十多块钱。",
+      "vi": "Hơn hai mươi tệ."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 2,
+  "titleZh": "我每天六点起床",
+  "titleVi": "Hàng ngày tôi dậy lúc 6h",
+  "titlePinyin": "wǒ měitiān liù diǎn qǐchuáng",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在运动场",
+    "titleVi": "Ở sân vận động",
+    "titlePinyin": null,
+    "contentZh": "A: 你很少生病，是不是喜欢运动？\nB: 是啊，我每天早上都要出去跑步。\nA: 你每天几点起床？\nB: 我每天六点起床。",
+    "pinyin": "Nǐ hěn shǎo shēngbìng, shì bùshì xǐhuān yùndòng?\nShì a, wǒ měitiān zǎoshang dōu yào chūqù pǎobù\nNǐ měitiān jǐ diǎn qǐchuáng?\nWǒ měitiān liù diǎn qǐchuáng",
+    "vi": "A: Bạn rất ít khi bị ốm, có phải bạn thích vận động không?\nB: Đúng vậy, sáng nào tôi cũng ra ngoài chạy bộ.\nA: Hằng ngày bạn mấy giờ thức dậy?\nB: Hằng ngày tôi thức dậy lúc sáu giờ."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在医院",
+    "titleVi": "Ở bệnh viện",
+    "titlePinyin": null,
+    "contentZh": "A: 吃药了吗？现在身体怎么样？\nB: 吃了。现在好多了。\nA: 什么时候能出院？\nB: 医生说下个星期。",
+    "pinyin": "Chī yào le ma? Xiànzài shēntǐ zěnme yàng?\nChī le. Xiànzài hǎoduō le.\nShénme shíhòu néng chūyuàn?\nYīshēng shuō xià gè xīngqī",
+    "vi": "A: Uống thuốc chưa? Bây giờ sức khỏe thế nào?\nB: Uống rồi. Bây giờ đỡ hơn nhiều rồi.\nA: Khi nào có thể xuất viện?\nB: Bác sĩ nói tuần sau."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在操场",
+    "titleVi": "Ở sân trường",
+    "titlePinyin": null,
+    "contentZh": "A: 大卫今年多大？\nB: 二十多岁。\nA: 他多高？\nB: 一米八几。\nA: 你怎么知道这么多啊？\nB: 他是我同学。",
+    "pinyin": "Dàwèi jīnnián duōdà?\nÈrshí duō suì\nTā duō gāo?\nYī mǐ bā jǐ\nNǐ zěnme zhīdào zhème duō a?\nTā shì wǒ tóngxué",
+    "vi": "A: David năm nay bao nhiêu tuổi?\nB: Hơn hai mươi tuổi.\nA: Anh ấy cao bao nhiêu?\nB: Khoảng một mét tám mươi mấy.\nA: Sao bạn biết nhiều thế?\nB: Anh ấy là bạn học của tôi."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在房间",
+    "titleVi": "Trong phòng",
+    "titlePinyin": null,
+    "contentZh": "A: 张老师星期六也不休息啊？\nB: 是啊，他这几天很忙，没有时间休息。\nA: 那会很累吧？\nB: 他每天回来都很累。",
+    "pinyin": "Zhāng lǎoshī xīngqīliù yě bù xiūxi a?\nShì a, tā zhè jǐ tiān hěn máng, méiyǒu shíjiān xiūxi\nNà huì hěn lèi ba?\nTā měitiān huílai dōu hěn lèi.",
+    "vi": "A: Thầy Trương thứ Bảy cũng không nghỉ à?\nB: Đúng vậy, mấy hôm nay thầy ấy rất bận, không có thời gian nghỉ.\nA: Thế chắc mệt lắm nhỉ?\nB: Ngày nào về thầy ấy cũng rất mệt."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "疑问句“是不是”",
+    "meaning": "Câu hỏi với “是不是”",
+    "structure": "是不是 + ... ? / ...，是不是？",
+    "explain": "Dùng khi người nói có phỏng đoán khá chắc chắn và muốn xác nhận. “是不是” thường đứng trước vị ngữ, nhưng cũng có thể đứng đầu hoặc cuối câu.",
+    "examples": [
+     {
+      "zh": "你很少生病，是不是喜欢运动？",
+      "vi": "Bạn rất ít khi ốm, có phải là thích vận động không?"
+     },
+     {
+      "zh": "是不是明天爸爸休息？",
+      "vi": "Có phải ngày mai bố được nghỉ không?"
+     },
+     {
+      "zh": "我们星期一去北京，是不是？",
+      "vi": "Thứ Hai chúng ta đi Bắc Kinh, đúng không?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "代词“每”",
+    "meaning": "Đại từ “每”",
+    "structure": "每 + 量词 + N + 都 + V",
+    "explain": "Dùng trước lượng từ để chỉ từng cá thể hoặc từng đơn vị trong một tập hợp: 每天、每年、每个月、每个星期…",
+    "examples": [
+     {
+      "zh": "山姆每年都去中国旅游。",
+      "vi": "Sam năm nào cũng đi du lịch Trung Quốc."
+     },
+     {
+      "zh": "你每个星期六都工作吗？",
+      "vi": "Thứ Bảy tuần nào bạn cũng làm việc à?"
+     },
+     {
+      "zh": "我每天六点起床。",
+      "vi": "Hằng ngày tôi thức dậy lúc sáu giờ."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "疑问代词“多”",
+    "meaning": "Đại từ nghi vấn “多”",
+    "structure": "多 + Adj",
+    "explain": "Dùng trước tính từ để hỏi mức độ; khi trả lời thường nêu một con số hoặc mức độ cụ thể.",
+    "examples": [
+     {
+      "zh": "你多大？—我16岁。",
+      "vi": "Bạn bao nhiêu tuổi? — Tôi 16 tuổi."
+     },
+     {
+      "zh": "王医生的儿子多高？—他儿子一米七。",
+      "vi": "Con trai bác sĩ Vương cao bao nhiêu? — Cao 1m70."
+     },
+     {
+      "zh": "他多高？—一米八几。",
+      "vi": "Anh ấy cao bao nhiêu? — Khoảng 1m80 mấy."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 3,
+  "titleZh": "左边那个红色的是我的",
+  "titleVi": "Ly màu đỏ ở bên trái là của tôi",
+  "titlePinyin": "zuǒbiān nàge hóngsè de shì wǒ de",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在房间",
+    "titleVi": "Trong phòng",
+    "titlePinyin": null,
+    "contentZh": "A:这块手表是你的吗？\nB:不是我的。是我爸爸的。\nA:多少钱买的？\nB:三千多块。",
+    "pinyin": "Zhè kuài shǒubiǎo shì nǐ de ma?\nBùshì wǒ de. Shì wǒ bàba de.\nDuōshǎo qián mǎi de?\nSānqiān duō kuài.",
+    "vi": "A: Chiếc đồng hồ này là của bạn à?\nB: Không phải của tôi. Là của bố tôi.\nA: Mua bao nhiêu tiền?\nB: Hơn ba nghìn tệ."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A:这是今天早上的报纸吗？\nB:不是，是昨天的。\nA:你听，是不是送报纸的来了？\nB:我看一下。不是，是送牛奶的。",
+    "pinyin": "Zhè shì jīntiān zǎoshang de bàozhǐ ma?\nBùshì, shì zuótiān de.\nNǐ tīng, shì bùshì sòng bàozhǐ de lái le?\nWǒ kàn yīxià. Bùshì, shì sòng niúnǎi de.",
+    "vi": "A: Đây là báo sáng nay à?\nB: Không, là báo hôm qua.\nA: Bạn nghe xem, có phải người giao báo đến rồi không?\nB: Để tôi xem. Không phải, là người giao sữa."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A:这是谁的房间？\nB:这是我和我丈夫的，旁边那个小的房间是我女儿的。\nA:你女儿的房间真漂亮！都是粉色的。\nB:是啊，粉色是我女儿最喜欢的颜色。",
+    "pinyin": "Zhè shì shéi de fángjiān?\nZhè shì wǒ hé wǒ zhàngfū de, pángbiān nàgè xiǎo de fángjiān shì wǒ nǚ'ér de.\nNǐ nǚ'ér de fángjiān zhēn piàoliang! Dōu shì fěnsè de.\nShì a, fěnsè shì wǒ nǚ'ér zuì xǐhuān de yánsè.",
+    "vi": "A: Đây là phòng của ai?\nB: Đây là phòng của tôi và chồng tôi, căn phòng nhỏ bên cạnh là của con gái tôi.\nA: Phòng của con gái bạn đẹp thật! Toàn màu hồng.\nB: Đúng vậy, màu hồng là màu con gái tôi thích nhất."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在办公室",
+    "titleVi": "Ở văn phòng",
+    "titlePinyin": null,
+    "contentZh": "A:你看见我的杯子了吗？\nB:这里有几个杯子，哪个是你的？\nA:左边那个红色的是我的。\nB:给你。",
+    "pinyin": "Nǐ kànjiàn wǒ de bēizi le ma?\nZhè li yǒu jǐ gè bēizi, nǎge shì nǐ de?\nZuǒbiān nàgè hóngsè de shì wǒ de.\nGěi nǐ.",
+    "vi": "A: Bạn có nhìn thấy cốc của tôi không?\nB: Ở đây có mấy cái cốc, cái nào là của bạn?\nA: Cái màu đỏ bên trái là của tôi.\nB: Đây, của bạn."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "“的”字短语",
+    "meaning": "Cụm từ có “的”",
+    "structure": "代词/形容词/动词短语 + 的",
+    "explain": "Đại từ, tính từ hoặc động từ/cụm động từ kết hợp với “的” tạo thành cụm có tính chất danh từ, trong đó trung tâm ngữ được lược bỏ.",
+    "examples": [
+     {
+      "zh": "这本书不是我的。（=我的书）",
+      "vi": "Quyển sách này không phải của tôi."
+     },
+     {
+      "zh": "这个杯子是昨天买的。（=昨天买的杯子）",
+      "vi": "Cái cốc này là cái mua hôm qua."
+     },
+     {
+      "zh": "这块手表是你的吗？（=你的手表）",
+      "vi": "Chiếc đồng hồ này là của bạn à?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“一下”",
+    "meaning": "Cách dùng “一下”",
+    "structure": "V + 一下 (+ O)",
+    "explain": "Đặt sau động từ để biểu thị hành động diễn ra trong thời gian ngắn hoặc làm thử; tương đương sắc thái lặp nhẹ động từ.",
+    "examples": [
+     {
+      "zh": "我看一下。",
+      "vi": "Để tôi xem một chút."
+     },
+     {
+      "zh": "你休息一下吧。",
+      "vi": "Bạn nghỉ một lát đi."
+     },
+     {
+      "zh": "我问一下老师。",
+      "vi": "Tôi hỏi thầy/cô một chút."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "语气副词“真”",
+    "meaning": "Phó từ ngữ khí “真”",
+    "structure": "真 + Adj",
+    "explain": "Dùng để thể hiện cảm xúc của người nói trước một đặc điểm hoặc trạng thái.",
+    "examples": [
+     {
+      "zh": "你真好！",
+      "vi": "Bạn tốt thật!"
+     },
+     {
+      "zh": "今天天气真好！",
+      "vi": "Thời tiết hôm nay đẹp thật!"
+     },
+     {
+      "zh": "你女儿的房间真漂亮！",
+      "vi": "Phòng của con gái bạn đẹp thật!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 4,
+  "titleZh": "这个工作是他帮我介绍的",
+  "titleVi": "Công việc này là anh ấy giới thiệu cho tôi",
+  "titlePinyin": "zhège gōngzuò shì tā bāng wǒ jièshào de",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在教室",
+    "titleVi": "Trong lớp học",
+    "titlePinyin": null,
+    "contentZh": "A: 生日快乐！这是送给你的!\nB:是什么？是一本书吗？\nA:对，这本书是我写的。\nB: 太谢谢你了！",
+    "pinyin": "Shēngrì kuài lè! Zhè shì sòng gěi nǐ de!\nShì shénme? Shì yī běn shū ma?\nDuì, zhè běn shū shì wǒ xiě de.\nTài xièxiè nǐ le!",
+    "vi": "A: Chúc mừng sinh nhật! Đây là quà tặng bạn!\nB: Là gì vậy? Là một quyển sách à?\nA: Đúng, quyển sách này là do tôi viết.\nB: Cảm ơn bạn nhiều lắm!"
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A: 早上有你一个电话.\nB：电话是谁打的？\nA：不知道，是儿子接的。\nB: 好，晚上我问一下儿子。",
+    "pinyin": "Zǎoshang yǒu nǐ yīgè diànhuà.\nDiànhuà shì shéi dǎ de?\nBù zhīdào, shì érzi jiē de.\nHǎo, wǎnshàng wǒ wèn yīxià érzi.",
+    "vi": "A: Sáng nay có một cuộc điện thoại gọi cho bạn.\nB: Ai gọi vậy?\nA: Không biết, con trai nghe máy.\nB: Được, tối tôi sẽ hỏi con."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在运动场",
+    "titleVi": "Ở sân vận động",
+    "titlePinyin": null,
+    "contentZh": "A: 你喜欢踢足球吗？\nB：非常喜欢。\nA：你是什么时候开始踢足球的？\nB: 我十一岁的时候开始踢足球，已经踢了十年了。",
+    "pinyin": "Nǐ xǐhuān tī zúqiú ma?\nFēicháng xǐhuān.\nNǐ shì shénme shíhòu kāishǐ tī zúqiú de?\nWǒ shíyī suì de shíhòu kāishǐ tī zúqiú, yǐjīng tīle shí nián le.",
+    "vi": "A: Bạn thích đá bóng không?\nB: Rất thích.\nA: Bạn bắt đầu đá bóng từ khi nào?\nB: Tôi bắt đầu đá bóng từ năm mười một tuổi, đến nay đã đá được mười năm rồi."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在公司",
+    "titleVi": "Ở công ty",
+    "titlePinyin": null,
+    "contentZh": "A: 你在这儿工作多长时间了？\nB: 已经两年多了，我是2011年来的。\nA: 你认识谢先生吗？\nB: 认识，我们是大学同学，这个工作是他帮我介绍的。",
+    "pinyin": "Nǐ zài zhè'er gōngzuò duō cháng shíjiān le?\nYǐjīng liǎng nián duō le, wǒ shì 2011 niánlái de.\nNǐ rènshí xiè xiānshēng ma?\nRènshí, wǒmen shì dàxué tóngxué, zhègè gōngzuò shì tā bāng wǒ jièshào de.",
+    "vi": "A: Bạn làm việc ở đây được bao lâu rồi?\nB: Hơn hai năm rồi, tôi đến đây năm 2011.\nA: Bạn có quen ông Tạ không?\nB: Có, chúng tôi là bạn học đại học. Công việc này là anh ấy giới thiệu cho tôi."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "“是……的”",
+    "meaning": "Cấu trúc “是……的”",
+    "structure": "O + 是/不是 + người/chủ thể + V + 的",
+    "explain": "Khi sự việc đã rõ, dùng “是……的” để nhấn mạnh chủ thể thực hiện hành động. Dạng phủ định thêm “不” trước “是”.",
+    "examples": [
+     {
+      "zh": "这本书是我买的。",
+      "vi": "Quyển sách này là tôi mua."
+     },
+     {
+      "zh": "晚饭是妈妈做的。",
+      "vi": "Bữa tối là mẹ nấu."
+     },
+     {
+      "zh": "电话是谁打的？",
+      "vi": "Cuộc điện thoại là ai gọi?"
+     },
+     {
+      "zh": "这个汉字不是大卫写的。",
+      "vi": "Chữ Hán này không phải David viết."
+     },
+     {
+      "zh": "苹果不是王方买的。",
+      "vi": "Táo không phải Vương Phương mua."
+     },
+     {
+      "zh": "电话不是我接的。",
+      "vi": "Điện thoại không phải tôi nghe."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“……的时候”",
+    "meaning": "Cấu trúc chỉ thời gian “……的时候”",
+    "structure": "时间/数量短语 + 的时候; V + 的时候",
+    "explain": "Dùng cụm “……的时候” để xác định thời điểm xảy ra hành động; phía trước có thể là cụm chỉ thời gian/số lượng hoặc động từ.",
+    "examples": [
+     {
+      "zh": "今天早上八点的时候我没在家。",
+      "vi": "Lúc 8 giờ sáng nay tôi không ở nhà."
+     },
+     {
+      "zh": "我十八岁的时候一个人来到北京。",
+      "vi": "Khi 18 tuổi tôi một mình đến Bắc Kinh."
+     },
+     {
+      "zh": "我十一岁的时候开始踢足球。",
+      "vi": "Tôi bắt đầu đá bóng khi 11 tuổi."
+     },
+     {
+      "zh": "我睡觉的时候，我妈妈在做饭。",
+      "vi": "Khi tôi ngủ, mẹ tôi đang nấu cơm."
+     },
+     {
+      "zh": "麦克到学校的时候下雨了。",
+      "vi": "Khi Mike đến trường thì trời mưa."
+     },
+     {
+      "zh": "王老师工作的时候，她丈夫开车去医院了。",
+      "vi": "Khi cô Vương làm việc, chồng cô ấy lái xe đến bệnh viện."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "时间副词“已经”",
+    "meaning": "Phó từ thời gian “已经”",
+    "structure": "已经 + V/Adj (+ 了)",
+    "explain": "Dùng để biểu thị hành động đã hoàn thành hoặc trạng thái đã đạt đến một mức độ nào đó.",
+    "examples": [
+     {
+      "zh": "王老师已经回家了。",
+      "vi": "Thầy Vương đã về nhà rồi."
+     },
+     {
+      "zh": "我的身体已经好了。",
+      "vi": "Sức khỏe của tôi đã tốt rồi."
+     },
+     {
+      "zh": "足球我已经踢了十年了。",
+      "vi": "Tôi đã đá bóng được mười năm rồi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 5,
+  "titleZh": "就买这件吧",
+  "titleVi": "MUA CHIẾC ÁO NÀY ĐI",
+  "titlePinyin": "jiù mǎi zhè jiàn ba",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A：晚上我们去饭馆吃饭，怎么样？\nB：我不想去外面吃，我想在家吃。\nA：那你准备做什么呢？\nB：就做你爱吃的鱼吧。",
+    "pinyin": "Wǎnshàng wǒmen qù fànguǎn chīfàn, zěnme yàng?\nWǒ bùxiǎng qù wàimiàn chī, wǒ xiǎng zàijiā chī.\nNà nǐ zhǔnbèi zuò shénme ne?\nJiù zuò nǐ ài chī de yú ba.",
+    "vi": "A: Tối nay chúng ta ra nhà hàng ăn nhé, thế nào?\nB: Tôi không muốn ăn ở ngoài, tôi muốn ăn ở nhà.\nA: Vậy bạn định nấu gì?\nB: Thì làm món cá bạn thích ăn nhé."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在商店",
+    "titleVi": "Ở cửa hàng",
+    "titlePinyin": null,
+    "contentZh": "A：帮我看一下这件衣服怎么样。\nB：颜色还可以，就是有点儿大。\nA：这件小的怎么样？\nB：这件不错，就买这件吧。",
+    "pinyin": "Bāng wǒ kàn yīxià zhè jiàn yīfu zěnme yàng.\nYánsè hái kěyǐ, jiùshì yǒudiǎn er dà.\nZhè jiàn xiǎo de zěnme yàng?\nZhè jiàn bùcuò, jiù mǎi zhè jiàn ba.",
+    "vi": "A: Xem giúp tôi chiếc áo này thế nào.\nB: Màu sắc cũng được, chỉ là hơi rộng.\nA: Chiếc nhỏ này thế nào?\nB: Chiếc này không tệ, mua chiếc này đi."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在教室",
+    "titleVi": "Trong lớp học",
+    "titlePinyin": null,
+    "contentZh": "A：今天去不去打球？\nB：这两天有点儿累，不去打球了。\nA：你在做什么呢？是在想昨天的考试吗？\nB：是啊，我觉得听和说还可以，读和写不好，很多字我都不知道是什么意思。",
+    "pinyin": "Jīntiān qù bù qù dǎqiú?\nZhè liǎng tiān yǒudiǎnr lèi, bù qù dǎqiú le.\nNǐ zài zuò shénme ne? Shì zài xiǎng zuótiān de kǎoshì ma?\nShì a, wǒ juéde tīng hé shuō hái kěyǐ, dú hé xiě bù hǎo, hěnduō zì wǒ dū bù zhīdào shì shénme yìsi.",
+    "vi": "A: Hôm nay có đi chơi bóng không?\nB: Hai hôm nay hơi mệt, không đi nữa.\nA: Bạn đang làm gì vậy? Đang nghĩ về bài thi hôm qua à?\nB: Đúng vậy, tôi thấy nghe và nói còn được, đọc và viết thì không tốt, rất nhiều chữ tôi không biết nghĩa là gì."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在公司",
+    "titleVi": "Ở công ty",
+    "titlePinyin": null,
+    "contentZh": "A：休息一下吧，喝咖啡吗？\nB：不喝了，我已经喝两杯了。\nA：是啊，咖啡喝多了对身体不好。\nB：以后我少喝一点儿，每天喝一杯。",
+    "pinyin": "Xiūxi yīxià ba, hē kāfēi ma?\nBù hē le, wǒ yǐjīng hē liǎng bēi le.\nShì a, kāfēi hē duō le duì shēntǐ bù hǎo.\nYǐhòu wǒ shǎo hè yīdiǎn er, měitiān hè yībēi.",
+    "vi": "A: Nghỉ một lát nhé, uống cà phê không?\nB: Không uống nữa, tôi đã uống hai cốc rồi.\nA: Đúng vậy, uống nhiều cà phê không tốt cho sức khỏe.\nB: Sau này tôi sẽ uống ít đi một chút, mỗi ngày một cốc."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "副词“就”",
+    "meaning": "Phó từ “就”",
+    "structure": "就 + V",
+    "explain": "Dùng để nối với nội dung trước và đưa ra kết luận hoặc giải pháp. Slide lưu ý “就是” trong câu “颜色还可以，就是有点儿大” mang sắc thái nhượng bộ.",
+    "examples": [
+     {
+      "zh": "你不想去，就在家休息吧。",
+      "vi": "Bạn không muốn đi thì nghỉ ở nhà đi."
+     },
+     {
+      "zh": "这儿的咖啡不错，就喝咖啡吧。",
+      "vi": "Cà phê ở đây không tệ, vậy uống cà phê đi."
+     },
+     {
+      "zh": "就做你爱吃的鱼吧。",
+      "vi": "Vậy làm món cá bạn thích ăn nhé."
+     },
+     {
+      "zh": "颜色还可以，就是有点儿大。",
+      "vi": "Màu sắc cũng được, chỉ là hơi rộng."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "语气副词“还”",
+    "meaning": "Phó từ ngữ khí “还”",
+    "structure": "还 + Adj",
+    "explain": "Dùng để diễn tả mức độ chấp nhận được, tạm được.",
+    "examples": [
+     {
+      "zh": "你身体怎么样？—还好。",
+      "vi": "Sức khỏe bạn thế nào? — Cũng ổn."
+     },
+     {
+      "zh": "这件衣服大吗？—还行，不太大。",
+      "vi": "Chiếc áo này có rộng không? — Cũng được, không quá rộng."
+     },
+     {
+      "zh": "昨天的考试怎么样？—我觉得听和说还可以，读和写不好。",
+      "vi": "Bài thi hôm qua thế nào? — Tôi thấy nghe và nói còn được, đọc và viết thì không tốt."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "程度副词“有点儿”",
+    "meaning": "Phó từ chỉ mức độ “有点儿”",
+    "structure": "有点儿 + Adj/V",
+    "explain": "Dùng để biểu thị trạng thái hoặc cảm nhận hơi mang sắc thái tiêu cực/không hài lòng.",
+    "examples": [
+     {
+      "zh": "今天天气有点儿冷。",
+      "vi": "Hôm nay trời hơi lạnh."
+     },
+     {
+      "zh": "我昨天有点儿累。",
+      "vi": "Hôm qua tôi hơi mệt."
+     },
+     {
+      "zh": "这件衣服有点儿大。",
+      "vi": "Chiếc áo này hơi rộng."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 6,
+  "titleZh": "你怎么不吃了",
+  "titleVi": "SAO CẬU KHÔNG ĂN NỮA",
+  "titlePinyin": "nǐ zěnme bù chī le",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在学校",
+    "titleVi": "Ở trường",
+    "titlePinyin": null,
+    "contentZh": "A:你知道小王今天什么时候来学校吗?\nB:他已经来了。\nA:你怎么知道他来了？\nB:我在门外看见他的自行车了。",
+    "pinyin": "Nǐ zhīdào Xiǎo Wáng jīntiān shénme shíhòu lái xuéxiào ma?\nTā yǐjīng lái le.\nNǐ zěnme zhīdào tā lái le?\nWǒ zài mén wài kànjiàn tā de zìxíngchē le.",
+    "vi": "A: Bạn có biết hôm nay Tiểu Vương khi nào đến trường không?\nB: Cậu ấy đến rồi.\nA: Sao bạn biết cậu ấy đến rồi?\nB: Tôi nhìn thấy xe đạp của cậu ấy ở ngoài cửa."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在饭馆",
+    "titleVi": "Ở nhà hàng",
+    "titlePinyin": null,
+    "contentZh": "A:今天的羊肉很好吃，你怎么不吃了?\nB:这个星期天天都吃羊肉，不想吃了。\nA:那你还想吃什么？\nB:来一点儿面条吧。",
+    "pinyin": "Jīntiān de yángròu hěn hào chī, nǐ zěnme bù chī le?\nZhègè xīngqī tiāntiān dū chī yángròu, bùxiǎng chī le.\nNà nǐ hái xiǎng chī shénme?\nLái yīdiǎnr miàntiáo ba.",
+    "vi": "A: Thịt cừu hôm nay rất ngon, sao bạn không ăn nữa?\nB: Tuần này ngày nào cũng ăn thịt cừu, tôi không muốn ăn nữa.\nA: Vậy bạn còn muốn ăn gì?\nB: Cho một ít mì nhé."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在健身房",
+    "titleVi": "Ở phòng tập",
+    "titlePinyin": null,
+    "contentZh": "A:昨天你们怎么都没去打篮球?\nB:因为昨天下雨，所以我们都没去。我去游泳了。\nA:你经常游泳吗？\nB:这个月我天天游泳，我现在七十公斤了。",
+    "pinyin": "Zuótiān nǐmen zěnme dōu méi qù dǎ lánqiú?\nYīnwèi zuótiān xià yǔ, suǒyǐ wǒmen dōu méi qù. Wǒ qù yóuyǒng le.\nNǐ jīngcháng yóuyǒng ma?\nZhègè yuè wǒ tiāntiān yóuyǒng, wǒ xiànzài qīshí gōngjīn le.",
+    "vi": "A: Hôm qua sao mọi người đều không đi chơi bóng rổ?\nB: Vì hôm qua trời mưa nên chúng tôi đều không đi. Tôi đi bơi.\nA: Bạn thường xuyên bơi à?\nB: Tháng này ngày nào tôi cũng bơi, bây giờ tôi còn bảy mươi ki-lô-gam rồi."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在办公室",
+    "titleVi": "Ở văn phòng",
+    "titlePinyin": null,
+    "contentZh": "A:这两天怎么没看见小张?\nB:他去北京了。\nA:去北京了？是去旅游吗？\nB:不是，听说是去看他姐姐。",
+    "pinyin": "Zhè liǎng tiān zěnme méi kànjiàn xiǎo zhāng?\nTā qù Běijīng le.\nQù Běijīng le? Shì qù lǚyóu ma?\nBùshì, tīng shuō shì qù kàn tā jiějie.",
+    "vi": "A: Hai hôm nay sao không thấy Tiểu Trương?\nB: Anh ấy đi Bắc Kinh rồi.\nA: Đi Bắc Kinh à? Đi du lịch sao?\nB: Không, nghe nói là đi thăm chị gái."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "疑问代词“怎么”",
+    "meaning": "Đại từ nghi vấn “怎么” hỏi nguyên nhân",
+    "structure": "S + 怎么 + V/Adj?",
+    "explain": "Dùng để hỏi nguyên nhân của sự việc, thường kèm sắc thái ngạc nhiên.",
+    "examples": [
+     {
+      "zh": "你怎么不高兴？",
+      "vi": "Sao bạn không vui?"
+     },
+     {
+      "zh": "今天怎么这么热？",
+      "vi": "Hôm nay sao nóng thế?"
+     },
+     {
+      "zh": "昨天你们怎么都没去打篮球？",
+      "vi": "Hôm qua sao các bạn đều không đi chơi bóng rổ?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "量词重叠",
+    "meaning": "Lặp lượng từ",
+    "structure": "AA + 都 + ...",
+    "explain": "Khi lượng từ được lặp lại, nó mang nghĩa “mỗi/mọi”, nhấn mạnh mọi thành viên trong nhóm đều có cùng đặc điểm; sau đó thường dùng “都”.",
+    "examples": [
+     {
+      "zh": "同学们个个都很高兴。",
+      "vi": "Các bạn học sinh ai cũng rất vui."
+     },
+     {
+      "zh": "这个商店的衣服件件都很漂亮。",
+      "vi": "Quần áo ở cửa hàng này chiếc nào cũng đẹp."
+     },
+     {
+      "zh": "这个星期我天天都吃羊肉。",
+      "vi": "Tuần này ngày nào tôi cũng ăn thịt cừu."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "“因为……，所以……”",
+    "meaning": "Cấu trúc nguyên nhân – kết quả",
+    "structure": "因为 + nguyên nhân，(所以) + kết quả",
+    "explain": "“因为” và “所以” nối hai mệnh đề quan hệ nhân quả; có thể dùng cả hai hoặc chỉ một trong hai.",
+    "examples": [
+     {
+      "zh": "因为她生病了，所以没去学校。",
+      "vi": "Vì cô ấy bị ốm nên không đi học."
+     },
+     {
+      "zh": "因为他每天跑步，所以身体很好。",
+      "vi": "Vì anh ấy ngày nào cũng chạy bộ nên sức khỏe rất tốt."
+     },
+     {
+      "zh": "因为昨天下雨，所以我们都没去打篮球。",
+      "vi": "Vì hôm qua trời mưa nên chúng tôi đều không đi chơi bóng rổ."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 7,
+  "titleZh": "你家离公司远吗",
+  "titleVi": "NHÀ BẠN CÁCH CÔNG TY CÓ XA KHÔNG?",
+  "titlePinyin": "nǐ jiā lí gōngsī yuǎn ma",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A： 大卫回来了吗？\nB： 没有，他还在教室学习呢。\nA： 已经9点多了，他怎么还在学习？\nB： 明天有考试，他说今天要好好准备。",
+    "pinyin": "Dà wèi huílái le ma?\nMéiyǒu, tā hái zài jiàoshì xuéxí ne.\nYǐjīng 9 diǎn duō le, tā zěnme hái zài xuéxí?\nMíngtiān yǒu kǎoshì, tā shuō jīntiān yào hǎohǎo zhǔnbèi.",
+    "vi": "A: David về chưa?\nB: Chưa, cậu ấy vẫn đang học trong lớp.\nA: Đã hơn chín giờ rồi, sao cậu ấy vẫn còn học?\nB: Ngày mai có thi, cậu ấy nói hôm nay phải chuẩn bị thật tốt."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "去机场的路上",
+    "titleVi": "Trên đường ra sân bay",
+    "titlePinyin": null,
+    "contentZh": "A：你现在在哪儿呢？\nB：在去机场的路上。你已经到了吗?\nA：我下飞机了。你还有多长时间能到这儿？\nB：二十分钟就到。",
+    "pinyin": "Nǐ xiànzài zài nǎr ne?\nZài qù jīchǎng de lùshàng. Nǐ yǐjīng dào le ma?\nWǒ xià fēijī le. Nǐ hái yǒu duō cháng shíjiān néng dào zhèr?\nÈrshí fēnzhōng jiù dào.",
+    "vi": "A: Bây giờ bạn đang ở đâu?\nB: Đang trên đường ra sân bay. Bạn đến rồi à?\nA: Tôi xuống máy bay rồi. Còn bao lâu nữa bạn đến đây?\nB: Hai mươi phút nữa là đến."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在健身房",
+    "titleVi": "Ở phòng tập",
+    "titlePinyin": null,
+    "contentZh": "A：你家离公司远吗？\nB：很远，坐公共汽车要一个多小时呢！\nA：坐公共汽车太慢了，你怎么不开车？\nB：开车也不快，路上的车太多了。",
+    "pinyin": "Nǐ jiā lí gōngsī yuǎn ma?\nHěn yuǎn, zuò gōnggòng qìchē yào yīgè duō xiǎoshí ne!\nZuò gōnggòng qìchē tài màn le, nǐ zěnme bù kāichē?\nKāichē yě bùkuài, lùshàng de chē tài duō le.",
+    "vi": "A: Nhà bạn cách công ty xa không?\nB: Rất xa, đi xe buýt mất hơn một tiếng!\nA: Đi xe buýt chậm quá, sao bạn không lái xe?\nB: Lái xe cũng không nhanh, trên đường xe quá nhiều."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在路上",
+    "titleVi": "Trên đường",
+    "titlePinyin": null,
+    "contentZh": "A：今天 晚上 我们一起吃饭吧，给你过生日。\nB：今天？离我的生日还有一个多星期呢！\nA：下个星期我要去北京，今天过吧。\nB：好吧，离这儿不远有一个中国饭馆，走几分钟就到了。",
+    "pinyin": "Jīntiān wǎnshàng wǒmen yīqǐ chīfàn ba, gěi nǐguò shēngrì.\nJīntiān? Lí wǒ de shēngrì hái yǒu yīgè duō xīngqī ne!\nXià gè xīngqī wǒ yào qù Běijīng, jīntiān guò ba.\nHǎo ba, lí zhèr bù yuǎn yǒu yīgè Zhōngguó fànguǎn, zǒu jǐ fēnzhōng jiù dào le.",
+    "vi": "A: Tối nay chúng ta cùng ăn cơm nhé, mừng sinh nhật bạn.\nB: Hôm nay á? Còn hơn một tuần nữa mới đến sinh nhật tôi mà!\nA: Tuần sau tôi phải đi Bắc Kinh, tổ chức hôm nay nhé.\nB: Được, gần đây có một nhà hàng Trung Quốc, đi bộ vài phút là tới."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "副词“还”",
+    "meaning": "Phó từ “还” chỉ sự tiếp diễn",
+    "structure": "还 + 在/V; 还没 + V",
+    "explain": "Dùng để chỉ hành động hoặc trạng thái vẫn tiếp diễn; dạng phủ định là “还没”.",
+    "examples": [
+     {
+      "zh": "八点了，他还在睡觉。",
+      "vi": "Tám giờ rồi, anh ấy vẫn đang ngủ."
+     },
+     {
+      "zh": "你怎么还没吃饭？",
+      "vi": "Sao bạn vẫn chưa ăn cơm?"
+     },
+     {
+      "zh": "他还在教室学习呢。",
+      "vi": "Anh ấy vẫn đang học trong lớp."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "时间副词“就”",
+    "meaning": "Phó từ thời gian “就”",
+    "structure": "时间/数量 + 就 + V + 了",
+    "explain": "Dùng để nhấn mạnh sự việc xảy ra sớm, nhanh hoặc thuận lợi hơn dự kiến.",
+    "examples": [
+     {
+      "zh": "同学们七点半就来教室了。",
+      "vi": "Các bạn học sinh mới 7 giờ 30 đã đến lớp."
+     },
+     {
+      "zh": "我坐飞机一个半小时就到北京了。",
+      "vi": "Tôi đi máy bay một tiếng rưỡi là đến Bắc Kinh."
+     },
+     {
+      "zh": "我二十分钟就到。",
+      "vi": "Hai mươi phút nữa tôi sẽ đến."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "动词“离”",
+    "meaning": "Động từ “离” chỉ khoảng cách",
+    "structure": "A + 离 + B + 远/近/有...",
+    "explain": "Dùng để chỉ khoảng cách trong quan hệ với một địa điểm, mốc thời gian hoặc mục tiêu.",
+    "examples": [
+     {
+      "zh": "我家离学校很远。",
+      "vi": "Nhà tôi cách trường rất xa."
+     },
+     {
+      "zh": "学校离机场有20多公里。",
+      "vi": "Trường cách sân bay hơn 20 km."
+     },
+     {
+      "zh": "离我的生日还有一个多星期呢！",
+      "vi": "Còn hơn một tuần nữa mới đến sinh nhật tôi!"
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "语气助词“呢”",
+    "meaning": "Trợ từ ngữ khí “呢”",
+    "structure": "...呢",
+    "explain": "Đặt cuối câu trần thuật hoặc sau vị ngữ để xác nhận, nhấn mạnh hay thuyết phục người nghe; thường có sắc thái cường điệu.",
+    "examples": [
+     {
+      "zh": "八点上课，时间还早呢。",
+      "vi": "Tám giờ mới vào học, vẫn còn sớm mà."
+     },
+     {
+      "zh": "医院离我们这儿还远呢。",
+      "vi": "Bệnh viện còn cách chỗ chúng ta xa lắm."
+     },
+     {
+      "zh": "坐公共汽车要一个多小时呢！",
+      "vi": "Đi xe buýt mất hơn một tiếng đấy!"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 8,
+  "titleZh": "让我想想再告诉你",
+  "titleVi": "ĐỂ MÌNH SUY NGHĨ RỒI SẼ NÓI CHO BẠN BIẾT",
+  "titlePinyin": "ràng wǒ xiǎngxiang zài gàosu nǐ",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在教室",
+    "titleVi": "Trong lớp học",
+    "titlePinyin": null,
+    "contentZh": "A：我们下午去看电影，好吗？\nB：今天下午我没有时间，明天 下午再去吧。\nA：你想看什么电影？\nB：让我想想再告诉你。",
+    "pinyin": "Wǒmen xiàwǔ qù kàn diànyǐng, hǎo ma?\nJīntiān xiàwǔ wǒ méiyǒu shíjiān, míngtiān xiàwǔ zài qù ba.\nNǐ xiǎng kàn shénme diànyǐng?\nRàng wǒ xiǎng xiǎng zài gàosù nǐ.",
+    "vi": "A: Chiều nay chúng ta đi xem phim nhé?\nB: Chiều nay tôi không có thời gian, chiều mai hãy đi.\nA: Bạn muốn xem phim gì?\nB: Để tôi nghĩ một chút rồi sẽ nói cho bạn."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在宿舍",
+    "titleVi": "Ở ký túc xá",
+    "titlePinyin": null,
+    "contentZh": "A：外边天气很好，我们出去运动运动吧！\nB：你等等我，好吗？王老师让我给大卫打个电话。\nA：回来再打吧。找大卫有什么事情吗？\nB：听说大卫病了，我想找时间去看看他。",
+    "pinyin": "Wàibian tiānqì hěn hǎo, wǒmen chūqù yùndòng yùndòng ba!\nNǐ děng děng wǒ, hǎo ma? Wáng lǎoshī ràng wǒ gěi Dàwèi dǎ gè diànhuà.\nHuílái zài dǎ ba. Zhǎo dà wèi yǒu shé me shìqíng ma?\nTīng shuō Dàwèi bìng le, wǒ xiǎng zhǎo shíjiān qù kànkan tā.",
+    "vi": "A: Ngoài trời đẹp lắm, chúng ta ra ngoài vận động một chút nhé!\nB: Bạn đợi tôi một lát được không? Thầy Vương bảo tôi gọi điện cho David.\nA: Về rồi gọi cũng được. Tìm David có việc gì vậy?\nB: Nghe nói David bị ốm, tôi muốn tìm thời gian đi thăm cậu ấy."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在宾馆的前台",
+    "titleVi": "Tại quầy lễ tân khách sạn",
+    "titlePinyin": null,
+    "contentZh": "A：服务员，我房间的门打不开了。\nB：您住哪个房间？\nA：317。\nB：好的，我叫人去看看。",
+    "pinyin": "Fúwùyuán, wǒ fángjiān de mén dǎ bù kāi le.\nNín zhù nǎgè fángjiān?\n317.\nHǎo de, wǒ jiào rén qù kànkan.",
+    "vi": "A: Nhân viên ơi, cửa phòng tôi không mở được.\nB: Quý khách ở phòng nào?\nA: Phòng 317.\nB: Vâng, tôi sẽ gọi người lên xem."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在商店",
+    "titleVi": "Ở cửa hàng",
+    "titlePinyin": null,
+    "contentZh": "A：你看看这几件衣服怎么样。\nB：这件白的有点儿长，那件黑的有点儿贵。\nA：这件红的呢？这是今天新来的。\nB：让我再看看。",
+    "pinyin": "Nǐ kànkan zhè jǐ jiàn yīfu zěnme yàng.\nZhè jiàn bái de yǒudiǎnr zhǎng, nà jiàn hēi de yǒudiǎnr guì.\nZhè jiàn hóng de ne? Zhè shì jīntiān xīn lái de.\nRàng wǒ zài kànkan.",
+    "vi": "A: Bạn xem mấy bộ quần áo này thế nào.\nB: Chiếc màu trắng hơi dài, chiếc màu đen hơi đắt.\nA: Còn chiếc màu đỏ này? Đây là hàng mới về hôm nay.\nB: Để tôi xem thêm chút nữa."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "“……，好吗？”",
+    "meaning": "Câu hỏi xin ý kiến “……，好吗？”",
+    "structure": "Mệnh đề， 好吗？",
+    "explain": "Dùng để hỏi ý kiến hoặc xin sự đồng ý của người khác.",
+    "examples": [
+     {
+      "zh": "我们一起去吃饭，好吗？",
+      "vi": "Chúng ta cùng đi ăn nhé, được không?"
+     },
+     {
+      "zh": "你明天下午给我打电话，好吗？",
+      "vi": "Chiều mai bạn gọi điện cho tôi nhé, được không?"
+     },
+     {
+      "zh": "我们下午去看电影，好吗？",
+      "vi": "Chiều nay chúng ta đi xem phim nhé, được không?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "副词“再”",
+    "meaning": "Phó từ “再”",
+    "structure": "再 + V (+ O)",
+    "explain": "Dùng để biểu thị hành động/trạng thái lặp lại hoặc tiếp tục; cũng dùng cho hành động sẽ xảy ra sau một điều kiện hay hành động khác.",
+    "examples": [
+     {
+      "zh": "你再看看这本书吧。",
+      "vi": "Bạn xem lại quyển sách này đi."
+     },
+     {
+      "zh": "你明天再给我打电话吧。",
+      "vi": "Ngày mai hãy gọi điện cho tôi."
+     },
+     {
+      "zh": "让我想想再告诉你。",
+      "vi": "Để tôi nghĩ rồi sẽ nói cho bạn."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "兼语句",
+    "meaning": "Câu kiêm ngữ",
+    "structure": "S + V1 + O/S + V2",
+    "explain": "Vị ngữ gồm hai cụm động từ; tân ngữ của động từ thứ nhất đồng thời là chủ ngữ của động từ thứ hai. Slide nêu các động từ thường dùng như 请、让、叫.",
+    "examples": [
+     {
+      "zh": "我请你吃饭。",
+      "vi": "Tôi mời bạn ăn cơm."
+     },
+     {
+      "zh": "你让我再想想。",
+      "vi": "Bạn để tôi nghĩ thêm chút nữa."
+     },
+     {
+      "zh": "我叫人去看看。",
+      "vi": "Tôi gọi người đi xem."
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "动词重叠",
+    "meaning": "Lặp động từ",
+    "structure": "单音节: VV / V一V; 双音节: ABAB",
+    "explain": "Dùng để biểu thị thời gian ngắn, số lượng ít, mức độ nhẹ hoặc làm thử; thường mang sắc thái khẩu ngữ nhẹ nhàng.",
+    "examples": [
+     {
+      "zh": "说说 / 说一说",
+      "vi": "Nói một chút / thử nói xem."
+     },
+     {
+      "zh": "听听 / 听一听",
+      "vi": "Nghe một chút / thử nghe xem."
+     },
+     {
+      "zh": "看看 / 看一看",
+      "vi": "Xem một chút / thử xem."
+     },
+     {
+      "zh": "学习学习",
+      "vi": "Học một chút."
+     },
+     {
+      "zh": "准备准备",
+      "vi": "Chuẩn bị một chút."
+     },
+     {
+      "zh": "运动运动",
+      "vi": "Vận động một chút."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 9,
+  "titleZh": "提太多，我没做完",
+  "titleVi": "CÂU HỎI QUÁ NHIỀU NÊN MÌNH LÀM KHÔNG HẾT",
+  "titlePinyin": "tí tài duō, wǒ méi zuò wán",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "打电话",
+    "titleVi": "Gọi điện thoại",
+    "titlePinyin": null,
+    "contentZh": "A:你好！请问张欢在吗?\nB:你打错了，我们这儿没有叫张欢的。\nA:对不起。",
+    "pinyin": "Nǐ hǎo! Qǐngwèn zhāng huān zài ma?\nNǐ dǎ cuò le, wǒmen zhèr méiyǒu jiào zhāng huān de.\nDuìbùqǐ.",
+    "vi": "A: Xin chào! Cho hỏi Trương Hoan có ở đó không?\nB: Bạn gọi nhầm số rồi, ở đây không có ai tên Trương Hoan.\nA: Xin lỗi."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在学校",
+    "titleVi": "Ở trường",
+    "titlePinyin": null,
+    "contentZh": "A:您从几岁开始学习跳舞?\nB:我第一次跳舞是在七岁的时候。\nA:我女儿今年也七岁了。我希地能跟您学跳舞，可以吗？\nB:没问题，非常欢迎。",
+    "pinyin": "Nín cóng jǐ suì kāishǐ xuéxí tiàowǔ?\nWǒ dì yī cì tiàowǔ shì zài qī suì de shíhòu.\nWǒ nǚ'ér jīnnián yě qī suì le. Wǒ xī de néng gēn nín xué tiàowǔ, kěyǐ ma?\nMéi wèntí, fēicháng huānyíng.",
+    "vi": "A: Cô bắt đầu học múa từ năm mấy tuổi?\nB: Lần đầu tôi múa là khi bảy tuổi.\nA: Con gái tôi năm nay cũng bảy tuổi. Tôi hy vọng cháu có thể học múa với cô, được không?\nB: Không vấn đề gì, rất hoan nghênh."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在家里",
+    "titleVi": "Ở nhà",
+    "titlePinyin": null,
+    "contentZh": "A:你知道吗？大卫找到工作了。\nB:太好了！他从什么时候开始上班？\nA:从下个星期一开始。\nB:这是他的第一个工作，希望他能喜欢。",
+    "pinyin": "Nǐ zhīdào ma? Dàwèi zhǎodào gōngzuò le.\nTài hǎo le! Tā cóng shénme shíhòu kāishǐ shàngbān?\nCóng xià gè xīngqī yī kāishǐ.\nZhè shì tā de dì yī gè gōngzuò, xīwàng tā néng xǐhuān.",
+    "vi": "A: Bạn biết không? David tìm được việc rồi.\nB: Tuyệt quá! Khi nào anh ấy bắt đầu đi làm?\nA: Bắt đầu từ thứ Hai tuần sau.\nB: Đây là công việc đầu tiên của anh ấy, hy vọng anh ấy sẽ thích."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在教室",
+    "titleVi": "Trong lớp học",
+    "titlePinyin": null,
+    "contentZh": "A:昨天的考试怎么样？你都听懂了吗？\nB:听懂了。\nA:你都做完了没有？\nB:题太多，我没做完。",
+    "pinyin": "Zuótiān de kǎoshì zěnme yàng? Nǐ dōu tīng dǒng le ma?\nTīng dǒng le.\nNǐ dōu zuò wán le méiyǒu?\nTí tài duō, wǒ méi zuò wán.",
+    "vi": "A: Bài thi hôm qua thế nào? Bạn nghe hiểu hết chưa?\nB: Nghe hiểu rồi.\nA: Bạn làm xong hết chưa?\nB: Câu hỏi quá nhiều, tôi chưa làm xong."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "结果补语",
+    "meaning": "Bổ ngữ chỉ kết quả",
+    "structure": "V + 结果补语 (+ O); 没(有)+V+结果补语; ...了没有？",
+    "explain": "Một số động từ/tính từ đứng sau động từ để cho biết kết quả hành động. Dạng phủ định thêm “没（有）” trước động từ và không dùng “了” cuối câu; dạng nghi vấn có thể thêm “（了）没有”.",
+    "examples": [
+     {
+      "zh": "我看见你的女朋友了。",
+      "vi": "Tôi đã nhìn thấy bạn gái của bạn."
+     },
+     {
+      "zh": "我听懂今天的汉语课了。",
+      "vi": "Tôi đã nghe hiểu bài tiếng Trung hôm nay."
+     },
+     {
+      "zh": "大卫找到工作了。",
+      "vi": "David đã tìm được việc."
+     },
+     {
+      "zh": "我没有看见你的女朋友。",
+      "vi": "Tôi không nhìn thấy bạn gái của bạn."
+     },
+     {
+      "zh": "我没听懂他说的话。",
+      "vi": "Tôi không nghe hiểu lời anh ấy nói."
+     },
+     {
+      "zh": "你都做完考试题了没有？",
+      "vi": "Bạn đã làm xong hết câu hỏi thi chưa?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "介词“从”",
+    "meaning": "Giới từ “从”",
+    "structure": "从 + A + 到 + B; 从 + thời điểm + 开始",
+    "explain": "Dùng để chỉ điểm khởi đầu của thời gian, quãng đường, quá trình hoặc trình tự; thường kết hợp với “到”.",
+    "examples": [
+     {
+      "zh": "从北京到上海要坐几个小时的飞机？",
+      "vi": "Từ Bắc Kinh đến Thượng Hải phải đi máy bay mấy tiếng?"
+     },
+     {
+      "zh": "从老人到孩子都喜欢吃苹果。",
+      "vi": "Từ người già đến trẻ em đều thích ăn táo."
+     },
+     {
+      "zh": "从下个星期一开始上班。",
+      "vi": "Bắt đầu đi làm từ thứ Hai tuần sau."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "“第……”",
+    "meaning": "Cách diễn tả thứ tự với “第”",
+    "structure": "第 + 数词 + 量词 + N",
+    "explain": "“第” thường đặt trước cụm chỉ số lượng để biểu thị thứ tự.",
+    "examples": [
+     {
+      "zh": "第一本书",
+      "vi": "Quyển sách thứ nhất."
+     },
+     {
+      "zh": "第二个工作",
+      "vi": "Công việc thứ hai."
+     },
+     {
+      "zh": "第一次跳舞",
+      "vi": "Lần nhảy múa thứ nhất/lần đầu nhảy múa."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 10,
+  "titleZh": "别找了，手机在桌子上呢",
+  "titleVi": "ĐỪNG TÌM NỮA, ĐIỆN THOẠI Ở TRÊN BÀN KÌA",
+  "titlePinyin": "bié zhǎo le, shǒujī zài zhuōzi shàng ne",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:不要看电视了，明天上午还有汉语课呢。\nB:看电视对学汉语有帮助。\nA:明天的课你都准备好了吗?\nB:都准备好了。",
+    "pinyin": "Bùyào kàn diànshì le, míngtiān shàngwǔ hái yǒu hànyǔ kè ne.\nKàn diànshì duì xué hànyǔ yǒu bāngzhù.\nMíngtiān de kè nǐ dōu zhǔnbèi hǎo le ma?\nDōu zhǔnbèi hǎo le.",
+    "vi": "A: Đừng xem tivi nữa, sáng mai còn có tiết tiếng Trung đấy.\nB: Xem tivi có ích cho việc học tiếng Trung.\nA: Bài ngày mai bạn chuẩn bị xong hết chưa?\nB: Chuẩn bị xong hết rồi."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:别看报纸了，医生说你要多休息。\nB:好，不看了。给我一杯茶吧。\nA:医生说吃药后两个小时不要喝茶。\nB:医生还说什么了？\nA:医生让你听我的。",
+    "pinyin": "Bié kàn bàozhǐ le, yīshēng shuō nǐ yào duō xiūxi.\nHǎo, bù kàn le. Gěi wǒ yībēi chá bā.\nYīshēng shuō chī yào hòu liǎng gè xiǎoshí bùyào hē chá.\nYīshēng huán shuō shénme le?\nYīshēng ràng nǐ tīng wǒ de.",
+    "vi": "A: Đừng đọc báo nữa, bác sĩ nói bạn phải nghỉ ngơi nhiều.\nB: Được, không đọc nữa. Cho tôi một cốc trà nhé.\nA: Bác sĩ nói sau khi uống thuốc hai tiếng không được uống trà.\nB: Bác sĩ còn nói gì nữa?\nA: Bác sĩ bảo bạn phải nghe tôi."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:你怎么买了这么多东西啊？\nB:哥哥今天中午回来吃饭。\nA:我看看买什么了。羊肉、鸡蛋、面条、西瓜……真不 少！妈妈呢?\nB:正在准备午饭呢！",
+    "pinyin": "Nǐ zěnme mǎi le zhème duō dōngxi a?\nGēge jīntiān zhōngwǔ huílái chīfàn.\nWǒ kànkan mǎi shénme le. Yángròu, jīdàn, miàntiáo, xīguā……zhēn bù shǎo! Māma ne?\nZhèngzài zhǔnbèi wǔfàn ne!",
+    "vi": "A: Sao bạn mua nhiều đồ thế?\nB: Trưa nay anh trai về ăn cơm.\nA: Để tôi xem mua những gì nào. Thịt cừu, trứng, mì, dưa hấu... thật không ít! Mẹ đâu?\nB: Đang chuẩn bị bữa trưa!"
+   },
+   {
+    "label": "课文四",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:你在找什么？\nB:你看见我的手机了吗？白色的。\nA:别找了，手机在桌子上呢，电脑旁边。\nB:你看见我的衣服了吗？红色的那件。\nA:那件衣我帮你洗了，在外边呢。",
+    "pinyin": "Nǐ zài zhǎo shénme?\nNǐ kànjiàn wǒ de shǒujī le ma? Báisè de.\nBié zhǎo le, shǒujī zài zhuōzi shàng ne, diànnǎo pángbiān.\nNǐ kànjiàn wǒ de yīfu le ma? Hóngsè de nà jiàn.\nNà jiàn yī wǒ bāng nǐ xǐ le, zài wàibian ne.",
+    "vi": "A: Bạn đang tìm gì?\nB: Bạn có thấy điện thoại của tôi không? Cái màu trắng.\nA: Đừng tìm nữa, điện thoại ở trên bàn, cạnh máy tính.\nB: Bạn có thấy quần áo của tôi không? Chiếc màu đỏ ấy.\nA: Chiếc đó tôi giặt giúp bạn rồi, đang ở ngoài."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "祈使句“不要……了 / 别……了”",
+    "meaning": "Câu cầu khiến ngăn cấm",
+    "structure": "不要/别 + V (+ O) + 了",
+    "explain": "Dùng để ngăn cản hoặc yêu cầu ai đó ngừng làm việc gì.",
+    "examples": [
+     {
+      "zh": "不要玩手机了。",
+      "vi": "Đừng chơi điện thoại nữa."
+     },
+     {
+      "zh": "不要做饭了。",
+      "vi": "Đừng nấu cơm nữa."
+     },
+     {
+      "zh": "不要看电视了。",
+      "vi": "Đừng xem tivi nữa."
+     },
+     {
+      "zh": "别睡觉了。",
+      "vi": "Đừng ngủ nữa."
+     },
+     {
+      "zh": "别看书了。",
+      "vi": "Đừng đọc sách nữa."
+     },
+     {
+      "zh": "别看报纸了。",
+      "vi": "Đừng đọc báo nữa."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "介词“对”",
+    "meaning": "Giới từ “对”",
+    "structure": "S + 对 + O + V/Adj",
+    "explain": "Dùng để chỉ mối quan hệ hoặc hướng tác động giữa người với người, người với sự vật hoặc sự vật với sự vật.",
+    "examples": [
+     {
+      "zh": "跑步对身体很好。",
+      "vi": "Chạy bộ rất tốt cho sức khỏe."
+     },
+     {
+      "zh": "老师对学生非常好。",
+      "vi": "Giáo viên rất tốt với học sinh."
+     },
+     {
+      "zh": "看电视对学汉语有帮助。",
+      "vi": "Xem tivi có ích cho việc học tiếng Trung."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 11,
+  "titleZh": "他比我大三岁",
+  "titleVi": "ANH ẤY HƠN TÔI 3 TUỔI",
+  "titlePinyin": "tā bǐ wǒ dà sān suì",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在歌厅",
+    "titleVi": "Ở phòng karaoke",
+    "titlePinyin": null,
+    "contentZh": "A : 王方，昨天和你一起唱歌的人是谁？\nB : 一个朋友。\nA : 什么朋友?是不是男朋友？\nB : 不是不是， 我同学介绍的，昨天第一次见。",
+    "pinyin": "Wáng Fāng, zuótiān hé nǐ yīqǐ chànggē de rén shì shéi?\nYīgè péngyǒu.\nShénme péngyǒu? Shì bùshì nán péngyǒu?\nBùshì bùshì, wǒ tóngxué jièshào de, zuótiān dì yī cì jiàn.",
+    "vi": "A: Vương Phương, người hát cùng bạn hôm qua là ai?\nB: Một người bạn.\nA: Bạn gì? Có phải bạn trai không?\nB: Không phải, không phải. Bạn học giới thiệu cho tôi, hôm qua mới gặp lần đầu."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在宿舍",
+    "titleVi": "Ở ký túc xá",
+    "titlePinyin": null,
+    "contentZh": "A :  左边这个看报纸的女孩子是你姐姐吗？\nB :  是，右边写字的那个人是我哥哥。\nA :  你哥哥多大？\nB :  25 岁，他比我大三岁。",
+    "pinyin": "Zuǒbiān zhègè kàn bàozhǐ de nǚ háizi shì nǐ jiějie ma?\nShì, yòubiān xiězì de nàgè rén shì wǒ gēge.\nNǐ gēge duōdà?\n25 suì, tā bǐ wǒ dà sān suì.",
+    "vi": "A: Cô gái đang đọc báo bên trái là chị gái bạn à?\nB: Đúng, người đang viết chữ bên phải là anh trai tôi.\nA: Anh trai bạn bao nhiêu tuổi?\nB: 25 tuổi, anh ấy hơn tôi ba tuổi."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在商店",
+    "titleVi": "Ở cửa hàng",
+    "titlePinyin": null,
+    "contentZh": "A :  今天的西瓜怎么卖？\nB :  三块五一斤。\nA :  比昨天便宜。\nB :  是，苹果也比昨天便宜一些，你来点吧。",
+    "pinyin": "Jīntiān de xīguā zěnme mài?\nSān kuài wǔyī jīn.\nBǐ zuótiān piányi.\nShì, píngguǒ yě bǐ zuótiān piányí yīxiē, nǐ lái diǎn ba.",
+    "vi": "A: Dưa hấu hôm nay bán thế nào?\nB: Ba tệ rưỡi một cân.\nA: Rẻ hơn hôm qua.\nB: Đúng, táo cũng rẻ hơn hôm qua một chút, mua một ít đi."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在学校",
+    "titleVi": "Ở trường",
+    "titlePinyin": null,
+    "contentZh": "A : 前边说话的那个人就是\nB : 是新来的汉语老师吗？\nA : 是去年来的，她姓王，28岁。\nB : 她比我们老师小两岁。",
+    "pinyin": "Qiánbian shuōhuà de nàgè rén jiùshì wǒ de hànyǔ lǎoshī, nǐ kěnéng bù rènshí tā.\nShì xīn lái de hànyǔ lǎoshī ma?\nShì qùnián lái de, tā xìng Wáng,28 suì.\nTā bǐ wǒmen lǎoshī xiǎo liǎng suì.",
+    "vi": "A: Người đang nói chuyện phía trước chính là giáo viên tiếng Trung của tôi, có lẽ bạn không quen cô ấy.\nB: Là giáo viên tiếng Trung mới đến à?\nA: Đúng, cô ấy đến năm ngoái, họ Vương, 28 tuổi.\nB: Cô ấy trẻ hơn giáo viên của chúng tôi hai tuổi."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "动词/动词短语作定语",
+    "meaning": "Động từ/cụm động từ làm định ngữ",
+    "structure": "V/VP + 的 + N",
+    "explain": "Khi động từ hoặc cụm động từ làm định ngữ, phải thêm “的” giữa định ngữ và trung tâm ngữ.",
+    "examples": [
+     {
+      "zh": "新买的自行车",
+      "vi": "Chiếc xe đạp mới mua."
+     },
+     {
+      "zh": "我妈妈做的饭",
+      "vi": "Cơm mẹ tôi nấu."
+     },
+     {
+      "zh": "和你一起唱歌的人",
+      "vi": "Người hát cùng bạn."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“比”字句",
+    "meaning": "Câu so sánh với “比”",
+    "structure": "A + 比 + B + Adj (+ 数量短语); 否定: A + 没有 + B + Adj",
+    "explain": "“比” dùng để so sánh. Dạng phủ định dùng “A没有B…”. Có thể thêm số lượng cụ thể, “一点儿/一些” cho chênh lệch nhỏ, “多/得多” cho chênh lệch lớn.",
+    "examples": [
+     {
+      "zh": "哥哥比姐姐高。",
+      "vi": "Anh trai cao hơn chị gái."
+     },
+     {
+      "zh": "今天比昨天热。",
+      "vi": "Hôm nay nóng hơn hôm qua."
+     },
+     {
+      "zh": "西瓜比昨天便宜。",
+      "vi": "Dưa hấu rẻ hơn hôm qua."
+     },
+     {
+      "zh": "哥哥没有姐姐高。",
+      "vi": "Anh trai không cao bằng chị gái."
+     },
+     {
+      "zh": "西瓜比苹果贵两块钱。",
+      "vi": "Dưa hấu đắt hơn táo hai tệ."
+     },
+     {
+      "zh": "我的学习比他好一点儿。",
+      "vi": "Việc học của tôi tốt hơn anh ấy một chút."
+     },
+     {
+      "zh": "今天比昨天热得多。",
+      "vi": "Hôm nay nóng hơn hôm qua nhiều."
+     },
+     {
+      "zh": "她比我们老师小两岁。",
+      "vi": "Cô ấy trẻ hơn giáo viên của chúng tôi hai tuổi."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "助动词“可能”",
+    "meaning": "Trợ động từ “可能”",
+    "structure": "可能 + V / 可能 + S + V",
+    "explain": "Thường đứng trước động từ hoặc trước chủ ngữ để biểu thị phỏng đoán: có lẽ, có thể.",
+    "examples": [
+     {
+      "zh": "他可能早就知道这件事情了。",
+      "vi": "Có lẽ anh ấy đã biết chuyện này từ lâu."
+     },
+     {
+      "zh": "可能我明天不来上课了。",
+      "vi": "Có thể ngày mai tôi không đến lớp."
+     },
+     {
+      "zh": "你可能不认识她。",
+      "vi": "Có lẽ bạn không quen cô ấy."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 12,
+  "titleZh": "你穿得太少了",
+  "titleVi": "ANH MẶC ÍT QUẦN ÁO QUÁ",
+  "titlePinyin": "nǐ chuān de tài shǎo le",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:你每天早上几点起床？\nB:六点多。\nA:你比我早起一个小时。\nB:我睡得也早，我每天晚上十点就睡觉。早睡早起身体好。",
+    "pinyin": "Nǐ měitiān zǎoshang jǐ diǎn qǐchuáng?\nLiù diǎn duō.\nNǐ bǐ wǒ zǎoqǐ yīgè xiǎoshí.\nWǒ shuì dé yě zǎo, wǒ měitiān wǎnshàng shí diǎn jiù shuìjiào. Zǎo shuì zǎoqǐ shēntǐ hǎo.",
+    "vi": "A: Hằng ngày bạn mấy giờ thức dậy?\nB: Hơn sáu giờ.\nA: Bạn dậy sớm hơn tôi một tiếng.\nB: Tôi cũng ngủ sớm, tối nào mười giờ tôi cũng đi ngủ. Ngủ sớm dậy sớm tốt cho sức khỏe."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:再来点儿米饭吧，你吃得太少了。\nB:不少了，今天吃得很好，太谢谢你了。\nA:你做饭做得怎么样？\nB:不怎么样，我妻子比我做得好。",
+    "pinyin": "Zàilái diǎnr mǐfàn ba, nǐ chī de tài shǎo le.\nBù shǎo le, jīntiān chī de hěn hǎo, tài xièxie nǐ le.\nNǐ zuò fàn zuò dé zěnme yàng?\nBù zě me yàng, wǒ qīzi bǐ wǒ zuò de hǎo.",
+    "vi": "A: Ăn thêm chút cơm đi, bạn ăn ít quá.\nB: Không ít đâu, hôm nay tôi ăn rất ngon, cảm ơn bạn nhiều.\nA: Bạn nấu ăn thế nào?\nB: Không ra sao lắm, vợ tôi nấu ngon hơn tôi."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:下雪了，今天真冷。\nB:有零下10度吧？\nA:是啊，你穿得太少了，我们进房间吧。\nB:好吧。",
+    "pinyin": "Xià xuě le, jīntiān zhēn lěng.\nYǒu língxià 10 dù ba?\nShì a, nǐ chuān de tài shǎo le, wǒmen jìn fángjiān ba.\nHǎo ba.",
+    "vi": "A: Tuyết rơi rồi, hôm nay lạnh thật.\nB: Chắc khoảng âm 10 độ nhỉ?\nA: Đúng vậy, bạn mặc ít quá, chúng ta vào phòng đi.\nB: Được."
+   },
+   {
+    "label": "课文四",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:你在忙什么呢？\nB:我弟弟让我帮他找个房子，现在他家离公司有点儿远。\nA:住得远真的很累！\nB:是啊，他也希望能住得近一点儿。",
+    "pinyin": "Nǐ zài máng shénme ne?\nWǒ dìdi ràng wǒ bāng tā zhǎo gè fángzi, xiànzài tā jiā lí gōngsī yǒudiǎnr yuǎn.\nZhù dé yuǎn zhēn de hěn lèi!\nShì a, tā yě xīwàng néng zhù dé jìn yīdiǎnr.",
+    "vi": "A: Bạn đang bận gì vậy?\nB: Em trai tôi nhờ tôi tìm giúp một căn nhà, hiện giờ nhà cậu ấy hơi xa công ty.\nA: Ở xa thật sự rất mệt!\nB: Đúng vậy, cậu ấy cũng hy vọng có thể ở gần hơn một chút."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "状态补语",
+    "meaning": "Bổ ngữ chỉ trạng thái",
+    "structure": "V + 得 + Adj; V+O，V+得+Adj; 否定: 得 + 不 + Adj; 疑问: Adj不Adj",
+    "explain": "Dùng để mô tả hoặc đánh giá kết quả, mức độ hay trạng thái của hành động. “得” đứng giữa động từ và bổ ngữ. Nếu động từ có tân ngữ, đưa tân ngữ ra trước hoặc lặp lại động từ.",
+    "examples": [
+     {
+      "zh": "他说得很好。",
+      "vi": "Anh ấy nói rất tốt."
+     },
+     {
+      "zh": "我起得很早。",
+      "vi": "Tôi dậy rất sớm."
+     },
+     {
+      "zh": "他说汉语说得很好。",
+      "vi": "Anh ấy nói tiếng Trung rất tốt."
+     },
+     {
+      "zh": "姐姐唱歌唱得不错。",
+      "vi": "Chị gái hát khá hay."
+     },
+     {
+      "zh": "他说得不好。",
+      "vi": "Anh ấy nói không tốt."
+     },
+     {
+      "zh": "你住得远不远？",
+      "vi": "Bạn ở có xa không?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“比”字句 + 状态补语",
+    "meaning": "Câu “比” với bổ ngữ trạng thái",
+    "structure": "A + 比 + B + V + 得 + Adj; A + V得 + 比 + B + Adj",
+    "explain": "Khi động từ có bổ ngữ trạng thái, thành phần “比+B” có thể đặt trước động từ hoặc trước bổ ngữ.",
+    "examples": [
+     {
+      "zh": "他比我学得好。",
+      "vi": "Anh ấy học tốt hơn tôi."
+     },
+     {
+      "zh": "姐姐比我跑得快。",
+      "vi": "Chị gái chạy nhanh hơn tôi."
+     },
+     {
+      "zh": "我妻子比我做得好。",
+      "vi": "Vợ tôi làm tốt hơn tôi."
+     },
+     {
+      "zh": "他学得比我好。",
+      "vi": "Anh ấy học tốt hơn tôi."
+     },
+     {
+      "zh": "姐姐跑得比我快。",
+      "vi": "Chị gái chạy nhanh hơn tôi."
+     },
+     {
+      "zh": "我妻子做得比我好。",
+      "vi": "Vợ tôi làm tốt hơn tôi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 13,
+  "titleZh": "门开着呢",
+  "titleVi": "CỬA ĐANG MỞ",
+  "titlePinyin": "mén kāi zhe ne",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:门开着呢，请进。\nB:请问， 张先生在吗?\nA:他出去了。你下午再来吧。\nB:好的，谢谢!",
+    "pinyin": "Mén kāi zhene, qǐng jìn.\nQǐngwèn, Zhāng Xiānshēng zài ma?\nTā chūqù le. Nǐ xiàwǔ zàilái ba.\nHǎo de, xièxie!",
+    "vi": "A: Cửa đang mở, mời vào.\nB: Xin hỏi, ông Trương có ở đây không?\nA: Ông ấy ra ngoài rồi. Chiều bạn quay lại nhé.\nB: Vâng, cảm ơn!"
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:那个正在 说话的女孩儿是谁？\nB:我知道她的名字，她姓杨，叫杨笑笑，她姐姐是我同学。\nA:那个手里拿着铅笔的呢?\nB:我不认识。",
+    "pinyin": "Nàgè zhèngzài shuōhuà de nǚháir shì shéi?\nWǒ zhīdào tā de míngzì, tā xìng Yáng, jiào Yáng Xiàoxiào, tā jiějie shì wǒ tóngxué.\nNàgè shǒu lǐ názhe qiānbǐ de ne?\nWǒ bù rènshí.",
+    "vi": "A: Cô gái đang nói chuyện kia là ai?\nB: Tôi biết tên cô ấy, cô ấy họ Dương, tên Dương Tiếu Tiếu, chị gái cô ấy là bạn học của tôi.\nA: Còn người cầm bút chì trong tay kia?\nB: Tôi không quen."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A: 听说你有女朋友了 ？我认识她吗？\nB: 就是我们 班那个长着两个大眼睛，非常爱笑的女孩儿。\nA: 她不是有男朋友吗?\nB: 那个已经是她的前男友了。",
+    "pinyin": "Tīng shuō nǐ yǒu nǚ péngyǒu le? Wǒ rènshi tā ma?\nJiùshì wǒmen bān nàgè zhǎng zháo liǎng gè dà yǎnjīng, fēicháng ài xiào de nǚháir.\nTā bùshì yǒu nán péngyǒu ma?\nNàgè yǐjīng shì tā de qián nányǒu le.",
+    "vi": "A: Nghe nói bạn có bạn gái rồi? Tôi có quen cô ấy không?\nB: Chính là cô gái trong lớp chúng ta có đôi mắt to, rất hay cười ấy.\nA: Chẳng phải cô ấy đã có bạn trai rồi sao?\nB: Người đó đã là bạn trai cũ của cô ấy rồi."
+   },
+   {
+    "label": "课文四",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A: 请问，这儿离新京宾馆远吗？\nB: 不远，走路二十分钟就到。\nA: 你能告诉我怎么走吗?\nB: 从这儿一直往前走，到了前面的路口再往右走。",
+    "pinyin": "Qǐngwèn, zhèr lí xīn jīng bīnguǎn yuǎn ma?\nBù yuǎn, zǒulù èrshí fēnzhōng jiù dào.\nNǐ néng gàosù wǒ zěnme zǒu ma?\nCóng zhèr yīzhí wǎng qián zǒu, dàole qiánmiàn de lùkǒu zài wǎng yòu zǒu.",
+    "vi": "A: Xin hỏi, từ đây đến khách sạn Tân Kinh có xa không?\nB: Không xa, đi bộ hai mươi phút là đến.\nA: Bạn có thể chỉ cho tôi đi thế nào không?\nB: Từ đây đi thẳng về phía trước, đến ngã rẽ phía trước rồi rẽ phải."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "状态助词“着”",
+    "meaning": "Trợ từ trạng thái “着”",
+    "structure": "V + 着 (+ O); 否定: 没 + V + 着; 疑问: ...着...没有？",
+    "explain": "“着” sau động từ biểu thị trạng thái đang được duy trì. Dạng phủ định thêm “没” trước động từ; dạng nghi vấn có thể thêm “没有” cuối câu.",
+    "examples": [
+     {
+      "zh": "门开着。",
+      "vi": "Cửa đang mở."
+     },
+     {
+      "zh": "他们穿着红色的衣服。",
+      "vi": "Họ đang mặc quần áo màu đỏ."
+     },
+     {
+      "zh": "她拿着铅笔。",
+      "vi": "Cô ấy đang cầm bút chì."
+     },
+     {
+      "zh": "门没开着。",
+      "vi": "Cửa không mở."
+     },
+     {
+      "zh": "他们没穿着红色的衣服。",
+      "vi": "Họ không mặc quần áo màu đỏ."
+     },
+     {
+      "zh": "门开着没有？",
+      "vi": "Cửa có đang mở không?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“不是……吗？”",
+    "meaning": "Câu hỏi tu từ/nhắc lại “不是……吗？”",
+    "structure": "不是 + ... + 吗？",
+    "explain": "Dùng để nhắc người nghe nhớ điều đã biết hoặc biểu thị khó hiểu, không hài lòng.",
+    "examples": [
+     {
+      "zh": "不是说今天有雨吗？怎么没下？",
+      "vi": "Chẳng phải nói hôm nay có mưa sao? Sao lại không mưa?"
+     },
+     {
+      "zh": "你不是北京人吗？怎么不会说北京话？",
+      "vi": "Chẳng phải bạn là người Bắc Kinh sao? Sao lại không biết nói giọng Bắc Kinh?"
+     },
+     {
+      "zh": "她不是有男朋友了吗？",
+      "vi": "Chẳng phải cô ấy đã có bạn trai rồi sao?"
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "介词“往”",
+    "meaning": "Giới từ chỉ phương hướng “往”",
+    "structure": "往 + 方位 + V",
+    "explain": "Dùng để chỉ phương hướng.",
+    "examples": [
+     {
+      "zh": "从这儿往前走，就是我们学校。",
+      "vi": "Từ đây đi về phía trước là trường chúng tôi."
+     },
+     {
+      "zh": "你看，往左走是医院，往右走是银行。",
+      "vi": "Bạn xem, đi sang trái là bệnh viện, đi sang phải là ngân hàng."
+     },
+     {
+      "zh": "从这儿一直往前走，到了前面的路口再往右走。",
+      "vi": "Từ đây cứ đi thẳng, đến ngã rẽ phía trước rồi rẽ phải."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 14,
+  "titleZh": "你看过那个电影吗",
+  "titleVi": "CẬU ĐÃ XEM PHIM ĐÓ CHƯA?",
+  "titlePinyin": "nǐ kànguò nàge diànyǐng ma",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": "在教室",
+    "titleVi": "Trong lớp học",
+    "titlePinyin": null,
+    "contentZh": "A:你看过那个电影没有？\nB:没看过，听说很有意思。\nA:那我们下个星期一起去看吧？\nB:可以，但是我女朋友也想去。",
+    "pinyin": "Nǐ kànguò nàgè diànyǐng méiyǒu?\nMéi kànguò, tīng shuō hěn yǒuyìsi.\nNà wǒmen xià gè xīngqī yīqǐ qù kàn ba?\nKěyǐ, dànshì wǒ nǚ péngyǒu yě xiǎng qù.",
+    "vi": "A: Bạn đã xem bộ phim đó chưa?\nB: Chưa xem, nghe nói rất thú vị.\nA: Vậy tuần sau chúng ta cùng đi xem nhé?\nB: Được, nhưng bạn gái tôi cũng muốn đi."
+   },
+   {
+    "label": "课文二",
+    "titleZh": "在办公司",
+    "titleVi": "Ở văn phòng",
+    "titlePinyin": null,
+    "contentZh": "A:听说 你去过 中国，还想去吗?\nB:我虽然去过好几次，但是还想再去玩儿玩儿。\nA:那我们一起去吧。\nB:好啊，到时候我给你打电话。",
+    "pinyin": "Tīng shuō nǐ qùguò Zhōngguó, hái xiǎng qù ma?\nWǒ suīrán qùguò hǎojǐ cì, dànshì hái xiǎng zài qù wánr wánr.\nNà wǒmen yīqǐ qù ba.\nHǎo a, dào shíhòu wǒ gěi nǐ dǎ diànhuà.",
+    "vi": "A: Nghe nói bạn từng đến Trung Quốc rồi, còn muốn đi nữa không?\nB: Tuy đã đi mấy lần rồi nhưng tôi vẫn muốn đi chơi thêm.\nA: Vậy chúng ta cùng đi nhé.\nB: Được, đến lúc đó tôi sẽ gọi điện cho bạn."
+   },
+   {
+    "label": "课文三",
+    "titleZh": "在房间",
+    "titleVi": "Trong phòng",
+    "titlePinyin": null,
+    "contentZh": "A:明天天气怎么样？\nB:虽然是晴天，但是很冷。\nA:那还能去跑步吗？\nB:可以，但是你自己去吧，我还有很多事情要做。",
+    "pinyin": "Míngtiān tiānqì zěnme yàng?\nSuīrán shìqíngtiān, dànshì hěn lěng.\nNà hái néng qù pǎobù ma?\nKěyǐ, dànshì nǐ zìjǐ qù ba, wǒ hái yǒu hěnduō shì qíng yào zuò.",
+    "vi": "A: Thời tiết ngày mai thế nào?\nB: Tuy trời nắng nhưng rất lạnh.\nA: Vậy còn có thể đi chạy bộ không?\nB: Có thể, nhưng bạn tự đi nhé, tôi còn rất nhiều việc phải làm."
+   },
+   {
+    "label": "课文四",
+    "titleZh": "在商店",
+    "titleVi": "Ở cửa hàng",
+    "titlePinyin": null,
+    "contentZh": "A:你在这个商店 买过东西没有？\nB:买过一次，这儿的东西还可以，就是不便宜。\nA:我喜欢这件衣但是觉得有点儿贵。\nB:两百块还可以，喜欢就买吧。",
+    "pinyin": "Nǐ zài zhègè shāngdiàn mǎiguò dōngxi méiyǒu?\nMǎiguò yīcì, zhèr de dōngxī hái kěyǐ, jiùshì bù piányi.\nWǒ xǐhuān zhè jiàn yī dànshì juéde yǒudiǎnr guì.\nLiǎng bǎi kuài hái kěyǐ, xǐhuān jiù mǎi ba.",
+    "vi": "A: Bạn đã từng mua đồ ở cửa hàng này chưa?\nB: Đã mua một lần, đồ ở đây cũng được, chỉ là không rẻ.\nA: Tôi thích chiếc áo này nhưng thấy hơi đắt.\nB: Hai trăm tệ cũng được, thích thì mua đi."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "动态助词“过”",
+    "meaning": "Trợ từ động thái “过”",
+    "structure": "V + 过 + O; 没(有)+V+过+O; V+过+O+没有？",
+    "explain": "Dùng để biểu thị một trải nghiệm từng có hoặc hành động từng xảy ra trong quá khứ nhưng không kéo dài đến hiện tại. Dạng phủ định dùng “没（有）”; nghi vấn có thể thêm “没有”.",
+    "examples": [
+     {
+      "zh": "他们来过我家。",
+      "vi": "Họ từng đến nhà tôi."
+     },
+     {
+      "zh": "我看过那个电影。",
+      "vi": "Tôi đã từng xem bộ phim đó."
+     },
+     {
+      "zh": "我去过中国。",
+      "vi": "Tôi từng đến Trung Quốc."
+     },
+     {
+      "zh": "我没有看过那个电影。",
+      "vi": "Tôi chưa từng xem bộ phim đó."
+     },
+     {
+      "zh": "你去过中国没有？",
+      "vi": "Bạn đã từng đến Trung Quốc chưa?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“虽然……，但是……”",
+    "meaning": "Cấu trúc nhượng bộ – đối lập",
+    "structure": "虽然 + mệnh đề 1，但是 + mệnh đề 2",
+    "explain": "Dùng để nối hai mệnh đề có quan hệ nhượng bộ/đối lập.",
+    "examples": [
+     {
+      "zh": "虽然外面很冷，但是房间里很热。",
+      "vi": "Tuy bên ngoài rất lạnh nhưng trong phòng rất ấm."
+     },
+     {
+      "zh": "虽然汉字很难，但是我很喜欢写汉字。",
+      "vi": "Tuy chữ Hán khó nhưng tôi rất thích viết chữ Hán."
+     },
+     {
+      "zh": "虽然是晴天，但是很冷。",
+      "vi": "Tuy trời nắng nhưng rất lạnh."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "次数补语“次”",
+    "meaning": "Bổ ngữ chỉ số lần “次”",
+    "structure": "V + 过 + Num + 次 + O; V + 过 + O + Num + 次",
+    "explain": "“次” đứng sau động từ để chỉ số lần hành động xảy ra. Khi tân ngữ là đại từ nhân xưng, bổ ngữ số lần phải đứng sau tân ngữ.",
+    "examples": [
+     {
+      "zh": "我们去过三次北京。",
+      "vi": "Chúng tôi đã đến Bắc Kinh ba lần."
+     },
+     {
+      "zh": "他们来过一次中国。",
+      "vi": "Họ đã đến Trung Quốc một lần."
+     },
+     {
+      "zh": "我上星期去过一次医院。",
+      "vi": "Tuần trước tôi đã đến bệnh viện một lần."
+     },
+     {
+      "zh": "我们去过北京三次。",
+      "vi": "Chúng tôi đã đến Bắc Kinh ba lần."
+     },
+     {
+      "zh": "我们找过他三次。",
+      "vi": "Chúng tôi đã tìm anh ấy ba lần."
+     },
+     {
+      "zh": "老师叫过我两次。",
+      "vi": "Giáo viên đã gọi tôi hai lần."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 15,
+  "titleZh": "新年就要到了",
+  "titleVi": "NĂM MỚI SẮP ĐẾN RỒI",
+  "titlePinyin": "xīnnián jiù yào dào le",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A: 今天是12月20日，新年就要到了。\nB: 新年你准备做什么？\nA: 我想去北京旅游，北京很不错，我土过一次。\nB: 你买票了吗？\nA: 还没有呢，明天就去火车站买票。",
+    "pinyin": "Jīntiān shì 12 yuè 20 rì, xīnnián jiù yào dào le.\nXīnnián nǐ zhǔnbèi zuò shénme?\nWǒ xiǎng qù Běijīng lǚyóu, Běijīng hěn bùcuò, wǒ tǔguò yīcì.\nNǐ mǎi piào le ma?\nHái méi yǒu ne, míngtiān jiù qù huǒchē zhàn mǎi piào.",
+    "vi": "A: Hôm nay là ngày 20 tháng 12, năm mới sắp đến rồi.\nB: Năm mới bạn định làm gì?\nA: Tôi muốn đi Bắc Kinh du lịch, Bắc Kinh rất được, tôi từng đến một lần.\nB: Bạn mua vé chưa?\nA: Vẫn chưa, ngày mai tôi sẽ ra ga tàu mua vé."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A: 时间过得真快，新的一年快要到了！\nB: 是啊，谢谢大家这一年 对我的帮助！\nA: 希望我们的公司明年更好！",
+    "pinyin": "Shíjiān guò dé zhēn kuài, xīn de yī nián kuàiyào dào le!\nShì a, xièxie dàjiā zhè yī nián duì wǒ de bāngzhù!\nXīwàng wǒmen de gōngsī míngnián gèng hǎo!",
+    "vi": "A: Thời gian trôi nhanh thật, một năm mới sắp đến rồi!\nB: Đúng vậy, cảm ơn mọi người vì đã giúp đỡ tôi trong năm nay!\nA: Hy vọng công ty của chúng ta năm sau sẽ tốt hơn!"
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A: 你妹妹怎么还没来？都八点四十了！\nB: 我们再等她几分钟吧。\nA: 都等她半个小时了！\nB: 她来了，我听见她说话了。",
+    "pinyin": "Nǐ mèimei zěnme hái méi lái? Dōu bā diǎn sìshí le!\nWǒmen zài děng tā jǐ fēnzhōng ba.\nDōu děng tā bàn gè xiǎoshí le!\nTā lái le, wǒ tīngjiàn tā shuōhuà le.",
+    "vi": "A: Sao em gái bạn vẫn chưa đến? Đã tám giờ bốn mươi rồi!\nB: Chúng ta đợi cô ấy thêm vài phút nữa nhé.\nA: Đã đợi cô ấy nửa tiếng rồi!\nB: Cô ấy đến rồi, tôi nghe thấy cô ấy nói chuyện."
+   },
+   {
+    "label": "课文四",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A:天阴了，我要回去了。\nB:好的。快要下雨了，你路上慢点儿。\nA:没关系，我坐公共汽车。\nB:好的。再见。",
+    "pinyin": "Tiān yīn le, wǒ yào huíqù le.\nHǎo de. Kuàiyào xià yǔ le, nǐ lùshàng màn diǎnr.\nMéiguānxi, wǒ zuò gōnggòng qìchē.\nHǎo de. Zàijiàn.",
+    "vi": "A: Trời âm u rồi, tôi phải về đây.\nB: Được. Sắp mưa rồi, trên đường bạn đi chậm một chút.\nA: Không sao, tôi đi xe buýt.\nB: Được. Tạm biệt."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "“要……了 / 快要……了 / 就要……了”",
+    "meaning": "Cấu trúc biểu thị sắp xảy ra",
+    "structure": "快要/快/就要/要 + V (+ O) + 了",
+    "explain": "Dùng để biểu thị sự việc sắp xảy ra. Nếu câu có trạng ngữ chỉ thời gian, theo slide dùng “就要……了”.",
+    "examples": [
+     {
+      "zh": "火车快要来了。",
+      "vi": "Tàu sắp đến rồi."
+     },
+     {
+      "zh": "要下雨了。",
+      "vi": "Sắp mưa rồi."
+     },
+     {
+      "zh": "新的一年快要到了。",
+      "vi": "Năm mới sắp đến rồi."
+     },
+     {
+      "zh": "下个月我们就要回国了。",
+      "vi": "Tháng sau chúng tôi sắp về nước."
+     },
+     {
+      "zh": "明天姐姐就要走了。",
+      "vi": "Ngày mai chị gái sắp đi rồi."
+     },
+     {
+      "zh": "下个星期我们就要考试了。",
+      "vi": "Tuần sau chúng tôi sắp thi rồi."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“都……了”",
+    "meaning": "Cấu trúc nhấn mạnh “都……了”",
+    "structure": "都 + thời gian/số lượng + 了",
+    "explain": "Có nghĩa gần “đã… rồi”, thường dùng để nhấn mạnh hoặc biểu thị thái độ không hài lòng.",
+    "examples": [
+     {
+      "zh": "都8点了，快点儿起床吧。",
+      "vi": "Đã tám giờ rồi, mau dậy đi."
+     },
+     {
+      "zh": "你都十岁了，可以自己洗衣服了。",
+      "vi": "Bạn đã mười tuổi rồi, có thể tự giặt quần áo rồi."
+     },
+     {
+      "zh": "都等她半个小时了。",
+      "vi": "Đã đợi cô ấy nửa tiếng rồi."
+     }
+    ]
+   }
+  ]
+ }
+]

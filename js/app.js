@@ -2,8 +2,8 @@
    Tự viết toàn bộ, không sao chép code từ trang nào khác. */
 
 const LEVELS = [
-  { id: "1", label: "HSK 1", file: "hsk1.json", grammar: "grammar1.json", grammarGroupLabel: "Bài" },
-  { id: "2", label: "HSK 2", file: "hsk2.json", grammar: "grammar2.json", grammarGroupLabel: "Bài" },
+  { id: "1", label: "HSK 1", file: "hsk1.json", grammar: "grammar1.json", grammarGroupLabel: "Bài", curriculum: "curriculum1.json" },
+  { id: "2", label: "HSK 2", file: "hsk2.json", grammar: "grammar2.json", grammarGroupLabel: "Bài", curriculum: "curriculum2.json" },
   { id: "3", label: "HSK 3", file: "hsk3.json", grammar: "grammar3.json", grammarGroupLabel: "Bài", curriculum: "curriculum3.json", dienTu: "dientu3.json" },
   { id: "4", label: "HSK 4", file: "hsk4.json", grammar: "grammar4.json", grammarGroupLabel: "Nhóm" },
 ];
@@ -447,20 +447,22 @@ async function renderLevel(app, id) {
 /* ---------------- Giáo trình (xem theo đúng thứ tự sách: bài khóa + ngữ pháp) ---------------- */
 
 async function renderCurriculumHome(app) {
+  const dataSets = await Promise.all(LEVELS.map((l) => fetchCurriculumData(l.id)));
   app.innerHTML = `
     <div class="crumbs"><a href="#/">Trang chủ</a> / Giáo trình</div>
     <div class="section-title"><h2>📘 Giáo trình theo sách</h2></div>
     <p class="section-sub">Xem bài khóa (课文) và ngữ pháp theo đúng thứ tự từng bài trong giáo trình — chọn trình độ để bắt đầu.</p>
     <div class="level-grid">
-      ${LEVELS.map((l) => {
-        const has = !!l.curriculum;
+      ${LEVELS.map((l, i) => {
+        const data = dataSets[i];
+        const has = !!data;
         const inner = `
           <div class="lc-top">
             <span class="badge">${l.label}</span>
             ${!has ? '<span class="badge" style="background:#f1f1f4;color:#8a8a99;">chưa có dữ liệu</span>' : ""}
           </div>
           <h3>Giáo trình ${l.label}</h3>
-          <p>${has ? "20 bài · bài khóa + ngữ pháp" : "Sẽ được cập nhật sau"}</p>
+          <p>${has ? `${data.length} bài · bài khóa + ngữ pháp` : "Sẽ được cập nhật sau"}</p>
         `;
         return has
           ? `<a class="level-card" href="#/curriculum/${l.id}">${inner}</a>`
@@ -482,14 +484,20 @@ async function renderCurriculumLevel(app, levelId) {
     `;
     return;
   }
+  /* Danh mục tên các bài (trang này) luôn xem được ở MỌI trình độ, kể cả
+     khách vãng lai và học viên trình độ khác — chỉ NỘI DUNG chi tiết từng
+     bài (renderCurriculumLesson) mới bị chặn theo trình độ. Hiện badge nhỏ
+     để người xem không đủ quyền biết trước khi bấm vào. */
+  const detailAllowed = canViewCurriculumDetail(levelId);
+
   app.innerHTML = `
     <div class="crumbs"><a href="#/">Trang chủ</a> / <a href="#/curriculum">Giáo trình</a> / ${info.label}</div>
     <div class="section-title"><h2>📘 Giáo trình ${info.label}</h2></div>
-    <p class="section-sub">${data.length} bài · mỗi bài gồm bài khóa (课文) và ngữ pháp riêng</p>
+    <p class="section-sub">${data.length} bài · mỗi bài gồm bài khóa (课文) và ngữ pháp riêng${!detailAllowed ? ` · bạn chỉ xem được danh mục tên bài, chưa xem được nội dung chi tiết` : ""}</p>
     <div class="unit-grid">
       ${data.map((l) => `
         <a class="unit-card" href="#/curriculum/${levelId}/lesson/${l.lesson}">
-          <div class="u-title">Bài ${l.lesson} · ${escapeHtml(l.titleZh || "")}</div>
+          <div class="u-title">Bài ${l.lesson} · ${escapeHtml(l.titleZh || "")}${!detailAllowed ? " 🔒" : ""}</div>
           <div class="u-sub">${escapeHtml(l.titleVi || "")}</div>
           <div class="u-sample">${l.texts.length} bài khóa · ${l.grammar.length} điểm ngữ pháp</div>
         </a>
@@ -522,6 +530,10 @@ function bkLinesHtml(t) {
 async function renderCurriculumLesson(app, levelId, lessonNumStr) {
   const info = levelInfo(levelId);
   if (!info) { app.innerHTML = `<p class="empty-note">Trình độ không tồn tại.</p>`; return; }
+  if (!canViewCurriculumDetail(levelId)) {
+    app.innerHTML = curriculumLockedNote(levelId);
+    return;
+  }
   const data = await fetchCurriculumData(levelId);
   if (!data) { app.innerHTML = `<p class="empty-note">Chưa có dữ liệu giáo trình cho ${info.label}.</p>`; return; }
   const lessonNum = Number(lessonNumStr);
@@ -556,11 +568,11 @@ async function renderCurriculumLesson(app, levelId, lessonNumStr) {
     </div>
 
     <div class="curr-toggles" id="curr-baikhoa-toggles">
-      <label class="toggle-item"><input type="checkbox" id="toggle-pinyin" checked> Hiện pinyin</label>
-      <label class="toggle-item"><input type="checkbox" id="toggle-vi" checked> Hiện nghĩa tiếng Việt</label>
+      <label class="toggle-item"><input type="checkbox" id="toggle-pinyin"> Hiện pinyin</label>
+      <label class="toggle-item"><input type="checkbox" id="toggle-vi"> Hiện nghĩa tiếng Việt</label>
     </div>
 
-    <div id="curr-pane-baikhoa" class="curr-pane">
+    <div id="curr-pane-baikhoa" class="curr-pane hide-pinyin hide-vi">
       ${lesson.texts.map((t, i) => `
         <div class="baikhoa-card">
           <div class="bk-head">
@@ -652,6 +664,41 @@ function practiceLockedNote(baseUrl, levelId) {
     nên chỉ luyện tập có chấm điểm (trắc nghiệm, điền pinyin, điền từ, dịch câu, viết chữ) được ở (các) trình độ đó.<br>
     Bạn vẫn xem được <a href="${baseUrl}/list">danh sách từ</a> và <a href="${baseUrl}/flash">lật thẻ</a> ở ${info ? escapeHtml(info.label) : "trình độ này"} bình thường.
     ${myLevels.length ? `<br><br>${myLevels.map((l) => `<a href="#/level/${l.id}">Đến trang ${escapeHtml(l.label)} để luyện tập →</a>`).join(" · ")}` : ""}
+  </div>`;
+}
+
+/* Xem CHI TIẾT giáo trình (bài khóa 课文 + ngữ pháp riêng của từng bài, trong
+   renderCurriculumLesson) yêu cầu chặt hơn xem danh mục — chỉ giáo viên và
+   học viên đúng trình độ lớp mình mới xem được nội dung đầy đủ; khách vãng
+   lai và học viên ở trình độ khác chỉ xem được DANH MỤC tên các bài
+   (renderCurriculumLevel — không hạn chế, xem mọi trình độ), không xem được
+   nội dung bên trong. Logic giống hệt canUsePracticeModes (đăng nhập + đúng
+   trình độ) nên dùng chung. */
+function canViewCurriculumDetail(levelId) {
+  return canUsePracticeModes(levelId);
+}
+
+function curriculumLockedNote(levelId) {
+  const info = levelInfo(levelId);
+  const catalogUrl = `#/curriculum/${levelId}`;
+  const crumbs = `<div class="crumbs"><a href="#/">Trang chủ</a> / <a href="#/curriculum">Giáo trình</a> / <a href="${catalogUrl}">${info ? info.label : levelId}</a></div>`;
+  if (!isLoggedIn()) {
+    return `${crumbs}
+    <div class="empty-note">
+      🔒 Xem chi tiết bài khóa (课文) và ngữ pháp cần có tài khoản học viên (do giáo viên cấp) hoặc giáo viên.<br>
+      Khách vãng lai vẫn xem được <a href="${catalogUrl}">danh mục tên các bài</a> của ${info ? escapeHtml(info.label) : "trình độ này"}.<br><br>
+      Tài khoản học viên do giáo viên cấp sẵn — liên hệ giáo viên phụ trách để được cấp tài khoản.<br><br>
+      <a href="#/login" class="btn primary" style="display:inline-block;">Đăng nhập</a>
+    </div>`;
+  }
+  const profile = window.HSKAuth && HSKAuth.profile;
+  const myLevels = studentLevels(profile).map(levelInfo).filter(Boolean);
+  return `${crumbs}
+  <div class="empty-note">
+    🔒 Tài khoản của bạn được phân vào lớp trình độ ${myLevels.length ? myLevels.map((l) => `<b>${escapeHtml(l.label)}</b>`).join(", ") : "—"},
+    nên chỉ xem chi tiết giáo trình (bài khóa + ngữ pháp) được ở (các) trình độ đó.<br>
+    Bạn vẫn xem được <a href="${catalogUrl}">danh mục tên các bài</a> của ${info ? escapeHtml(info.label) : "trình độ này"}.
+    ${myLevels.length ? `<br><br>${myLevels.map((l) => `<a href="#/curriculum/${l.id}">Đến giáo trình ${escapeHtml(l.label)} →</a>`).join(" · ")}` : ""}
   </div>`;
 }
 

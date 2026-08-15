@@ -1,0 +1,1548 @@
+[
+ {
+  "lesson": 1,
+  "titleZh": "你好",
+  "titleVi": "Chào bạn!",
+  "titlePinyin": "nǐ hǎo",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你好！\nB：你好！",
+    "pinyin": "nǐ hǎo\nnǐ hǎo",
+    "vi": "A: Xin chào!\nB: Xin chào!"
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：您好！\nB：你们好！",
+    "pinyin": "nín hǎo\nnǐmen hǎo",
+    "vi": "A: Chào ngài!\nB: Chào các bạn!"
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：对不起！\nB：没关系！",
+    "pinyin": "duìbùqǐ\nméiguānxi",
+    "vi": "A: Xin lỗi!\nB: Không sao!"
+   }
+  ],
+  "grammar": []
+ },
+ {
+  "lesson": 2,
+  "titleZh": "谢谢你",
+  "titleVi": "Cảm ơn anh!",
+  "titlePinyin": "xièxie nǐ",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：谢谢!\nB：不谢！",
+    "pinyin": "xièxie\nbù xiè",
+    "vi": "A: Cảm ơn!\nB: Không có gì!"
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：谢谢你!\nB：不客气！",
+    "pinyin": "xièxie nǐ\nbù kèqì",
+    "vi": "A: Cảm ơn bạn!\nB: Đừng khách sáo!"
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：再见!\nB：再见！",
+    "pinyin": "zàijiàn\nzàijiàn",
+    "vi": "A: Tạm biệt!\nB: Tạm biệt!"
+   }
+  ],
+  "grammar": []
+ },
+ {
+  "lesson": 3,
+  "titleZh": "你叫什么名字",
+  "titleVi": "Bạn tên là gì?",
+  "titlePinyin": "nǐ jiào shénme míngzi",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你叫什么名字？\nB：我叫李月。",
+    "pinyin": "nǐ jiào shénme míngzi\nwǒ jiào Lǐ Yuè",
+    "vi": "A: Bạn tên là gì?\nB: Tôi tên là Lý Nguyệt."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你是老师吗？\nB：我不是老师，我是学生。",
+    "pinyin": "nǐ shì lǎoshī ma\nwǒ bùshì lǎoshī, wǒ shì xuéshēng",
+    "vi": "A: Bạn là giáo viên phải không?\nB: Tôi không phải giáo viên, tôi là học sinh."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你是中国人吗？\nB：我不是中国人，我是美国人。",
+    "pinyin": "nǐ shì Zhōngguó rén ma\nwǒ bùshì Zhōngguó rén, wǒ shì Měiguó rén",
+    "vi": "A: Bạn là người Trung Quốc phải không?\nB: Tôi không phải người Trung Quốc, tôi là người Mỹ."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "疑问代词“什么”",
+    "meaning": "Đại từ nghi vấn “什么”",
+    "structure": "什么；什么 + 名词",
+    "explain": "什么 được dùng trong câu nghi vấn; có thể đứng một mình làm tân ngữ hoặc kết hợp với danh từ phía sau.",
+    "examples": [
+     {
+      "zh": "你叫什么名字？",
+      "vi": "Bạn tên là gì?"
+     },
+     {
+      "zh": "这是什么？",
+      "vi": "Đây là gì?"
+     },
+     {
+      "zh": "这是什么书？",
+      "vi": "Đây là sách gì?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“是”字句",
+    "meaning": "Câu chữ “是”",
+    "structure": "主语 + 是 + 名词/名词短语；否定：主语 + 不是 + 名词/名词短语",
+    "explain": "Câu có 是 là câu phán đoán, dùng để xác định người/sự vật là hoặc thuộc về một loại nào đó. Dạng phủ định thêm 不 trước 是.",
+    "examples": [
+     {
+      "zh": "李月是老师。",
+      "vi": "Lý Nguyệt là giáo viên."
+     },
+     {
+      "zh": "我是美国人。",
+      "vi": "Tôi là người Mỹ."
+     },
+     {
+      "zh": "我不是老师。",
+      "vi": "Tôi không phải giáo viên."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "用“吗”的疑问句",
+    "meaning": "Câu nghi vấn với “吗”",
+    "structure": "陈述句 + 吗？",
+    "explain": "吗 là trợ từ nghi vấn, được thêm vào cuối câu trần thuật để tạo câu hỏi.",
+    "examples": [
+     {
+      "zh": "你是美国人吗？",
+      "vi": "Bạn là người Mỹ phải không?"
+     },
+     {
+      "zh": "你是中国人吗？",
+      "vi": "Bạn là người Trung Quốc phải không?"
+     },
+     {
+      "zh": "你是老师吗？",
+      "vi": "Bạn là giáo viên phải không?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 4,
+  "titleZh": "她是我的汉语老师",
+  "titleVi": "Cô ấy là cô giáo dạy tôi tiếng Trung Quốc",
+  "titlePinyin": "tā shì wǒ de Hànyǔ lǎoshī",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：她是谁？\nB：她是我的汉语老师，她叫李月。",
+    "pinyin": "tā shì shéi\ntā shì wǒ de Hànyǔ lǎoshī, tā jiào Lǐ Yuè",
+    "vi": "A: Cô ấy là ai?\nB: Cô ấy là giáo viên tiếng Trung của tôi, cô ấy tên là Lý Nguyệt."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你是哪国人？\nB：我是美国人。你呢？\nA：我是中国人。",
+    "pinyin": "nǐ shì nǎ guórén\nwǒ shì Měiguó rén. Nǐ ne?\nwǒ shì Zhōngguó rén",
+    "vi": "A: Bạn là người nước nào?\nB: Tôi là người Mỹ. Còn bạn?\nA: Tôi là người Trung Quốc."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：他是谁？\nB: 他是我同学。\nA：她呢？她是你同学吗？\nB: 她不是我同学，她是我朋友。",
+    "pinyin": "tā shì shéi?\ntā shì wǒ tóngxué\ntā ne? Tā shì nǐ tóngxué ma?\ntā bùshì wǒ tóngxué, tā shì wǒ péngyǒu",
+    "vi": "A: Anh ấy là ai?\nB: Anh ấy là bạn học của tôi.\nA: Còn cô ấy? Cô ấy là bạn học của bạn à?\nB: Cô ấy không phải bạn học của tôi, cô ấy là bạn của tôi."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "疑问代词“谁”、“哪”",
+    "meaning": "Đại từ nghi vấn “谁”, “哪”",
+    "structure": "谁…？；哪 + 数词 + 量词 + 名词",
+    "explain": "谁 dùng để hỏi về người. 哪 được dùng trong cấu trúc “哪 + số từ + lượng từ + danh từ” để hỏi lựa chọn/xác định đối tượng.",
+    "examples": [
+     {
+      "zh": "谁是李月？",
+      "vi": "Ai là Lý Nguyệt?"
+     },
+     {
+      "zh": "她是谁？",
+      "vi": "Cô ấy là ai?"
+     },
+     {
+      "zh": "哪本书？",
+      "vi": "Quyển sách nào?"
+     },
+     {
+      "zh": "你是哪国人？",
+      "vi": "Bạn là người nước nào?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "结构助词“的”",
+    "meaning": "Trợ từ kết cấu “的”",
+    "structure": "名词/代词 + 的 + 名词",
+    "explain": "Cấu trúc danh từ/đại từ + 的 + danh từ biểu thị quan hệ sở hữu. Khi danh từ sau 的 là người thân hoặc cách xưng hô gần gũi, 的 có thể được lược bỏ.",
+    "examples": [
+     {
+      "zh": "李月是我的老师。",
+      "vi": "Lý Nguyệt là giáo viên của tôi."
+     },
+     {
+      "zh": "这是我的书。",
+      "vi": "Đây là sách của tôi."
+     },
+     {
+      "zh": "她不是我同学，她是我朋友。",
+      "vi": "Cô ấy không phải bạn học của tôi, cô ấy là bạn của tôi."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "疑问助词“呢”",
+    "meaning": "Trợ từ nghi vấn “呢”",
+    "structure": "名词/代词 + 呢？",
+    "explain": "呢 đặt sau danh từ hoặc đại từ để hỏi tiếp về một đối tượng, khi loại thông tin cần hỏi đã xuất hiện trong câu trước.",
+    "examples": [
+     {
+      "zh": "我不是老师，我是学生。你呢？",
+      "vi": "Tôi không phải giáo viên, tôi là học sinh. Còn bạn?"
+     },
+     {
+      "zh": "她叫李月。他呢？",
+      "vi": "Cô ấy tên Lý Nguyệt. Còn anh ấy?"
+     },
+     {
+      "zh": "我是美国人。你呢？",
+      "vi": "Tôi là người Mỹ. Còn bạn?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 5,
+  "titleZh": "她女儿今年二十岁",
+  "titleVi": "Con gái cô ấy năm nay 20 tuổi",
+  "titlePinyin": "tā nǚ'ér jīnnián èrshí suì",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你家有几口人？\nB：我家有三口人。",
+    "pinyin": "nǐ jiā yǒu jǐ kǒu rén\nwǒ jiā yǒu sānkǒu rén",
+    "vi": "A: Nhà bạn có mấy người?\nB: Nhà tôi có ba người."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你女儿几岁了？\nB：她今年四岁了。",
+    "pinyin": "nǐ nǚ'ér jǐ suì le\ntā jīnnián sì suì le",
+    "vi": "A: Con gái bạn mấy tuổi rồi?\nB: Năm nay con bé bốn tuổi rồi."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：李老师多大了？\nB：她今年60岁了。\nA：她女儿呢？\nB：她女儿今年20岁。",
+    "pinyin": "Lǐ lǎoshī duōdà le\ntā jīnnián 60 suì le\ntā nǚ'ér ne\ntā nǚ'ér jīnnián 20 suì",
+    "vi": "A: Cô Lý bao nhiêu tuổi rồi?\nB: Năm nay cô ấy 60 tuổi rồi.\nA: Còn con gái cô ấy?\nB: Năm nay con gái cô ấy 20 tuổi."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "疑问代词“几”",
+    "meaning": "Đại từ nghi vấn “几”",
+    "structure": "几 + 量词 + 名词",
+    "explain": "几 dùng để hỏi số lượng; câu trả lời thường là số dưới 10.",
+    "examples": [
+     {
+      "zh": "你有几个汉语老师？",
+      "vi": "Bạn có mấy giáo viên tiếng Trung?"
+     },
+     {
+      "zh": "李老师家有几口人？",
+      "vi": "Nhà cô Lý có mấy người?"
+     },
+     {
+      "zh": "你女儿几岁了？",
+      "vi": "Con gái bạn mấy tuổi rồi?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "百以内的数字",
+    "meaning": "Số đếm dưới 100",
+    "structure": "十；二十；二十三；五十六；八十八；九十九…",
+    "explain": "Các số dưới 100 được tạo theo quy tắc hàng chục + 十 + hàng đơn vị; slide minh họa các số từ 1 đến 99.",
+    "examples": [
+     {
+      "zh": "10 十",
+      "vi": "10: mười"
+     },
+     {
+      "zh": "23 二十三",
+      "vi": "23: hai mươi ba"
+     },
+     {
+      "zh": "56 五十六",
+      "vi": "56: năm mươi sáu"
+     },
+     {
+      "zh": "88 八十八",
+      "vi": "88: tám mươi tám"
+     },
+     {
+      "zh": "99 九十九",
+      "vi": "99: chín mươi chín"
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "“了”表变化",
+    "meaning": "“了” biểu thị sự thay đổi",
+    "structure": "句子 + 了",
+    "explain": "了 dùng ở cuối câu để biểu thị sự thay đổi hoặc xuất hiện một tình huống mới.",
+    "examples": [
+     {
+      "zh": "李老师今年50岁了。",
+      "vi": "Năm nay cô Lý 50 tuổi rồi."
+     },
+     {
+      "zh": "我朋友的女儿今年四岁了。",
+      "vi": "Con gái của bạn tôi năm nay bốn tuổi rồi."
+     },
+     {
+      "zh": "你女儿几岁了？",
+      "vi": "Con gái bạn mấy tuổi rồi?"
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "“多 + 大”表示疑问",
+    "meaning": "“多大” dùng để hỏi tuổi",
+    "structure": "主语 + 多大了？",
+    "explain": "多 + 大 được dùng để hỏi tuổi.",
+    "examples": [
+     {
+      "zh": "你多大了？",
+      "vi": "Bạn bao nhiêu tuổi rồi?"
+     },
+     {
+      "zh": "你女儿今年多大了？",
+      "vi": "Năm nay con gái bạn bao nhiêu tuổi?"
+     },
+     {
+      "zh": "李老师多大了？",
+      "vi": "Cô Lý bao nhiêu tuổi rồi?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 6,
+  "titleZh": "我会说汉语",
+  "titleVi": "Tôi biết nói tiếng Trung Quốc",
+  "titlePinyin": "wǒ huì shuō Hànyǔ",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你会说汉语吗？\nB：我会说汉语。\nA：你妈妈会说汉语吗？\nB：她不会说。",
+    "pinyin": "nǐ huì shuō hànyǔ ma\nwǒ huì shuō hànyǔ\nnǐ māma huì shuō hànyǔ ma\ntā bù huì shuō",
+    "vi": "A: Bạn biết nói tiếng Trung không?\nB: Tôi biết nói tiếng Trung.\nA: Mẹ bạn biết nói tiếng Trung không?\nB: Bà ấy không biết nói."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：中国菜好吃吗？\nB：中国菜很好吃。\nA：你会做中国菜吗？\nB：我不会做。",
+    "pinyin": "Zhōngguó cài hào chī ma?\nZhōngguó cài hěn hào chī\nNǐ huì zuò zhōngguó cài ma?\nWǒ bù huì zuò",
+    "vi": "A: Món ăn Trung Quốc có ngon không?\nB: Món ăn Trung Quốc rất ngon.\nA: Bạn biết nấu món Trung Quốc không?\nB: Tôi không biết nấu."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你会写汉字吗？\nB：我会写。\nA：这个字怎么写？\nB：对不起，这个字我会读，不会写。",
+    "pinyin": "Nǐ huì xiě Hànzì ma?\nWǒ huì xiě\nZhègè zì zěnme xiě?\nDuìbùqǐ, zhègè zì wǒ huì dú, bù huì xiě",
+    "vi": "A: Bạn biết viết chữ Hán không?\nB: Tôi biết viết.\nA: Chữ này viết thế nào?\nB: Xin lỗi, chữ này tôi biết đọc nhưng không biết viết."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "能愿动词“会”",
+    "meaning": "Động từ năng nguyện “会”",
+    "structure": "主语 + 会/不会 + 动词（+ 宾语）",
+    "explain": "会 đứng trước động từ khác để diễn tả khả năng có được thông qua học tập. Dạng phủ định là 不会.",
+    "examples": [
+     {
+      "zh": "我会写汉字。",
+      "vi": "Tôi biết viết chữ Hán."
+     },
+     {
+      "zh": "我不会做中国菜。",
+      "vi": "Tôi không biết nấu món Trung Quốc."
+     },
+     {
+      "zh": "你妈妈会说汉语吗？",
+      "vi": "Mẹ bạn biết nói tiếng Trung không?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "形容词谓语句",
+    "meaning": "Câu vị ngữ tính từ",
+    "structure": "主语 + 很 + 形容词；否定：主语 + 不 + 形容词",
+    "explain": "Tính từ miêu tả tính chất/trạng thái có thể trực tiếp làm vị ngữ; thường đi cùng phó từ mức độ 很. Dạng phủ định dùng 不 + tính từ.",
+    "examples": [
+     {
+      "zh": "我很好。",
+      "vi": "Tôi rất khỏe/tốt."
+     },
+     {
+      "zh": "我妈妈的汉语不好。",
+      "vi": "Tiếng Trung của mẹ tôi không tốt."
+     },
+     {
+      "zh": "中国菜很好吃。",
+      "vi": "Món Trung Quốc rất ngon."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "疑问代词“怎么”",
+    "meaning": "Đại từ nghi vấn “怎么”",
+    "structure": "怎么 + 动词",
+    "explain": "怎么 đứng trước động từ để hỏi về cách thức thực hiện hành động.",
+    "examples": [
+     {
+      "zh": "这个汉字怎么读？",
+      "vi": "Chữ Hán này đọc thế nào?"
+     },
+     {
+      "zh": "你的汉语名字怎么写？",
+      "vi": "Tên tiếng Trung của bạn viết thế nào?"
+     },
+     {
+      "zh": "这个字怎么写？",
+      "vi": "Chữ này viết thế nào?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 7,
+  "titleZh": "今天几号",
+  "titleVi": "Hôm nay là ngày mấy",
+  "titlePinyin": "jīntiān jǐ hào",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：请问，今天几号？\nB：今天九月一号。\nA：今天星期几？\nB：星期三。",
+    "pinyin": "Qǐngwèn, jīntiān jǐ hào?\nJīntiān jiǔ yuè yī hào\nJīntiān xīngqī jǐ?\nXīngqī sān",
+    "vi": "A: Xin hỏi, hôm nay là ngày mấy?\nB: Hôm nay là ngày 1 tháng 9.\nA: Hôm nay là thứ mấy?\nB: Thứ Tư."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：昨天是几月几号？\nB：昨天是8月31号，星期二。\nA：明天呢？\nB：明天是9月2号，星期四。",
+    "pinyin": "Zuótiān shì jǐ yuè jǐ hào?\nZuótiān shì 8 yuè 31 hào, xīngqī’èr\nMíngtiān ne?\nMíngtiān shì 9 yuè 2 hào, xīngqīsì",
+    "vi": "A: Hôm qua là ngày mấy tháng mấy?\nB: Hôm qua là ngày 31 tháng 8, thứ Ba.\nA: Còn ngày mai?\nB: Ngày mai là ngày 2 tháng 9, thứ Năm."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：明天星期六，你去学校吗？\nB：我去学校。\nA：你去学校做什么？\nB：我去学校看书。",
+    "pinyin": "Míngtiān xīngqīliù, nǐ qù xuéxiào ma?\nWǒ qù xuéxiào\nNǐ qù xuéxiào zuò shénme?\nWǒ qù xuéxiào kànshū",
+    "vi": "A: Ngày mai là thứ Bảy, bạn có đến trường không?\nB: Tôi đến trường.\nA: Bạn đến trường làm gì?\nB: Tôi đến trường đọc sách."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "日期的表达：月、日/号、星期",
+    "meaning": "Cách biểu đạt ngày tháng và thứ",
+    "structure": "月 → 日/号 → 星期",
+    "explain": "Ngày tháng được nói theo thứ tự từ đơn vị lớn đến nhỏ: tháng, ngày, rồi thứ. Trong khẩu ngữ thường dùng 号 thay cho 日.",
+    "examples": [
+     {
+      "zh": "9月1号，星期三。",
+      "vi": "Ngày 1 tháng 9, thứ Tư."
+     },
+     {
+      "zh": "9月2号，星期四。",
+      "vi": "Ngày 2 tháng 9, thứ Năm."
+     },
+     {
+      "zh": "8月31号，星期二。",
+      "vi": "Ngày 31 tháng 8, thứ Ba."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "名词谓语句",
+    "meaning": "Câu vị ngữ danh từ",
+    "structure": "主语 + 名词性谓语",
+    "explain": "Vị ngữ mang tính danh từ, thường dùng để nói tuổi tác, thời gian, ngày tháng.",
+    "examples": [
+     {
+      "zh": "我的汉语老师33岁。",
+      "vi": "Giáo viên tiếng Trung của tôi 33 tuổi."
+     },
+     {
+      "zh": "明天星期三。",
+      "vi": "Ngày mai là thứ Tư."
+     },
+     {
+      "zh": "今天9月1号。",
+      "vi": "Hôm nay là ngày 1 tháng 9."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "连动句（1）：去 + 地方 + 做什么",
+    "meaning": "Câu liên động: đi đâu để làm gì",
+    "structure": "主语 + 去 +（地方）+ 动词（+ 宾语）",
+    "explain": "Trong câu liên động, động từ sau biểu thị mục đích của động từ trước. Tân ngữ chỉ nơi chốn sau 去 đôi khi có thể lược bỏ.",
+    "examples": [
+     {
+      "zh": "我去中国学习汉语。",
+      "vi": "Tôi đi Trung Quốc học tiếng Trung."
+     },
+     {
+      "zh": "我们去中国饭馆儿吃中国菜。",
+      "vi": "Chúng tôi đi nhà hàng Trung Quốc ăn món Trung Quốc."
+     },
+     {
+      "zh": "我去学校看书。",
+      "vi": "Tôi đến trường đọc sách."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 8,
+  "titleZh": "我想喝茶",
+  "titleVi": "Tôi muốn uống trà",
+  "titlePinyin": "wǒ xiǎng hē chá",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你想喝什么？\nB：我想喝茶。\nA：你想吃什么？\nB：我想吃米饭。",
+    "pinyin": "Nǐ xiǎng hē shénme?\nWǒ xiǎng hē chá\nNǐ xiǎng chī shénme?\nWǒ xiǎng chī mǐfàn",
+    "vi": "A: Bạn muốn uống gì?\nB: Tôi muốn uống trà.\nA: Bạn muốn ăn gì?\nB: Tôi muốn ăn cơm."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：下午你想做什么？\nB：下午我想去商店。\nA：你想买什么？\nB：我想买一个杯子。",
+    "pinyin": "Xiàwǔ nǐ xiǎng zuò shénme?\nXiàwǔ wǒ xiǎng qù shāngdiàn\nNǐ xiǎng mǎi shénme?\nWǒ xiǎng mǎi yīgè bēizi",
+    "vi": "A: Buổi chiều bạn muốn làm gì?\nB: Buổi chiều tôi muốn đi cửa hàng.\nA: Bạn muốn mua gì?\nB: Tôi muốn mua một cái cốc."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你好！这个杯子多少钱？\nB：28块。\nA：那个杯子多少钱？\nB：那个杯子18块钱。",
+    "pinyin": "Nǐ hǎo! Zhège bēizi duōshǎo qián?\n28 kuài\nNàgè bēizi duōshǎo qián?\nNàgè bēizi 18 kuài qián",
+    "vi": "A: Xin chào! Cái cốc này bao nhiêu tiền?\nB: 28 tệ.\nA: Cái cốc kia bao nhiêu tiền?\nB: Cái cốc kia 18 tệ."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "能愿动词“想”",
+    "meaning": "Động từ năng nguyện “想”",
+    "structure": "主语 + 想 + 动词（+ 宾语）",
+    "explain": "想 đứng trước động từ để diễn tả mong muốn hoặc dự định.",
+    "examples": [
+     {
+      "zh": "我想学汉语。",
+      "vi": "Tôi muốn học tiếng Trung."
+     },
+     {
+      "zh": "明天我想去学校看书。",
+      "vi": "Ngày mai tôi muốn đến trường đọc sách."
+     },
+     {
+      "zh": "我想买一个杯子。",
+      "vi": "Tôi muốn mua một cái cốc."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "疑问代词“多少”",
+    "meaning": "Đại từ nghi vấn “多少”",
+    "structure": "多少 +（量词）+ 名词；……多少钱？",
+    "explain": "多少 dùng để hỏi số lượng, đặc biệt số lượng trên 10; lượng từ sau nó có thể lược bỏ. Cấu trúc ……多少钱？ dùng để hỏi giá.",
+    "examples": [
+     {
+      "zh": "你们学校有多少（个）学生？",
+      "vi": "Trường bạn có bao nhiêu học sinh?"
+     },
+     {
+      "zh": "你有多少（个）汉语老师？",
+      "vi": "Bạn có bao nhiêu giáo viên tiếng Trung?"
+     },
+     {
+      "zh": "这个杯子多少钱？",
+      "vi": "Cái cốc này bao nhiêu tiền?"
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "量词“个”、“口”",
+    "meaning": "Lượng từ “个”, “口”",
+    "structure": "数词 + 个 + 名词；数词 + 口 + 人",
+    "explain": "个 là lượng từ phổ biến dùng với nhiều danh từ không có lượng từ riêng. 口 dùng để đếm số người trong gia đình.",
+    "examples": [
+     {
+      "zh": "三个老师",
+      "vi": "Ba giáo viên."
+     },
+     {
+      "zh": "五个同学",
+      "vi": "Năm bạn học."
+     },
+     {
+      "zh": "一个杯子",
+      "vi": "Một cái cốc."
+     },
+     {
+      "zh": "李老师家有六口人。",
+      "vi": "Nhà cô Lý có sáu người."
+     },
+     {
+      "zh": "你家有几口人？",
+      "vi": "Nhà bạn có mấy người?"
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "钱数的表达",
+    "meaning": "Cách biểu đạt số tiền",
+    "structure": "数字 + 元/块（钱）",
+    "explain": "Đơn vị cơ bản của Nhân dân tệ là 元; trong khẩu ngữ thường dùng 块 thay cho 元.",
+    "examples": [
+     {
+      "zh": "这个杯子28块。",
+      "vi": "Cái cốc này 28 tệ."
+     },
+     {
+      "zh": "那个杯子18块钱。",
+      "vi": "Cái cốc kia 18 tệ."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 9,
+  "titleZh": "你儿子在哪儿工作",
+  "titleVi": "Con trai anh làm việc ở đâu",
+  "titlePinyin": "nǐ érzi zài nǎr gōngzuò",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：小猫在哪儿？\nB：小猫在那儿。\nA: 小狗在哪儿？\nB：小狗在椅子下面。",
+    "pinyin": "Xiǎo māo zài nǎr?\nXiǎo māo zài nàr\nXiǎo gǒu zài nǎr?\nXiǎo gǒu zài yǐzi xiàmiàn",
+    "vi": "A: Con mèo nhỏ ở đâu?\nB: Con mèo nhỏ ở đằng kia.\nA: Con chó nhỏ ở đâu?\nB: Con chó nhỏ ở dưới ghế."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你在哪儿工作？\nB：我在学校工作。\nA: 你儿子在哪儿工作？\nB：我儿子在医院工作，他是医生。",
+    "pinyin": "Nǐ zài nǎr gōngzuò?\nWǒ zài xuéxiào gōngzuò\nNǐ érzi zài nǎr gōngzuò?\nWǒ érzi zài yīyuàn gōngzuò, tā shì yīshēng",
+    "vi": "A: Bạn làm việc ở đâu?\nB: Tôi làm việc ở trường.\nA: Con trai bạn làm việc ở đâu?\nB: Con trai tôi làm việc ở bệnh viện, nó là bác sĩ."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你爸爸在家吗？\nB：不在家。\nA: 他在哪儿呢？\nB：他在医院。",
+    "pinyin": "Nǐ bàba zàijiā ma?\nBù zàijiā\nTā zài nǎr ne?\nTā zài yīyuàn",
+    "vi": "A: Bố bạn có ở nhà không?\nB: Không ở nhà.\nA: Ông ấy ở đâu vậy?\nB: Ông ấy ở bệnh viện."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "动词“在”",
+    "meaning": "Động từ “在” chỉ vị trí",
+    "structure": "主语 + 在 + 地点/方位词",
+    "explain": "在 là động từ, kết hợp với từ chỉ vị trí/phương hướng làm vị ngữ để nói nơi chốn của người hoặc sự vật.",
+    "examples": [
+     {
+      "zh": "我朋友在学校。",
+      "vi": "Bạn tôi ở trường."
+     },
+     {
+      "zh": "我妈妈在家。",
+      "vi": "Mẹ tôi ở nhà."
+     },
+     {
+      "zh": "小狗在椅子下面。",
+      "vi": "Con chó nhỏ ở dưới ghế."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "疑问代词“哪儿”",
+    "meaning": "Đại từ nghi vấn “哪儿”",
+    "structure": "主语 + 在 + 哪儿？",
+    "explain": "哪儿 dùng trong câu hỏi để hỏi vị trí của người hoặc sự vật.",
+    "examples": [
+     {
+      "zh": "我的杯子在哪儿？",
+      "vi": "Cái cốc của tôi ở đâu?"
+     },
+     {
+      "zh": "你的中国朋友在哪儿？",
+      "vi": "Người bạn Trung Quốc của bạn ở đâu?"
+     },
+     {
+      "zh": "小猫在哪儿？",
+      "vi": "Con mèo nhỏ ở đâu?"
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "介词“在”",
+    "meaning": "Giới từ “在”",
+    "structure": "主语 + 在 + 地点 + 动词（+ 宾语）",
+    "explain": "Khi làm giới từ, 在 đứng trước từ chỉ địa điểm để giới thiệu nơi diễn ra hành động.",
+    "examples": [
+     {
+      "zh": "我在朋友家喝茶。",
+      "vi": "Tôi uống trà ở nhà bạn."
+     },
+     {
+      "zh": "他们在学校看书。",
+      "vi": "Họ đọc sách ở trường."
+     },
+     {
+      "zh": "我儿子在医院工作。",
+      "vi": "Con trai tôi làm việc ở bệnh viện."
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "疑问助词“呢”",
+    "meaning": "Trợ từ nghi vấn “呢” hỏi vị trí",
+    "structure": "名词/代词 + 呢？；……在哪儿呢？",
+    "explain": "呢 được dùng ở cuối câu để hỏi vị trí của người hoặc sự vật.",
+    "examples": [
+     {
+      "zh": "我的小猫呢？",
+      "vi": "Con mèo nhỏ của tôi đâu?"
+     },
+     {
+      "zh": "我的杯子呢？",
+      "vi": "Cái cốc của tôi đâu?"
+     },
+     {
+      "zh": "他在哪儿呢？",
+      "vi": "Anh ấy ở đâu vậy?"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 10,
+  "titleZh": "我能坐这儿吗",
+  "titleVi": "Tôi có thể ngồi ở đây không?",
+  "titlePinyin": "wǒ néng zuò zhèr ma",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：桌子上有什么？\nB：桌子上有一个电脑和一本书。\nA：杯子在哪儿？\nB：杯子在桌子里。",
+    "pinyin": "Zhuōzi shàng yǒu shénme?\nZhuōzi shàng yǒu yīgè diànnǎo hé yī běn shū\nBēizi zài nǎr?\nBēizi zài zhuōzi lǐ",
+    "vi": "A: Trên bàn có gì?\nB: Trên bàn có một chiếc máy tính và một quyển sách.\nA: Cái cốc ở đâu?\nB: Cái cốc ở trong bàn."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：前面那个人叫什么名字？\nB：她叫王方，在医院工作。\nA：后面那个人呢？他叫什么名字？\nB：他叫谢朋，在商店工作。",
+    "pinyin": "Qiánmiàn nàgè rén jiào shénme míngzi\nTā jiào Wáng Fāng, zài yīyuàn gōngzuò\nHòumiàn nàgè rén ne? Tā jiào shénme míngzi?\nTā jiào Xiè Péng, zài shāngdiàn gōngzuò",
+    "vi": "A: Người phía trước tên là gì?\nB: Cô ấy tên là Vương Phương, làm việc ở bệnh viện.\nA: Còn người phía sau? Anh ấy tên là gì?\nB: Anh ấy tên là Tạ Bằng, làm việc ở cửa hàng."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：这儿有人吗？\nB：没有。\nA：我能坐这儿吗？\nB：请坐。",
+    "pinyin": "Zhèr yǒurén ma?\nMéiyǒu\nWǒ néng zuò zhèr ma?\nQǐng zuò",
+    "vi": "A: Ở đây có người không?\nB: Không có.\nA: Tôi có thể ngồi đây không?\nB: Mời ngồi."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "“有”字句：表示存在",
+    "meaning": "Câu chữ “有” biểu thị tồn tại",
+    "structure": "地点/方位词 + 有 + 人/物；否定：地点 + 没有 + 人/物",
+    "explain": "有 dùng để biểu thị sự tồn tại của người/vật tại một địa điểm. Dạng phủ định dùng 没有; khi phủ định, trước tân ngữ không có định ngữ chỉ số lượng.",
+    "examples": [
+     {
+      "zh": "椅子下面有一只小狗。",
+      "vi": "Dưới ghế có một con chó nhỏ."
+     },
+     {
+      "zh": "学校里有一个商店。",
+      "vi": "Trong trường có một cửa hàng."
+     },
+     {
+      "zh": "桌子上有一个电脑和一本书。",
+      "vi": "Trên bàn có một máy tính và một quyển sách."
+     },
+     {
+      "zh": "桌子上没有电脑和书。",
+      "vi": "Trên bàn không có máy tính và sách."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "连词“和”",
+    "meaning": "Liên từ “和”",
+    "structure": "A + 和 + B",
+    "explain": "和 dùng để nối hai hoặc nhiều thành phần ngang hàng.",
+    "examples": [
+     {
+      "zh": "我有一个中国朋友和一个美国朋友。",
+      "vi": "Tôi có một người bạn Trung Quốc và một người bạn Mỹ."
+     },
+     {
+      "zh": "我家有三口人，爸爸、妈妈和我。",
+      "vi": "Nhà tôi có ba người: bố, mẹ và tôi."
+     },
+     {
+      "zh": "桌子上有一个电脑和一本书。",
+      "vi": "Trên bàn có một máy tính và một quyển sách."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "能愿动词“能”",
+    "meaning": "Động từ năng nguyện “能”",
+    "structure": "主语 + 能 + 动词；能……吗？",
+    "explain": "能 đứng trước động từ để diễn tả năng lực/khả năng; cấu trúc 能……吗？ còn dùng để xin phép hoặc thỉnh cầu.",
+    "examples": [
+     {
+      "zh": "明天下午我能去商店。",
+      "vi": "Chiều mai tôi có thể đi cửa hàng."
+     },
+     {
+      "zh": "你能在这儿写你的名字吗？",
+      "vi": "Bạn có thể viết tên của bạn ở đây không?"
+     },
+     {
+      "zh": "我能坐这儿吗？",
+      "vi": "Tôi có thể ngồi đây không?"
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "用“请”的祈使句",
+    "meaning": "Câu cầu khiến với “请”",
+    "structure": "请 + 动词（+ 宾语）",
+    "explain": "请 kết hợp với động từ phía sau tạo câu cầu khiến, biểu thị đề nghị hoặc yêu cầu lịch sự.",
+    "examples": [
+     {
+      "zh": "请写您的名字。",
+      "vi": "Xin hãy viết tên của ngài."
+     },
+     {
+      "zh": "请喝茶。",
+      "vi": "Mời uống trà."
+     },
+     {
+      "zh": "请坐。",
+      "vi": "Mời ngồi."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 11,
+  "titleZh": "现在几点",
+  "titleVi": "Bây giờ là mấy giờ?",
+  "titlePinyin": "xiànzài jǐ diǎn",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：现在几点？\nB：现在十点十分。\nA：中午几点吃饭？\nB：十二点吃饭。",
+    "pinyin": "Xiànzài jǐ diǎn?\nXiànzài shí diǎn shí fēn\nZhōngwǔ jǐ diǎn chīfàn?\nShí'èr diǎn chīfàn",
+    "vi": "A: Bây giờ là mấy giờ?\nB: Bây giờ là 10 giờ 10 phút.\nA: Buổi trưa mấy giờ ăn cơm?\nB: 12 giờ ăn cơm."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：爸爸什么时候回家？\nB：下午五点。\nA：我们什么时候去看电影？\nB：六点三十分。",
+    "pinyin": "Bàba shénme shíhòu huí jiā?\nXiàwǔ wǔ diǎn\nWǒmen shénme shíhòu qù kàn diànyǐng?\nLiù diǎn sānshí fēn",
+    "vi": "A: Bố khi nào về nhà?\nB: 5 giờ chiều.\nA: Chúng ta khi nào đi xem phim?\nB: 6 giờ 30 phút."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：我星期一去北京。\nB：你想在北京住几天？\nA：住三天。\nB：星期五前能回家吗？\nA：能。",
+    "pinyin": "Wǒ xīngqī yī qù Běijīng\nNǐ xiǎng zài Běijīng zhù jǐ tiān?\nZhù sān tiān\nXīngqīwǔ qián néng huí jiā ma?\nNéng",
+    "vi": "A: Thứ Hai tôi đi Bắc Kinh.\nB: Bạn muốn ở Bắc Kinh mấy ngày?\nA: Ở ba ngày.\nB: Trước thứ Sáu có thể về nhà không?\nA: Có thể."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "时间的表达",
+    "meaning": "Cách biểu đạt thời gian",
+    "structure": "……点；……点……分；上午/下午 + ……点（……分）",
+    "explain": "Dùng 点 và 分 theo thứ tự từ đơn vị lớn đến nhỏ. Khi nói 2 giờ dùng 两点. Có thể thêm 上午/下午 để phân biệt buổi sáng và buổi chiều.",
+    "examples": [
+     {
+      "zh": "九点",
+      "vi": "9 giờ."
+     },
+     {
+      "zh": "两点零五分",
+      "vi": "2 giờ 05 phút."
+     },
+     {
+      "zh": "上午八点",
+      "vi": "8 giờ sáng."
+     },
+     {
+      "zh": "下午三点十分",
+      "vi": "3 giờ 10 phút chiều."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "时间词做状语",
+    "meaning": "Từ chỉ thời gian làm trạng ngữ",
+    "structure": "主语 + 时间词 + 谓语；时间词 + 主语 + 谓语",
+    "explain": "Khi làm trạng ngữ, từ chỉ thời gian thường đứng sau chủ ngữ; cũng có thể đứng đầu câu trước chủ ngữ.",
+    "examples": [
+     {
+      "zh": "妈妈六点做饭。",
+      "vi": "Mẹ nấu cơm lúc 6 giờ."
+     },
+     {
+      "zh": "李老师上午八点去学校。",
+      "vi": "Cô Lý đến trường lúc 8 giờ sáng."
+     },
+     {
+      "zh": "七点我吃饭。",
+      "vi": "7 giờ tôi ăn cơm."
+     },
+     {
+      "zh": "下午五点他们去看电影。",
+      "vi": "5 giờ chiều họ đi xem phim."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "名词“前”",
+    "meaning": "Danh từ “前” chỉ thời gian trước",
+    "structure": "时间 + 前",
+    "explain": "前 dùng để chỉ thời gian trước hiện tại hoặc trước một thời điểm được nhắc đến.",
+    "examples": [
+     {
+      "zh": "三天前",
+      "vi": "Ba ngày trước."
+     },
+     {
+      "zh": "星期五前",
+      "vi": "Trước thứ Sáu."
+     },
+     {
+      "zh": "八点前。",
+      "vi": "Trước 8 giờ."
+     },
+     {
+      "zh": "星期六前。",
+      "vi": "Trước thứ Bảy."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 12,
+  "titleZh": "明天天气怎么样",
+  "titleVi": "Ngày mai thời tiết thế nào?",
+  "titlePinyin": "míngtiān tiānqì zěnmeyàng",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：昨天北京的天气怎么样？\nB：太热了。\nA：明天呢？明天天气怎么样？\nB：明天天气很好，不冷不热。",
+    "pinyin": "Zuótiān Běijīng de tiānqì zěnme yàng?\nTài rè le\nMíngtiān ne? Míngtiān tiānqì zěnme yàng?\nMíngtiān tiānqì hěn hǎo, bù lěng bù rè",
+    "vi": "A: Hôm qua thời tiết Bắc Kinh thế nào?\nB: Nóng quá.\nA: Còn ngày mai? Thời tiết ngày mai thế nào?\nB: Thời tiết ngày mai rất đẹp, không lạnh cũng không nóng."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：今天会下雨吗？\nB：今天不会下雨。\nA：王小姐今天会来吗？\nB：不会来，天气太冷了。",
+    "pinyin": "Jīntiān huì xià yǔ ma?\nJīntiān bù huì xià yǔ\nWáng xiǎojiě jīntiān huì lái ma?\nBù huì lái, tiānqì tài lěng le",
+    "vi": "A: Hôm nay có mưa không?\nB: Hôm nay sẽ không mưa.\nA: Hôm nay cô Vương có đến không?\nB: Không đến, thời tiết lạnh quá."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你身体怎么样？\nB：我身体不太好。天气太热了，不爱吃饭。\nA：你多吃些水果，多喝水。\nB：谢谢你，医生。",
+    "pinyin": "Nǐ shēntǐ zěnme yàng?\nWǒ shēntǐ bù tài hǎo. Tiānqì tài rè le, bù ài chīfàn\nNǐ duō chī xiē shuǐguǒ, duō hē shuǐ\nXièxie nǐ, yīshēng",
+    "vi": "A: Sức khỏe bạn thế nào?\nB: Sức khỏe tôi không được tốt lắm. Trời nóng quá, tôi không muốn ăn cơm.\nA: Bạn hãy ăn nhiều hoa quả hơn và uống nhiều nước hơn.\nB: Cảm ơn bạn, bác sĩ."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "疑问代词“怎么样”",
+    "meaning": "Đại từ nghi vấn “怎么样”",
+    "structure": "……怎么样？",
+    "explain": "怎么样 dùng để hỏi tình hình hoặc trạng thái.",
+    "examples": [
+     {
+      "zh": "你的汉语怎么样？",
+      "vi": "Tiếng Trung của bạn thế nào?"
+     },
+     {
+      "zh": "你妈妈身体怎么样？",
+      "vi": "Sức khỏe mẹ bạn thế nào?"
+     },
+     {
+      "zh": "明天天气怎么样？",
+      "vi": "Thời tiết ngày mai thế nào?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "主谓谓语句",
+    "meaning": "Câu vị ngữ chủ-vị",
+    "structure": "主语 + [小主语 + 谓语]",
+    "explain": "Vị ngữ của cả câu là một cụm chủ-vị.",
+    "examples": [
+     {
+      "zh": "我身体不太好。",
+      "vi": "Sức khỏe tôi không được tốt lắm."
+     },
+     {
+      "zh": "明天天气很好。",
+      "vi": "Thời tiết ngày mai rất đẹp."
+     },
+     {
+      "zh": "你身体怎么样？",
+      "vi": "Sức khỏe bạn thế nào?"
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "程度副词“太”",
+    "meaning": "Phó từ mức độ “太”",
+    "structure": "太 + 形容词 + 了；否定：不太 + 形容词",
+    "explain": "太 biểu thị mức độ cao hơn bình thường. Trong câu khẳng định thường có 了 cuối câu; dạng phủ định thường dùng 不太 và không dùng 了.",
+    "examples": [
+     {
+      "zh": "太冷了。",
+      "vi": "Lạnh quá."
+     },
+     {
+      "zh": "天气太冷了。",
+      "vi": "Thời tiết lạnh quá."
+     },
+     {
+      "zh": "我身体不太好。",
+      "vi": "Sức khỏe tôi không được tốt lắm."
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "能愿动词“会”",
+    "meaning": "“会” biểu thị khả năng xảy ra",
+    "structure": "会/不会 + 动词",
+    "explain": "Ở bài này 会 được dùng để biểu thị một tình huống có khả năng xảy ra.",
+    "examples": [
+     {
+      "zh": "爸爸八点前会回家吗？",
+      "vi": "Bố có về nhà trước 8 giờ không?"
+     },
+     {
+      "zh": "明天她会来吗？",
+      "vi": "Ngày mai cô ấy có đến không?"
+     },
+     {
+      "zh": "今天不会下雨。",
+      "vi": "Hôm nay sẽ không mưa."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 13,
+  "titleZh": "他在学做中国菜呢",
+  "titleVi": "Anh ấy đang học nấu món ăn Trung Quốc?",
+  "titlePinyin": "tā zài xué zuò Zhōngguó cài ne",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：喂，你在做什么呢？\nB：我在看书呢。\nA：大卫也在看书吗？\nB：他没看书，他在学做中国菜呢。",
+    "pinyin": "Wèi, nǐ zài zuò shénme ne?\nWǒ zài kànshū ne\nDàwèi yě zài kànshū ma?\nTā méi kànshū, tā zàixué zuò zhōngguó cài ne",
+    "vi": "A: A lô, bạn đang làm gì vậy?\nB: Tôi đang đọc sách.\nA: David cũng đang đọc sách à?\nB: Anh ấy không đọc sách, anh ấy đang học nấu món Trung Quốc."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：昨天上午你在做什么呢？\nB：我在睡觉呢。你呢？\nA：我在家看电视呢。你喜欢看电视吗？\nB：我不喜欢看电视，我喜欢看电影。",
+    "pinyin": "Zuótiān shàngwǔ nǐ zài zuò shénme ne?\nWǒ zài shuìjiào ne. Nǐ ne?\nWǒ zài jiā kàn diànshì ne. Nǐ xǐhuān kàn diànshì ma?\nWǒ bù xǐhuān kàn diànshì, wǒ xǐhuān kàn diànyǐng",
+    "vi": "A: Sáng hôm qua bạn đang làm gì?\nB: Tôi đang ngủ. Còn bạn?\nA: Tôi đang xem tivi ở nhà. Bạn có thích xem tivi không?\nB: Tôi không thích xem tivi, tôi thích xem phim."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：82304155,这是李老师的电话吗？\nB：不是，她的电话是82304156。\nA：好，我现在给她打电话。\nB：她在工作呢，你下午打吧。",
+    "pinyin": "82304155, zhè shì Lǐ lǎoshī de diànhuà ma?\nBùshì, tā de diànhuà shì 82304156\nHǎo, wǒ xiànzài gěi tā dǎ diànhuà\nTā zài gōngzuò ne, nǐ xiàwǔ dǎ ba",
+    "vi": "A: 82304155, đây có phải số điện thoại của cô Lý không?\nB: Không phải, số của cô ấy là 82304156.\nA: Được, bây giờ tôi gọi điện cho cô ấy.\nB: Cô ấy đang làm việc, buổi chiều bạn hãy gọi nhé."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "叹词“喂”",
+    "meaning": "Thán từ “喂”",
+    "structure": "喂，……",
+    "explain": "喂 thường được dùng để mở đầu khi gọi điện thoại hoặc khi trả lời điện thoại.",
+    "examples": [
+     {
+      "zh": "喂，李老师在家吗？",
+      "vi": "A lô, cô Lý có ở nhà không?"
+     },
+     {
+      "zh": "喂，你是张小姐吗？",
+      "vi": "A lô, bạn là cô Trương phải không?"
+     },
+     {
+      "zh": "喂，你在做什么？",
+      "vi": "A lô, bạn đang làm gì?"
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "“在……呢”表示动作正在进行",
+    "meaning": "“在……呢” biểu thị hành động đang diễn ra",
+    "structure": "主语 + 在 + 动词（+ 宾语）+（呢）；否定：主语 + 没（在）+ 动词",
+    "explain": "在 + động từ + 呢 biểu thị hành động đang diễn ra. Dạng phủ định dùng 没（在）+ động từ và không dùng 呢.",
+    "examples": [
+     {
+      "zh": "我在睡觉呢。",
+      "vi": "Tôi đang ngủ."
+     },
+     {
+      "zh": "你在做什么呢？",
+      "vi": "Bạn đang làm gì vậy?"
+     },
+     {
+      "zh": "我没在看电视。",
+      "vi": "Tôi không đang xem tivi."
+     },
+     {
+      "zh": "你没看书。",
+      "vi": "Bạn không đọc sách."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "电话号码的表达",
+    "meaning": "Cách đọc số điện thoại",
+    "structure": "逐个数字读；1 在电话号码中常读 yāo",
+    "explain": "Số điện thoại được đọc từng chữ số. Số 1 trong số điện thoại thường đọc là yāo.",
+    "examples": [
+     {
+      "zh": "8069478：bā líng liù jiǔ sì qī bā",
+      "vi": "Số 8069478 đọc từng chữ số."
+     },
+     {
+      "zh": "13851897623：yāo sān bā wǔ yāo bā jiǔ qī liù èr sān",
+      "vi": "Số 13851897623: chữ số 1 đọc là yāo."
+     },
+     {
+      "zh": "82304156：bā èr sān líng sì yāo wǔ liù",
+      "vi": "Số 82304156 đọc từng chữ số."
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "语气助词“吧”",
+    "meaning": "Trợ từ ngữ khí “吧”",
+    "structure": "祈使/建议句 + 吧",
+    "explain": "吧 đặt cuối câu cầu khiến/đề nghị để làm ngữ khí mềm hơn.",
+    "examples": [
+     {
+      "zh": "这儿没有人，请坐吧。",
+      "vi": "Ở đây không có người, mời ngồi nhé."
+     },
+     {
+      "zh": "今天我们在家吃饭吧。",
+      "vi": "Hôm nay chúng ta ăn cơm ở nhà nhé."
+     },
+     {
+      "zh": "她在工作呢，你下午打吧。",
+      "vi": "Cô ấy đang làm việc, chiều bạn gọi nhé."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 14,
+  "titleZh": "她买了不少衣服",
+  "titleVi": "Cô ấy đã mua nhiều quần áo",
+  "titlePinyin": "tā mǎi le bù shǎo yīfu",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：昨天上午你去哪儿了？\nB：我去商店买东西了。\nA: 你买什么了？\nB：我买了一点儿苹果。",
+    "pinyin": "Zuótiān shàngwǔ nǐ qù nǎr le?\nWǒ qù shāngdiàn mǎi dōngxī le\nNǐ mǎi shénme le?\nWǒ mǎi le yī diǎnr píngguǒ",
+    "vi": "A: Sáng hôm qua bạn đi đâu rồi?\nB: Tôi đi cửa hàng mua đồ rồi.\nA: Bạn mua gì rồi?\nB: Tôi mua một ít táo."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你看见张先生了吗？\nB：看见了，他去学开车了。\nA: 他什么时候能回来?\nB：40分钟后回来。",
+    "pinyin": "Nǐ kànjiàn zhāng xiānshēng le ma?\nKànjiàn le, tā qù xué kāichē le.\nTā shénme shíhòu néng huílai?\n40 fēnzhōng hòu huílai",
+    "vi": "A: Bạn đã nhìn thấy ông Trương chưa?\nB: Nhìn thấy rồi, ông ấy đi học lái xe rồi.\nA: Khi nào ông ấy có thể quay lại?\nB: 40 phút sau sẽ quay lại."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：王方的衣服太漂亮了！\nB：是啊，她买了不少衣服。\nA: 你买什么了？\nB：我没买，这些都是王方的东西。",
+    "pinyin": "Wáng Fāng de yīfu tài piàoliang le!\nShì a, tā mǎi le bù shǎo yīfu.\nNǐ mǎi shénme le?\nWǒ méi mǎi, zhèxiē dōu shì Wáng Fāng de dōngxi.",
+    "vi": "A: Quần áo của Vương Phương đẹp quá!\nB: Đúng vậy, cô ấy mua khá nhiều quần áo.\nA: Bạn mua gì rồi?\nB: Tôi không mua, những thứ này đều là đồ của Vương Phương."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "“了”表发生或完成",
+    "meaning": "“了” biểu thị hành động xảy ra/hoàn thành",
+    "structure": "主语 + 动词短语 + 了；主语 + 动词 + 了 + 定语 + 宾语；否定：没 + 动词（+ 宾语）",
+    "explain": "了 có thể đứng cuối câu hoặc sau động từ để biểu thị hành động đã xảy ra/hoàn thành. Khi đứng sau động từ, trước tân ngữ thường có thành phần định ngữ. Dạng phủ định dùng 没 và bỏ 了.",
+    "examples": [
+     {
+      "zh": "我去商店了。",
+      "vi": "Tôi đã đi cửa hàng."
+     },
+     {
+      "zh": "她买了一点儿苹果。",
+      "vi": "Cô ấy đã mua một ít táo."
+     },
+     {
+      "zh": "我买了不少衣服。",
+      "vi": "Tôi đã mua khá nhiều quần áo."
+     },
+     {
+      "zh": "我没看见张先生。",
+      "vi": "Tôi không nhìn thấy ông Trương."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "名词“后”",
+    "meaning": "Danh từ “后” chỉ thời gian sau",
+    "structure": "时间 + 后",
+    "explain": "后 dùng để chỉ thời gian sau hiện tại hoặc sau một thời điểm được đề cập.",
+    "examples": [
+     {
+      "zh": "五点后",
+      "vi": "Sau 5 giờ."
+     },
+     {
+      "zh": "40分钟后",
+      "vi": "Sau 40 phút."
+     },
+     {
+      "zh": "星期三后",
+      "vi": "Sau thứ Tư."
+     },
+     {
+      "zh": "40分钟后回来。",
+      "vi": "40 phút sau sẽ quay lại."
+     }
+    ]
+   },
+   {
+    "stt": 3,
+    "hanzi": "语气助词“啊”",
+    "meaning": "Trợ từ ngữ khí “啊”",
+    "structure": "陈述句 + 啊",
+    "explain": "啊 dùng cuối câu trần thuật để tăng sắc thái biểu cảm. Cách phát âm có thể biến đổi theo âm cuối của từ đứng trước.",
+    "examples": [
+     {
+      "zh": "你是王小姐吗？— 是啊。",
+      "vi": "Bạn là cô Vương phải không? — Đúng vậy."
+     },
+     {
+      "zh": "你想去吃中国菜吗？— 好啊。",
+      "vi": "Bạn muốn đi ăn món Trung Quốc không? — Được chứ."
+     },
+     {
+      "zh": "王方的衣服太漂亮了！— 是啊，她买了不少衣服。",
+      "vi": "Quần áo của Vương Phương đẹp quá! — Đúng vậy, cô ấy mua khá nhiều quần áo."
+     }
+    ]
+   },
+   {
+    "stt": 4,
+    "hanzi": "副词“都”",
+    "meaning": "Phó từ “都”",
+    "structure": "复数/列举对象 + 都 + 谓语",
+    "explain": "都 mang nghĩa bao gồm toàn bộ; các đối tượng được bao gồm phải đứng trước 都.",
+    "examples": [
+     {
+      "zh": "我们都是中国人。",
+      "vi": "Chúng tôi đều là người Trung Quốc."
+     },
+     {
+      "zh": "他们都喜欢喝茶。",
+      "vi": "Họ đều thích uống trà."
+     },
+     {
+      "zh": "这些都是王方的东西。",
+      "vi": "Những thứ này đều là đồ của Vương Phương."
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "lesson": 15,
+  "titleZh": "我是坐飞机来的",
+  "titleVi": "Tôi đáp máy bay tới đây",
+  "titlePinyin": "wǒ shì zuò fēijī lái de",
+  "texts": [
+   {
+    "label": "课文一",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你和李小姐是什么时候认识的？\nB：我们是2011年9月认识的。\nA：你们在哪儿认识的？\nB：我们是在学校认识的，她是我大学同学。",
+    "pinyin": "Nǐ hé Lǐ xiǎojiě shì shénme shíhòu rènshi de?\nWǒmen shì 2011 nián 9 yuè rènshi de\nNǐmen zài nǎr rènshi de?\nWǒmen shì zài xuéxiào rènshi de, tā shì wǒ dàxué tóngxué",
+    "vi": "A: Bạn và cô Lý quen nhau khi nào?\nB: Chúng tôi quen nhau vào tháng 9 năm 2011.\nA: Hai người quen nhau ở đâu?\nB: Chúng tôi quen nhau ở trường, cô ấy là bạn học đại học của tôi."
+   },
+   {
+    "label": "课文二",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：你们是怎么来饭店的？\nB：我们是坐出租车来的。\nA：李先生呢？\nB：他是和朋友一起开车来的。",
+    "pinyin": "Nǐmen shì zěnme lái fàndiàn de?\nWǒmen shì zuò chūzū chē lái de\nLǐ xiānshēng ne?\nTā shì hé péngyǒu yīqǐ kāichē lái de",
+    "vi": "A: Các bạn đến nhà hàng bằng cách nào?\nB: Chúng tôi đi taxi đến.\nA: Còn ông Lý?\nB: Ông ấy cùng bạn lái xe đến."
+   },
+   {
+    "label": "课文三",
+    "titleZh": null,
+    "titleVi": null,
+    "titlePinyin": null,
+    "contentZh": "A：很高兴认识您！李小姐。\nB：认识你我很高兴!\nA：听张先生说，您是坐飞机来北京的。\nB：是的。",
+    "pinyin": "Hěn gāoxìng rènshi nín! Lǐ Xiǎojiě\nRènshi nǐ wǒ hěn gāoxìng!\nTīng Zhāng Xiānshēng shuō, nín shì zuò fēijī lái Běijīng de\nShì de",
+    "vi": "A: Rất vui được làm quen với cô, cô Lý!\nB: Làm quen với bạn tôi cũng rất vui!\nA: Nghe ông Trương nói cô đi máy bay đến Bắc Kinh.\nB: Đúng vậy."
+   }
+  ],
+  "grammar": [
+   {
+    "stt": 1,
+    "hanzi": "“是……的”：强调时间、地点、方式",
+    "meaning": "Cấu trúc “是……的” nhấn mạnh thời gian, địa điểm, cách thức",
+    "structure": "主语 + 是 + 时间/地点/方式 + 动词 + 的；否定：主语 + 不是 + … + 动词 + 的",
+    "explain": "Khi sự việc đã xảy ra và đã được biết, 是……的 dùng để nhấn mạnh thời gian, địa điểm hoặc cách thức xảy ra. 是 có thể lược bỏ trong câu khẳng định/câu hỏi nhưng không lược bỏ trong câu phủ định.",
+    "examples": [
+     {
+      "zh": "我是昨天来的。",
+      "vi": "Tôi đến hôm qua."
+     },
+     {
+      "zh": "这是在北京买的。",
+      "vi": "Cái này mua ở Bắc Kinh."
+     },
+     {
+      "zh": "你们是怎么来饭店的？",
+      "vi": "Các bạn đến nhà hàng bằng cách nào?"
+     },
+     {
+      "zh": "我们不是坐出租车来饭店的。",
+      "vi": "Chúng tôi không đi taxi đến nhà hàng."
+     }
+    ]
+   },
+   {
+    "stt": 2,
+    "hanzi": "日期的表达（2）：年、月、日/号、星期",
+    "meaning": "Cách biểu đạt ngày tháng có năm",
+    "structure": "年 → 月 → 日/号 → 星期",
+    "explain": "Ngày tháng được đọc/viết theo thứ tự từ lớn đến nhỏ. Khi đọc năm, đọc từng chữ số rồi thêm 年; tháng/ngày đọc số rồi thêm 月 và 日/号.",
+    "examples": [
+     {
+      "zh": "明天是2014年5月11日。",
+      "vi": "Ngày mai là ngày 11 tháng 5 năm 2014."
+     },
+     {
+      "zh": "今天9月10号，星期三。",
+      "vi": "Hôm nay là ngày 10 tháng 9, thứ Tư."
+     },
+     {
+      "zh": "我们是2011年9月认识的。",
+      "vi": "Chúng tôi quen nhau vào tháng 9 năm 2011."
+     }
+    ]
+   }
+  ]
+ }
+]
