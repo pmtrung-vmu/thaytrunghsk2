@@ -5,6 +5,7 @@ const LEVELS = [
   { id: "1", label: "HSK 1", file: "hsk1.json" },
   { id: "2", label: "HSK 2", file: "hsk2.json" },
   { id: "3", label: "HSK 3", file: "hsk3.json" },
+  { id: "4", label: "HSK 4", file: "hsk4.json", grammar: "grammar4.json" },
 ];
 
 const UNIT_SIZE = 20;
@@ -1134,7 +1135,7 @@ async function renderGrammar(app, id) {
   app.innerHTML = `
     <div class="crumbs"><a href="#/">Trang chủ</a> / <a href="#/level/${id}">${info.label}</a> / Ngữ pháp</div>
     <div class="section-title"><h2>Ngữ pháp ${info.label}</h2></div>
-    <p class="section-sub">${lessons ? `${totalPoints} điểm ngữ pháp · ${lessons.length} bài` : ""}</p>
+    <p class="section-sub">${lessons ? `${totalPoints} điểm ngữ pháp · ${lessons.length} nhóm` : ""}</p>
     <div id="gram-body"></div>
   `;
   const gbody = document.getElementById("gram-body");
@@ -1146,7 +1147,7 @@ async function renderGrammar(app, id) {
 
   gbody.innerHTML = lessons.map(l => `
     <div class="gram-lesson">
-      <h3 class="gram-lesson-title">Bài ${l.lesson}</h3>
+      <h3 class="gram-lesson-title">Nhóm ${l.lesson}</h3>
       <div class="grammar-list">
         ${l.points.map(p => `
           <div class="gram-card">

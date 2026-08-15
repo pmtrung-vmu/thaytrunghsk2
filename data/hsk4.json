@@ -1,0 +1,7968 @@
+[
+  {
+    "lesson": 1,
+    "title_zh": "爱情、不仅、从来…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "爱情",
+        "pinyin": "àiqíng",
+        "hanviet": "ái tình",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tình yêu (giữa nam và nữ)",
+        "example": {
+          "zh": "爱情需要两个人互相理解。",
+          "vi": "Tình yêu cần hai người thấu hiểu lẫn nhau."
+        }
+      },
+      {
+        "hanzi": "不仅",
+        "pinyin": "bùjǐn",
+        "hanviet": "bất cận",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "không những, chẳng những",
+        "example": {
+          "zh": "他不仅会说中文，还会说英文。",
+          "vi": "Anh ấy không chỉ biết nói tiếng Trung mà còn biết nói tiếng Anh."
+        }
+      },
+      {
+        "hanzi": "从来",
+        "pinyin": "cónglái",
+        "hanviet": "tòng lai",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "từ trước đến nay, từ trước đến giờ",
+        "example": {
+          "zh": "我从来没有忘记过这件事。",
+          "vi": "Tôi chưa bao giờ quên chuyện này."
+        }
+      },
+      {
+        "hanzi": "法律",
+        "pinyin": "fǎlǜ",
+        "hanviet": "pháp luật",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "pháp luật, luật",
+        "example": {
+          "zh": "每个人都应该了解一些法律知识。",
+          "vi": "Mỗi người đều nên hiểu biết một số kiến thức pháp luật."
+        }
+      },
+      {
+        "hanzi": "感动",
+        "pinyin": "gǎndòng",
+        "hanviet": "cảm động",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cảm động, làm xúc động",
+        "example": {
+          "zh": "听了他的话，我非常感动。",
+          "vi": "Nghe những lời anh ấy nói, tôi rất cảm động."
+        }
+      },
+      {
+        "hanzi": "刚",
+        "pinyin": "gāng",
+        "hanviet": "cương",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "vừa, vừa mới",
+        "example": {
+          "zh": "我刚下课，现在准备回家。",
+          "vi": "Tôi vừa mới tan học, bây giờ chuẩn bị về nhà."
+        }
+      },
+      {
+        "hanzi": "共同",
+        "pinyin": "gòngtóng",
+        "hanviet": "cộng đồng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "chung, cùng",
+        "example": {
+          "zh": "我们有很多共同的兴趣。",
+          "vi": "Chúng tôi có rất nhiều sở thích chung."
+        }
+      },
+      {
+        "hanzi": "够",
+        "pinyin": "gòu",
+        "hanviet": "cấu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đủ",
+        "example": {
+          "zh": "这些钱已经够买那本书了。",
+          "vi": "Số tiền này đã đủ để mua quyển sách đó rồi."
+        }
+      },
+      {
+        "hanzi": "互相",
+        "pinyin": "hùxiāng",
+        "hanviet": "hỗ tương",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "lẫn nhau, qua lại",
+        "example": {
+          "zh": "朋友之间应该互相帮助。",
+          "vi": "Bạn bè với nhau nên giúp đỡ lẫn nhau."
+        }
+      },
+      {
+        "hanzi": "即使",
+        "pinyin": "jíshǐ",
+        "hanviet": "tức sử",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "cho dù",
+        "example": {
+          "zh": "即使很忙，他也每天运动。",
+          "vi": "Dù rất bận, anh ấy vẫn tập thể dục mỗi ngày."
+        }
+      },
+      {
+        "hanzi": "加班",
+        "pinyin": "jiābān",
+        "hanviet": "gia ban",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tăng ca, làm thêm giờ",
+        "example": {
+          "zh": "今天工作很多，我得加班。",
+          "vi": "Hôm nay công việc nhiều, tôi phải làm thêm giờ."
+        }
+      },
+      {
+        "hanzi": "接受",
+        "pinyin": "jiēshòu",
+        "hanviet": "tiếp thụ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "chấp nhận",
+        "example": {
+          "zh": "我愿意接受你的建议。",
+          "vi": "Tôi sẵn lòng tiếp nhận đề nghị của bạn."
+        }
+      },
+      {
+        "hanzi": "开玩笑",
+        "pinyin": "kāi wánxiào",
+        "hanviet": "khai ngoạn tiếu",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "nói đùa, đùa",
+        "example": {
+          "zh": "别生气，我只是跟你开玩笑。",
+          "vi": "Đừng giận, tôi chỉ đùa với bạn thôi."
+        }
+      },
+      {
+        "hanzi": "浪漫",
+        "pinyin": "làngmàn",
+        "hanviet": "lãng mạn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "lãng mạn",
+        "example": {
+          "zh": "他们在海边过了一个浪漫的晚上。",
+          "vi": "Họ đã có một buổi tối lãng mạn ở bờ biển."
+        }
+      },
+      {
+        "hanzi": "俩",
+        "pinyin": "liǎ",
+        "hanviet": "lưỡng",
+        "pos": [
+          "số lượng từ"
+        ],
+        "meaning_vi": "hai",
+        "example": {
+          "zh": "我们俩已经认识十年了。",
+          "vi": "Hai chúng tôi đã quen biết nhau mười năm rồi."
+        }
+      },
+      {
+        "hanzi": "脾气",
+        "pinyin": "píqi",
+        "hanviet": "tì khí",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tính tình, tính khí",
+        "example": {
+          "zh": "他脾气很好，很少生气。",
+          "vi": "Anh ấy tính tình rất tốt, ít khi nổi giận."
+        }
+      },
+      {
+        "hanzi": "缺点",
+        "pinyin": "quēdiǎn",
+        "hanviet": "khuyết điểm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khuyết điểm, thiếu sót",
+        "example": {
+          "zh": "每个人都有自己的缺点。",
+          "vi": "Mỗi người đều có khuyết điểm của riêng mình."
+        }
+      },
+      {
+        "hanzi": "深",
+        "pinyin": "shēn",
+        "hanviet": "thâm",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "sâu sắc",
+        "example": {
+          "zh": "他们之间的感情很深。",
+          "vi": "Tình cảm giữa họ rất sâu đậm."
+        }
+      },
+      {
+        "hanzi": "生活",
+        "pinyin": "shēnghuó",
+        "hanviet": "sinh hoạt",
+        "pos": [
+          "danh từ/động từ"
+        ],
+        "meaning_vi": "cuộc sống; sống",
+        "example": {
+          "zh": "我很喜欢现在的生活。",
+          "vi": "Tôi rất thích cuộc sống hiện tại."
+        }
+      },
+      {
+        "hanzi": "适合",
+        "pinyin": "shìhé",
+        "hanviet": "thích hợp",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "phù hợp",
+        "example": {
+          "zh": "这份工作很适合你。",
+          "vi": "Công việc này rất phù hợp với bạn."
+        }
+      },
+      {
+        "hanzi": "熟悉",
+        "pinyin": "shúxī",
+        "hanviet": "thục tất",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "hiểu rõ",
+        "example": {
+          "zh": "我对这个城市已经很熟悉了。",
+          "vi": "Tôi đã rất quen thuộc với thành phố này rồi."
+        }
+      },
+      {
+        "hanzi": "吸引",
+        "pinyin": "xīyǐn",
+        "hanviet": "hấp dẫn",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "hấp dẫn, thu hút",
+        "example": {
+          "zh": "这座城市吸引了很多游客。",
+          "vi": "Thành phố này đã thu hút rất nhiều du khách."
+        }
+      },
+      {
+        "hanzi": "羡慕",
+        "pinyin": "xiànmù",
+        "hanviet": "tiện mộ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ước ao, ngưỡng mộ",
+        "example": {
+          "zh": "我很羡慕他能去中国留学。",
+          "vi": "Tôi rất ngưỡng mộ vì anh ấy được đi du học Trung Quốc."
+        }
+      },
+      {
+        "hanzi": "幸福",
+        "pinyin": "xìngfú",
+        "hanviet": "hạnh phúc",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "hạnh phúc",
+        "example": {
+          "zh": "一家人在一起就是幸福。",
+          "vi": "Cả nhà ở bên nhau chính là hạnh phúc."
+        }
+      },
+      {
+        "hanzi": "性格",
+        "pinyin": "xìnggé",
+        "hanviet": "tính cách",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tính cách, tính nết",
+        "example": {
+          "zh": "她性格开朗，很容易交朋友。",
+          "vi": "Cô ấy tính cách cởi mở, rất dễ kết bạn."
+        }
+      },
+      {
+        "hanzi": "印象",
+        "pinyin": "yìnxiàng",
+        "hanviet": "ấn tượng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "ấn tượng",
+        "example": {
+          "zh": "他给我留下了很好的印象。",
+          "vi": "Anh ấy đã để lại cho tôi ấn tượng rất tốt."
+        }
+      },
+      {
+        "hanzi": "幽默",
+        "pinyin": "yōumò",
+        "hanviet": "u mặc",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "hóm hỉnh, khôi hài",
+        "example": {
+          "zh": "王老师很幽默，大家都喜欢他的课。",
+          "vi": "Thầy Vương rất hài hước, mọi người đều thích giờ học của thầy."
+        }
+      },
+      {
+        "hanzi": "原因",
+        "pinyin": "yuányīn",
+        "hanviet": "nguyên nhân",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nguyên nhân",
+        "example": {
+          "zh": "你知道他迟到的原因吗？",
+          "vi": "Bạn có biết nguyên nhân anh ấy đến muộn không?"
+        }
+      },
+      {
+        "hanzi": "自然",
+        "pinyin": "zìrán",
+        "hanviet": "tự nhiên",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "đương nhiên, hiển nhiên",
+        "example": {
+          "zh": "多练习以后，你自然会说得更好。",
+          "vi": "Luyện tập nhiều rồi, tự nhiên bạn sẽ nói tốt hơn."
+        }
+      },
+      {
+        "hanzi": "最好",
+        "pinyin": "zuìhǎo",
+        "hanviet": "tối hảo",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "tốt nhất",
+        "example": {
+          "zh": "你最好早点儿睡，明天还要上课。",
+          "vi": "Tốt nhất bạn nên ngủ sớm một chút, ngày mai còn phải đi học."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "title_zh": "毕业、差不多、重新…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "毕业",
+        "pinyin": "bìyè",
+        "hanviet": "tất nghiệp",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tốt nghiệp",
+        "example": {
+          "zh": "我姐姐明年大学毕业。",
+          "vi": "Năm sau chị gái tôi tốt nghiệp đại học."
+        }
+      },
+      {
+        "hanzi": "差不多",
+        "pinyin": "chàbuduō",
+        "hanviet": "sai bất đa",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "gần như, hầu như",
+        "example": {
+          "zh": "我们学中文差不多两年了。",
+          "vi": "Chúng tôi học tiếng Trung gần được hai năm rồi."
+        }
+      },
+      {
+        "hanzi": "重新",
+        "pinyin": "chóngxīn",
+        "hanviet": "trọng tân",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "lần nữa, lại một lần nữa",
+        "example": {
+          "zh": "这个句子不对，请重新写一遍。",
+          "vi": "Câu này không đúng, hãy viết lại một lần nữa."
+        }
+      },
+      {
+        "hanzi": "当",
+        "pinyin": "dāng",
+        "hanviet": "đương",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "khi",
+        "example": {
+          "zh": "当我遇到困难时，他总会帮助我。",
+          "vi": "Khi tôi gặp khó khăn, anh ấy luôn giúp đỡ tôi."
+        }
+      },
+      {
+        "hanzi": "短信",
+        "pinyin": "duǎnxìn",
+        "hanviet": "đoản tín",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tin nhắn",
+        "example": {
+          "zh": "到家以后给我发个短信吧。",
+          "vi": "Về đến nhà thì nhắn tin cho tôi nhé."
+        }
+      },
+      {
+        "hanzi": "而",
+        "pinyin": "ér",
+        "hanviet": "nhi",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "trong khi đó, mà (chỉ sự tương phản)",
+        "example": {
+          "zh": "哥哥喜欢运动，而弟弟喜欢看书。",
+          "vi": "Anh trai thích thể thao, còn em trai thích đọc sách."
+        }
+      },
+      {
+        "hanzi": "丰富",
+        "pinyin": "fēngfù",
+        "hanviet": "phong phú",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "làm phong phú",
+        "example": {
+          "zh": "旅行可以丰富我们的生活。",
+          "vi": "Du lịch có thể làm phong phú cuộc sống của chúng ta."
+        }
+      },
+      {
+        "hanzi": "逛",
+        "pinyin": "guàng",
+        "hanviet": "cuống",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đi dạo",
+        "example": {
+          "zh": "周末我喜欢和朋友一起逛街。",
+          "vi": "Cuối tuần tôi thích cùng bạn bè đi dạo phố."
+        }
+      },
+      {
+        "hanzi": "好像",
+        "pinyin": "hǎoxiàng",
+        "hanviet": "hảo tượng",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "giống như, dường như",
+        "example": {
+          "zh": "外面好像下雨了。",
+          "vi": "Bên ngoài hình như đang mưa."
+        }
+      },
+      {
+        "hanzi": "及时",
+        "pinyin": "jíshí",
+        "hanviet": "cập thời",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "đúng lúc, kịp thời",
+        "example": {
+          "zh": "有问题要及时告诉老师。",
+          "vi": "Có vấn đề gì phải kịp thời báo cho thầy cô biết."
+        }
+      },
+      {
+        "hanzi": "交",
+        "pinyin": "jiāo",
+        "hanviet": "giao",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "kết giao",
+        "example": {
+          "zh": "来这里以后，我交了很多新朋友。",
+          "vi": "Sau khi đến đây, tôi đã kết được nhiều bạn mới."
+        }
+      },
+      {
+        "hanzi": "交流",
+        "pinyin": "jiāoliú",
+        "hanviet": "giao lưu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giao lưu, trao đổi",
+        "example": {
+          "zh": "我们常用中文交流学习经验。",
+          "vi": "Chúng tôi thường dùng tiếng Trung để trao đổi kinh nghiệm học tập."
+        }
+      },
+      {
+        "hanzi": "尽管",
+        "pinyin": "jǐnguǎn",
+        "hanviet": "tận quản",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "cho dù, mặc dù",
+        "example": {
+          "zh": "尽管很累，他还是坚持学习。",
+          "vi": "Mặc dù rất mệt, anh ấy vẫn kiên trì học tập."
+        }
+      },
+      {
+        "hanzi": "镜子",
+        "pinyin": "jìngzi",
+        "hanviet": "kính tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "gương, gương soi",
+        "example": {
+          "zh": "出门前她照了照镜子。",
+          "vi": "Trước khi ra ngoài, cô ấy soi gương một chút."
+        }
+      },
+      {
+        "hanzi": "聚会",
+        "pinyin": "jùhuì",
+        "hanviet": "tụ hội",
+        "pos": [
+          "động từ/danh từ"
+        ],
+        "meaning_vi": "gặp gỡ; cuộc họp mặt",
+        "example": {
+          "zh": "这个周末我们有一个同学聚会。",
+          "vi": "Cuối tuần này chúng tôi có một buổi họp mặt bạn học."
+        }
+      },
+      {
+        "hanzi": "困难",
+        "pinyin": "kùnnan",
+        "hanviet": "khốn nan",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khó khăn",
+        "example": {
+          "zh": "遇到困难时不要轻易放弃。",
+          "vi": "Khi gặp khó khăn đừng dễ dàng từ bỏ."
+        }
+      },
+      {
+        "hanzi": "理解",
+        "pinyin": "lǐjiě",
+        "hanviet": "lý giải",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "hiểu",
+        "example": {
+          "zh": "谢谢你能理解我的想法。",
+          "vi": "Cảm ơn bạn đã hiểu được suy nghĩ của tôi."
+        }
+      },
+      {
+        "hanzi": "联系",
+        "pinyin": "liánxì",
+        "hanviet": "liên hệ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "liên hệ",
+        "example": {
+          "zh": "毕业以后我们一直保持联系。",
+          "vi": "Sau khi tốt nghiệp, chúng tôi vẫn luôn giữ liên lạc."
+        }
+      },
+      {
+        "hanzi": "麻烦",
+        "pinyin": "máfan",
+        "hanviet": "ma phiền",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "làm phiền",
+        "example": {
+          "zh": "麻烦你帮我开一下门。",
+          "vi": "Phiền bạn giúp tôi mở cửa một chút."
+        }
+      },
+      {
+        "hanzi": "陪",
+        "pinyin": "péi",
+        "hanviet": "bồi",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đi cùng, ở bên cạnh",
+        "example": {
+          "zh": "周末我想陪父母去公园。",
+          "vi": "Cuối tuần tôi muốn đưa bố mẹ đi công viên."
+        }
+      },
+      {
+        "hanzi": "平时",
+        "pinyin": "píngshí",
+        "hanviet": "bình thời",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lúc thường, ngày thường",
+        "example": {
+          "zh": "我平时很少喝咖啡。",
+          "vi": "Bình thường tôi rất ít khi uống cà phê."
+        }
+      },
+      {
+        "hanzi": "却",
+        "pinyin": "què",
+        "hanviet": "khước",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "lại, nhưng mà",
+        "example": {
+          "zh": "他年纪不大，却很有经验。",
+          "vi": "Anh ấy tuổi không lớn nhưng lại rất có kinh nghiệm."
+        }
+      },
+      {
+        "hanzi": "适应",
+        "pinyin": "shìyìng",
+        "hanviet": "thích ứng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thích nghi",
+        "example": {
+          "zh": "我已经适应了这里的生活。",
+          "vi": "Tôi đã thích nghi với cuộc sống ở đây rồi."
+        }
+      },
+      {
+        "hanzi": "讨厌",
+        "pinyin": "tǎoyàn",
+        "hanviet": "thảo yếm",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ghét, không thích",
+        "example": {
+          "zh": "我最讨厌别人说话不算数。",
+          "vi": "Tôi ghét nhất là người khác nói mà không giữ lời."
+        }
+      },
+      {
+        "hanzi": "无聊",
+        "pinyin": "wúliáo",
+        "hanviet": "vô liêu",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "vô vị, nhàm chán",
+        "example": {
+          "zh": "一个人在家有时候很无聊。",
+          "vi": "Một mình ở nhà đôi khi rất buồn chán."
+        }
+      },
+      {
+        "hanzi": "友谊",
+        "pinyin": "yǒuyì",
+        "hanviet": "hữu nghị",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tình bạn",
+        "example": {
+          "zh": "真正的友谊需要互相信任。",
+          "vi": "Tình bạn thực sự cần sự tin tưởng lẫn nhau."
+        }
+      },
+      {
+        "hanzi": "真正",
+        "pinyin": "zhēnzhèng",
+        "hanviet": "chân chính",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "chân chính, thật sự",
+        "example": {
+          "zh": "真正的朋友会在你困难时帮助你。",
+          "vi": "Người bạn thực sự sẽ giúp đỡ bạn khi bạn gặp khó khăn."
+        }
+      },
+      {
+        "hanzi": "正好",
+        "pinyin": "zhènghǎo",
+        "hanviet": "chính hảo",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "đúng lúc, đúng dịp, gặp dịp",
+        "example": {
+          "zh": "你来得正好，我们一起吃饭吧。",
+          "vi": "Bạn đến đúng lúc quá, chúng ta cùng ăn cơm nhé."
+        }
+      },
+      {
+        "hanzi": "周围",
+        "pinyin": "zhōuwéi",
+        "hanviet": "chu vi",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "xung quanh",
+        "example": {
+          "zh": "学校周围有很多小饭馆。",
+          "vi": "Xung quanh trường có rất nhiều quán ăn nhỏ."
+        }
+      },
+      {
+        "hanzi": "专门",
+        "pinyin": "zhuānmén",
+        "hanviet": "chuyên môn",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "đặc biệt, riêng biệt",
+        "example": {
+          "zh": "我今天专门来感谢你的帮助。",
+          "vi": "Hôm nay tôi đến đặc biệt để cảm ơn sự giúp đỡ của bạn."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "title_zh": "安排、本来、不管…",
+    "title_vi": "31 từ vựng",
+    "words": [
+      {
+        "hanzi": "安排",
+        "pinyin": "ānpái",
+        "hanviet": "an bài",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "sắp xếp",
+        "example": {
+          "zh": "老师已经安排好了明天的活动。",
+          "vi": "Giáo viên đã sắp xếp xong hoạt động của ngày mai."
+        }
+      },
+      {
+        "hanzi": "本来",
+        "pinyin": "běnlái",
+        "hanviet": "bản lai",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "lúc đầu, trước đây",
+        "example": {
+          "zh": "我本来想坐地铁，后来改坐公交车了。",
+          "vi": "Ban đầu tôi định đi tàu điện ngầm, nhưng sau đó đổi sang đi xe buýt."
+        }
+      },
+      {
+        "hanzi": "不管",
+        "pinyin": "bùguǎn",
+        "hanviet": "bất quản",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "bất kể, bất luận",
+        "example": {
+          "zh": "不管多忙，我每天都看一会儿书。",
+          "vi": "Dù bận đến đâu, ngày nào tôi cũng đọc sách một lúc."
+        }
+      },
+      {
+        "hanzi": "材料",
+        "pinyin": "cáiliào",
+        "hanviet": "tài liệu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tư liệu, tài liệu",
+        "example": {
+          "zh": "申请工作需要准备这些材料。",
+          "vi": "Xin việc cần chuẩn bị những tài liệu này."
+        }
+      },
+      {
+        "hanzi": "诚实",
+        "pinyin": "chéngshí",
+        "hanviet": "thành thực",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thành thật",
+        "example": {
+          "zh": "他很诚实，从来不说假话。",
+          "vi": "Anh ấy rất thật thà, chưa bao giờ nói dối."
+        }
+      },
+      {
+        "hanzi": "符合",
+        "pinyin": "fúhé",
+        "hanviet": "phù hợp",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "phù hợp",
+        "example": {
+          "zh": "你的条件很符合公司的要求。",
+          "vi": "Điều kiện của bạn rất phù hợp với yêu cầu của công ty."
+        }
+      },
+      {
+        "hanzi": "负责",
+        "pinyin": "fùzé",
+        "hanviet": "phụ trách",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "phụ trách, chịu trách nhiệm",
+        "example": {
+          "zh": "李经理负责这项工作。",
+          "vi": "Giám đốc Lý phụ trách công việc này."
+        }
+      },
+      {
+        "hanzi": "改变",
+        "pinyin": "gǎibiàn",
+        "hanviet": "cải biến",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thay đổi",
+        "example": {
+          "zh": "这次旅行改变了我的想法。",
+          "vi": "Chuyến đi này đã thay đổi suy nghĩ của tôi."
+        }
+      },
+      {
+        "hanzi": "感觉",
+        "pinyin": "gǎnjué",
+        "hanviet": "cảm giác",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cảm giác, cảm nghĩ",
+        "example": {
+          "zh": "我感觉今天比昨天冷。",
+          "vi": "Tôi cảm thấy hôm nay lạnh hơn hôm qua."
+        }
+      },
+      {
+        "hanzi": "顾客",
+        "pinyin": "gùkè",
+        "hanviet": "cố khách",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khách hàng",
+        "example": {
+          "zh": "这家店对顾客的服务很好。",
+          "vi": "Cửa hàng này phục vụ khách hàng rất tốt."
+        }
+      },
+      {
+        "hanzi": "紧张",
+        "pinyin": "jǐnzhāng",
+        "hanviet": "khẩn trương",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "hồi hộp, căng thẳng",
+        "example": {
+          "zh": "第一次面试时我有点儿紧张。",
+          "vi": "Lần phỏng vấn đầu tiên tôi hơi căng thẳng."
+        }
+      },
+      {
+        "hanzi": "另外",
+        "pinyin": "lìngwài",
+        "hanviet": "lánh ngoại",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "ngoài ra",
+        "example": {
+          "zh": "我买了两本书，另外还买了一支笔。",
+          "vi": "Tôi đã mua hai quyển sách, ngoài ra còn mua một cây bút."
+        }
+      },
+      {
+        "hanzi": "留",
+        "pinyin": "liú",
+        "hanviet": "lưu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "để lại",
+        "example": {
+          "zh": "请留下你的电话号码。",
+          "vi": "Xin hãy để lại số điện thoại của bạn."
+        }
+      },
+      {
+        "hanzi": "律师",
+        "pinyin": "lǜshī",
+        "hanviet": "luật sư",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "luật sư",
+        "example": {
+          "zh": "有法律问题可以问律师。",
+          "vi": "Có vấn đề pháp luật thì có thể hỏi luật sư."
+        }
+      },
+      {
+        "hanzi": "能力",
+        "pinyin": "nénglì",
+        "hanviet": "năng lực",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "năng lực, khả năng",
+        "example": {
+          "zh": "他有很强的工作能力。",
+          "vi": "Anh ấy có năng lực làm việc rất tốt."
+        }
+      },
+      {
+        "hanzi": "判断",
+        "pinyin": "pànduàn",
+        "hanviet": "phán đoán",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nhận xét, đánh giá",
+        "example": {
+          "zh": "不要只看外表来判断一个人。",
+          "vi": "Đừng chỉ nhìn vẻ bề ngoài để đánh giá một người."
+        }
+      },
+      {
+        "hanzi": "其次",
+        "pinyin": "qícì",
+        "hanviet": "kỳ thứ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thứ hai, sau đó",
+        "example": {
+          "zh": "首先要有兴趣，其次要坚持。",
+          "vi": "Trước hết phải có hứng thú, thứ hai là phải kiên trì."
+        }
+      },
+      {
+        "hanzi": "收入",
+        "pinyin": "shōurù",
+        "hanviet": "thu nhập",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thu nhập",
+        "example": {
+          "zh": "他的收入比去年高了一些。",
+          "vi": "Thu nhập của anh ấy cao hơn năm ngoái một chút."
+        }
+      },
+      {
+        "hanzi": "首先",
+        "pinyin": "shǒuxiān",
+        "hanviet": "thủ tiên",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trước hết, trước tiên",
+        "example": {
+          "zh": "首先，请大家介绍一下自己。",
+          "vi": "Trước tiên, mời mọi người giới thiệu về bản thân."
+        }
+      },
+      {
+        "hanzi": "提供",
+        "pinyin": "tígōng",
+        "hanviet": "đề cung",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cung cấp",
+        "example": {
+          "zh": "公司为员工提供免费午餐。",
+          "vi": "Công ty cung cấp bữa trưa miễn phí cho nhân viên."
+        }
+      },
+      {
+        "hanzi": "挺",
+        "pinyin": "tǐng",
+        "hanviet": "đĩnh",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "rất",
+        "example": {
+          "zh": "这份工作挺适合你的。",
+          "vi": "Công việc này khá phù hợp với bạn."
+        }
+      },
+      {
+        "hanzi": "通知",
+        "pinyin": "tōngzhī",
+        "hanviet": "thông tri",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "báo tin, thông báo",
+        "example": {
+          "zh": "学校通知我们下周考试。",
+          "vi": "Nhà trường thông báo tuần sau chúng tôi thi."
+        }
+      },
+      {
+        "hanzi": "信心",
+        "pinyin": "xìnxīn",
+        "hanviet": "tín tâm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lòng tin, sự tự tin",
+        "example": {
+          "zh": "老师的话给了我很大信心。",
+          "vi": "Lời của giáo viên đã cho tôi rất nhiều sự tự tin."
+        }
+      },
+      {
+        "hanzi": "应聘",
+        "pinyin": "yìngpìn",
+        "hanviet": "ứng sính",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xin việc",
+        "example": {
+          "zh": "明天我要去一家公司应聘。",
+          "vi": "Ngày mai tôi sẽ đến một công ty để ứng tuyển."
+        }
+      },
+      {
+        "hanzi": "与",
+        "pinyin": "yǔ",
+        "hanviet": "dữ",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "với, và",
+        "example": {
+          "zh": "这件事与你没有关系。",
+          "vi": "Chuyện này không liên quan gì đến bạn."
+        }
+      },
+      {
+        "hanzi": "约会",
+        "pinyin": "yuēhuì",
+        "hanviet": "ước hội",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "hẹn gặp, hẹn hò",
+        "example": {
+          "zh": "他今晚和朋友有个约会。",
+          "vi": "Tối nay anh ấy có hẹn với bạn."
+        }
+      },
+      {
+        "hanzi": "咱们",
+        "pinyin": "zánmen",
+        "hanviet": "ta môn",
+        "pos": [
+          "đại từ"
+        ],
+        "meaning_vi": "chúng ta, chúng mình",
+        "example": {
+          "zh": "咱们下课以后一起去吃饭吧。",
+          "vi": "Sau khi tan học chúng ta cùng đi ăn cơm nhé."
+        }
+      },
+      {
+        "hanzi": "招聘",
+        "pinyin": "zhāopìn",
+        "hanviet": "chiêu sính",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tuyển dụng",
+        "example": {
+          "zh": "这家公司正在招聘中文翻译。",
+          "vi": "Công ty này đang tuyển phiên dịch tiếng Trung."
+        }
+      },
+      {
+        "hanzi": "正式",
+        "pinyin": "zhèngshì",
+        "hanviet": "chính thức",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "chính thức, trang trọng",
+        "example": {
+          "zh": "会议上午九点正式开始。",
+          "vi": "Cuộc họp chính thức bắt đầu lúc chín giờ sáng."
+        }
+      },
+      {
+        "hanzi": "专业",
+        "pinyin": "zhuānyè",
+        "hanviet": "chuyên nghiệp",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chuyên ngành",
+        "example": {
+          "zh": "我的专业是国际经济。",
+          "vi": "Chuyên ngành của tôi là kinh tế quốc tế."
+        }
+      },
+      {
+        "hanzi": "准时",
+        "pinyin": "zhǔnshí",
+        "hanviet": "chuẩn thời",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đúng giờ",
+        "example": {
+          "zh": "请大家明天八点准时到。",
+          "vi": "Mời mọi người ngày mai đến đúng giờ lúc tám giờ."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "title_zh": "按时、按照、保证…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "按时",
+        "pinyin": "ànshí",
+        "hanviet": "án thời",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "đúng hạn",
+        "example": {
+          "zh": "请按时完成老师布置的作业。",
+          "vi": "Hãy hoàn thành đúng hạn bài tập mà giáo viên giao."
+        }
+      },
+      {
+        "hanzi": "按照",
+        "pinyin": "ànzhào",
+        "hanviet": "án chiếu",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "theo",
+        "example": {
+          "zh": "请按照这个方法再做一遍。",
+          "vi": "Hãy làm lại một lần nữa theo phương pháp này."
+        }
+      },
+      {
+        "hanzi": "保证",
+        "pinyin": "bǎozhèng",
+        "hanviet": "bảo chứng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cam đoan, bảo đảm",
+        "example": {
+          "zh": "我保证以后不会再迟到了。",
+          "vi": "Tôi bảo đảm sau này sẽ không đến muộn nữa."
+        }
+      },
+      {
+        "hanzi": "不得不",
+        "pinyin": "bùdébù",
+        "hanviet": "bất đắc bất",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "phải, không thể không",
+        "example": {
+          "zh": "雨太大了，我们不得不取消比赛。",
+          "vi": "Mưa quá to, chúng tôi buộc phải hủy trận đấu."
+        }
+      },
+      {
+        "hanzi": "成功",
+        "pinyin": "chénggōng",
+        "hanviet": "thành công",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thành công",
+        "example": {
+          "zh": "经过努力，他终于成功了。",
+          "vi": "Sau khi nỗ lực, cuối cùng anh ấy đã thành công."
+        }
+      },
+      {
+        "hanzi": "调查",
+        "pinyin": "diàochá",
+        "hanviet": "điều tra",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "điều tra, khảo sát",
+        "example": {
+          "zh": "我们正在调查学生的阅读习惯。",
+          "vi": "Chúng tôi đang điều tra thói quen đọc sách của học sinh."
+        }
+      },
+      {
+        "hanzi": "方法",
+        "pinyin": "fāngfǎ",
+        "hanviet": "phương pháp",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phương pháp, cách thức",
+        "example": {
+          "zh": "这个学习方法对我很有效。",
+          "vi": "Phương pháp học này rất hiệu quả đối với tôi."
+        }
+      },
+      {
+        "hanzi": "份",
+        "pinyin": "fèn",
+        "hanviet": "phận",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "tờ, bản",
+        "example": {
+          "zh": "请给我一份今天的报纸。",
+          "vi": "Cho tôi xin một tờ báo hôm nay."
+        }
+      },
+      {
+        "hanzi": "感谢",
+        "pinyin": "gǎnxiè",
+        "hanviet": "cảm tạ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cảm ơn",
+        "example": {
+          "zh": "非常感谢你对我的帮助。",
+          "vi": "Rất cảm ơn sự giúp đỡ của bạn dành cho tôi."
+        }
+      },
+      {
+        "hanzi": "工资",
+        "pinyin": "gōngzī",
+        "hanviet": "công tư",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiền lương",
+        "example": {
+          "zh": "这份工作的工资还不错。",
+          "vi": "Lương của công việc này khá ổn."
+        }
+      },
+      {
+        "hanzi": "积累",
+        "pinyin": "jīlěi",
+        "hanviet": "tích lũy",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tích lũy",
+        "example": {
+          "zh": "学习语言需要慢慢积累词汇。",
+          "vi": "Học ngoại ngữ cần tích lũy từ vựng dần dần."
+        }
+      },
+      {
+        "hanzi": "计划",
+        "pinyin": "jìhuà",
+        "hanviet": "kế hoạch",
+        "pos": [
+          "danh từ/động từ"
+        ],
+        "meaning_vi": "kế hoạch; vạch kế hoạch",
+        "example": {
+          "zh": "我计划明年去中国旅行。",
+          "vi": "Tôi dự định năm sau đi du lịch Trung Quốc."
+        }
+      },
+      {
+        "hanzi": "奖金",
+        "pinyin": "jiǎngjīn",
+        "hanviet": "tưởng kim",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiền thưởng",
+        "example": {
+          "zh": "他工作得很好，得到了奖金。",
+          "vi": "Anh ấy làm việc rất tốt nên được nhận tiền thưởng."
+        }
+      },
+      {
+        "hanzi": "经验",
+        "pinyin": "jīngyàn",
+        "hanviet": "kinh nghiệm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kinh nghiệm",
+        "example": {
+          "zh": "她有五年的教学经验。",
+          "vi": "Cô ấy có năm năm kinh nghiệm giảng dạy."
+        }
+      },
+      {
+        "hanzi": "乱",
+        "pinyin": "luàn",
+        "hanviet": "loạn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "lộn xộn, lúng túng",
+        "example": {
+          "zh": "房间太乱了，我们收拾一下吧。",
+          "vi": "Phòng bừa bộn quá, chúng ta dọn dẹp một chút đi."
+        }
+      },
+      {
+        "hanzi": "甚至",
+        "pinyin": "shènzhì",
+        "hanviet": "thậm chí",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "thậm chí",
+        "example": {
+          "zh": "他忙得甚至没有时间吃午饭。",
+          "vi": "Anh ấy bận đến mức thậm chí không có thời gian ăn trưa."
+        }
+      },
+      {
+        "hanzi": "生意",
+        "pinyin": "shēngyi",
+        "hanviet": "sinh ý",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "việc kinh doanh/buôn bán",
+        "example": {
+          "zh": "最近这家店的生意很好。",
+          "vi": "Dạo này cửa hàng này buôn bán rất tốt."
+        }
+      },
+      {
+        "hanzi": "顺利",
+        "pinyin": "shùnlì",
+        "hanviet": "thuận lợi",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thuận lợi, suôn sẻ",
+        "example": {
+          "zh": "希望你明天的考试一切顺利。",
+          "vi": "Hy vọng kỳ thi của bạn ngày mai mọi việc đều thuận lợi."
+        }
+      },
+      {
+        "hanzi": "谈",
+        "pinyin": "tán",
+        "hanviet": "đàm",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nói chuyện, thảo luận",
+        "example": {
+          "zh": "我们找个时间谈谈这个问题吧。",
+          "vi": "Chúng ta tìm thời gian bàn về vấn đề này đi."
+        }
+      },
+      {
+        "hanzi": "提",
+        "pinyin": "tí",
+        "hanviet": "đề",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nhắc đến",
+        "example": {
+          "zh": "开会时他提了一个很好的建议。",
+          "vi": "Khi họp, anh ấy đã đưa ra một đề nghị rất hay."
+        }
+      },
+      {
+        "hanzi": "提前",
+        "pinyin": "tíqián",
+        "hanviet": "đề tiền",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "làm việc gì đó sớm hơn quy định/trước thời hạn",
+        "example": {
+          "zh": "我们提前半小时到了机场。",
+          "vi": "Chúng tôi đến sân bay sớm nửa tiếng."
+        }
+      },
+      {
+        "hanzi": "提醒",
+        "pinyin": "tíxǐng",
+        "hanviet": "đề tỉnh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nhắc nhở",
+        "example": {
+          "zh": "谢谢你提醒我明天要早起。",
+          "vi": "Cảm ơn bạn đã nhắc tôi ngày mai phải dậy sớm."
+        }
+      },
+      {
+        "hanzi": "完全",
+        "pinyin": "wánquán",
+        "hanviet": "hoàn toàn",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "hoàn toàn",
+        "example": {
+          "zh": "我完全同意你的看法。",
+          "vi": "Tôi hoàn toàn đồng ý với quan điểm của bạn."
+        }
+      },
+      {
+        "hanzi": "消息",
+        "pinyin": "xiāoxi",
+        "hanviet": "tiêu tức",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tin tức",
+        "example": {
+          "zh": "我刚听到一个好消息。",
+          "vi": "Tôi vừa nghe được một tin tốt."
+        }
+      },
+      {
+        "hanzi": "一切",
+        "pinyin": "yíqiè",
+        "hanviet": "nhất thiết",
+        "pos": [
+          "đại từ"
+        ],
+        "meaning_vi": "tất cả",
+        "example": {
+          "zh": "到了新学校以后，一切都很顺利。",
+          "vi": "Sau khi đến trường mới, mọi việc đều rất thuận lợi."
+        }
+      },
+      {
+        "hanzi": "以为",
+        "pinyin": "yǐwéi",
+        "hanviet": "dĩ vi",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cho rằng, tưởng là",
+        "example": {
+          "zh": "我以为今天是星期五。",
+          "vi": "Tôi tưởng hôm nay là thứ Sáu."
+        }
+      },
+      {
+        "hanzi": "原来",
+        "pinyin": "yuánlái",
+        "hanviet": "nguyên lai",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "ban đầu",
+        "example": {
+          "zh": "原来你也喜欢打网球。",
+          "vi": "Thì ra bạn cũng thích chơi quần vợt."
+        }
+      },
+      {
+        "hanzi": "责任",
+        "pinyin": "zérèn",
+        "hanviet": "trách nhiệm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trách nhiệm",
+        "example": {
+          "zh": "照顾孩子是父母的责任。",
+          "vi": "Chăm sóc con cái là trách nhiệm của cha mẹ."
+        }
+      },
+      {
+        "hanzi": "知识",
+        "pinyin": "zhīshi",
+        "hanviet": "tri thức",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kiến thức",
+        "example": {
+          "zh": "读书可以让我们学到很多知识。",
+          "vi": "Đọc sách có thể giúp chúng ta học được nhiều kiến thức."
+        }
+      },
+      {
+        "hanzi": "赚",
+        "pinyin": "zhuàn",
+        "hanviet": "trám",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "kiếm (tiền)",
+        "example": {
+          "zh": "他想找一份工作多赚一点儿钱。",
+          "vi": "Anh ấy muốn tìm một công việc để kiếm thêm chút tiền."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "title_zh": "标准、打折、购物…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "标准",
+        "pinyin": "biāozhǔn",
+        "hanviet": "tiêu chuẩn",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiêu chuẩn, chuẩn mực",
+        "example": {
+          "zh": "这个产品符合国家标准。",
+          "vi": "Sản phẩm này đáp ứng tiêu chuẩn quốc gia."
+        }
+      },
+      {
+        "hanzi": "打折",
+        "pinyin": "dǎzhé",
+        "hanviet": "đả chiết",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giảm giá",
+        "example": {
+          "zh": "这家商店今天打折，很多人来买东西。",
+          "vi": "Hôm nay cửa hàng này giảm giá, có rất nhiều người đến mua đồ."
+        }
+      },
+      {
+        "hanzi": "购物",
+        "pinyin": "gòuwù",
+        "hanviet": "cấu vật",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "mua sắm, mua hàng",
+        "example": {
+          "zh": "现在很多人喜欢在网上购物。",
+          "vi": "Hiện nay rất nhiều người thích mua sắm trên mạng."
+        }
+      },
+      {
+        "hanzi": "光",
+        "pinyin": "guāng",
+        "hanviet": "quang",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "chỉ",
+        "example": {
+          "zh": "光说不做是没有用的。",
+          "vi": "Chỉ nói mà không làm thì chẳng có ích gì."
+        }
+      },
+      {
+        "hanzi": "广告",
+        "pinyin": "guǎnggào",
+        "hanviet": "quảng cáo",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quảng cáo",
+        "example": {
+          "zh": "我在地铁里看到了这个广告。",
+          "vi": "Tôi đã nhìn thấy quảng cáo này ở trong tàu điện ngầm."
+        }
+      },
+      {
+        "hanzi": "寄",
+        "pinyin": "jì",
+        "hanviet": "ký",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "gửi",
+        "example": {
+          "zh": "我昨天给朋友寄了一份礼物。",
+          "vi": "Hôm qua tôi đã gửi một món quà cho bạn."
+        }
+      },
+      {
+        "hanzi": "家具",
+        "pinyin": "jiājù",
+        "hanviet": "gia cụ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "đồ dùng trong nhà",
+        "example": {
+          "zh": "新房子还需要买一些家具。",
+          "vi": "Nhà mới vẫn cần mua thêm một ít đồ nội thất."
+        }
+      },
+      {
+        "hanzi": "价格",
+        "pinyin": "jiàgé",
+        "hanviet": "giá cách",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "giá cả",
+        "example": {
+          "zh": "这家店的价格比较便宜。",
+          "vi": "Giá cả ở cửa hàng này khá rẻ."
+        }
+      },
+      {
+        "hanzi": "考虑",
+        "pinyin": "kǎolǜ",
+        "hanviet": "khảo lự",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "suy xét, cân nhắc",
+        "example": {
+          "zh": "这件事让我再考虑一下。",
+          "vi": "Việc này để tôi suy nghĩ thêm một chút."
+        }
+      },
+      {
+        "hanzi": "肯定",
+        "pinyin": "kěndìng",
+        "hanviet": "khẳng định",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "chắc chắn, nhất định",
+        "example": {
+          "zh": "他这么努力，肯定能通过考试。",
+          "vi": "Anh ấy nỗ lực như vậy, chắc chắn có thể vượt qua kỳ thi."
+        }
+      },
+      {
+        "hanzi": "浪费",
+        "pinyin": "làngfèi",
+        "hanviet": "lãng phí",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "lãng phí, hoang phí",
+        "example": {
+          "zh": "不要把时间浪费在没用的事情上。",
+          "vi": "Đừng lãng phí thời gian vào những việc vô ích."
+        }
+      },
+      {
+        "hanzi": "流行",
+        "pinyin": "liúxíng",
+        "hanviet": "lưu hành",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "được nhiều người ưa chuộng",
+        "example": {
+          "zh": "这种颜色今年很流行。",
+          "vi": "Màu này năm nay rất thịnh hành."
+        }
+      },
+      {
+        "hanzi": "年龄",
+        "pinyin": "niánlíng",
+        "hanviet": "niên linh",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tuổi",
+        "example": {
+          "zh": "年龄不是学习语言的问题。",
+          "vi": "Tuổi tác không phải là vấn đề đối với việc học ngôn ngữ."
+        }
+      },
+      {
+        "hanzi": "葡萄",
+        "pinyin": "pútao",
+        "hanviet": "bồ đào",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quả nho",
+        "example": {
+          "zh": "这些葡萄又甜又新鲜。",
+          "vi": "Những quả nho này vừa ngọt vừa tươi."
+        }
+      },
+      {
+        "hanzi": "任何",
+        "pinyin": "rènhé",
+        "hanviet": "nhậm hà",
+        "pos": [
+          "đại từ"
+        ],
+        "meaning_vi": "bất cứ, bất kỳ",
+        "example": {
+          "zh": "有任何问题都可以问我。",
+          "vi": "Có bất kỳ vấn đề gì đều có thể hỏi tôi."
+        }
+      },
+      {
+        "hanzi": "沙发",
+        "pinyin": "shāfā",
+        "hanviet": "sa phát",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "ghế sôpha",
+        "example": {
+          "zh": "我累了，想在沙发上坐一会儿。",
+          "vi": "Tôi mệt rồi, muốn ngồi trên ghế sofa một lát."
+        }
+      },
+      {
+        "hanzi": "实际",
+        "pinyin": "shíjì",
+        "hanviet": "thực tế",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thực tế",
+        "example": {
+          "zh": "实际情况和我们想的不太一样。",
+          "vi": "Tình hình thực tế không giống như chúng ta nghĩ."
+        }
+      },
+      {
+        "hanzi": "实在",
+        "pinyin": "shízài",
+        "hanviet": "thực tại",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "kỳ thực, quả thực",
+        "example": {
+          "zh": "这道题实在太难了。",
+          "vi": "Bài này thực sự quá khó."
+        }
+      },
+      {
+        "hanzi": "受到",
+        "pinyin": "shòudào",
+        "hanviet": "thụ đáo",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nhận được",
+        "example": {
+          "zh": "这部电影受到了年轻人的欢迎。",
+          "vi": "Bộ phim này được giới trẻ yêu thích."
+        }
+      },
+      {
+        "hanzi": "顺便",
+        "pinyin": "shùnbiàn",
+        "hanviet": "thuận tiện",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "nhân tiện",
+        "example": {
+          "zh": "你去超市时顺便帮我买瓶水吧。",
+          "vi": "Khi bạn đi siêu thị thì tiện thể mua giúp tôi một chai nước nhé."
+        }
+      },
+      {
+        "hanzi": "台",
+        "pinyin": "tái",
+        "hanviet": "đài",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "cái, chiếc (máy móc)",
+        "example": {
+          "zh": "办公室新买了两台电脑。",
+          "vi": "Văn phòng vừa mua thêm hai chiếc máy tính."
+        }
+      },
+      {
+        "hanzi": "味道",
+        "pinyin": "wèidào",
+        "hanviet": "vị đạo",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mùi vị",
+        "example": {
+          "zh": "这个菜的味道有点儿辣。",
+          "vi": "Món ăn này có vị hơi cay."
+        }
+      },
+      {
+        "hanzi": "现金",
+        "pinyin": "xiànjīn",
+        "hanviet": "hiện kim",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiền mặt",
+        "example": {
+          "zh": "我没带现金，可以刷卡吗？",
+          "vi": "Tôi không mang tiền mặt, có thể quẹt thẻ không?"
+        }
+      },
+      {
+        "hanzi": "效果",
+        "pinyin": "xiàoguǒ",
+        "hanviet": "hiệu quả",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "hiệu quả",
+        "example": {
+          "zh": "这个办法的效果很好。",
+          "vi": "Cách này có hiệu quả rất tốt."
+        }
+      },
+      {
+        "hanzi": "样子",
+        "pinyin": "yàngzi",
+        "hanviet": "dạng tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kiểu dáng",
+        "example": {
+          "zh": "你戴这顶帽子的样子很好看。",
+          "vi": "Bạn đội chiếc mũ này trông rất đẹp."
+        }
+      },
+      {
+        "hanzi": "邀请",
+        "pinyin": "yāoqǐng",
+        "hanviet": "yêu thỉnh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "mời",
+        "example": {
+          "zh": "他邀请我参加他的生日聚会。",
+          "vi": "Anh ấy mời tôi tham dự bữa tiệc sinh nhật của anh ấy."
+        }
+      },
+      {
+        "hanzi": "艺术",
+        "pinyin": "yìshù",
+        "hanviet": "nghệ thuật",
+        "pos": [
+          "danh từ/tính từ"
+        ],
+        "meaning_vi": "nghệ thuật; có tính nghệ thuật",
+        "example": {
+          "zh": "她从小就对艺术很感兴趣。",
+          "vi": "Cô ấy từ nhỏ đã rất hứng thú với nghệ thuật."
+        }
+      },
+      {
+        "hanzi": "优点",
+        "pinyin": "yōudiǎn",
+        "hanviet": "ưu điểm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "ưu điểm",
+        "example": {
+          "zh": "这个手机最大的优点是轻。",
+          "vi": "Ưu điểm lớn nhất của chiếc điện thoại này là nhẹ."
+        }
+      },
+      {
+        "hanzi": "尤其",
+        "pinyin": "yóuqí",
+        "hanviet": "vưu kỳ",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "đặc biệt là, nhất là",
+        "example": {
+          "zh": "我喜欢水果，尤其喜欢葡萄。",
+          "vi": "Tôi thích trái cây, đặc biệt thích nho."
+        }
+      },
+      {
+        "hanzi": "质量",
+        "pinyin": "zhìliàng",
+        "hanviet": "chất lượng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chất lượng",
+        "example": {
+          "zh": "这件衣服的质量很不错。",
+          "vi": "Chất lượng của chiếc áo này khá tốt."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "title_zh": "百分之、倍、尝…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "百分之",
+        "pinyin": "bǎi fēn zhī",
+        "hanviet": "bách phân chi",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "phần trăm",
+        "example": {
+          "zh": "我们班百分之八十的学生会游泳。",
+          "vi": "Tám mươi phần trăm học sinh trong lớp chúng tôi biết bơi."
+        }
+      },
+      {
+        "hanzi": "倍",
+        "pinyin": "bèi",
+        "hanviet": "bội",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "lần",
+        "example": {
+          "zh": "今年的收入是去年的两倍。",
+          "vi": "Thu nhập năm nay gấp hai lần năm ngoái."
+        }
+      },
+      {
+        "hanzi": "尝",
+        "pinyin": "cháng",
+        "hanviet": "thường",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thưởng thức, nếm",
+        "example": {
+          "zh": "你尝一下这个菜，味道不错。",
+          "vi": "Bạn nếm thử món này xem, vị khá ngon."
+        }
+      },
+      {
+        "hanzi": "打扰",
+        "pinyin": "dǎrǎo",
+        "hanviet": "đả nhiễu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "quấy rầy, làm phiền",
+        "example": {
+          "zh": "不好意思，打扰你休息了。",
+          "vi": "Xin lỗi, đã làm phiền bạn nghỉ ngơi."
+        }
+      },
+      {
+        "hanzi": "方面",
+        "pinyin": "fāngmiàn",
+        "hanviet": "phương diện",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khía cạnh, phương diện",
+        "example": {
+          "zh": "他在语言方面很有天分。",
+          "vi": "Anh ấy rất có năng khiếu về mặt ngôn ngữ."
+        }
+      },
+      {
+        "hanzi": "各",
+        "pinyin": "gè",
+        "hanviet": "các",
+        "pos": [
+          "đại từ"
+        ],
+        "meaning_vi": "các, mọi",
+        "example": {
+          "zh": "各位同学，请注意听。",
+          "vi": "Các bạn học sinh, xin chú ý lắng nghe."
+        }
+      },
+      {
+        "hanzi": "果汁",
+        "pinyin": "guǒzhī",
+        "hanviet": "quả trấp",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nước trái cây",
+        "example": {
+          "zh": "我想喝一杯新鲜果汁。",
+          "vi": "Tôi muốn uống một cốc nước ép trái cây tươi."
+        }
+      },
+      {
+        "hanzi": "好处",
+        "pinyin": "hǎochù",
+        "hanviet": "hảo xứ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lợi ích, điều tốt",
+        "example": {
+          "zh": "每天运动对身体有很多好处。",
+          "vi": "Vận động mỗi ngày có rất nhiều lợi ích cho sức khỏe."
+        }
+      },
+      {
+        "hanzi": "活动",
+        "pinyin": "huódòng",
+        "hanviet": "hoạt động",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "hoạt động",
+        "example": {
+          "zh": "学校周末有很多文化活动。",
+          "vi": "Cuối tuần trường có rất nhiều hoạt động văn hóa."
+        }
+      },
+      {
+        "hanzi": "获得",
+        "pinyin": "huòdé",
+        "hanviet": "hoạch đắc",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "được, lấy được",
+        "example": {
+          "zh": "她获得了这次比赛的第一名。",
+          "vi": "Cô ấy đã giành được giải nhất trong cuộc thi lần này."
+        }
+      },
+      {
+        "hanzi": "降低",
+        "pinyin": "jiàngdī",
+        "hanviet": "giáng đê",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giảm, hạ",
+        "example": {
+          "zh": "运动可以帮助我们降低压力。",
+          "vi": "Vận động có thể giúp chúng ta giảm bớt căng thẳng."
+        }
+      },
+      {
+        "hanzi": "竟然",
+        "pinyin": "jìngrán",
+        "hanviet": "cánh nhiên",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "không ngờ, mà, vậy mà",
+        "example": {
+          "zh": "他竟然忘了今天要考试。",
+          "vi": "Anh ấy lại quên mất hôm nay có kỳ thi."
+        }
+      },
+      {
+        "hanzi": "举办",
+        "pinyin": "jǔbàn",
+        "hanviet": "cử biện",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tổ chức, tiến hành",
+        "example": {
+          "zh": "学校准备举办一次中文比赛。",
+          "vi": "Trường chuẩn bị tổ chức một cuộc thi tiếng Trung."
+        }
+      },
+      {
+        "hanzi": "举行",
+        "pinyin": "jǔxíng",
+        "hanviet": "cử hành",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tổ chức (hội họp, thi đấu...)",
+        "example": {
+          "zh": "会议将在下周一举行。",
+          "vi": "Cuộc họp sẽ được tổ chức vào thứ Hai tuần sau."
+        }
+      },
+      {
+        "hanzi": "例如",
+        "pinyin": "lìrú",
+        "hanviet": "lệ như",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "lấy ví dụ",
+        "example": {
+          "zh": "我喜欢很多水果，例如苹果和葡萄。",
+          "vi": "Tôi thích nhiều loại trái cây, ví dụ như táo và nho."
+        }
+      },
+      {
+        "hanzi": "满",
+        "pinyin": "mǎn",
+        "hanviet": "mãn",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đầy, đủ, tròn",
+        "example": {
+          "zh": "这辆车已经坐满人了。",
+          "vi": "Chiếc xe này đã chật kín người rồi."
+        }
+      },
+      {
+        "hanzi": "免费",
+        "pinyin": "miǎnfèi",
+        "hanviet": "miễn phí",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "miễn phí",
+        "example": {
+          "zh": "这里的茶和水都是免费的。",
+          "vi": "Trà và nước ở đây đều miễn phí."
+        }
+      },
+      {
+        "hanzi": "内",
+        "pinyin": "nèi",
+        "hanviet": "nội",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "(bên) trong",
+        "example": {
+          "zh": "请在一周内完成这项工作。",
+          "vi": "Xin hãy hoàn thành công việc này trong vòng một tuần."
+        }
+      },
+      {
+        "hanzi": "皮肤",
+        "pinyin": "pífū",
+        "hanviet": "bì phu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "da",
+        "example": {
+          "zh": "多喝水对皮肤有好处。",
+          "vi": "Uống nhiều nước có lợi cho da."
+        }
+      },
+      {
+        "hanzi": "其中",
+        "pinyin": "qízhōng",
+        "hanviet": "kỳ trung",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trong đó",
+        "example": {
+          "zh": "我买了三本书，其中一本是中文书。",
+          "vi": "Tôi đã mua ba quyển sách, trong đó có một quyển là sách tiếng Trung."
+        }
+      },
+      {
+        "hanzi": "轻",
+        "pinyin": "qīng",
+        "hanviet": "khinh",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nhẹ",
+        "example": {
+          "zh": "这个包很轻，带着很方便。",
+          "vi": "Chiếc túi này rất nhẹ, mang theo rất tiện."
+        }
+      },
+      {
+        "hanzi": "情况",
+        "pinyin": "qíngkuàng",
+        "hanviet": "tình huống",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tình hình, tình huống",
+        "example": {
+          "zh": "老师了解了我的情况以后帮助了我。",
+          "vi": "Sau khi hiểu rõ tình hình của tôi, thầy/cô giáo đã giúp đỡ tôi."
+        }
+      },
+      {
+        "hanzi": "售货员",
+        "pinyin": "shòuhuòyuán",
+        "hanviet": "thụ hóa viên",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhân viên bán hàng",
+        "example": {
+          "zh": "售货员很耐心地给我介绍产品。",
+          "vi": "Nhân viên bán hàng rất kiên nhẫn giới thiệu sản phẩm cho tôi."
+        }
+      },
+      {
+        "hanzi": "所有",
+        "pinyin": "suǒyǒu",
+        "hanviet": "sở hữu",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "tất cả, toàn bộ",
+        "example": {
+          "zh": "所有学生都要参加这次考试。",
+          "vi": "Tất cả học sinh đều phải tham gia kỳ thi lần này."
+        }
+      },
+      {
+        "hanzi": "袜子",
+        "pinyin": "wàzi",
+        "hanviet": "miệt tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tất, vớ",
+        "example": {
+          "zh": "天冷了，我买了几双厚袜子。",
+          "vi": "Trời lạnh rồi, tôi đã mua mấy đôi tất dày."
+        }
+      },
+      {
+        "hanzi": "西红柿",
+        "pinyin": "xīhóngshì",
+        "hanviet": "tây hồng thị",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cà chua",
+        "example": {
+          "zh": "我喜欢吃西红柿炒鸡蛋。",
+          "vi": "Tôi thích ăn món cà chua xào trứng."
+        }
+      },
+      {
+        "hanzi": "小说",
+        "pinyin": "xiǎoshuō",
+        "hanviet": "tiểu thuyết",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiểu thuyết",
+        "example": {
+          "zh": "这本小说我已经看了两遍。",
+          "vi": "Cuốn tiểu thuyết này tôi đã đọc hai lần rồi."
+        }
+      },
+      {
+        "hanzi": "修理",
+        "pinyin": "xiūlǐ",
+        "hanviet": "tu lý",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "sửa chữa",
+        "example": {
+          "zh": "我的电脑坏了，需要修理。",
+          "vi": "Máy tính của tôi bị hỏng, cần phải sửa chữa."
+        }
+      },
+      {
+        "hanzi": "支持",
+        "pinyin": "zhīchí",
+        "hanviet": "chi trì",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ủng hộ",
+        "example": {
+          "zh": "谢谢家人一直支持我的决定。",
+          "vi": "Cảm ơn gia đình đã luôn ủng hộ quyết định của tôi."
+        }
+      },
+      {
+        "hanzi": "值得",
+        "pinyin": "zhíde",
+        "hanviet": "trị đắc",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đáng",
+        "example": {
+          "zh": "这部电影很值得看。",
+          "vi": "Bộ phim này rất đáng xem."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "title_zh": "擦、超过、抽烟…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "擦",
+        "pinyin": "cā",
+        "hanviet": "sát",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "lau, chùi",
+        "example": {
+          "zh": "请把桌子擦干净。",
+          "vi": "Hãy lau bàn cho sạch."
+        }
+      },
+      {
+        "hanzi": "超过",
+        "pinyin": "chāoguò",
+        "hanviet": "siêu quá",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "vượt quá",
+        "example": {
+          "zh": "今天的温度超过三十五度了。",
+          "vi": "Nhiệt độ hôm nay đã vượt quá 35 độ."
+        }
+      },
+      {
+        "hanzi": "抽烟",
+        "pinyin": "chōuyān",
+        "hanviet": "trừu yên",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "hút thuốc",
+        "example": {
+          "zh": "医生建议他不要再抽烟。",
+          "vi": "Bác sĩ khuyên anh ấy đừng hút thuốc nữa."
+        }
+      },
+      {
+        "hanzi": "出现",
+        "pinyin": "chūxiàn",
+        "hanviet": "xuất hiện",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xuất hiện, nảy sinh",
+        "example": {
+          "zh": "电脑又出现了同样的问题。",
+          "vi": "Máy tính lại xuất hiện vấn đề tương tự."
+        }
+      },
+      {
+        "hanzi": "窗户",
+        "pinyin": "chuānghu",
+        "hanviet": "song hộ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cửa sổ",
+        "example": {
+          "zh": "天气很好，把窗户打开吧。",
+          "vi": "Thời tiết đẹp quá, mở cửa sổ ra đi."
+        }
+      },
+      {
+        "hanzi": "大夫",
+        "pinyin": "dàifu",
+        "hanviet": "đại phu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bác sĩ",
+        "example": {
+          "zh": "大夫说我需要多休息。",
+          "vi": "Bác sĩ nói tôi cần nghỉ ngơi nhiều hơn."
+        }
+      },
+      {
+        "hanzi": "掉",
+        "pinyin": "diào",
+        "hanviet": "điệu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "mất, đi, hết (dùng sau động từ chỉ kết quả)",
+        "example": {
+          "zh": "我的手机从桌子上掉下来了。",
+          "vi": "Điện thoại của tôi rơi từ trên bàn xuống."
+        }
+      },
+      {
+        "hanzi": "动作",
+        "pinyin": "dòngzuò",
+        "hanviet": "động tác",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "động tác, hành động",
+        "example": {
+          "zh": "这个动作看起来很简单。",
+          "vi": "Động tác này trông có vẻ rất đơn giản."
+        }
+      },
+      {
+        "hanzi": "肚子",
+        "pinyin": "dùzi",
+        "hanviet": "đỗ tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bụng",
+        "example": {
+          "zh": "我早上没吃饭，现在肚子很饿。",
+          "vi": "Sáng nay tôi chưa ăn cơm, bây giờ bụng rất đói."
+        }
+      },
+      {
+        "hanzi": "烦恼",
+        "pinyin": "fánnǎo",
+        "hanviet": "phiền não",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "phiền muộn, buồn phiền",
+        "example": {
+          "zh": "别为小事烦恼，开心一点儿。",
+          "vi": "Đừng phiền muộn vì chuyện nhỏ, vui vẻ lên một chút."
+        }
+      },
+      {
+        "hanzi": "反对",
+        "pinyin": "fǎnduì",
+        "hanviet": "phản đối",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "phản đối",
+        "example": {
+          "zh": "父母不反对我去国外学习。",
+          "vi": "Bố mẹ không phản đối tôi đi du học nước ngoài."
+        }
+      },
+      {
+        "hanzi": "感情",
+        "pinyin": "gǎnqíng",
+        "hanviet": "cảm tình",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tình cảm",
+        "example": {
+          "zh": "他们一起工作多年，感情很好。",
+          "vi": "Họ làm việc cùng nhau nhiều năm nên tình cảm rất tốt."
+        }
+      },
+      {
+        "hanzi": "估计",
+        "pinyin": "gūjì",
+        "hanviet": "cổ kế",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đoán chừng, dự đoán",
+        "example": {
+          "zh": "我估计他半小时以后能到。",
+          "vi": "Tôi ước tính khoảng nửa tiếng nữa anh ấy sẽ đến."
+        }
+      },
+      {
+        "hanzi": "后悔",
+        "pinyin": "hòuhuǐ",
+        "hanviet": "hậu hối",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ân hận",
+        "example": {
+          "zh": "我不后悔做这个决定。",
+          "vi": "Tôi không hối hận vì đã đưa ra quyết định này."
+        }
+      },
+      {
+        "hanzi": "减肥",
+        "pinyin": "jiǎnféi",
+        "hanviet": "giảm phì",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giảm cân",
+        "example": {
+          "zh": "她每天跑步是为了减肥。",
+          "vi": "Cô ấy chạy bộ mỗi ngày là để giảm cân."
+        }
+      },
+      {
+        "hanzi": "教授",
+        "pinyin": "jiàoshòu",
+        "hanviet": "giáo thụ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "giáo sư",
+        "example": {
+          "zh": "这位教授的课很受欢迎。",
+          "vi": "Giờ học của vị giáo sư này rất được yêu thích."
+        }
+      },
+      {
+        "hanzi": "咳嗽",
+        "pinyin": "késou",
+        "hanviet": "khái thấu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ho",
+        "example": {
+          "zh": "我咳嗽了好几天，还没好。",
+          "vi": "Tôi ho đã mấy ngày rồi mà vẫn chưa khỏi."
+        }
+      },
+      {
+        "hanzi": "空气",
+        "pinyin": "kōngqì",
+        "hanviet": "không khí",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "không khí",
+        "example": {
+          "zh": "山里的空气非常新鲜。",
+          "vi": "Không khí trong núi rất trong lành."
+        }
+      },
+      {
+        "hanzi": "来不及",
+        "pinyin": "láibují",
+        "hanviet": "lai bất cập",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "không kịp",
+        "example": {
+          "zh": "快一点儿，不然就来不及了。",
+          "vi": "Nhanh lên một chút, không thì sẽ không kịp đâu."
+        }
+      },
+      {
+        "hanzi": "气候",
+        "pinyin": "qìhòu",
+        "hanviet": "khí hậu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khí hậu",
+        "example": {
+          "zh": "这里的气候比较温暖。",
+          "vi": "Khí hậu ở đây khá ấm áp."
+        }
+      },
+      {
+        "hanzi": "散步",
+        "pinyin": "sànbù",
+        "hanviet": "tản bộ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đi dạo",
+        "example": {
+          "zh": "晚饭后我们常去公园散步。",
+          "vi": "Sau bữa tối chúng tôi thường đi dạo ở công viên."
+        }
+      },
+      {
+        "hanzi": "数字",
+        "pinyin": "shùzì",
+        "hanviet": "sổ tự",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "con số",
+        "example": {
+          "zh": "请把这个数字再检查一遍。",
+          "vi": "Hãy kiểm tra lại con số này một lần nữa."
+        }
+      },
+      {
+        "hanzi": "帅",
+        "pinyin": "shuài",
+        "hanviet": "suất",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đẹp",
+        "example": {
+          "zh": "大家都说他年轻的时候很帅。",
+          "vi": "Mọi người đều nói lúc trẻ anh ấy rất đẹp trai."
+        }
+      },
+      {
+        "hanzi": "说明",
+        "pinyin": "shuōmíng",
+        "hanviet": "thuyết minh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giải thích rõ, nói rõ",
+        "example": {
+          "zh": "这个结果说明我们的方法有效。",
+          "vi": "Kết quả này cho thấy phương pháp của chúng ta có hiệu quả."
+        }
+      },
+      {
+        "hanzi": "辛苦",
+        "pinyin": "xīnkǔ",
+        "hanviet": "tân khổ",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "vất vả, cực nhọc",
+        "example": {
+          "zh": "你工作一天了，辛苦了。",
+          "vi": "Bạn đã làm việc cả ngày rồi, vất vả rồi."
+        }
+      },
+      {
+        "hanzi": "严重",
+        "pinyin": "yánzhòng",
+        "hanviet": "nghiêm trọng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nghiêm trọng",
+        "example": {
+          "zh": "这个问题比我们想的更严重。",
+          "vi": "Vấn đề này nghiêm trọng hơn chúng ta nghĩ."
+        }
+      },
+      {
+        "hanzi": "研究",
+        "pinyin": "yánjiū",
+        "hanviet": "nghiên cứu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nghiên cứu",
+        "example": {
+          "zh": "他正在研究中国的历史文化。",
+          "vi": "Anh ấy đang nghiên cứu lịch sử văn hóa Trung Quốc."
+        }
+      },
+      {
+        "hanzi": "要是",
+        "pinyin": "yàoshi",
+        "hanviet": "yếu thị",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "nếu như, nếu",
+        "example": {
+          "zh": "要是明天天气好，我们就去爬山。",
+          "vi": "Nếu ngày mai trời đẹp, chúng ta sẽ đi leo núi."
+        }
+      },
+      {
+        "hanzi": "植物",
+        "pinyin": "zhíwù",
+        "hanviet": "thực vật",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thực vật",
+        "example": {
+          "zh": "这个公园里有很多不同的植物。",
+          "vi": "Trong công viên này có rất nhiều loài thực vật khác nhau."
+        }
+      },
+      {
+        "hanzi": "指",
+        "pinyin": "zhǐ",
+        "hanviet": "chỉ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "chỉ về, nói đến",
+        "example": {
+          "zh": "这里的“他”指的是王老师。",
+          "vi": "\"Anh ấy\" ở đây chỉ thầy Vương."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "title_zh": "成为、大使馆、到处…",
+    "title_vi": "29 từ vựng",
+    "words": [
+      {
+        "hanzi": "成为",
+        "pinyin": "chéngwéi",
+        "hanviet": "thành vi",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "trở thành",
+        "example": {
+          "zh": "她希望将来成为一名老师。",
+          "vi": "Cô ấy hy vọng sau này sẽ trở thành một giáo viên."
+        }
+      },
+      {
+        "hanzi": "大使馆",
+        "pinyin": "dàshǐguǎn",
+        "hanviet": "đại sứ quán",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "đại sứ quán",
+        "example": {
+          "zh": "中国大使馆离这里不远。",
+          "vi": "Đại sứ quán Trung Quốc cách đây không xa."
+        }
+      },
+      {
+        "hanzi": "到处",
+        "pinyin": "dàochù",
+        "hanviet": "đáo xứ",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "khắp nơi, đâu đâu",
+        "example": {
+          "zh": "春天到了，到处都是花。",
+          "vi": "Mùa xuân đến rồi, khắp nơi đều là hoa."
+        }
+      },
+      {
+        "hanzi": "堵车",
+        "pinyin": "dǔchē",
+        "hanviet": "đổ xa",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "kẹt xe",
+        "example": {
+          "zh": "早上上班的时候经常堵车。",
+          "vi": "Buổi sáng lúc đi làm thường xuyên tắc đường."
+        }
+      },
+      {
+        "hanzi": "发生",
+        "pinyin": "fāshēng",
+        "hanviet": "phát sinh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xảy ra",
+        "example": {
+          "zh": "昨天这里发生了一件有趣的事。",
+          "vi": "Hôm qua ở đây đã xảy ra một chuyện thú vị."
+        }
+      },
+      {
+        "hanzi": "放松",
+        "pinyin": "fàngsōng",
+        "hanviet": "phóng tùng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thả lỏng, thư giãn",
+        "example": {
+          "zh": "周末我喜欢听音乐放松一下。",
+          "vi": "Cuối tuần tôi thích nghe nhạc để thư giãn một chút."
+        }
+      },
+      {
+        "hanzi": "回忆",
+        "pinyin": "huíyì",
+        "hanviet": "hồi ức",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nhớ lại",
+        "example": {
+          "zh": "这张照片让我回忆起大学生活。",
+          "vi": "Tấm ảnh này khiến tôi nhớ lại cuộc sống đại học."
+        }
+      },
+      {
+        "hanzi": "积极",
+        "pinyin": "jījí",
+        "hanviet": "tích cực",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "tích cực",
+        "example": {
+          "zh": "她对工作一直很积极。",
+          "vi": "Cô ấy luôn rất tích cực trong công việc."
+        }
+      },
+      {
+        "hanzi": "景色",
+        "pinyin": "jǐngsè",
+        "hanviet": "cảnh sắc",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phong cảnh, cảnh vật",
+        "example": {
+          "zh": "山上的景色非常漂亮。",
+          "vi": "Cảnh sắc trên núi rất đẹp."
+        }
+      },
+      {
+        "hanzi": "距离",
+        "pinyin": "jùlí",
+        "hanviet": "cự ly",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khoảng cách",
+        "example": {
+          "zh": "我家距离学校大约两公里。",
+          "vi": "Nhà tôi cách trường học khoảng hai ki-lô-mét."
+        }
+      },
+      {
+        "hanzi": "科学",
+        "pinyin": "kēxué",
+        "hanviet": "khoa học",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khoa học",
+        "example": {
+          "zh": "很多孩子从小就喜欢科学。",
+          "vi": "Nhiều đứa trẻ đã yêu thích khoa học từ nhỏ."
+        }
+      },
+      {
+        "hanzi": "耐心",
+        "pinyin": "nàixīn",
+        "hanviet": "nại tâm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lòng kiên nhẫn, sự nhẫn nại",
+        "example": {
+          "zh": "教小孩子需要很有耐心。",
+          "vi": "Dạy trẻ nhỏ cần phải rất kiên nhẫn."
+        }
+      },
+      {
+        "hanzi": "巧克力",
+        "pinyin": "qiǎokèlì",
+        "hanviet": "xảo khắc lực",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "sôcôla",
+        "example": {
+          "zh": "我妹妹特别喜欢吃巧克力。",
+          "vi": "Em gái tôi đặc biệt thích ăn sô-cô-la."
+        }
+      },
+      {
+        "hanzi": "亲戚",
+        "pinyin": "qīnqi",
+        "hanviet": "thân thích",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "họ hàng thân thích",
+        "example": {
+          "zh": "春节时我们会去看亲戚。",
+          "vi": "Vào dịp Tết chúng tôi sẽ đi thăm họ hàng."
+        }
+      },
+      {
+        "hanzi": "缺少",
+        "pinyin": "quēshǎo",
+        "hanviet": "khuyết thiểu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thiếu",
+        "example": {
+          "zh": "这个计划还缺少一些重要信息。",
+          "vi": "Kế hoạch này vẫn còn thiếu một số thông tin quan trọng."
+        }
+      },
+      {
+        "hanzi": "伤心",
+        "pinyin": "shāngxīn",
+        "hanviet": "thương tâm",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đau lòng",
+        "example": {
+          "zh": "听到这个消息，她很伤心。",
+          "vi": "Nghe được tin này, cô ấy rất đau lòng."
+        }
+      },
+      {
+        "hanzi": "生命",
+        "pinyin": "shēngmìng",
+        "hanviet": "sinh mệnh",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "sự sống, tính mệnh",
+        "example": {
+          "zh": "我们应该珍惜自己的生命。",
+          "vi": "Chúng ta nên trân trọng sinh mệnh của mình."
+        }
+      },
+      {
+        "hanzi": "师傅",
+        "pinyin": "shīfu",
+        "hanviet": "sư phó",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "sư phụ (cách gọi kính trọng người có tay nghề)",
+        "example": {
+          "zh": "师傅，请问去火车站怎么走？",
+          "vi": "Bác ơi, cho hỏi đi đến ga tàu thì đi thế nào ạ?"
+        }
+      },
+      {
+        "hanzi": "使",
+        "pinyin": "shǐ",
+        "hanviet": "sử",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "khiến cho, làm cho",
+        "example": {
+          "zh": "这次经历使我学到了很多。",
+          "vi": "Trải nghiệm lần này khiến tôi học được rất nhiều điều."
+        }
+      },
+      {
+        "hanzi": "态度",
+        "pinyin": "tàidu",
+        "hanviet": "thái độ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thái độ",
+        "example": {
+          "zh": "他的工作态度非常认真。",
+          "vi": "Thái độ làm việc của anh ấy rất nghiêm túc."
+        }
+      },
+      {
+        "hanzi": "特点",
+        "pinyin": "tèdiǎn",
+        "hanviet": "đặc điểm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "đặc điểm",
+        "example": {
+          "zh": "这个城市最大的特点是安静。",
+          "vi": "Đặc điểm lớn nhất của thành phố này là yên tĩnh."
+        }
+      },
+      {
+        "hanzi": "往往",
+        "pinyin": "wǎngwǎng",
+        "hanviet": "vãng vãng",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "thường thường",
+        "example": {
+          "zh": "天气冷的时候，人往往不想出门。",
+          "vi": "Khi trời lạnh, người ta thường không muốn ra ngoài."
+        }
+      },
+      {
+        "hanzi": "心情",
+        "pinyin": "xīnqíng",
+        "hanviet": "tâm tình",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tâm trạng",
+        "example": {
+          "zh": "今天阳光很好，我的心情也不错。",
+          "vi": "Hôm nay nắng đẹp, tâm trạng của tôi cũng khá tốt."
+        }
+      },
+      {
+        "hanzi": "压力",
+        "pinyin": "yālì",
+        "hanviet": "áp lực",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "áp lực",
+        "example": {
+          "zh": "考试前很多学生都会有压力。",
+          "vi": "Trước kỳ thi nhiều học sinh đều có áp lực."
+        }
+      },
+      {
+        "hanzi": "阳光",
+        "pinyin": "yángguāng",
+        "hanviet": "dương quang",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "lạc quan, vui vẻ",
+        "example": {
+          "zh": "她是个很阳光、很积极的人。",
+          "vi": "Cô ấy là một người rất lạc quan, rất tích cực."
+        }
+      },
+      {
+        "hanzi": "因此",
+        "pinyin": "yīncǐ",
+        "hanviet": "nhân thử",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "do đó, vì vậy",
+        "example": {
+          "zh": "今天下大雨，因此比赛取消了。",
+          "vi": "Hôm nay mưa to, vì vậy trận đấu đã bị hủy."
+        }
+      },
+      {
+        "hanzi": "愉快",
+        "pinyin": "yúkuài",
+        "hanviet": "du khoái",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "vui vẻ",
+        "example": {
+          "zh": "祝你们旅行愉快！",
+          "vi": "Chúc các bạn có một chuyến đi vui vẻ!"
+        }
+      },
+      {
+        "hanzi": "证明",
+        "pinyin": "zhèngmíng",
+        "hanviet": "chứng minh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "chứng minh",
+        "example": {
+          "zh": "事实证明他的判断是对的。",
+          "vi": "Thực tế chứng minh phán đoán của anh ấy là đúng."
+        }
+      },
+      {
+        "hanzi": "只要",
+        "pinyin": "zhǐyào",
+        "hanviet": "chỉ yếu",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "chỉ cần, miễn là",
+        "example": {
+          "zh": "只要坚持练习，你一定会进步。",
+          "vi": "Chỉ cần kiên trì luyện tập, bạn chắc chắn sẽ tiến bộ."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "title_zh": "饼干、当时、得…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "饼干",
+        "pinyin": "bǐnggān",
+        "hanviet": "bính can",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bánh quy",
+        "example": {
+          "zh": "我饿了，先吃两块饼干吧。",
+          "vi": "Tôi đói rồi, ăn tạm hai miếng bánh quy trước đã."
+        }
+      },
+      {
+        "hanzi": "当时",
+        "pinyin": "dāngshí",
+        "hanviet": "đương thời",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lúc đó",
+        "example": {
+          "zh": "当时我还不知道发生了什么。",
+          "vi": "Lúc đó tôi vẫn chưa biết chuyện gì đã xảy ra."
+        }
+      },
+      {
+        "hanzi": "得",
+        "pinyin": "děi",
+        "hanviet": "đắc",
+        "pos": [
+          "động từ năng nguyện"
+        ],
+        "meaning_vi": "phải",
+        "example": {
+          "zh": "明天要早起，我得早点儿睡。",
+          "vi": "Ngày mai phải dậy sớm, tôi phải đi ngủ sớm một chút."
+        }
+      },
+      {
+        "hanzi": "放弃",
+        "pinyin": "fàngqì",
+        "hanviet": "phóng khí",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "từ bỏ, bỏ",
+        "example": {
+          "zh": "遇到困难也不要轻易放弃。",
+          "vi": "Dù gặp khó khăn cũng đừng dễ dàng từ bỏ."
+        }
+      },
+      {
+        "hanzi": "国际",
+        "pinyin": "guójì",
+        "hanviet": "quốc tế",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quốc tế",
+        "example": {
+          "zh": "她在一家国际公司工作。",
+          "vi": "Cô ấy làm việc tại một công ty quốc tế."
+        }
+      },
+      {
+        "hanzi": "过程",
+        "pinyin": "guòchéng",
+        "hanviet": "quá trình",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quá trình",
+        "example": {
+          "zh": "学习的过程有时候比结果更重要。",
+          "vi": "Quá trình học tập đôi khi quan trọng hơn kết quả."
+        }
+      },
+      {
+        "hanzi": "汗",
+        "pinyin": "hàn",
+        "hanviet": "hãn",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mồ hôi",
+        "example": {
+          "zh": "跑了二十分钟以后，我出了很多汗。",
+          "vi": "Chạy được hai mươi phút, tôi đổ rất nhiều mồ hôi."
+        }
+      },
+      {
+        "hanzi": "坚持",
+        "pinyin": "jiānchí",
+        "hanviet": "kiên trì",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "kiên trì, khăng khăng giữ",
+        "example": {
+          "zh": "只要坚持，就会看到进步。",
+          "vi": "Chỉ cần kiên trì, bạn sẽ thấy được sự tiến bộ."
+        }
+      },
+      {
+        "hanzi": "结果",
+        "pinyin": "jiéguǒ",
+        "hanviet": "kết quả",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kết quả",
+        "example": {
+          "zh": "考试结果下周才会出来。",
+          "vi": "Kết quả thi tuần sau mới có."
+        }
+      },
+      {
+        "hanzi": "经历",
+        "pinyin": "jīnglì",
+        "hanviet": "kinh lịch",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "trải qua",
+        "example": {
+          "zh": "这次经历让我变得更勇敢。",
+          "vi": "Trải nghiệm lần này khiến tôi trở nên dũng cảm hơn."
+        }
+      },
+      {
+        "hanzi": "可是",
+        "pinyin": "kěshì",
+        "hanviet": "khả thị",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "nhưng",
+        "example": {
+          "zh": "我很想去，可是今天没有时间。",
+          "vi": "Tôi rất muốn đi, nhưng hôm nay không có thời gian."
+        }
+      },
+      {
+        "hanzi": "理想",
+        "pinyin": "lǐxiǎng",
+        "hanviet": "lý tưởng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lý tưởng",
+        "example": {
+          "zh": "我的理想是成为一名医生。",
+          "vi": "Ước mơ của tôi là trở thành bác sĩ."
+        }
+      },
+      {
+        "hanzi": "难道",
+        "pinyin": "nándào",
+        "hanviet": "nan đạo",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "dùng trong câu hỏi tu từ để nhấn mạnh",
+        "example": {
+          "zh": "难道你真的忘了今天的约会吗？",
+          "vi": "Chẳng lẽ bạn thật sự quên mất cuộc hẹn hôm nay sao?"
+        }
+      },
+      {
+        "hanzi": "篇",
+        "pinyin": "piān",
+        "hanviet": "thiên",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "bài, tờ...",
+        "example": {
+          "zh": "老师让我们写一篇短文章。",
+          "vi": "Thầy giáo bảo chúng tôi viết một bài văn ngắn."
+        }
+      },
+      {
+        "hanzi": "轻松",
+        "pinyin": "qīngsōng",
+        "hanviet": "khinh tùng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nhẹ nhàng, dễ dàng",
+        "example": {
+          "zh": "考试结束以后，我觉得轻松多了。",
+          "vi": "Sau khi thi xong, tôi cảm thấy nhẹ nhõm hơn nhiều."
+        }
+      },
+      {
+        "hanzi": "区别",
+        "pinyin": "qūbié",
+        "hanviet": "khu biệt",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "sự khác biệt",
+        "example": {
+          "zh": "这两个词有什么区别？",
+          "vi": "Hai từ này có gì khác nhau?"
+        }
+      },
+      {
+        "hanzi": "取",
+        "pinyin": "qǔ",
+        "hanviet": "thủ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đạt được",
+        "example": {
+          "zh": "下班以后我要去银行取钱。",
+          "vi": "Sau khi tan làm tôi phải đi ngân hàng rút tiền."
+        }
+      },
+      {
+        "hanzi": "失败",
+        "pinyin": "shībài",
+        "hanviet": "thất bại",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thất bại",
+        "example": {
+          "zh": "一次失败并不代表永远失败。",
+          "vi": "Một lần thất bại không có nghĩa là mãi mãi thất bại."
+        }
+      },
+      {
+        "hanzi": "随便",
+        "pinyin": "suíbiàn",
+        "hanviet": "tùy tiện",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "tình cờ, tùy tiện",
+        "example": {
+          "zh": "你想吃什么？随便，我都可以。",
+          "vi": "Bạn muốn ăn gì? Sao cũng được, tôi ăn gì cũng được."
+        }
+      },
+      {
+        "hanzi": "通过",
+        "pinyin": "tōngguò",
+        "hanviet": "thông quá",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "qua, nhờ vào",
+        "example": {
+          "zh": "我通过朋友认识了他。",
+          "vi": "Tôi quen anh ấy thông qua một người bạn."
+        }
+      },
+      {
+        "hanzi": "网球",
+        "pinyin": "wǎngqiú",
+        "hanviet": "võng cầu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quần vợt",
+        "example": {
+          "zh": "他每个星期都打两次网球。",
+          "vi": "Mỗi tuần anh ấy đều chơi quần vợt hai lần."
+        }
+      },
+      {
+        "hanzi": "许多",
+        "pinyin": "xǔduō",
+        "hanviet": "hứa đa",
+        "pos": [
+          "số từ"
+        ],
+        "meaning_vi": "rất nhiều",
+        "example": {
+          "zh": "旅行让我认识了许多新朋友。",
+          "vi": "Chuyến du lịch giúp tôi quen biết nhiều bạn mới."
+        }
+      },
+      {
+        "hanzi": "赢",
+        "pinyin": "yíng",
+        "hanviet": "doanh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thắng",
+        "example": {
+          "zh": "我们队终于赢了这场比赛。",
+          "vi": "Đội chúng tôi cuối cùng đã thắng trận đấu này."
+        }
+      },
+      {
+        "hanzi": "勇敢",
+        "pinyin": "yǒnggǎn",
+        "hanviet": "dũng cảm",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "dũng cảm, gan dạ",
+        "example": {
+          "zh": "她很勇敢地面对自己的错误。",
+          "vi": "Cô ấy rất dũng cảm đối mặt với sai lầm của mình."
+        }
+      },
+      {
+        "hanzi": "暂时",
+        "pinyin": "zànshí",
+        "hanviet": "tạm thời",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tạm thời, nhất thời",
+        "example": {
+          "zh": "这个问题暂时还没有办法解决。",
+          "vi": "Vấn đề này tạm thời vẫn chưa có cách giải quyết."
+        }
+      },
+      {
+        "hanzi": "正确",
+        "pinyin": "zhèngquè",
+        "hanviet": "chính xác",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đúng, chính xác",
+        "example": {
+          "zh": "你的答案是正确的。",
+          "vi": "Đáp án của bạn là chính xác."
+        }
+      },
+      {
+        "hanzi": "至少",
+        "pinyin": "zhìshǎo",
+        "hanviet": "chí thiểu",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "ít nhất",
+        "example": {
+          "zh": "每天至少要睡七个小时。",
+          "vi": "Mỗi ngày ít nhất phải ngủ bảy tiếng."
+        }
+      },
+      {
+        "hanzi": "主意",
+        "pinyin": "zhǔyi",
+        "hanviet": "chủ ý",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "ý định, ý kiến",
+        "example": {
+          "zh": "这个主意不错，我们试试吧。",
+          "vi": "Ý tưởng này không tệ, chúng ta thử xem."
+        }
+      },
+      {
+        "hanzi": "总结",
+        "pinyin": "zǒngjié",
+        "hanviet": "tổng kết",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tổng kết",
+        "example": {
+          "zh": "课结束前，老师总结了今天的内容。",
+          "vi": "Trước khi kết thúc buổi học, thầy giáo đã tổng kết nội dung hôm nay."
+        }
+      },
+      {
+        "hanzi": "作家",
+        "pinyin": "zuòjiā",
+        "hanviet": "tác gia",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhà văn",
+        "example": {
+          "zh": "这位作家的小说很有意思。",
+          "vi": "Tiểu thuyết của nhà văn này rất thú vị."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "title_zh": "比如、不过、答案…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "比如",
+        "pinyin": "bǐrú",
+        "hanviet": "tỷ như",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ví dụ, chẳng hạn",
+        "example": {
+          "zh": "我喜欢很多运动，比如游泳和网球。",
+          "vi": "Tôi thích nhiều môn thể thao, ví dụ như bơi lội và quần vợt."
+        }
+      },
+      {
+        "hanzi": "不过",
+        "pinyin": "búguò",
+        "hanviet": "bất quá",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "nhưng, song",
+        "example": {
+          "zh": "这家饭店很好，不过价格有点儿高。",
+          "vi": "Nhà hàng này rất tốt, nhưng giá hơi cao một chút."
+        }
+      },
+      {
+        "hanzi": "答案",
+        "pinyin": "dá’àn",
+        "hanviet": "đáp án",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "đáp án, câu trả lời, lời giải",
+        "example": {
+          "zh": "这道题的答案是什么？",
+          "vi": "Đáp án của câu hỏi này là gì?"
+        }
+      },
+      {
+        "hanzi": "等",
+        "pinyin": "děng",
+        "hanviet": "đẳng",
+        "pos": [
+          "trợ từ"
+        ],
+        "meaning_vi": "vân vân",
+        "example": {
+          "zh": "桌上有书、笔、纸等学习用品。",
+          "vi": "Trên bàn có sách, bút, giấy, v.v. các đồ dùng học tập."
+        }
+      },
+      {
+        "hanzi": "低",
+        "pinyin": "dī",
+        "hanviet": "đê",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thấp",
+        "example": {
+          "zh": "今天的温度比昨天低。",
+          "vi": "Nhiệt độ hôm nay thấp hơn hôm qua."
+        }
+      },
+      {
+        "hanzi": "发展",
+        "pinyin": "fāzhǎn",
+        "hanviet": "phát triển",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "phát triển",
+        "example": {
+          "zh": "这个城市近几年发展得很快。",
+          "vi": "Thành phố này những năm gần đây phát triển rất nhanh."
+        }
+      },
+      {
+        "hanzi": "翻译",
+        "pinyin": "fānyì",
+        "hanviet": "phiên dịch",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phiên dịch viên",
+        "example": {
+          "zh": "她毕业以后想当中文翻译。",
+          "vi": "Sau khi tốt nghiệp, cô ấy muốn làm phiên dịch tiếng Trung."
+        }
+      },
+      {
+        "hanzi": "方向",
+        "pinyin": "fāngxiàng",
+        "hanviet": "phương hướng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phương hướng, sự định hướng",
+        "example": {
+          "zh": "毕业以后我还没想好发展方向。",
+          "vi": "Sau khi tốt nghiệp tôi vẫn chưa nghĩ kỹ về hướng phát triển."
+        }
+      },
+      {
+        "hanzi": "富",
+        "pinyin": "fù",
+        "hanviet": "phú",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "giàu",
+        "example": {
+          "zh": "他虽然很富，但是生活很简单。",
+          "vi": "Tuy anh ấy rất giàu, nhưng cuộc sống lại rất giản dị."
+        }
+      },
+      {
+        "hanzi": "关键",
+        "pinyin": "guānjiàn",
+        "hanviet": "quan kiện",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "điều quan trọng, điểm mấu chốt",
+        "example": {
+          "zh": "学好中文的关键是坚持练习。",
+          "vi": "Chìa khóa để học tốt tiếng Trung là kiên trì luyện tập."
+        }
+      },
+      {
+        "hanzi": "建议",
+        "pinyin": "jiànyì",
+        "hanviet": "kiến nghị",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kiến nghị, sự đề nghị",
+        "example": {
+          "zh": "谢谢你的建议，我会认真考虑。",
+          "vi": "Cảm ơn lời đề nghị của bạn, tôi sẽ cân nhắc kỹ."
+        }
+      },
+      {
+        "hanzi": "将来",
+        "pinyin": "jiānglái",
+        "hanviet": "tương lai",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tương lai",
+        "example": {
+          "zh": "我将来想在大学教书。",
+          "vi": "Sau này tôi muốn dạy học ở trường đại học."
+        }
+      },
+      {
+        "hanzi": "经济",
+        "pinyin": "jīngjì",
+        "hanviet": "kinh tế",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kinh tế",
+        "example": {
+          "zh": "他大学学的是经济专业。",
+          "vi": "Anh ấy học chuyên ngành kinh tế ở đại học."
+        }
+      },
+      {
+        "hanzi": "空儿",
+        "pinyin": "kòngr",
+        "hanviet": "không nhi",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thời gian rỗi",
+        "example": {
+          "zh": "你有空儿的时候给我打电话。",
+          "vi": "Khi nào bạn rảnh thì gọi điện cho tôi."
+        }
+      },
+      {
+        "hanzi": "困",
+        "pinyin": "kùn",
+        "hanviet": "khốn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "buồn ngủ",
+        "example": {
+          "zh": "昨晚没睡好，我现在很困。",
+          "vi": "Tối qua ngủ không ngon, bây giờ tôi rất buồn ngủ."
+        }
+      },
+      {
+        "hanzi": "拉",
+        "pinyin": "lā",
+        "hanviet": "lạp",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "kéo, lôi, dắt",
+        "example": {
+          "zh": "他拉着孩子的手过马路。",
+          "vi": "Anh ấy nắm tay đứa trẻ qua đường."
+        }
+      },
+      {
+        "hanzi": "礼拜天",
+        "pinyin": "lǐbàitiān",
+        "hanviet": "lễ bái thiên",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chủ nhật",
+        "example": {
+          "zh": "礼拜天我们一起去看电影吧。",
+          "vi": "Chủ nhật chúng ta cùng đi xem phim nhé."
+        }
+      },
+      {
+        "hanzi": "母亲",
+        "pinyin": "mǔqīn",
+        "hanviet": "mẫu thân",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mẹ",
+        "example": {
+          "zh": "我的母亲是一名中学老师。",
+          "vi": "Mẹ tôi là giáo viên trung học."
+        }
+      },
+      {
+        "hanzi": "穷",
+        "pinyin": "qióng",
+        "hanviet": "cùng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nghèo",
+        "example": {
+          "zh": "他小时候家里很穷。",
+          "vi": "Hồi nhỏ nhà anh ấy rất nghèo."
+        }
+      },
+      {
+        "hanzi": "确实",
+        "pinyin": "quèshí",
+        "hanviet": "xác thực",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "thực sự",
+        "example": {
+          "zh": "这个办法确实很有效。",
+          "vi": "Cách này quả thực rất hiệu quả."
+        }
+      },
+      {
+        "hanzi": "硕士",
+        "pinyin": "shuòshì",
+        "hanviet": "thạc sĩ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thạc sĩ",
+        "example": {
+          "zh": "她正在读经济学硕士。",
+          "vi": "Cô ấy đang học thạc sĩ kinh tế học."
+        }
+      },
+      {
+        "hanzi": "糖",
+        "pinyin": "táng",
+        "hanviet": "đường",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kẹo",
+        "example": {
+          "zh": "我喝咖啡一般不放糖。",
+          "vi": "Tôi uống cà phê thường không cho đường."
+        }
+      },
+      {
+        "hanzi": "躺",
+        "pinyin": "tǎng",
+        "hanviet": "thảng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nằm",
+        "example": {
+          "zh": "累了就躺一会儿吧。",
+          "vi": "Mệt thì nằm nghỉ một lát đi."
+        }
+      },
+      {
+        "hanzi": "条件",
+        "pinyin": "tiáojiàn",
+        "hanviet": "điều kiện",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "điều kiện",
+        "example": {
+          "zh": "这份工作的条件很不错。",
+          "vi": "Điều kiện của công việc này khá tốt."
+        }
+      },
+      {
+        "hanzi": "橡皮",
+        "pinyin": "xiàngpí",
+        "hanviet": "tượng bì",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "(cục) gôm, tẩy",
+        "example": {
+          "zh": "我写错了，借我一下橡皮。",
+          "vi": "Tôi viết sai rồi, cho tôi mượn cục tẩy một chút."
+        }
+      },
+      {
+        "hanzi": "兴奋",
+        "pinyin": "xīngfèn",
+        "hanviet": "hưng phấn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "hăng hái, phấn khởi",
+        "example": {
+          "zh": "听说要去旅行，孩子们都很兴奋。",
+          "vi": "Nghe nói sắp được đi du lịch, bọn trẻ đều rất phấn khích."
+        }
+      },
+      {
+        "hanzi": "永远",
+        "pinyin": "yǒngyuǎn",
+        "hanviet": "vĩnh viễn",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "vĩnh viễn, mãi mãi",
+        "example": {
+          "zh": "我永远不会忘记你的帮助。",
+          "vi": "Tôi sẽ mãi mãi không quên sự giúp đỡ của bạn."
+        }
+      },
+      {
+        "hanzi": "优秀",
+        "pinyin": "yōuxiù",
+        "hanviet": "ưu tú",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "xuất sắc, ưu tú",
+        "example": {
+          "zh": "她是一名非常优秀的学生。",
+          "vi": "Cô ấy là một học sinh vô cùng xuất sắc."
+        }
+      },
+      {
+        "hanzi": "由于",
+        "pinyin": "yóuyú",
+        "hanviet": "do vu",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "vì, bởi vì",
+        "example": {
+          "zh": "由于天气不好，飞机晚点了。",
+          "vi": "Do thời tiết xấu, máy bay bị trễ giờ."
+        }
+      },
+      {
+        "hanzi": "职业",
+        "pinyin": "zhíyè",
+        "hanviet": "chức nghiệp",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nghề nghiệp",
+        "example": {
+          "zh": "教师是我一直喜欢的职业。",
+          "vi": "Giáo viên là nghề nghiệp mà tôi luôn yêu thích."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "title_zh": "表示、猜、词语…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "表示",
+        "pinyin": "biǎoshì",
+        "hanviet": "biểu thị",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "có ý nghĩa, biểu thị",
+        "example": {
+          "zh": "他点头表示同意。",
+          "vi": "Anh ấy gật đầu tỏ ý đồng ý."
+        }
+      },
+      {
+        "hanzi": "猜",
+        "pinyin": "cāi",
+        "hanviet": "sai",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đoán",
+        "example": {
+          "zh": "你猜他今年多大？",
+          "vi": "Bạn đoán xem năm nay anh ấy bao nhiêu tuổi?"
+        }
+      },
+      {
+        "hanzi": "词语",
+        "pinyin": "cíyǔ",
+        "hanviet": "từ ngữ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "từ ngữ, cách diễn đạt",
+        "example": {
+          "zh": "这个词语是什么意思？",
+          "vi": "Từ ngữ này có nghĩa là gì?"
+        }
+      },
+      {
+        "hanzi": "否则",
+        "pinyin": "fǒuzé",
+        "hanviet": "phủ tắc",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "nếu không thì, bằng không",
+        "example": {
+          "zh": "你要早点出发，否则会迟到。",
+          "vi": "Bạn phải xuất phát sớm một chút, nếu không sẽ bị muộn."
+        }
+      },
+      {
+        "hanzi": "复杂",
+        "pinyin": "fùzá",
+        "hanviet": "phức tạp",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "phức tạp, rắc rối",
+        "example": {
+          "zh": "这个问题没有你想的那么复杂。",
+          "vi": "Vấn đề này không phức tạp như bạn nghĩ."
+        }
+      },
+      {
+        "hanzi": "精彩",
+        "pinyin": "jīngcǎi",
+        "hanviet": "tinh thái",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "tuyệt vời, xuất sắc",
+        "example": {
+          "zh": "昨天的演出非常精彩。",
+          "vi": "Buổi biểu diễn hôm qua rất tuyệt vời."
+        }
+      },
+      {
+        "hanzi": "看法",
+        "pinyin": "kànfǎ",
+        "hanviet": "khán pháp",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quan điểm, cách nhìn",
+        "example": {
+          "zh": "你对这件事有什么看法？",
+          "vi": "Bạn có cách nhìn nhận thế nào về việc này?"
+        }
+      },
+      {
+        "hanzi": "客厅",
+        "pinyin": "kètīng",
+        "hanviet": "khách thính",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phòng khách",
+        "example": {
+          "zh": "客厅里放着一张大沙发。",
+          "vi": "Trong phòng khách đặt một chiếc ghế sofa lớn."
+        }
+      },
+      {
+        "hanzi": "来得及",
+        "pinyin": "láidejí",
+        "hanviet": "lai đắc cập",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "kịp, còn kịp",
+        "example": {
+          "zh": "现在出发还来得及。",
+          "vi": "Bây giờ xuất phát vẫn còn kịp."
+        }
+      },
+      {
+        "hanzi": "厉害",
+        "pinyin": "lìhai",
+        "hanviet": "lệ hại",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "lợi hại",
+        "example": {
+          "zh": "他的中文说得很厉害。",
+          "vi": "Anh ấy nói tiếng Trung rất giỏi."
+        }
+      },
+      {
+        "hanzi": "连",
+        "pinyin": "lián",
+        "hanviet": "liên",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "ngay cả",
+        "example": {
+          "zh": "他太忙了，连午饭都没时间吃。",
+          "vi": "Anh ấy bận quá, đến cả bữa trưa cũng không có thời gian ăn."
+        }
+      },
+      {
+        "hanzi": "流利",
+        "pinyin": "liúlì",
+        "hanviet": "lưu lợi",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "lưu loát, trôi chảy",
+        "example": {
+          "zh": "她的汉语说得很流利。",
+          "vi": "Cô ấy nói tiếng Hán rất lưu loát."
+        }
+      },
+      {
+        "hanzi": "内容",
+        "pinyin": "nèiróng",
+        "hanviet": "nội dung",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nội dung",
+        "example": {
+          "zh": "这篇文章的内容很有意思。",
+          "vi": "Nội dung của bài văn này rất thú vị."
+        }
+      },
+      {
+        "hanzi": "然而",
+        "pinyin": "rán'ér",
+        "hanviet": "nhiên nhi",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "nhưng, song",
+        "example": {
+          "zh": "这件事看起来简单，然而做起来并不容易。",
+          "vi": "Việc này nhìn có vẻ đơn giản, nhưng làm thì không hề dễ dàng."
+        }
+      },
+      {
+        "hanzi": "顺序",
+        "pinyin": "shùnxù",
+        "hanviet": "thuận tự",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trật tự, thứ tự",
+        "example": {
+          "zh": "请按照正确的顺序回答问题。",
+          "vi": "Hãy trả lời câu hỏi theo đúng thứ tự."
+        }
+      },
+      {
+        "hanzi": "填空",
+        "pinyin": "tián kòng",
+        "hanviet": "điền không",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "điền vào chỗ trống",
+        "example": {
+          "zh": "请用合适的词语填空。",
+          "vi": "Hãy dùng từ ngữ thích hợp để điền vào chỗ trống."
+        }
+      },
+      {
+        "hanzi": "同时",
+        "pinyin": "tóngshí",
+        "hanviet": "đồng thời",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "đồng thời, hơn nữa",
+        "example": {
+          "zh": "他会说英语，同时也会说汉语。",
+          "vi": "Anh ấy biết nói tiếng Anh, đồng thời cũng biết nói tiếng Hán."
+        }
+      },
+      {
+        "hanzi": "文章",
+        "pinyin": "wénzhāng",
+        "hanviet": "văn chương",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bài văn, bài báo",
+        "example": {
+          "zh": "老师让我们读一篇文章。",
+          "vi": "Thầy giáo bảo chúng tôi đọc một bài văn."
+        }
+      },
+      {
+        "hanzi": "无论",
+        "pinyin": "wúlùn",
+        "hanviet": "vô luận",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "bất kể",
+        "example": {
+          "zh": "无论多忙，他每天都运动。",
+          "vi": "Dù bận đến đâu, ngày nào anh ấy cũng tập thể dục."
+        }
+      },
+      {
+        "hanzi": "相同",
+        "pinyin": "xiāngtóng",
+        "hanviet": "tương đồng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "giống nhau, như nhau",
+        "example": {
+          "zh": "这两个问题的答案完全相同。",
+          "vi": "Đáp án của hai câu hỏi này hoàn toàn giống nhau."
+        }
+      },
+      {
+        "hanzi": "养成",
+        "pinyin": "yǎngchéng",
+        "hanviet": "dưỡng thành",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "hình thành/tạo (thói quen)",
+        "example": {
+          "zh": "我们应该养成早睡早起的习惯。",
+          "vi": "Chúng ta nên tạo thành thói quen ngủ sớm dậy sớm."
+        }
+      },
+      {
+        "hanzi": "页",
+        "pinyin": "yè",
+        "hanviet": "hiệt",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "trang",
+        "example": {
+          "zh": "请打开书的第二十页。",
+          "vi": "Hãy mở trang hai mươi của quyển sách."
+        }
+      },
+      {
+        "hanzi": "语法",
+        "pinyin": "yǔfǎ",
+        "hanviet": "ngữ pháp",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "ngữ pháp",
+        "example": {
+          "zh": "这个语法我还不太明白。",
+          "vi": "Ngữ pháp này tôi vẫn chưa hiểu rõ lắm."
+        }
+      },
+      {
+        "hanzi": "阅读",
+        "pinyin": "yuèdú",
+        "hanviet": "duyệt độc",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đọc",
+        "example": {
+          "zh": "每天阅读半小时对学习很有帮助。",
+          "vi": "Mỗi ngày đọc sách nửa tiếng rất có ích cho việc học."
+        }
+      },
+      {
+        "hanzi": "杂志",
+        "pinyin": "zázhì",
+        "hanviet": "tạp chí",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tạp chí",
+        "example": {
+          "zh": "我在飞机上看了一本杂志。",
+          "vi": "Tôi đã đọc một quyển tạp chí trên máy bay."
+        }
+      },
+      {
+        "hanzi": "增加",
+        "pinyin": "zēngjiā",
+        "hanviet": "tăng gia",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tăng thêm",
+        "example": {
+          "zh": "今年公司的收入增加了不少。",
+          "vi": "Năm nay thu nhập của công ty tăng lên không ít."
+        }
+      },
+      {
+        "hanzi": "之",
+        "pinyin": "zhī",
+        "hanviet": "chi",
+        "pos": [
+          "trợ từ"
+        ],
+        "meaning_vi": "được dùng để nối từ bổ nghĩa và từ được bổ nghĩa",
+        "example": {
+          "zh": "这是我最喜欢的书之一。",
+          "vi": "Đây là một trong những quyển sách tôi thích nhất."
+        }
+      },
+      {
+        "hanzi": "只好",
+        "pinyin": "zhǐhǎo",
+        "hanviet": "chỉ hảo",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "đành phải, buộc phải",
+        "example": {
+          "zh": "没有公共汽车了，我们只好打车。",
+          "vi": "Không còn xe buýt nữa, chúng tôi đành phải bắt taxi."
+        }
+      },
+      {
+        "hanzi": "著名",
+        "pinyin": "zhùmíng",
+        "hanviet": "trứ danh",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nổi tiếng",
+        "example": {
+          "zh": "这是一位很著名的作家。",
+          "vi": "Đây là một nhà văn rất nổi tiếng."
+        }
+      },
+      {
+        "hanzi": "准确",
+        "pinyin": "zhǔnquè",
+        "hanviet": "chuẩn xác",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "chính xác, đúng",
+        "example": {
+          "zh": "请准确地填写你的个人信息。",
+          "vi": "Hãy điền chính xác thông tin cá nhân của bạn."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "title_zh": "保护、并且、对于…",
+    "title_vi": "31 từ vựng",
+    "words": [
+      {
+        "hanzi": "保护",
+        "pinyin": "bǎohù",
+        "hanviet": "bảo hộ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "bảo vệ",
+        "example": {
+          "zh": "我们应该保护环境。",
+          "vi": "Chúng ta nên bảo vệ môi trường."
+        }
+      },
+      {
+        "hanzi": "并且",
+        "pinyin": "bìngqiě",
+        "hanviet": "tịnh thả",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "đồng thời, và",
+        "example": {
+          "zh": "这家饭店便宜，并且菜也很好吃。",
+          "vi": "Nhà hàng này rẻ, hơn nữa món ăn cũng rất ngon."
+        }
+      },
+      {
+        "hanzi": "对于",
+        "pinyin": "duìyú",
+        "hanviet": "đối vu",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "đối với",
+        "example": {
+          "zh": "对于这个问题，我有不同的看法。",
+          "vi": "Đối với vấn đề này, tôi có cách nhìn khác."
+        }
+      },
+      {
+        "hanzi": "规定",
+        "pinyin": "guīdìng",
+        "hanviet": "quy định",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quy định",
+        "example": {
+          "zh": "公司规定九点以前必须到。",
+          "vi": "Công ty quy định phải đến trước chín giờ."
+        }
+      },
+      {
+        "hanzi": "教育",
+        "pinyin": "jiàoyù",
+        "hanviet": "giáo dục",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giáo dục, dạy dỗ",
+        "example": {
+          "zh": "父母应该用合适的方法教育孩子。",
+          "vi": "Cha mẹ nên dùng phương pháp thích hợp để giáo dục con cái."
+        }
+      },
+      {
+        "hanzi": "节",
+        "pinyin": "jié",
+        "hanviet": "tiết",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "tiết (học)",
+        "example": {
+          "zh": "今天下午有三节课。",
+          "vi": "Chiều nay có ba tiết học."
+        }
+      },
+      {
+        "hanzi": "节约",
+        "pinyin": "jiéyuē",
+        "hanviet": "tiết ước",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tiết kiệm",
+        "example": {
+          "zh": "我们要节约用水。",
+          "vi": "Chúng ta phải tiết kiệm nước."
+        }
+      },
+      {
+        "hanzi": "解释",
+        "pinyin": "jiěshì",
+        "hanviet": "giải thích",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giải thích",
+        "example": {
+          "zh": "你能再解释一遍吗？",
+          "vi": "Bạn có thể giải thích lại một lần nữa không?"
+        }
+      },
+      {
+        "hanzi": "可惜",
+        "pinyin": "kěxī",
+        "hanviet": "khả tích",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đáng tiếc",
+        "example": {
+          "zh": "真可惜，你没看到最后的比赛。",
+          "vi": "Thật đáng tiếc, bạn đã không xem được trận đấu cuối cùng."
+        }
+      },
+      {
+        "hanzi": "力气",
+        "pinyin": "lìqi",
+        "hanviet": "lực khí",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "sức lực, hơi sức",
+        "example": {
+          "zh": "我今天一点儿力气也没有。",
+          "vi": "Hôm nay tôi chẳng còn chút sức lực nào."
+        }
+      },
+      {
+        "hanzi": "全部",
+        "pinyin": "quánbù",
+        "hanviet": "toàn bộ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "toàn bộ, tất cả",
+        "example": {
+          "zh": "这些题我已经全部做完了。",
+          "vi": "Những bài tập này tôi đã làm xong hết cả rồi."
+        }
+      },
+      {
+        "hanzi": "任务",
+        "pinyin": "rènwu",
+        "hanviet": "nhiệm vụ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhiệm vụ",
+        "example": {
+          "zh": "我今天的任务很多。",
+          "vi": "Hôm nay nhiệm vụ của tôi rất nhiều."
+        }
+      },
+      {
+        "hanzi": "商量",
+        "pinyin": "shāngliang",
+        "hanviet": "thương lượng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thương lượng, bàn bạc",
+        "example": {
+          "zh": "这件事我想先和家人商量一下。",
+          "vi": "Việc này tôi muốn bàn bạc với gia đình trước đã."
+        }
+      },
+      {
+        "hanzi": "勺（子）",
+        "pinyin": "sháo (zi)",
+        "hanviet": "chước (tử)",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cái muôi, cái thìa",
+        "example": {
+          "zh": "喝汤的时候可以用勺子。",
+          "vi": "Khi uống canh có thể dùng thìa."
+        }
+      },
+      {
+        "hanzi": "使用",
+        "pinyin": "shǐyòng",
+        "hanviet": "sử dụng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "sử dụng",
+        "example": {
+          "zh": "请按照说明使用这个机器。",
+          "vi": "Hãy sử dụng máy này theo đúng hướng dẫn."
+        }
+      },
+      {
+        "hanzi": "死",
+        "pinyin": "sǐ",
+        "hanviet": "tử",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "cố định, cứng nhắc",
+        "example": {
+          "zh": "这个规定太死了，应该改一改。",
+          "vi": "Quy định này quá cứng nhắc, nên sửa lại một chút."
+        }
+      },
+      {
+        "hanzi": "无",
+        "pinyin": "wú",
+        "hanviet": "vô",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "không có, không",
+        "example": {
+          "zh": "这件事与我无关。",
+          "vi": "Việc này không liên quan gì đến tôi."
+        }
+      },
+      {
+        "hanzi": "无法",
+        "pinyin": "wúfǎ",
+        "hanviet": "vô pháp",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "không thể, không có cách gì",
+        "example": {
+          "zh": "因为时间太短，我们无法完成任务。",
+          "vi": "Vì thời gian quá ngắn, chúng tôi không thể hoàn thành nhiệm vụ."
+        }
+      },
+      {
+        "hanzi": "误会",
+        "pinyin": "wùhuì",
+        "hanviet": "ngộ hội",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "sự hiểu lầm",
+        "example": {
+          "zh": "对不起，这只是一个误会。",
+          "vi": "Xin lỗi, đây chỉ là một sự hiểu lầm."
+        }
+      },
+      {
+        "hanzi": "相反",
+        "pinyin": "xiāngfǎn",
+        "hanviet": "tương phản",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "trái lại, ngược lại",
+        "example": {
+          "zh": "我不觉得累，相反，我觉得很轻松。",
+          "vi": "Tôi không thấy mệt, ngược lại, tôi cảm thấy rất thoải mái."
+        }
+      },
+      {
+        "hanzi": "详细",
+        "pinyin": "xiángxì",
+        "hanviet": "tường tế",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "chi tiết, tỉ mỉ",
+        "example": {
+          "zh": "请给我一个更详细的解释。",
+          "vi": "Hãy cho tôi một lời giải thích chi tiết hơn."
+        }
+      },
+      {
+        "hanzi": "盐",
+        "pinyin": "yán",
+        "hanviet": "diêm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "muối",
+        "example": {
+          "zh": "这个汤盐放得太多了。",
+          "vi": "Canh này cho quá nhiều muối rồi."
+        }
+      },
+      {
+        "hanzi": "也许",
+        "pinyin": "yěxǔ",
+        "hanviet": "dã hứa",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "có lẽ, may ra",
+        "example": {
+          "zh": "他今天没来，也许是生病了。",
+          "vi": "Hôm nay anh ấy không đến, có lẽ là bị ốm."
+        }
+      },
+      {
+        "hanzi": "叶子",
+        "pinyin": "yèzi",
+        "hanviet": "diệp tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lá cây",
+        "example": {
+          "zh": "秋天树上的叶子变黄了。",
+          "vi": "Mùa thu, lá trên cây chuyển sang màu vàng."
+        }
+      },
+      {
+        "hanzi": "意见",
+        "pinyin": "yìjiàn",
+        "hanviet": "ý kiến",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "ý kiến",
+        "example": {
+          "zh": "如果你有意见，可以直接告诉我。",
+          "vi": "Nếu bạn có ý kiến gì, có thể nói thẳng với tôi."
+        }
+      },
+      {
+        "hanzi": "引起",
+        "pinyin": "yǐnqǐ",
+        "hanviet": "dẫn khởi",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "gây ra, dẫn đến",
+        "example": {
+          "zh": "这件事引起了大家的注意。",
+          "vi": "Việc này đã thu hút sự chú ý của mọi người."
+        }
+      },
+      {
+        "hanzi": "友好",
+        "pinyin": "yǒuhǎo",
+        "hanviet": "hữu hảo",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thân thiện",
+        "example": {
+          "zh": "那里的工作人员对游客很友好。",
+          "vi": "Nhân viên ở đó rất thân thiện với du khách."
+        }
+      },
+      {
+        "hanzi": "语言",
+        "pinyin": "yǔyán",
+        "hanviet": "ngữ ngôn",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "ngôn ngữ",
+        "example": {
+          "zh": "学习一门新的语言需要时间。",
+          "vi": "Học một ngôn ngữ mới cần có thời gian."
+        }
+      },
+      {
+        "hanzi": "直接",
+        "pinyin": "zhíjiē",
+        "hanviet": "trực tiếp",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "trực tiếp, thẳng",
+        "example": {
+          "zh": "有问题可以直接问老师。",
+          "vi": "Có vấn đề gì có thể hỏi thẳng thầy giáo."
+        }
+      },
+      {
+        "hanzi": "仔细",
+        "pinyin": "zǐxì",
+        "hanviet": "tử tế",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thận trọng, kỹ lưỡng",
+        "example": {
+          "zh": "做完以后要仔细检查一遍。",
+          "vi": "Làm xong rồi phải kiểm tra lại cẩn thận một lần."
+        }
+      },
+      {
+        "hanzi": "作用",
+        "pinyin": "zuòyòng",
+        "hanviet": "tác dụng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tác dụng",
+        "example": {
+          "zh": "运动对身体健康有很大的作用。",
+          "vi": "Vận động có tác dụng rất lớn đối với sức khỏe."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "title_zh": "遍、表演、部分…",
+    "title_vi": "32 từ vựng",
+    "words": [
+      {
+        "hanzi": "遍",
+        "pinyin": "biàn",
+        "hanviet": "biến",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "lần, lượt (chỉ một hành động từ lúc bắt đầu đến khi kết thúc)",
+        "example": {
+          "zh": "这篇课文我已经读了三遍。",
+          "vi": "Bài khóa này tôi đã đọc ba lần rồi."
+        }
+      },
+      {
+        "hanzi": "表演",
+        "pinyin": "biǎoyǎn",
+        "hanviet": "biểu diễn",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "biểu diễn, trình diễn",
+        "example": {
+          "zh": "她晚上要参加学校的表演。",
+          "vi": "Tối nay cô ấy sẽ tham gia buổi biểu diễn của trường."
+        }
+      },
+      {
+        "hanzi": "部分",
+        "pinyin": "bùfen",
+        "hanviet": "bộ phận",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phần, bộ phận",
+        "example": {
+          "zh": "这本书只有一部分我看懂了。",
+          "vi": "Cuốn sách này tôi chỉ hiểu được một phần."
+        }
+      },
+      {
+        "hanzi": "餐厅",
+        "pinyin": "cāntīng",
+        "hanviet": "xan thính",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhà hàng",
+        "example": {
+          "zh": "学校附近有一家很好的餐厅。",
+          "vi": "Gần trường có một nhà hàng rất tốt."
+        }
+      },
+      {
+        "hanzi": "吃惊",
+        "pinyin": "chījīng",
+        "hanviet": "cật kinh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "kinh ngạc",
+        "example": {
+          "zh": "听到这个消息，我很吃惊。",
+          "vi": "Nghe được tin này, tôi rất ngạc nhiên."
+        }
+      },
+      {
+        "hanzi": "错误",
+        "pinyin": "cuòwù",
+        "hanviet": "thác ngộ",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "sai",
+        "example": {
+          "zh": "这句话有一个错误。",
+          "vi": "Câu này có một lỗi sai."
+        }
+      },
+      {
+        "hanzi": "大概",
+        "pinyin": "dàgài",
+        "hanviet": "đại khái",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "khoảng chừng, có lẽ",
+        "example": {
+          "zh": "他大概十分钟以后到。",
+          "vi": "Khoảng mười phút nữa anh ấy sẽ đến."
+        }
+      },
+      {
+        "hanzi": "大约",
+        "pinyin": "dàyuē",
+        "hanviet": "đại ước",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "khoảng chừng, ước chừng",
+        "example": {
+          "zh": "从这里到机场大约三十公里。",
+          "vi": "Từ đây đến sân bay khoảng ba mươi ki-lô-mét."
+        }
+      },
+      {
+        "hanzi": "观众",
+        "pinyin": "guānzhòng",
+        "hanviet": "quan chúng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khán giả",
+        "example": {
+          "zh": "演出结束后，观众都站起来鼓掌。",
+          "vi": "Sau khi buổi biểu diễn kết thúc, khán giả đều đứng dậy vỗ tay."
+        }
+      },
+      {
+        "hanzi": "厚",
+        "pinyin": "hòu",
+        "hanviet": "hậu",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "dày, sâu nặng",
+        "example": {
+          "zh": "这本书太厚了，我还没看完。",
+          "vi": "Cuốn sách này dày quá, tôi vẫn chưa đọc xong."
+        }
+      },
+      {
+        "hanzi": "互联网",
+        "pinyin": "hùliánwǎng",
+        "hanviet": "hỗ liên võng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mạng Internet",
+        "example": {
+          "zh": "现在很多人通过互联网学习。",
+          "vi": "Hiện nay nhiều người học tập qua Internet."
+        }
+      },
+      {
+        "hanzi": "基础",
+        "pinyin": "jīchǔ",
+        "hanviet": "cơ sở",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nền tảng, căn bản",
+        "example": {
+          "zh": "学好汉语要先打好基础。",
+          "vi": "Muốn học tốt tiếng Hán trước tiên phải xây dựng nền tảng vững chắc."
+        }
+      },
+      {
+        "hanzi": "继续",
+        "pinyin": "jìxù",
+        "hanviet": "kế tục",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tiếp tục",
+        "example": {
+          "zh": "休息十分钟以后我们继续上课。",
+          "vi": "Nghỉ mười phút xong chúng ta tiếp tục học."
+        }
+      },
+      {
+        "hanzi": "进行",
+        "pinyin": "jìnxíng",
+        "hanviet": "tiến hành",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tiến hành, thực hiện",
+        "example": {
+          "zh": "比赛将在下午进行。",
+          "vi": "Trận đấu sẽ được tiến hành vào buổi chiều."
+        }
+      },
+      {
+        "hanzi": "京剧",
+        "pinyin": "jīngjù",
+        "hanviet": "kinh kịch",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "Kinh kịch",
+        "example": {
+          "zh": "我第一次看京剧，觉得很有意思。",
+          "vi": "Đây là lần đầu tiên tôi xem Kinh kịch, thấy rất thú vị."
+        }
+      },
+      {
+        "hanzi": "开心",
+        "pinyin": "kāixīn",
+        "hanviet": "khai tâm",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "vui vẻ",
+        "example": {
+          "zh": "今天见到老朋友，我很开心。",
+          "vi": "Hôm nay gặp lại bạn cũ, tôi rất vui."
+        }
+      },
+      {
+        "hanzi": "苦",
+        "pinyin": "kǔ",
+        "hanviet": "khổ",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đắng",
+        "example": {
+          "zh": "这个药有点儿苦。",
+          "vi": "Loại thuốc này hơi đắng."
+        }
+      },
+      {
+        "hanzi": "来自",
+        "pinyin": "láizì",
+        "hanviet": "lai tự",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đến từ",
+        "example": {
+          "zh": "这些学生来自不同的国家。",
+          "vi": "Những học sinh này đến từ các quốc gia khác nhau."
+        }
+      },
+      {
+        "hanzi": "偶尔",
+        "pinyin": "ǒu'ěr",
+        "hanviet": "ngẫu nhĩ",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "thỉnh thoảng",
+        "example": {
+          "zh": "我偶尔也会自己做饭。",
+          "vi": "Thỉnh thoảng tôi cũng tự nấu ăn."
+        }
+      },
+      {
+        "hanzi": "普遍",
+        "pinyin": "pǔbiàn",
+        "hanviet": "phổ biến",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "phổ biến",
+        "example": {
+          "zh": "现在网上学习已经很普遍了。",
+          "vi": "Hiện nay việc học trực tuyến đã rất phổ biến."
+        }
+      },
+      {
+        "hanzi": "稍微",
+        "pinyin": "shāowēi",
+        "hanviet": "sảo vi",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "hơi",
+        "example": {
+          "zh": "今天比昨天稍微冷一点儿。",
+          "vi": "Hôm nay hơi lạnh hơn hôm qua một chút."
+        }
+      },
+      {
+        "hanzi": "申请",
+        "pinyin": "shēnqǐng",
+        "hanviet": "thân thỉnh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xin",
+        "example": {
+          "zh": "我已经申请了明年的奖学金。",
+          "vi": "Tôi đã nộp đơn xin học bổng cho năm sau."
+        }
+      },
+      {
+        "hanzi": "省",
+        "pinyin": "shěng",
+        "hanviet": "tỉnh",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tỉnh",
+        "example": {
+          "zh": "我来自中国南方的一个省。",
+          "vi": "Tôi đến từ một tỉnh ở miền Nam Trung Quốc."
+        }
+      },
+      {
+        "hanzi": "十分",
+        "pinyin": "shífēn",
+        "hanviet": "thập phân",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "rất, vô cùng",
+        "example": {
+          "zh": "我对这次旅行十分满意。",
+          "vi": "Tôi rất hài lòng về chuyến du lịch lần này."
+        }
+      },
+      {
+        "hanzi": "随着",
+        "pinyin": "suízhe",
+        "hanviet": "tùy trứ",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "cùng với",
+        "example": {
+          "zh": "随着天气变暖，公园里的人越来越多。",
+          "vi": "Cùng với việc thời tiết ấm lên, người trong công viên ngày càng đông."
+        }
+      },
+      {
+        "hanzi": "讨论",
+        "pinyin": "tǎolùn",
+        "hanviet": "thảo luận",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thảo luận, bàn bạc",
+        "example": {
+          "zh": "我们正在讨论周末去哪儿。",
+          "vi": "Chúng tôi đang thảo luận xem cuối tuần đi đâu."
+        }
+      },
+      {
+        "hanzi": "演出",
+        "pinyin": "yǎnchū",
+        "hanviet": "diễn xuất",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "biểu diễn",
+        "example": {
+          "zh": "今天晚上的演出几点开始？",
+          "vi": "Buổi biểu diễn tối nay mấy giờ bắt đầu?"
+        }
+      },
+      {
+        "hanzi": "演员",
+        "pinyin": "yǎnyuán",
+        "hanviet": "diễn viên",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "diễn viên",
+        "example": {
+          "zh": "那位演员在中国很有名。",
+          "vi": "Diễn viên đó rất nổi tiếng ở Trung Quốc."
+        }
+      },
+      {
+        "hanzi": "由",
+        "pinyin": "yóu",
+        "hanviet": "do",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "do",
+        "example": {
+          "zh": "这次活动由学生会负责。",
+          "vi": "Hoạt động lần này do hội học sinh phụ trách."
+        }
+      },
+      {
+        "hanzi": "有趣",
+        "pinyin": "yǒuqù",
+        "hanviet": "hữu thú",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thú vị, lý thú",
+        "example": {
+          "zh": "这本书很有趣，我已经看了两遍。",
+          "vi": "Cuốn sách này rất thú vị, tôi đã đọc hai lần rồi."
+        }
+      },
+      {
+        "hanzi": "正常",
+        "pinyin": "zhèngcháng",
+        "hanviet": "chính thường",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "bình thường, thông thường",
+        "example": {
+          "zh": "机器现在已经恢复正常了。",
+          "vi": "Máy móc hiện đã khôi phục bình thường."
+        }
+      },
+      {
+        "hanzi": "纸袋",
+        "pinyin": "zhǐdài",
+        "hanviet": "chỉ đại",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "túi giấy",
+        "example": {
+          "zh": "我买东西时尽量使用纸袋。",
+          "vi": "Khi mua đồ tôi cố gắng dùng túi giấy."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "title_zh": "抱歉、乘坐、出差…",
+    "title_vi": "32 từ vựng",
+    "words": [
+      {
+        "hanzi": "抱歉",
+        "pinyin": "bàoqiàn",
+        "hanviet": "bão khiểm",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xin lỗi",
+        "example": {
+          "zh": "很抱歉，我今天不能参加活动。",
+          "vi": "Rất xin lỗi, hôm nay tôi không thể tham gia hoạt động."
+        }
+      },
+      {
+        "hanzi": "乘坐",
+        "pinyin": "chéngzuò",
+        "hanviet": "thừa tọa",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đi, đáp (xe buýt...)",
+        "example": {
+          "zh": "去机场可以乘坐地铁。",
+          "vi": "Đi sân bay có thể đi bằng tàu điện ngầm."
+        }
+      },
+      {
+        "hanzi": "出差",
+        "pinyin": "chūchāi",
+        "hanviet": "xuất sai",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đi công tác",
+        "example": {
+          "zh": "他下周要去上海出差。",
+          "vi": "Tuần sau anh ấy phải đi công tác Thượng Hải."
+        }
+      },
+      {
+        "hanzi": "得意",
+        "pinyin": "déyì",
+        "hanviet": "đắc ý",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "hể hả, đắc chí",
+        "example": {
+          "zh": "他考了第一名，显得很得意。",
+          "vi": "Anh ấy thi được hạng nhất, trông rất đắc ý."
+        }
+      },
+      {
+        "hanzi": "地球",
+        "pinyin": "dìqiú",
+        "hanviet": "địa cầu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trái đất",
+        "example": {
+          "zh": "地球是我们共同的家。",
+          "vi": "Trái đất là ngôi nhà chung của chúng ta."
+        }
+      },
+      {
+        "hanzi": "丢",
+        "pinyin": "diū",
+        "hanviet": "điêu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ném, vứt",
+        "example": {
+          "zh": "不要把垃圾随便丢在地上。",
+          "vi": "Đừng vứt rác bừa bãi xuống đất."
+        }
+      },
+      {
+        "hanzi": "鼓励",
+        "pinyin": "gǔlì",
+        "hanviet": "cổ lệ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "khuyến khích",
+        "example": {
+          "zh": "老师经常鼓励我们多说汉语。",
+          "vi": "Thầy cô thường khuyến khích chúng tôi nói tiếng Hán nhiều hơn."
+        }
+      },
+      {
+        "hanzi": "盒子",
+        "pinyin": "hézi",
+        "hanviet": "hạp tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "hộp",
+        "example": {
+          "zh": "桌上有一个红色的盒子。",
+          "vi": "Trên bàn có một cái hộp màu đỏ."
+        }
+      },
+      {
+        "hanzi": "既然",
+        "pinyin": "jìrán",
+        "hanviet": "ký nhiên",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "vì, đã... thì...",
+        "example": {
+          "zh": "既然决定了，就认真去做吧。",
+          "vi": "Đã quyết định rồi thì hãy nghiêm túc thực hiện đi."
+        }
+      },
+      {
+        "hanzi": "减少",
+        "pinyin": "jiǎnshǎo",
+        "hanviet": "giảm thiểu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giảm bớt",
+        "example": {
+          "zh": "我们应该减少使用塑料袋。",
+          "vi": "Chúng ta nên giảm sử dụng túi ni lông."
+        }
+      },
+      {
+        "hanzi": "拒绝",
+        "pinyin": "jùjué",
+        "hanviet": "cự tuyệt",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "từ chối",
+        "example": {
+          "zh": "他拒绝了朋友的邀请。",
+          "vi": "Anh ấy đã từ chối lời mời của bạn."
+        }
+      },
+      {
+        "hanzi": "空",
+        "pinyin": "kōng",
+        "hanviet": "không",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "trống, rỗng, không",
+        "example": {
+          "zh": "这个盒子是空的。",
+          "vi": "Cái hộp này rỗng."
+        }
+      },
+      {
+        "hanzi": "垃圾桶",
+        "pinyin": "lājītǒng",
+        "hanviet": "lạp cấp dũng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thùng rác",
+        "example": {
+          "zh": "垃圾桶在门旁边。",
+          "vi": "Thùng rác ở bên cạnh cửa."
+        }
+      },
+      {
+        "hanzi": "毛巾",
+        "pinyin": "máojīn",
+        "hanviet": "mao cân",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khăn lau",
+        "example": {
+          "zh": "洗完脸以后用毛巾擦一擦。",
+          "vi": "Rửa mặt xong dùng khăn lau một chút."
+        }
+      },
+      {
+        "hanzi": "美丽",
+        "pinyin": "měilì",
+        "hanviet": "mỹ lệ",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đẹp",
+        "example": {
+          "zh": "这是一个非常美丽的城市。",
+          "vi": "Đây là một thành phố rất xinh đẹp."
+        }
+      },
+      {
+        "hanzi": "目的",
+        "pinyin": "mùdì",
+        "hanviet": "mục đích",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mục đích",
+        "example": {
+          "zh": "我来中国的目的是学习汉语。",
+          "vi": "Mục đích tôi đến Trung Quốc là học tiếng Hán."
+        }
+      },
+      {
+        "hanzi": "暖",
+        "pinyin": "nuǎn",
+        "hanviet": "noãn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "ấm, ấm áp",
+        "example": {
+          "zh": "春天来了，天气慢慢暖起来了。",
+          "vi": "Mùa xuân đến rồi, thời tiết dần dần ấm lên."
+        }
+      },
+      {
+        "hanzi": "扔",
+        "pinyin": "rēng",
+        "hanviet": "nhưng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "vứt bỏ",
+        "example": {
+          "zh": "请不要把瓶子扔在这里。",
+          "vi": "Xin đừng vứt chai ở đây."
+        }
+      },
+      {
+        "hanzi": "省",
+        "pinyin": "shěng",
+        "hanviet": "tỉnh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tiết kiệm",
+        "example": {
+          "zh": "坐地铁又快又省钱。",
+          "vi": "Đi tàu điện ngầm vừa nhanh vừa tiết kiệm tiền."
+        }
+      },
+      {
+        "hanzi": "数量",
+        "pinyin": "shùliàng",
+        "hanviet": "số lượng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "số lượng",
+        "example": {
+          "zh": "今年游客的数量增加了很多。",
+          "vi": "Năm nay số lượng khách du lịch tăng lên rất nhiều."
+        }
+      },
+      {
+        "hanzi": "速度",
+        "pinyin": "sùdù",
+        "hanviet": "tốc độ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tốc độ",
+        "example": {
+          "zh": "开车时不要超过规定的速度。",
+          "vi": "Khi lái xe đừng vượt quá tốc độ quy định."
+        }
+      },
+      {
+        "hanzi": "塑料袋",
+        "pinyin": "sùliàodài",
+        "hanviet": "tố liệu đại",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "túi nilông, túi nhựa",
+        "example": {
+          "zh": "超市现在少用塑料袋了。",
+          "vi": "Hiện nay siêu thị đã dùng ít túi ni lông hơn."
+        }
+      },
+      {
+        "hanzi": "停",
+        "pinyin": "tíng",
+        "hanviet": "đình",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ngừng, cúp, cắt",
+        "example": {
+          "zh": "公共汽车在前面的站停。",
+          "vi": "Xe buýt dừng ở trạm phía trước."
+        }
+      },
+      {
+        "hanzi": "卫生间",
+        "pinyin": "wèishēngjiān",
+        "hanviet": "vệ sinh gian",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhà vệ sinh",
+        "example": {
+          "zh": "请问，卫生间在哪儿？",
+          "vi": "Xin hỏi, nhà vệ sinh ở đâu?"
+        }
+      },
+      {
+        "hanzi": "温度",
+        "pinyin": "wēndù",
+        "hanviet": "ôn độ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhiệt độ",
+        "example": {
+          "zh": "今天的温度比昨天高。",
+          "vi": "Nhiệt độ hôm nay cao hơn hôm qua."
+        }
+      },
+      {
+        "hanzi": "污染",
+        "pinyin": "wūrǎn",
+        "hanviet": "ô nhiễm",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "làm ô nhiễm",
+        "example": {
+          "zh": "工厂不能污染附近的河水。",
+          "vi": "Nhà máy không được làm ô nhiễm nguồn nước sông gần đó."
+        }
+      },
+      {
+        "hanzi": "行",
+        "pinyin": "xíng",
+        "hanviet": "hành",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "được, đồng ý",
+        "example": {
+          "zh": "明天下午三点见，行吗？",
+          "vi": "Ba giờ chiều mai gặp nhau, được không?"
+        }
+      },
+      {
+        "hanzi": "牙膏",
+        "pinyin": "yágāo",
+        "hanviet": "nha cao",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kem đánh răng",
+        "example": {
+          "zh": "牙膏用完了，记得买新的。",
+          "vi": "Kem đánh răng dùng hết rồi, nhớ mua cái mới."
+        }
+      },
+      {
+        "hanzi": "以",
+        "pinyin": "yǐ",
+        "hanviet": "dĩ",
+        "pos": [
+          "giới từ"
+        ],
+        "meaning_vi": "dựa vào, bằng",
+        "example": {
+          "zh": "这次比赛以小组为单位进行。",
+          "vi": "Cuộc thi lần này được tiến hành theo đơn vị nhóm."
+        }
+      },
+      {
+        "hanzi": "于是",
+        "pinyin": "yúshì",
+        "hanviet": "vu thị",
+        "pos": [
+          "liên từ"
+        ],
+        "meaning_vi": "thế là",
+        "example": {
+          "zh": "外面下雨了，于是我们决定不出门。",
+          "vi": "Bên ngoài trời mưa, vì vậy chúng tôi quyết định không ra ngoài."
+        }
+      },
+      {
+        "hanzi": "脏",
+        "pinyin": "zāng",
+        "hanviet": "tạng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "bẩn, bẩn thỉu",
+        "example": {
+          "zh": "这件衣服太脏了，需要洗。",
+          "vi": "Cái áo này bẩn quá, cần phải giặt."
+        }
+      },
+      {
+        "hanzi": "重",
+        "pinyin": "zhòng",
+        "hanviet": "trọng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nặng",
+        "example": {
+          "zh": "这个箱子太重了，我搬不动。",
+          "vi": "Cái thùng này nặng quá, tôi khiêng không nổi."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "title_zh": "棒、笨、表扬…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "棒",
+        "pinyin": "bàng",
+        "hanviet": "bổng",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "xuất sắc, hay, giỏi",
+        "example": {
+          "zh": "你的汉语说得真棒！",
+          "vi": "Bạn nói tiếng Trung giỏi thật đấy!"
+        }
+      },
+      {
+        "hanzi": "笨",
+        "pinyin": "bèn",
+        "hanviet": "bổn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đần, ngốc",
+        "example": {
+          "zh": "他一点儿也不笨，只是没复习好。",
+          "vi": "Anh ấy không hề ngốc, chỉ là chưa ôn tập kỹ thôi."
+        }
+      },
+      {
+        "hanzi": "表扬",
+        "pinyin": "biǎoyáng",
+        "hanviet": "biểu dương",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "khen ngợi, biểu dương",
+        "example": {
+          "zh": "老师表扬了认真学习的学生。",
+          "vi": "Giáo viên đã khen ngợi những học sinh học tập chăm chỉ."
+        }
+      },
+      {
+        "hanzi": "厕所",
+        "pinyin": "cèsuǒ",
+        "hanviet": "xí sở",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhà vệ sinh",
+        "example": {
+          "zh": "请问，厕所在哪儿？",
+          "vi": "Xin hỏi, nhà vệ sinh ở đâu ạ?"
+        }
+      },
+      {
+        "hanzi": "粗心",
+        "pinyin": "cūxīn",
+        "hanviet": "thô tâm",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "cẩu thả",
+        "example": {
+          "zh": "他太粗心了，又忘了带钥匙。",
+          "vi": "Anh ấy quá bất cẩn, lại quên mang chìa khóa rồi."
+        }
+      },
+      {
+        "hanzi": "打针",
+        "pinyin": "dǎ zhēn",
+        "hanviet": "đả châm",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tiêm, chích",
+        "example": {
+          "zh": "医生说我需要打针。",
+          "vi": "Bác sĩ nói tôi cần phải tiêm."
+        }
+      },
+      {
+        "hanzi": "儿童",
+        "pinyin": "értóng",
+        "hanviet": "nhi đồng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trẻ em",
+        "example": {
+          "zh": "这个公园很适合儿童。",
+          "vi": "Công viên này rất thích hợp cho trẻ em."
+        }
+      },
+      {
+        "hanzi": "父亲",
+        "pinyin": "fùqīn",
+        "hanviet": "phụ thân",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cha, bố",
+        "example": {
+          "zh": "我的父亲很喜欢看新闻。",
+          "vi": "Bố tôi rất thích xem tin tức."
+        }
+      },
+      {
+        "hanzi": "赶",
+        "pinyin": "gǎn",
+        "hanviet": "cản",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "vội, gấp rút",
+        "example": {
+          "zh": "快点儿，我们还要赶火车。",
+          "vi": "Nhanh lên, chúng ta còn phải kịp chuyến tàu nữa."
+        }
+      },
+      {
+        "hanzi": "故意",
+        "pinyin": "gùyì",
+        "hanviet": "cố ý",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "cố tình, cố ý",
+        "example": {
+          "zh": "我不是故意把你的杯子打破的。",
+          "vi": "Tôi không cố ý làm vỡ cốc của bạn đâu."
+        }
+      },
+      {
+        "hanzi": "管理",
+        "pinyin": "guǎnlǐ",
+        "hanviet": "quản lý",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "quản lý",
+        "example": {
+          "zh": "她负责管理这个部门。",
+          "vi": "Cô ấy phụ trách quản lý bộ phận này."
+        }
+      },
+      {
+        "hanzi": "害羞",
+        "pinyin": "hàixiū",
+        "hanviet": "hại tu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ngượng ngùng, thẹn thùng",
+        "example": {
+          "zh": "她一见陌生人就有点儿害羞。",
+          "vi": "Cô ấy hễ gặp người lạ là hơi ngại ngùng."
+        }
+      },
+      {
+        "hanzi": "寒假",
+        "pinyin": "hánjià",
+        "hanviet": "hàn giả",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kỳ nghỉ đông",
+        "example": {
+          "zh": "寒假我打算回家看父母。",
+          "vi": "Kỳ nghỉ đông tôi định về nhà thăm bố mẹ."
+        }
+      },
+      {
+        "hanzi": "合适",
+        "pinyin": "héshì",
+        "hanviet": "hợp thích",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thích hợp",
+        "example": {
+          "zh": "这件衣服的大小很合适。",
+          "vi": "Kích cỡ chiếc áo này rất vừa vặn."
+        }
+      },
+      {
+        "hanzi": "护士",
+        "pinyin": "hùshi",
+        "hanviet": "hộ sĩ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "y tá",
+        "example": {
+          "zh": "那位护士对病人很有耐心。",
+          "vi": "Cô y tá đó rất kiên nhẫn với bệnh nhân."
+        }
+      },
+      {
+        "hanzi": "怀疑",
+        "pinyin": "huáiyí",
+        "hanviet": "hoài nghi",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nghi ngờ, hoài nghi",
+        "example": {
+          "zh": "我从来没有怀疑过他的能力。",
+          "vi": "Tôi chưa bao giờ nghi ngờ năng lực của anh ấy."
+        }
+      },
+      {
+        "hanzi": "假",
+        "pinyin": "jiǎ",
+        "hanviet": "giả",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "giả dối, không thật",
+        "example": {
+          "zh": "这个消息是假的，别相信。",
+          "vi": "Tin này là giả, đừng tin."
+        }
+      },
+      {
+        "hanzi": "骄傲",
+        "pinyin": "jiāo'ào",
+        "hanviet": "kiêu ngạo",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "kiêu ngạo",
+        "example": {
+          "zh": "取得好成绩也不能骄傲。",
+          "vi": "Dù đạt được thành tích tốt cũng không được kiêu ngạo."
+        }
+      },
+      {
+        "hanzi": "懒",
+        "pinyin": "lǎn",
+        "hanviet": "lãn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "lười, lười nhác",
+        "example": {
+          "zh": "他不是不会做，只是有点儿懒。",
+          "vi": "Anh ấy không phải không biết làm, chỉ là hơi lười thôi."
+        }
+      },
+      {
+        "hanzi": "弄",
+        "pinyin": "nòng",
+        "hanviet": "lộng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "làm",
+        "example": {
+          "zh": "你把我的书弄到哪儿去了？",
+          "vi": "Bạn để quyển sách của tôi đi đâu rồi?"
+        }
+      },
+      {
+        "hanzi": "批评",
+        "pinyin": "pīpíng",
+        "hanviet": "phê bình",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "phê bình",
+        "example": {
+          "zh": "老师批评他上课迟到。",
+          "vi": "Giáo viên phê bình cậu ấy vì đi học muộn."
+        }
+      },
+      {
+        "hanzi": "骗",
+        "pinyin": "piàn",
+        "hanviet": "phiến",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "lừa gạt",
+        "example": {
+          "zh": "你别骗我，我知道真相。",
+          "vi": "Đừng lừa tôi, tôi biết sự thật rồi."
+        }
+      },
+      {
+        "hanzi": "千万",
+        "pinyin": "qiānwàn",
+        "hanviet": "thiên vạn",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "nhất thiết phải",
+        "example": {
+          "zh": "出门前千万别忘了带护照。",
+          "vi": "Trước khi ra ngoài nhất định đừng quên mang hộ chiếu."
+        }
+      },
+      {
+        "hanzi": "敲",
+        "pinyin": "qiāo",
+        "hanviet": "xao",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "gõ, khua",
+        "example": {
+          "zh": "进办公室以前请先敲门。",
+          "vi": "Trước khi vào văn phòng xin hãy gõ cửa."
+        }
+      },
+      {
+        "hanzi": "孙子",
+        "pinyin": "sūnzi",
+        "hanviet": "tôn tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cháu nội trai",
+        "example": {
+          "zh": "爷爷每天送孙子去学校。",
+          "vi": "Ông nội ngày nào cũng đưa cháu trai đi học."
+        }
+      },
+      {
+        "hanzi": "弹钢琴",
+        "pinyin": "tán gāngqín",
+        "hanviet": "đàn cương cầm",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "chơi đàn dương cầm",
+        "example": {
+          "zh": "她每天晚上练习弹钢琴。",
+          "vi": "Tối nào cô ấy cũng luyện tập đánh đàn piano."
+        }
+      },
+      {
+        "hanzi": "响",
+        "pinyin": "xiǎng",
+        "hanviet": "hưởng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "reo, vang lên",
+        "example": {
+          "zh": "电话响了，你去接一下吧。",
+          "vi": "Điện thoại reo rồi, bạn ra nghe đi."
+        }
+      },
+      {
+        "hanzi": "醒",
+        "pinyin": "xǐng",
+        "hanviet": "tỉnh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thức dậy, tỉnh dậy",
+        "example": {
+          "zh": "我每天早上六点半醒。",
+          "vi": "Sáng nào tôi cũng thức giấc lúc sáu rưỡi."
+        }
+      },
+      {
+        "hanzi": "整理",
+        "pinyin": "zhěnglǐ",
+        "hanviet": "chỉnh lý",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thu dọn, dọn dẹp",
+        "example": {
+          "zh": "我正在整理桌上的文件。",
+          "vi": "Tôi đang sắp xếp lại tài liệu trên bàn."
+        }
+      },
+      {
+        "hanzi": "左右",
+        "pinyin": "zuǒyòu",
+        "hanviet": "tả hữu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "khoảng, khoảng chừng",
+        "example": {
+          "zh": "从这里走到地铁站十分钟左右。",
+          "vi": "Từ đây đi bộ đến ga tàu điện ngầm mất khoảng mười phút."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 16,
+    "title_zh": "报名、表格、博士…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "报名",
+        "pinyin": "bàomíng",
+        "hanviet": "báo danh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ghi danh, đăng ký",
+        "example": {
+          "zh": "我已经报名参加比赛了。",
+          "vi": "Tôi đã đăng ký tham gia cuộc thi rồi."
+        }
+      },
+      {
+        "hanzi": "表格",
+        "pinyin": "biǎogé",
+        "hanviet": "biểu cách",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bản kê khai, mẫu đơn",
+        "example": {
+          "zh": "请先把这张表格填好。",
+          "vi": "Xin hãy điền đầy đủ vào tờ biểu mẫu này trước."
+        }
+      },
+      {
+        "hanzi": "博士",
+        "pinyin": "bóshì",
+        "hanviet": "bác sĩ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiến sĩ",
+        "example": {
+          "zh": "她毕业以后想继续读博士。",
+          "vi": "Sau khi tốt nghiệp, cô ấy muốn tiếp tục học lên tiến sĩ."
+        }
+      },
+      {
+        "hanzi": "参观",
+        "pinyin": "cānguān",
+        "hanviet": "tham quan",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tham quan, đi thăm",
+        "example": {
+          "zh": "明天我们去参观那家公司。",
+          "vi": "Ngày mai chúng tôi đi tham quan công ty đó."
+        }
+      },
+      {
+        "hanzi": "传真",
+        "pinyin": "chuánzhēn",
+        "hanviet": "truyền chân",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "gửi fax",
+        "example": {
+          "zh": "请把这份材料传真给我。",
+          "vi": "Xin hãy fax tài liệu này cho tôi."
+        }
+      },
+      {
+        "hanzi": "导游",
+        "pinyin": "dǎoyóu",
+        "hanviet": "đạo du",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "hướng dẫn viên du lịch",
+        "example": {
+          "zh": "导游正在给大家介绍这个地方。",
+          "vi": "Hướng dẫn viên đang giới thiệu về nơi này cho mọi người."
+        }
+      },
+      {
+        "hanzi": "到底",
+        "pinyin": "dàodǐ",
+        "hanviet": "đáo để",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "rốt cuộc (dùng trong câu hỏi để nhấn mạnh)",
+        "example": {
+          "zh": "你到底想不想去？",
+          "vi": "Rốt cuộc bạn có muốn đi hay không?"
+        }
+      },
+      {
+        "hanzi": "敢",
+        "pinyin": "gǎn",
+        "hanviet": "cảm",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "dám",
+        "example": {
+          "zh": "你敢一个人晚上走这条路吗？",
+          "vi": "Bạn có dám một mình đi trên con đường này vào ban đêm không?"
+        }
+      },
+      {
+        "hanzi": "挂",
+        "pinyin": "guà",
+        "hanviet": "quải",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "treo, móc",
+        "example": {
+          "zh": "请把衣服挂在门后面。",
+          "vi": "Xin hãy treo quần áo ở sau cửa."
+        }
+      },
+      {
+        "hanzi": "号码",
+        "pinyin": "hàomǎ",
+        "hanviet": "hiệu mã",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "số",
+        "example": {
+          "zh": "请告诉我你的电话号码。",
+          "vi": "Xin hãy cho tôi biết số điện thoại của bạn."
+        }
+      },
+      {
+        "hanzi": "激动",
+        "pinyin": "jīdòng",
+        "hanviet": "kích động",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "cảm động, xúc động",
+        "example": {
+          "zh": "听到这个好消息，她激动得哭了。",
+          "vi": "Nghe được tin vui này, cô ấy xúc động đến phát khóc."
+        }
+      },
+      {
+        "hanzi": "记者",
+        "pinyin": "jìzhě",
+        "hanviet": "ký giả",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phóng viên, nhà báo",
+        "example": {
+          "zh": "记者正在采访那位演员。",
+          "vi": "Phóng viên đang phỏng vấn diễn viên đó."
+        }
+      },
+      {
+        "hanzi": "郊区",
+        "pinyin": "jiāoqū",
+        "hanviet": "giao khu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "vùng ngoại ô",
+        "example": {
+          "zh": "他们在郊区买了一套房子。",
+          "vi": "Họ đã mua một căn nhà ở ngoại ô."
+        }
+      },
+      {
+        "hanzi": "恐怕",
+        "pinyin": "kǒngpà",
+        "hanviet": "khủng phạ",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "e rằng, có lẽ",
+        "example": {
+          "zh": "今天太晚了，恐怕来不及了。",
+          "vi": "Hôm nay muộn quá rồi, e là không kịp nữa."
+        }
+      },
+      {
+        "hanzi": "冷静",
+        "pinyin": "lěngjìng",
+        "hanviet": "lãnh tĩnh",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "bình tĩnh, điềm tĩnh",
+        "example": {
+          "zh": "遇到问题先冷静下来。",
+          "vi": "Gặp vấn đề thì trước tiên hãy bình tĩnh lại."
+        }
+      },
+      {
+        "hanzi": "礼貌",
+        "pinyin": "lǐmào",
+        "hanviet": "lễ mạo",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "lễ phép, lịch sự",
+        "example": {
+          "zh": "跟老人说话要有礼貌。",
+          "vi": "Nói chuyện với người già phải lịch sự."
+        }
+      },
+      {
+        "hanzi": "马虎",
+        "pinyin": "mǎhu",
+        "hanviet": "mã hổ",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "cẩu thả, lơ đễnh",
+        "example": {
+          "zh": "做考试题的时候不能太马虎。",
+          "vi": "Khi làm bài thi không được quá cẩu thả."
+        }
+      },
+      {
+        "hanzi": "签证",
+        "pinyin": "qiānzhèng",
+        "hanviet": "thiêm chứng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thị thực, visa",
+        "example": {
+          "zh": "我的签证下个月到期。",
+          "vi": "Visa của tôi sẽ hết hạn vào tháng sau."
+        }
+      },
+      {
+        "hanzi": "失望",
+        "pinyin": "shīwàng",
+        "hanviet": "thất vọng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thất vọng",
+        "example": {
+          "zh": "比赛结果让大家很失望。",
+          "vi": "Kết quả cuộc thi khiến mọi người rất thất vọng."
+        }
+      },
+      {
+        "hanzi": "输",
+        "pinyin": "shū",
+        "hanviet": "thâu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thua",
+        "example": {
+          "zh": "我们虽然输了比赛，但是玩得很开心。",
+          "vi": "Tuy chúng tôi thua cuộc thi, nhưng chơi rất vui."
+        }
+      },
+      {
+        "hanzi": "同情",
+        "pinyin": "tóngqíng",
+        "hanviet": "đồng tình",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thông cảm, đồng tình",
+        "example": {
+          "zh": "我很同情他的情况。",
+          "vi": "Tôi rất thông cảm cho hoàn cảnh của anh ấy."
+        }
+      },
+      {
+        "hanzi": "推",
+        "pinyin": "tuī",
+        "hanviet": "thôi",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "hoãn lại, đẩy, triển khai",
+        "example": {
+          "zh": "请帮我推一下这扇门。",
+          "vi": "Xin hãy giúp tôi đẩy cánh cửa này một chút."
+        }
+      },
+      {
+        "hanzi": "小伙子",
+        "pinyin": "xiǎohuǒzi",
+        "hanviet": "tiểu hỏa tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chàng trai",
+        "example": {
+          "zh": "那个小伙子是新来的同事。",
+          "vi": "Chàng trai đó là đồng nghiệp mới đến."
+        }
+      },
+      {
+        "hanzi": "呀",
+        "pinyin": "ya",
+        "hanviet": "nha",
+        "pos": [
+          "trợ từ"
+        ],
+        "meaning_vi": "biến thể của từ 啊, dùng ở cuối câu hỏi để làm giọng điệu trở nên nhẹ nhàng hơn",
+        "example": {
+          "zh": "你怎么还没睡呀？",
+          "vi": "Sao bạn vẫn chưa ngủ vậy?"
+        }
+      },
+      {
+        "hanzi": "预习",
+        "pinyin": "yùxí",
+        "hanviet": "dự tập",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "chuẩn bị bài",
+        "example": {
+          "zh": "上课以前最好先预习课文。",
+          "vi": "Trước khi lên lớp tốt nhất nên xem trước bài học."
+        }
+      },
+      {
+        "hanzi": "原谅",
+        "pinyin": "yuánliàng",
+        "hanviet": "nguyên lượng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tha thứ",
+        "example": {
+          "zh": "请原谅我刚才说的话。",
+          "vi": "Xin hãy tha lỗi cho những gì tôi vừa nói."
+        }
+      },
+      {
+        "hanzi": "重点",
+        "pinyin": "zhòngdiǎn",
+        "hanviet": "trọng điểm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trọng điểm, trọng tâm",
+        "example": {
+          "zh": "这一课的重点是这个语法。",
+          "vi": "Trọng tâm của bài này là ngữ pháp này."
+        }
+      },
+      {
+        "hanzi": "重视",
+        "pinyin": "zhòngshì",
+        "hanviet": "trọng thị",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xem trọng, chú trọng",
+        "example": {
+          "zh": "学校很重视学生的安全。",
+          "vi": "Nhà trường rất coi trọng sự an toàn của học sinh."
+        }
+      },
+      {
+        "hanzi": "自信",
+        "pinyin": "zìxìn",
+        "hanviet": "tự tín",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "tự tin",
+        "example": {
+          "zh": "她说话的时候很自信。",
+          "vi": "Cô ấy nói chuyện rất tự tin."
+        }
+      },
+      {
+        "hanzi": "尊重",
+        "pinyin": "zūnzhòng",
+        "hanviet": "tôn trọng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "tôn trọng",
+        "example": {
+          "zh": "我们应该尊重别人的意见。",
+          "vi": "Chúng ta nên tôn trọng ý kiến của người khác."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 17,
+    "title_zh": "抱、倒、底…",
+    "title_vi": "28 từ vựng",
+    "words": [
+      {
+        "hanzi": "抱",
+        "pinyin": "bào",
+        "hanviet": "bão",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "bế, bồng, ôm",
+        "example": {
+          "zh": "妈妈抱着孩子走进房间。",
+          "vi": "Mẹ bế con bước vào phòng."
+        }
+      },
+      {
+        "hanzi": "倒",
+        "pinyin": "dào",
+        "hanviet": "đảo",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "nhưng, lại (dùng để chỉ sự tương phản)",
+        "example": {
+          "zh": "这件衣服不贵，质量倒挺好的。",
+          "vi": "Chiếc áo này không đắt, nhưng chất lượng lại khá tốt."
+        }
+      },
+      {
+        "hanzi": "底",
+        "pinyin": "dǐ",
+        "hanviet": "để",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "đáy",
+        "example": {
+          "zh": "杯子底有一点儿水。",
+          "vi": "Dưới đáy cốc có một ít nước."
+        }
+      },
+      {
+        "hanzi": "放暑假",
+        "pinyin": "fàng shǔjià",
+        "hanviet": "phóng thử giả",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "nghỉ hè",
+        "example": {
+          "zh": "学生七月开始放暑假。",
+          "vi": "Học sinh bắt đầu nghỉ hè từ tháng Bảy."
+        }
+      },
+      {
+        "hanzi": "干",
+        "pinyin": "gàn",
+        "hanviet": "can",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "làm",
+        "example": {
+          "zh": "你周末喜欢干什么？",
+          "vi": "Cuối tuần bạn thích làm gì?"
+        }
+      },
+      {
+        "hanzi": "公里",
+        "pinyin": "gōnglǐ",
+        "hanviet": "công lý",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "kilômét",
+        "example": {
+          "zh": "我家离学校五公里。",
+          "vi": "Nhà tôi cách trường năm ki-lô-mét."
+        }
+      },
+      {
+        "hanzi": "广播",
+        "pinyin": "guǎngbō",
+        "hanviet": "quảng bá",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chương trình phát thanh/truyền hình",
+        "example": {
+          "zh": "我每天开车时都听广播。",
+          "vi": "Ngày nào tôi cũng nghe đài khi lái xe."
+        }
+      },
+      {
+        "hanzi": "海洋",
+        "pinyin": "hǎiyáng",
+        "hanviet": "hải dương",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "biển, đại dương",
+        "example": {
+          "zh": "海洋里有很多动物。",
+          "vi": "Trong đại dương có rất nhiều động vật."
+        }
+      },
+      {
+        "hanzi": "活泼",
+        "pinyin": "huópō",
+        "hanviet": "hoạt bát",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "hoạt bát, nhanh nhẹn",
+        "example": {
+          "zh": "这个孩子很活泼，也很爱笑。",
+          "vi": "Đứa trẻ này rất hoạt bát, lại còn hay cười."
+        }
+      },
+      {
+        "hanzi": "竞争",
+        "pinyin": "jìngzhēng",
+        "hanviet": "cạnh tranh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cạnh tranh",
+        "example": {
+          "zh": "两家公司之间的竞争很激烈。",
+          "vi": "Sự cạnh tranh giữa hai công ty rất khốc liệt."
+        }
+      },
+      {
+        "hanzi": "老虎",
+        "pinyin": "lǎohǔ",
+        "hanviet": "lão hổ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "hổ, cọp",
+        "example": {
+          "zh": "动物园里有两只老虎。",
+          "vi": "Trong sở thú có hai con hổ."
+        }
+      },
+      {
+        "hanzi": "凉快",
+        "pinyin": "liángkuai",
+        "hanviet": "lương khoái",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "mát mẻ",
+        "example": {
+          "zh": "下过雨以后天气凉快多了。",
+          "vi": "Sau khi mưa xong, thời tiết mát mẻ hơn nhiều."
+        }
+      },
+      {
+        "hanzi": "毛",
+        "pinyin": "máo",
+        "hanviet": "mao",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "lông",
+        "example": {
+          "zh": "这只猫的毛很白。",
+          "vi": "Lông của con mèo này rất trắng."
+        }
+      },
+      {
+        "hanzi": "梦",
+        "pinyin": "mèng",
+        "hanviet": "mộng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "giấc mơ",
+        "example": {
+          "zh": "我昨天晚上做了一个奇怪的梦。",
+          "vi": "Tối qua tôi đã mơ một giấc mơ kỳ lạ."
+        }
+      },
+      {
+        "hanzi": "难受",
+        "pinyin": "nánshòu",
+        "hanviet": "nan thụ",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "bực bội, buồn rầu",
+        "example": {
+          "zh": "我今天有点儿难受，想早点儿回家。",
+          "vi": "Hôm nay tôi thấy hơi khó chịu, muốn về nhà sớm một chút."
+        }
+      },
+      {
+        "hanzi": "暖和",
+        "pinyin": "nuǎnhuo",
+        "hanviet": "noãn hòa",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "ấm áp",
+        "example": {
+          "zh": "屋里很暖和，不用穿这么多。",
+          "vi": "Trong phòng rất ấm áp, không cần mặc nhiều như vậy."
+        }
+      },
+      {
+        "hanzi": "排队",
+        "pinyin": "pái duì",
+        "hanviet": "bài đội",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xếp hàng",
+        "example": {
+          "zh": "买票的人很多，大家都在排队。",
+          "vi": "Người mua vé rất đông, mọi người đều đang xếp hàng."
+        }
+      },
+      {
+        "hanzi": "排列",
+        "pinyin": "páiliè",
+        "hanviet": "bài liệt",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "sắp xếp (theo thứ tự)",
+        "example": {
+          "zh": "请按照时间顺序排列这些句子。",
+          "vi": "Hãy sắp xếp những câu này theo trình tự thời gian."
+        }
+      },
+      {
+        "hanzi": "热闹",
+        "pinyin": "rènao",
+        "hanviet": "nhiệt náo",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "náo nhiệt",
+        "example": {
+          "zh": "春节的时候这里特别热闹。",
+          "vi": "Vào dịp Tết, ở đây đặc biệt nhộn nhịp."
+        }
+      },
+      {
+        "hanzi": "仍然",
+        "pinyin": "réngrán",
+        "hanviet": "nhưng nhiên",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "vẫn",
+        "example": {
+          "zh": "下了很大的雨，他仍然去上班了。",
+          "vi": "Trời mưa rất to, nhưng anh ấy vẫn đi làm."
+        }
+      },
+      {
+        "hanzi": "入口",
+        "pinyin": "rùkǒu",
+        "hanviet": "nhập khẩu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cổng vào",
+        "example": {
+          "zh": "商场入口在左边。",
+          "vi": "Lối vào trung tâm thương mại ở bên trái."
+        }
+      },
+      {
+        "hanzi": "森林",
+        "pinyin": "sēnlín",
+        "hanviet": "sâm lâm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "rừng rậm",
+        "example": {
+          "zh": "这里有一大片森林。",
+          "vi": "Ở đây có một khu rừng rộng lớn."
+        }
+      },
+      {
+        "hanzi": "社会",
+        "pinyin": "shèhuì",
+        "hanviet": "xã hội",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "xã hội",
+        "example": {
+          "zh": "这个问题受到社会的重视。",
+          "vi": "Vấn đề này được xã hội coi trọng."
+        }
+      },
+      {
+        "hanzi": "剩",
+        "pinyin": "shèng",
+        "hanviet": "thặng",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "còn lại",
+        "example": {
+          "zh": "冰箱里只剩两个鸡蛋了。",
+          "vi": "Trong tủ lạnh chỉ còn lại hai quả trứng."
+        }
+      },
+      {
+        "hanzi": "趟",
+        "pinyin": "tàng",
+        "hanviet": "thảng",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "lần, chuyến (dùng để chỉ số lần đi lại)",
+        "example": {
+          "zh": "我今天上午去了一趟银行。",
+          "vi": "Sáng nay tôi đã đi ngân hàng một chuyến."
+        }
+      },
+      {
+        "hanzi": "严格",
+        "pinyin": "yángé",
+        "hanviet": "nghiêm cách",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nghiêm khắc, nghiêm ngặt",
+        "example": {
+          "zh": "我们老师对学生要求很严格。",
+          "vi": "Thầy cô của chúng tôi yêu cầu học sinh rất nghiêm khắc."
+        }
+      },
+      {
+        "hanzi": "云",
+        "pinyin": "yún",
+        "hanviet": "vân",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mây",
+        "example": {
+          "zh": "天上有很多白色的云。",
+          "vi": "Trên trời có rất nhiều mây trắng."
+        }
+      },
+      {
+        "hanzi": "照",
+        "pinyin": "zhào",
+        "hanviet": "chiếu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "chụp (ảnh)",
+        "example": {
+          "zh": "我们在长城照了很多照片。",
+          "vi": "Chúng tôi đã chụp rất nhiều ảnh ở Vạn Lý Trường Thành."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 18,
+    "title_zh": "安全、地点、地址…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "安全",
+        "pinyin": "ānquán",
+        "hanviet": "an toàn",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "an toàn",
+        "example": {
+          "zh": "开车的时候一定要注意安全。",
+          "vi": "Khi lái xe nhất định phải chú ý an toàn."
+        }
+      },
+      {
+        "hanzi": "地点",
+        "pinyin": "dìdiǎn",
+        "hanviet": "địa điểm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "địa điểm, nơi",
+        "example": {
+          "zh": "会议地点已经改了。",
+          "vi": "Địa điểm họp đã thay đổi rồi."
+        }
+      },
+      {
+        "hanzi": "地址",
+        "pinyin": "dìzhǐ",
+        "hanviet": "địa chỉ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "địa chỉ",
+        "example": {
+          "zh": "请把你的地址写在这里。",
+          "vi": "Hãy viết địa chỉ của bạn vào đây."
+        }
+      },
+      {
+        "hanzi": "付款",
+        "pinyin": "fù kuǎn",
+        "hanviet": "phó khoản",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "trả tiền",
+        "example": {
+          "zh": "可以用手机付款吗？",
+          "vi": "Có thể thanh toán bằng điện thoại di động không?"
+        }
+      },
+      {
+        "hanzi": "火",
+        "pinyin": "huǒ",
+        "hanviet": "hỏa",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "chạy, đắt, được nhiều người ta chuộng",
+        "example": {
+          "zh": "这家小吃店最近特别火。",
+          "vi": "Quán ăn vặt này gần đây rất nổi tiếng."
+        }
+      },
+      {
+        "hanzi": "技术",
+        "pinyin": "jìshù",
+        "hanviet": "kỹ thuật",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "kỹ thuật, công nghệ",
+        "example": {
+          "zh": "这种技术越来越普遍。",
+          "vi": "Kỹ thuật này ngày càng phổ biến."
+        }
+      },
+      {
+        "hanzi": "降落",
+        "pinyin": "jiàngluò",
+        "hanviet": "giáng lạc",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đáp xuống, hạ cánh",
+        "example": {
+          "zh": "飞机马上要降落了。",
+          "vi": "Máy bay sắp hạ cánh rồi."
+        }
+      },
+      {
+        "hanzi": "交通",
+        "pinyin": "jiāotōng",
+        "hanviet": "giao thông",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "giao thông, thông tin liên lạc",
+        "example": {
+          "zh": "这个城市的交通很方便。",
+          "vi": "Giao thông của thành phố này rất thuận tiện."
+        }
+      },
+      {
+        "hanzi": "接着",
+        "pinyin": "jiēzhe",
+        "hanviet": "tiếp trứ",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "ngay sau đó",
+        "example": {
+          "zh": "他喝了一口水，接着继续说。",
+          "vi": "Anh ấy uống một ngụm nước, rồi tiếp tục nói."
+        }
+      },
+      {
+        "hanzi": "警察",
+        "pinyin": "jǐngchá",
+        "hanviet": "cảnh sát",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cảnh sát",
+        "example": {
+          "zh": "有问题可以找警察帮忙。",
+          "vi": "Có vấn đề gì thì có thể tìm cảnh sát giúp đỡ."
+        }
+      },
+      {
+        "hanzi": "举",
+        "pinyin": "jǔ",
+        "hanviet": "cử",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nêu, đưa ra",
+        "example": {
+          "zh": "老师举了一个简单的例子。",
+          "vi": "Thầy giáo đã đưa ra một ví dụ đơn giản."
+        }
+      },
+      {
+        "hanzi": "矿泉水",
+        "pinyin": "kuàngquánshuǐ",
+        "hanviet": "khoáng tuyền thủy",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nước suối",
+        "example": {
+          "zh": "请给我一瓶矿泉水。",
+          "vi": "Cho tôi một chai nước khoáng."
+        }
+      },
+      {
+        "hanzi": "迷路",
+        "pinyin": "mí lù",
+        "hanviet": "mê lộ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "lạc đường",
+        "example": {
+          "zh": "我第一次来这里，差点儿迷路了。",
+          "vi": "Đây là lần đầu tôi đến đây, suýt nữa thì bị lạc đường."
+        }
+      },
+      {
+        "hanzi": "密码",
+        "pinyin": "mìmǎ",
+        "hanviet": "mật mã",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mật mã",
+        "example": {
+          "zh": "你千万别把密码告诉别人。",
+          "vi": "Bạn tuyệt đối đừng nói mật khẩu cho người khác biết."
+        }
+      },
+      {
+        "hanzi": "秒",
+        "pinyin": "miǎo",
+        "hanviet": "miểu",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "giây",
+        "example": {
+          "zh": "比赛还有十秒就结束了。",
+          "vi": "Trận đấu còn mười giây nữa là kết thúc."
+        }
+      },
+      {
+        "hanzi": "桥",
+        "pinyin": "qiáo",
+        "hanviet": "kiều",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cầu",
+        "example": {
+          "zh": "河上有一座很漂亮的桥。",
+          "vi": "Trên sông có một cây cầu rất đẹp."
+        }
+      },
+      {
+        "hanzi": "日记",
+        "pinyin": "rìjì",
+        "hanviet": "nhật ký",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhật ký",
+        "example": {
+          "zh": "我每天晚上都写日记。",
+          "vi": "Tối nào tôi cũng viết nhật ký."
+        }
+      },
+      {
+        "hanzi": "世纪",
+        "pinyin": "shìjì",
+        "hanviet": "thế kỷ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thế kỷ",
+        "example": {
+          "zh": "这座桥建于上个世纪。",
+          "vi": "Cây cầu này được xây vào thế kỷ trước."
+        }
+      },
+      {
+        "hanzi": "是否",
+        "pinyin": "shìfǒu",
+        "hanviet": "thị phủ",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "hay không",
+        "example": {
+          "zh": "请告诉我你是否参加会议。",
+          "vi": "Hãy cho tôi biết bạn có tham gia cuộc họp hay không."
+        }
+      },
+      {
+        "hanzi": "收",
+        "pinyin": "shōu",
+        "hanviet": "thu",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "nhận",
+        "example": {
+          "zh": "我昨天收到了你的信。",
+          "vi": "Hôm qua tôi đã nhận được thư của bạn."
+        }
+      },
+      {
+        "hanzi": "受不了",
+        "pinyin": "shòubuliǎo",
+        "hanviet": "thụ bất liễu",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "chịu không nổi, chịu không được",
+        "example": {
+          "zh": "天气太热了，我真受不了。",
+          "vi": "Trời nóng quá, tôi thực sự không chịu nổi."
+        }
+      },
+      {
+        "hanzi": "网站",
+        "pinyin": "wǎngzhàn",
+        "hanviet": "võng trạm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trang web",
+        "example": {
+          "zh": "你可以在这个网站上报名。",
+          "vi": "Bạn có thể đăng ký trên trang web này."
+        }
+      },
+      {
+        "hanzi": "危险",
+        "pinyin": "wēixiǎn",
+        "hanviet": "nguy hiểm",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "nguy hiểm",
+        "example": {
+          "zh": "晚上一个人去那里很危险。",
+          "vi": "Buổi tối một mình đi đến đó rất nguy hiểm."
+        }
+      },
+      {
+        "hanzi": "咸",
+        "pinyin": "xián",
+        "hanviet": "hàm",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "mặn",
+        "example": {
+          "zh": "这个菜太咸了，少放一点儿盐吧。",
+          "vi": "Món này mặn quá, cho ít muối lại một chút đi."
+        }
+      },
+      {
+        "hanzi": "信封",
+        "pinyin": "xìnfēng",
+        "hanviet": "tín phong",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "phong thư, bì thư",
+        "example": {
+          "zh": "请把信放进信封里。",
+          "vi": "Hãy cho thư vào phong bì."
+        }
+      },
+      {
+        "hanzi": "信息",
+        "pinyin": "xìnxī",
+        "hanviet": "tín tức",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tin tức, thông tin",
+        "example": {
+          "zh": "我已经把信息发给你了。",
+          "vi": "Tôi đã gửi tin nhắn cho bạn rồi."
+        }
+      },
+      {
+        "hanzi": "邮局",
+        "pinyin": "yóujú",
+        "hanviet": "bưu cục",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bưu điện",
+        "example": {
+          "zh": "我去邮局寄一封信。",
+          "vi": "Tôi đi bưu điện gửi một lá thư."
+        }
+      },
+      {
+        "hanzi": "允许",
+        "pinyin": "yǔnxǔ",
+        "hanviet": "doãn hứa",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cho phép",
+        "example": {
+          "zh": "这里不允许停车。",
+          "vi": "Ở đây không cho phép đỗ xe."
+        }
+      },
+      {
+        "hanzi": "作者",
+        "pinyin": "zuòzhě",
+        "hanviet": "tác giả",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tác giả",
+        "example": {
+          "zh": "这篇文章的作者是一位老师。",
+          "vi": "Tác giả của bài viết này là một thầy giáo."
+        }
+      },
+      {
+        "hanzi": "座",
+        "pinyin": "zuò",
+        "hanviet": "tọa",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "tòa, hòn, cây (dùng cho cây cầu, núi, cao ốc...)",
+        "example": {
+          "zh": "山上有一座古老的寺庙。",
+          "vi": "Trên núi có một ngôi chùa cổ."
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 19,
+    "title_zh": "包子、场、出生…",
+    "title_vi": "30 từ vựng",
+    "words": [
+      {
+        "hanzi": "包子",
+        "pinyin": "bāozi",
+        "hanviet": "bao tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bánh bao",
+        "example": {
+          "zh": "我早上吃了两个包子。",
+          "vi": "Sáng nay tôi đã ăn hai cái bánh bao."
+        }
+      },
+      {
+        "hanzi": "场",
+        "pinyin": "chǎng",
+        "hanviet": "trường",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "trận (dùng cho thể thao hay các hoạt động giải trí...)",
+        "example": {
+          "zh": "昨天我们看了一场足球比赛。",
+          "vi": "Hôm qua chúng tôi đã xem một trận bóng đá."
+        }
+      },
+      {
+        "hanzi": "出生",
+        "pinyin": "chūshēng",
+        "hanviet": "xuất sinh",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "ra đời, sinh ra",
+        "example": {
+          "zh": "我出生在一个小城市。",
+          "vi": "Tôi sinh ra ở một thành phố nhỏ."
+        }
+      },
+      {
+        "hanzi": "厨房",
+        "pinyin": "chúfáng",
+        "hanviet": "trù phòng",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "nhà bếp",
+        "example": {
+          "zh": "妈妈正在厨房里做饭。",
+          "vi": "Mẹ đang nấu cơm trong bếp."
+        }
+      },
+      {
+        "hanzi": "打印",
+        "pinyin": "dǎyìn",
+        "hanviet": "đả ấn",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "in",
+        "example": {
+          "zh": "请帮我打印两份材料。",
+          "vi": "Làm ơn giúp tôi in hai bản tài liệu."
+        }
+      },
+      {
+        "hanzi": "打招呼",
+        "pinyin": "dǎ zhāohu",
+        "hanviet": "đả chiêu hô",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "chào hỏi, chào",
+        "example": {
+          "zh": "见到老师要主动打招呼。",
+          "vi": "Gặp thầy cô phải chủ động chào hỏi."
+        }
+      },
+      {
+        "hanzi": "戴",
+        "pinyin": "dài",
+        "hanviet": "đái",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đeo, mang",
+        "example": {
+          "zh": "外面很冷，记得戴帽子。",
+          "vi": "Bên ngoài trời lạnh lắm, nhớ đội mũ nhé."
+        }
+      },
+      {
+        "hanzi": "刀",
+        "pinyin": "dāo",
+        "hanviet": "đao",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "con dao",
+        "example": {
+          "zh": "切水果的时候要小心用刀。",
+          "vi": "Khi cắt hoa quả phải cẩn thận khi dùng dao."
+        }
+      },
+      {
+        "hanzi": "道歉",
+        "pinyin": "dàoqiàn",
+        "hanviet": "đạo khiểm",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xin lỗi",
+        "example": {
+          "zh": "我应该向你道歉。",
+          "vi": "Tôi nên xin lỗi bạn."
+        }
+      },
+      {
+        "hanzi": "房东",
+        "pinyin": "fángdōng",
+        "hanviet": "phòng đông",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chủ nhà (nhà cho thuê)",
+        "example": {
+          "zh": "房东说明天来修空调。",
+          "vi": "Chủ nhà nói ngày mai sẽ đến sửa điều hòa."
+        }
+      },
+      {
+        "hanzi": "复印",
+        "pinyin": "fùyìn",
+        "hanviet": "phục ấn",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "photocopy, sao chụp",
+        "example": {
+          "zh": "请把这份文件复印三份。",
+          "vi": "Làm ơn photocopy tài liệu này thành ba bản."
+        }
+      },
+      {
+        "hanzi": "胳膊",
+        "pinyin": "gēbo",
+        "hanviet": "cách bác",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cánh tay",
+        "example": {
+          "zh": "他打球时不小心伤了胳膊。",
+          "vi": "Khi chơi bóng anh ấy đã vô tình làm bị thương cánh tay."
+        }
+      },
+      {
+        "hanzi": "功夫",
+        "pinyin": "gōngfu",
+        "hanviet": "công phu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "võ thuật, môn võ kung fu",
+        "example": {
+          "zh": "他从小就开始学中国功夫。",
+          "vi": "Anh ấy học công phu Trung Quốc từ nhỏ."
+        }
+      },
+      {
+        "hanzi": "国籍",
+        "pinyin": "guójí",
+        "hanviet": "quốc tịch",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "quốc tịch",
+        "example": {
+          "zh": "请在表格上填写国籍。",
+          "vi": "Vui lòng điền quốc tịch vào biểu mẫu."
+        }
+      },
+      {
+        "hanzi": "饺子",
+        "pinyin": "jiǎozi",
+        "hanviet": "giảo tử",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bánh chẻo",
+        "example": {
+          "zh": "过年的时候我们常常一起包饺子。",
+          "vi": "Vào dịp Tết chúng tôi thường cùng nhau gói sủi cảo."
+        }
+      },
+      {
+        "hanzi": "禁止",
+        "pinyin": "jìnzhǐ",
+        "hanviet": "cấm chỉ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cấm",
+        "example": {
+          "zh": "这里禁止吸烟。",
+          "vi": "Ở đây cấm hút thuốc."
+        }
+      },
+      {
+        "hanzi": "理发",
+        "pinyin": "lǐ fà",
+        "hanviet": "lý phát",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cắt tóc",
+        "example": {
+          "zh": "我想周末去理发。",
+          "vi": "Tôi muốn đi cắt tóc vào cuối tuần."
+        }
+      },
+      {
+        "hanzi": "零钱",
+        "pinyin": "língqián",
+        "hanviet": "linh tiền",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiền lẻ",
+        "example": {
+          "zh": "你有零钱吗？我想坐公共汽车。",
+          "vi": "Bạn có tiền lẻ không? Tôi muốn đi xe buýt."
+        }
+      },
+      {
+        "hanzi": "乒乓球",
+        "pinyin": "pīngpāngqiú",
+        "hanviet": "binh bàng cầu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "bóng bàn",
+        "example": {
+          "zh": "我周末常和朋友打乒乓球。",
+          "vi": "Cuối tuần tôi thường chơi bóng bàn với bạn bè."
+        }
+      },
+      {
+        "hanzi": "破",
+        "pinyin": "pò",
+        "hanviet": "phá",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "bị đứt, bị thủng",
+        "example": {
+          "zh": "我的鞋破了，得买新的。",
+          "vi": "Giày của tôi bị rách rồi, phải mua đôi mới."
+        }
+      },
+      {
+        "hanzi": "抬",
+        "pinyin": "tái",
+        "hanviet": "đài",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "giơ lên, đưa lên",
+        "example": {
+          "zh": "请帮我把这个箱子抬起来。",
+          "vi": "Làm ơn giúp tôi khiêng cái thùng này lên."
+        }
+      },
+      {
+        "hanzi": "脱",
+        "pinyin": "tuō",
+        "hanviet": "thoát",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cởi ra",
+        "example": {
+          "zh": "进屋以后请把外套脱下来。",
+          "vi": "Sau khi vào nhà, làm ơn cởi áo khoác ra."
+        }
+      },
+      {
+        "hanzi": "性别",
+        "pinyin": "xìngbié",
+        "hanviet": "tính biệt",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "giới tính",
+        "example": {
+          "zh": "请在表格上填写性别。",
+          "vi": "Vui lòng điền giới tính vào biểu mẫu."
+        }
+      },
+      {
+        "hanzi": "学期",
+        "pinyin": "xuéqī",
+        "hanviet": "học kỳ",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "học kỳ",
+        "example": {
+          "zh": "这个学期我选了四门课。",
+          "vi": "Học kỳ này tôi đã chọn bốn môn học."
+        }
+      },
+      {
+        "hanzi": "眼镜",
+        "pinyin": "yǎnjìng",
+        "hanviet": "nhãn kính",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "mắt kính",
+        "example": {
+          "zh": "他看书的时候要戴眼镜。",
+          "vi": "Khi đọc sách anh ấy phải đeo kính."
+        }
+      },
+      {
+        "hanzi": "羽毛球",
+        "pinyin": "yǔmáoqiú",
+        "hanviet": "vũ mao cầu",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "cầu lông",
+        "example": {
+          "zh": "我最喜欢的运动是打羽毛球。",
+          "vi": "Môn thể thao tôi thích nhất là chơi cầu lông."
+        }
+      },
+      {
+        "hanzi": "占线",
+        "pinyin": "zhànxiàn",
+        "hanviet": "chiếm tuyến",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "(đường dây điện thoại) bận",
+        "example": {
+          "zh": "我刚才打电话时一直占线。",
+          "vi": "Vừa nãy tôi gọi điện thì máy cứ bận suốt."
+        }
+      },
+      {
+        "hanzi": "转",
+        "pinyin": "zhuǎn",
+        "hanviet": "chuyển",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "quay, xoay",
+        "example": {
+          "zh": "到前面的路口向右转。",
+          "vi": "Đến ngã tư phía trước thì rẽ phải."
+        }
+      },
+      {
+        "hanzi": "租",
+        "pinyin": "zū",
+        "hanviet": "tô",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thuê, cho thuê",
+        "example": {
+          "zh": "我想在学校附近租一间房。",
+          "vi": "Tôi muốn thuê một phòng gần trường."
+        }
+      },
+      {
+        "hanzi": "座位",
+        "pinyin": "zuòwèi",
+        "hanviet": "tọa vị",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chỗ ngồi",
+        "example": {
+          "zh": "不好意思，这个座位有人吗？",
+          "vi": "Xin lỗi, chỗ này có người ngồi không?"
+        }
+      }
+    ]
+  },
+  {
+    "lesson": 20,
+    "title_zh": "出发、存、打扮…",
+    "title_vi": "29 từ vựng",
+    "words": [
+      {
+        "hanzi": "出发",
+        "pinyin": "chūfā",
+        "hanviet": "xuất phát",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "xuất phát, khởi hành",
+        "example": {
+          "zh": "我们明天早上七点出发。",
+          "vi": "Ngày mai chúng tôi xuất phát lúc bảy giờ sáng."
+        }
+      },
+      {
+        "hanzi": "存",
+        "pinyin": "cún",
+        "hanviet": "tồn",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "gửi",
+        "example": {
+          "zh": "我想把这些钱存到银行。",
+          "vi": "Tôi muốn gửi số tiền này vào ngân hàng."
+        }
+      },
+      {
+        "hanzi": "打扮",
+        "pinyin": "dǎban",
+        "hanviet": "đả phẫn",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "trang điểm",
+        "example": {
+          "zh": "她今天打扮得很漂亮。",
+          "vi": "Hôm nay cô ấy ăn diện rất đẹp."
+        }
+      },
+      {
+        "hanzi": "登机牌",
+        "pinyin": "dēngjīpái",
+        "hanviet": "đăng cơ bài",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thẻ lên máy bay",
+        "example": {
+          "zh": "请把护照和登机牌准备好。",
+          "vi": "Làm ơn chuẩn bị sẵn hộ chiếu và thẻ lên máy bay."
+        }
+      },
+      {
+        "hanzi": "对话",
+        "pinyin": "duìhuà",
+        "hanviet": "đối thoại",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "đối thoại, tiếp xúc",
+        "example": {
+          "zh": "请两个人一组练习这段对话。",
+          "vi": "Làm ơn hai người một nhóm luyện tập đoạn hội thoại này."
+        }
+      },
+      {
+        "hanzi": "对面",
+        "pinyin": "duìmiàn",
+        "hanviet": "đối diện",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "đối diện, trước mặt",
+        "example": {
+          "zh": "银行就在超市对面。",
+          "vi": "Ngân hàng ở ngay đối diện siêu thị."
+        }
+      },
+      {
+        "hanzi": "干杯",
+        "pinyin": "gān bēi",
+        "hanviet": "can bôi",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "cạn ly",
+        "example": {
+          "zh": "祝你生日快乐，干杯！",
+          "vi": "Chúc bạn sinh nhật vui vẻ, cạn ly!"
+        }
+      },
+      {
+        "hanzi": "高速公路",
+        "pinyin": "gāosù gōnglù",
+        "hanviet": "cao tốc công lộ",
+        "pos": [
+          "cụm từ"
+        ],
+        "meaning_vi": "đường cao tốc",
+        "example": {
+          "zh": "这条高速公路很长。",
+          "vi": "Con đường cao tốc này rất dài."
+        }
+      },
+      {
+        "hanzi": "航班",
+        "pinyin": "hángbān",
+        "hanviet": "hàng ban",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chuyến bay",
+        "example": {
+          "zh": "我的航班下午三点起飞。",
+          "vi": "Chuyến bay của tôi cất cánh lúc ba giờ chiều."
+        }
+      },
+      {
+        "hanzi": "合格",
+        "pinyin": "hégé",
+        "hanviet": "hợp cách",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đạt tiêu chuẩn, đạt yêu cầu",
+        "example": {
+          "zh": "这批产品都检查合格了。",
+          "vi": "Lô sản phẩm này đều đã được kiểm tra đạt chuẩn."
+        }
+      },
+      {
+        "hanzi": "加油站",
+        "pinyin": "jiāyóuzhàn",
+        "hanviet": "gia du trạm",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "trạm xăng dầu",
+        "example": {
+          "zh": "前面有一个加油站。",
+          "vi": "Phía trước có một trạm xăng."
+        }
+      },
+      {
+        "hanzi": "究竟",
+        "pinyin": "jiūjìng",
+        "hanviet": "cứu cánh",
+        "pos": [
+          "phó từ"
+        ],
+        "meaning_vi": "rốt cuộc (được dùng trong câu hỏi để nhấn mạnh)",
+        "example": {
+          "zh": "这件事究竟是谁做的？",
+          "vi": "Rốt cuộc việc này là do ai làm?"
+        }
+      },
+      {
+        "hanzi": "烤鸭",
+        "pinyin": "kǎoyā",
+        "hanviet": "khảo áp",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "vịt quay",
+        "example": {
+          "zh": "来北京一定要尝尝烤鸭。",
+          "vi": "Đến Bắc Kinh nhất định phải nếm thử vịt quay."
+        }
+      },
+      {
+        "hanzi": "棵",
+        "pinyin": "kē",
+        "hanviet": "khỏa",
+        "pos": [
+          "lượng từ"
+        ],
+        "meaning_vi": "cây, ngọn (dùng cho thực vật)",
+        "example": {
+          "zh": "我们在院子里种了两棵树。",
+          "vi": "Chúng tôi đã trồng hai cây trong sân."
+        }
+      },
+      {
+        "hanzi": "可怜",
+        "pinyin": "kělián",
+        "hanviet": "khả liên",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "đáng thương, tội nghiệp",
+        "example": {
+          "zh": "那只小猫看起来很可怜。",
+          "vi": "Con mèo con đó trông thật đáng thương."
+        }
+      },
+      {
+        "hanzi": "辣",
+        "pinyin": "là",
+        "hanviet": "lạt",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "cay",
+        "example": {
+          "zh": "我不太能吃辣的菜。",
+          "vi": "Tôi không ăn cay được lắm."
+        }
+      },
+      {
+        "hanzi": "旅行",
+        "pinyin": "lǚxíng",
+        "hanviet": "lữ hành",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "du lịch",
+        "example": {
+          "zh": "我每年都想去一个新的地方旅行。",
+          "vi": "Mỗi năm tôi đều muốn đi du lịch một nơi mới."
+        }
+      },
+      {
+        "hanzi": "民族",
+        "pinyin": "mínzú",
+        "hanviet": "dân tộc",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "dân tộc",
+        "example": {
+          "zh": "中国有很多个民族。",
+          "vi": "Trung Quốc có rất nhiều dân tộc."
+        }
+      },
+      {
+        "hanzi": "普通话",
+        "pinyin": "pǔtōnghuà",
+        "hanviet": "phổ thông thoại",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "tiếng phổ thông, tiếng Quan thoại",
+        "example": {
+          "zh": "他说普通话说得很标准。",
+          "vi": "Anh ấy nói tiếng phổ thông rất chuẩn."
+        }
+      },
+      {
+        "hanzi": "收拾",
+        "pinyin": "shōushi",
+        "hanviet": "thu thập",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "thu dọn, thu xếp",
+        "example": {
+          "zh": "吃完饭以后我们一起收拾厨房。",
+          "vi": "Ăn cơm xong chúng tôi cùng nhau dọn dẹp bếp."
+        }
+      },
+      {
+        "hanzi": "首都",
+        "pinyin": "shǒudū",
+        "hanviet": "thủ đô",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "thủ đô",
+        "example": {
+          "zh": "北京是中国的首都。",
+          "vi": "Bắc Kinh là thủ đô của Trung Quốc."
+        }
+      },
+      {
+        "hanzi": "酸",
+        "pinyin": "suān",
+        "hanviet": "toan",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "chua",
+        "example": {
+          "zh": "这个橙子有点儿酸。",
+          "vi": "Quả cam này hơi chua."
+        }
+      },
+      {
+        "hanzi": "汤",
+        "pinyin": "tāng",
+        "hanviet": "thang",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "canh, súp",
+        "example": {
+          "zh": "这碗汤有点儿咸。",
+          "vi": "Bát canh này hơi mặn."
+        }
+      },
+      {
+        "hanzi": "推迟",
+        "pinyin": "tuīchí",
+        "hanviet": "thôi trì",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "hoãn lại",
+        "example": {
+          "zh": "因为下雨，比赛推迟到明天。",
+          "vi": "Vì trời mưa nên trận đấu bị hoãn đến ngày mai."
+        }
+      },
+      {
+        "hanzi": "香",
+        "pinyin": "xiāng",
+        "hanviet": "hương",
+        "pos": [
+          "tính từ"
+        ],
+        "meaning_vi": "thơm",
+        "example": {
+          "zh": "这个菜闻起来真香。",
+          "vi": "Món ăn này ngửi thấy thơm quá."
+        }
+      },
+      {
+        "hanzi": "小吃",
+        "pinyin": "xiǎochī",
+        "hanviet": "tiểu cật",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "món ăn vặt",
+        "example": {
+          "zh": "这条街有很多有名的小吃。",
+          "vi": "Con phố này có rất nhiều món ăn vặt nổi tiếng."
+        }
+      },
+      {
+        "hanzi": "笑话",
+        "pinyin": "xiàohua",
+        "hanviet": "tiếu thoại",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "truyện cười",
+        "example": {
+          "zh": "他给我们讲了一个很好笑的笑话。",
+          "vi": "Anh ấy đã kể cho chúng tôi một câu chuyện cười rất hài hước."
+        }
+      },
+      {
+        "hanzi": "钥匙",
+        "pinyin": "yàoshi",
+        "hanviet": "thược thi",
+        "pos": [
+          "danh từ"
+        ],
+        "meaning_vi": "chìa khóa",
+        "example": {
+          "zh": "我找不到家里的钥匙了。",
+          "vi": "Tôi không tìm thấy chìa khóa nhà nữa."
+        }
+      },
+      {
+        "hanzi": "祝贺",
+        "pinyin": "zhùhè",
+        "hanviet": "chúc hạ",
+        "pos": [
+          "động từ"
+        ],
+        "meaning_vi": "chúc mừng",
+        "example": {
+          "zh": "祝贺你顺利通过考试！",
+          "vi": "Chúc mừng bạn đã vượt qua kỳ thi thuận lợi!"
+        }
+      }
+    ]
+  }
+]
