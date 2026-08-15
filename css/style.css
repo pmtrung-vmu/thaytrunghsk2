@@ -1030,6 +1030,54 @@ a.student-name-display[hidden] { display: none; }
 .bk-read-btn:hover { background: #f4f0ff; }
 .bk-read-btn.bk-playing { background: var(--indigo-deep); color: #fff; border-color: var(--indigo-deep); }
 .bk-read-btn:disabled { opacity: .5; cursor: default; }
+
+.voice-settings-btn {
+  margin-left: auto;
+  font: inherit;
+  cursor: pointer;
+  font-size: 13px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  white-space: nowrap;
+}
+.voice-settings-btn:hover { background: var(--card); }
+.voice-settings-panel {
+  margin: -8px 0 16px;
+  padding: 14px 16px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.voice-settings-hint { font-size: 12.5px; color: var(--ink-soft); margin: 0 0 12px; line-height: 1.5; }
+.voice-settings-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.voice-settings-row:last-child { margin-bottom: 0; }
+.voice-settings-row label { font-size: 13.5px; font-weight: 600; color: var(--ink); width: 70px; flex-shrink: 0; }
+.voice-settings-row select {
+  font: inherit;
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  flex: 1 1 220px;
+  min-width: 0;
+}
+.voice-preview-btn {
+  font: inherit;
+  cursor: pointer;
+  font-size: 12.5px;
+  padding: 6px 12px;
+  border-radius: 16px;
+  border: 1px solid var(--indigo);
+  background: #fff;
+  color: var(--indigo-deep);
+  white-space: nowrap;
+}
+.voice-preview-btn:hover { background: #f4f0ff; }
 .bk-title-vi { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 10px; }
 .bk-lines { margin-top: 8px; }
 .bk-line { padding: 7px 0; border-top: 1px dashed var(--line); }
@@ -1086,4 +1134,9 @@ a.student-name-display[hidden] { display: none; }
   .af-text { font-size: 15px; line-height: 2.4; }
   .af-blank { font-size: 13px; max-width: 92px; }
   .bk-line .bk-zh { font-size: 15px; }
+
+  .voice-settings-row { align-items: stretch; }
+  .voice-settings-row label { width: 100%; }
+  .voice-settings-row select { flex-basis: 100%; }
+  .voice-preview-btn { flex: 1 1 100%; text-align: center; }
 }

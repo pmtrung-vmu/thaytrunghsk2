@@ -580,19 +580,117 @@ function ensureVoicesLoaded() {
   });
 }
 
-const FEMALE_VOICE_HINTS = /female|nữ|huihui|yaoyao|tingting|ting-ting|xiaoxiao|xiaoyi|meijia|mei-jia|sinji|sin-ji|yating|ya-ting|xiaomeng|siqi/i;
-const MALE_VOICE_HINTS = /male|nam|kangkang|yunjian|yunxi|yunyang|yunfeng|zhiwei/i;
+/* Tên các giọng nữ/nam tiếng Trung phổ biến trên Windows/Edge, macOS/iOS,
+   Android/Chrome — càng liệt kê được nhiều giọng chất lượng cao (Neural/
+   Online/Natural) càng dễ tự động chọn đúng giọng hay thay vì rơi vào giọng
+   robot mặc định. */
+const FEMALE_VOICE_HINTS = /female|nữ|huihui|yaoyao|tingting|ting-ting|xiaoxiao|xiaoyi|xiaomo|xiaoxuan|xiaohan|xiaomeng|xiaoqiu|xiaorui|xiaoyan|xiaozhen|xiaoshuang|meijia|mei-jia|sinji|sin-ji|yating|ya-ting|siqi|lili|mei\b/i;
+const MALE_VOICE_HINTS = /male|nam\b|kangkang|yunjian|yunxi|yunyang|yunfeng|yunhao|yunye|yunze|yunjie|zhiwei|zhiyu|zhigang|zhicheng/i;
+
+/* Ưu tiên giọng "chất lượng cao" khi máy có nhiều giọng zh để chọn — các
+   giọng Online/Natural/Neural (thường là giọng đọc bằng AI trên máy chủ,
+   nghe tự nhiên hơn hẳn giọng robot cài sẵn offline) và giọng Google luôn
+   được ưu tiên trước. */
+const VOICE_QUALITY_HINTS = /neural|online|natural|premium|enhanced|google/i;
+function scoreVoiceQuality(v) {
+  let score = 0;
+  if (VOICE_QUALITY_HINTS.test(v.name)) score += 10;
+  if (v.localService === false) score += 1;
+  return score;
+}
+
+const VOICE_PREF_KEY = { f: "hsk_voice_pref_f", m: "hsk_voice_pref_m" };
+function getStoredVoicePref(gender) {
+  try { return localStorage.getItem(VOICE_PREF_KEY[gender]) || ""; } catch (e) { return ""; }
+}
+function setStoredVoicePref(gender, name) {
+  try {
+    if (name) localStorage.setItem(VOICE_PREF_KEY[gender], name);
+    else localStorage.removeItem(VOICE_PREF_KEY[gender]);
+  } catch (e) { /* localStorage có thể bị chặn (chế độ ẩn danh...) — bỏ qua */ }
+}
 
 function pickVoiceAndPitch(gender) {
-  const pitch = gender === "f" ? 1.15 : 0.82;
-  if (!("speechSynthesis" in window)) return { voice: null, pitch };
-  const voices = window.speechSynthesis.getVoices().filter((v) => /^zh/i.test(v.lang));
-  if (!voices.length) return { voice: null, pitch };
+  /* Nới rộng khoảng cách cao độ + tốc độ đọc giữa 2 giới để phân biệt rõ
+     ràng hơn dù máy chỉ có 1 giọng tiếng Trung duy nhất. */
+  const pitch = gender === "f" ? 1.28 : 0.78;
+  const rate = gender === "f" ? 1.02 : 0.9;
+  if (!("speechSynthesis" in window)) return { voice: null, pitch, rate };
+  const allVoices = window.speechSynthesis.getVoices();
+
+  /* 1) Người dùng đã tự chọn giọng cụ thể trong "🎙️ Giọng đọc" → ưu tiên
+     tuyệt đối. */
+  const preferredName = getStoredVoicePref(gender);
+  if (preferredName) {
+    const chosen = allVoices.find((v) => v.name === preferredName);
+    if (chosen) return { voice: chosen, pitch, rate };
+  }
+
+  const voices = allVoices.filter((v) => /^zh/i.test(v.lang));
+  if (!voices.length) return { voice: null, pitch, rate };
+
+  /* 2) Khớp theo tên giọng đã biết là nam/nữ, ưu tiên giọng chất lượng cao
+     nhất trong số các giọng khớp. */
   const hintRe = gender === "f" ? FEMALE_VOICE_HINTS : MALE_VOICE_HINTS;
-  let voice = voices.find((v) => hintRe.test(v.name));
-  if (!voice && voices.length > 1) voice = gender === "f" ? voices[0] : voices[voices.length - 1];
-  if (!voice) voice = voices[0];
-  return { voice, pitch };
+  const hinted = voices.filter((v) => hintRe.test(v.name));
+  if (hinted.length) {
+    hinted.sort((a, b) => scoreVoiceQuality(b) - scoreVoiceQuality(a));
+    return { voice: hinted[0], pitch, rate };
+  }
+
+  /* 3) Không nhận diện được tên giọng nào — xếp theo chất lượng rồi lấy 2
+     đầu/cuối danh sách để nam/nữ luôn khác voice object nhau (nếu máy có
+     ≥2 giọng); còn lại chỉ có 1 giọng thì dựa hoàn toàn vào pitch/rate. */
+  const sorted = [...voices].sort((a, b) => scoreVoiceQuality(b) - scoreVoiceQuality(a));
+  const voice = sorted.length > 1 ? (gender === "f" ? sorted[0] : sorted[sorted.length - 1]) : sorted[0];
+  return { voice, pitch, rate };
+}
+
+async function populateVoiceSettingsPanel() {
+  await ensureVoicesLoaded();
+  const all = ("speechSynthesis" in window) ? window.speechSynthesis.getVoices() : [];
+  const zh = all.filter((v) => /^zh/i.test(v.lang));
+  const list = zh.length ? zh : all;
+  ["f", "m"].forEach((gender) => {
+    const sel = document.getElementById(`voice-select-${gender}`);
+    if (!sel) return;
+    const current = getStoredVoicePref(gender);
+    sel.innerHTML = `<option value="">Tự động (khuyến nghị)</option>` +
+      list.map((v) => `<option value="${escapeHtml(v.name)}"${v.name === current ? " selected" : ""}>${escapeHtml(v.name)} — ${escapeHtml(v.lang)}</option>`).join("");
+    if (!list.length) sel.innerHTML = `<option value="">Máy này chưa có giọng tiếng Trung nào</option>`;
+  });
+}
+
+function previewVoice(gender) {
+  if (!("speechSynthesis" in window)) return;
+  window.speechSynthesis.cancel();
+  if (activeReadBtn) { resetReadBtn(activeReadBtn); activeReadBtn = null; }
+  bkPlaybackToken++;
+  const { voice, pitch, rate } = pickVoiceAndPitch(gender);
+  const sample = gender === "f" ? "你好，我是女生的声音，很高兴认识你。" : "你好，我是男生的声音，很高兴认识你。";
+  const u = new SpeechSynthesisUtterance(sample);
+  u.lang = "zh-CN";
+  u.pitch = pitch;
+  u.rate = rate;
+  if (voice) u.voice = voice;
+  window.speechSynthesis.speak(u);
+}
+
+function wireVoiceSettingsPanel(container) {
+  const btn = container.querySelector("#voice-settings-btn");
+  const panel = container.querySelector("#voice-settings-panel");
+  if (!btn || !panel) return;
+  btn.addEventListener("click", async () => {
+    panel.hidden = !panel.hidden;
+    if (!panel.hidden) await populateVoiceSettingsPanel();
+  });
+  ["f", "m"].forEach((gender) => {
+    const sel = container.querySelector(`#voice-select-${gender}`);
+    if (sel) sel.addEventListener("change", () => setStoredVoicePref(gender, sel.value));
+  });
+  Array.from(container.querySelectorAll(".voice-preview-btn")).forEach((pbtn) => {
+    pbtn.addEventListener("click", () => previewVoice(pbtn.dataset.gender));
+  });
 }
 
 let bkPlaybackToken = 0;
@@ -633,11 +731,11 @@ async function toggleReadAloud(btn, contentZh, textKey) {
     if (idx >= lines.length) { resetReadBtn(btn); if (activeReadBtn === btn) activeReadBtn = null; return; }
     const line = lines[idx++];
     const gender = (line.speaker && genderMap[line.speaker]) || genderMap.__default || "f";
-    const { voice, pitch } = pickVoiceAndPitch(gender);
+    const { voice, pitch, rate } = pickVoiceAndPitch(gender);
     const u = new SpeechSynthesisUtterance(line.text);
     u.lang = "zh-CN";
     u.pitch = pitch;
-    u.rate = 0.95;
+    u.rate = rate;
     if (voice) u.voice = voice;
     u.onend = playNext;
     u.onerror = playNext;
@@ -710,6 +808,21 @@ async function renderCurriculumLesson(app, levelId, lessonNumStr) {
     <div class="curr-toggles" id="curr-baikhoa-toggles">
       <label class="toggle-item"><input type="checkbox" id="toggle-pinyin"> Hiện pinyin</label>
       <label class="toggle-item"><input type="checkbox" id="toggle-vi"> Hiện nghĩa tiếng Việt</label>
+      <button type="button" class="voice-settings-btn" id="voice-settings-btn">🎙️ Giọng đọc</button>
+    </div>
+
+    <div class="voice-settings-panel" id="voice-settings-panel" hidden>
+      <p class="voice-settings-hint">Chọn giọng đọc tiếng Trung có sẵn trên máy/trình duyệt của bạn cho từng vai nam/nữ (để trống = hệ thống tự chọn). Danh sách giọng và độ tự nhiên phụ thuộc thiết bị — điện thoại/Edge/Safari thường có sẵn giọng hay hơn máy tính dùng Chrome/Windows cũ.</p>
+      <div class="voice-settings-row">
+        <label for="voice-select-f">Giọng nữ</label>
+        <select id="voice-select-f"><option value="">Tự động (khuyến nghị)</option></select>
+        <button type="button" class="voice-preview-btn" data-gender="f">🔊 Nghe thử</button>
+      </div>
+      <div class="voice-settings-row">
+        <label for="voice-select-m">Giọng nam</label>
+        <select id="voice-select-m"><option value="">Tự động (khuyến nghị)</option></select>
+        <button type="button" class="voice-preview-btn" data-gender="m">🔊 Nghe thử</button>
+      </div>
     </div>
 
     <div id="curr-pane-baikhoa" class="curr-pane hide-pinyin hide-vi">
@@ -751,6 +864,7 @@ async function renderCurriculumLesson(app, levelId, lessonNumStr) {
   const paneBaiKhoa = document.getElementById("curr-pane-baikhoa");
   const paneNguPhap = document.getElementById("curr-pane-ngupap");
   const toggles = document.getElementById("curr-baikhoa-toggles");
+  const voicePanel = document.getElementById("voice-settings-panel");
   tabs.forEach((tab) => {
     tab.addEventListener("click", () => {
       tabs.forEach((t) => t.classList.remove("active"));
@@ -759,6 +873,7 @@ async function renderCurriculumLesson(app, levelId, lessonNumStr) {
       paneBaiKhoa.hidden = target !== "baikhoa";
       paneNguPhap.hidden = target !== "ngupap";
       toggles.hidden = target !== "baikhoa";
+      if (target !== "baikhoa") voicePanel.hidden = true;
     });
   });
 
@@ -778,6 +893,8 @@ async function renderCurriculumLesson(app, levelId, lessonNumStr) {
     const textKey = `${levelId}-${lesson.lesson}-${idx}`;
     btn.addEventListener("click", () => toggleReadAloud(btn, t.contentZh, textKey));
   });
+
+  wireVoiceSettingsPanel(app);
 }
 
 /* ---------------- Unit (4 modes) ---------------- */
