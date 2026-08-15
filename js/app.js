@@ -2,10 +2,10 @@
    Tự viết toàn bộ, không sao chép code từ trang nào khác. */
 
 const LEVELS = [
-  { id: "1", label: "HSK 1", file: "hsk1.json" },
-  { id: "2", label: "HSK 2", file: "hsk2.json" },
-  { id: "3", label: "HSK 3", file: "hsk3.json" },
-  { id: "4", label: "HSK 4", file: "hsk4.json", grammar: "grammar4.json" },
+  { id: "1", label: "HSK 1", file: "hsk1.json", grammar: "grammar1.json", grammarGroupLabel: "Bài" },
+  { id: "2", label: "HSK 2", file: "hsk2.json", grammar: "grammar2.json", grammarGroupLabel: "Bài" },
+  { id: "3", label: "HSK 3", file: "hsk3.json", grammar: "grammar3.json", grammarGroupLabel: "Bài" },
+  { id: "4", label: "HSK 4", file: "hsk4.json", grammar: "grammar4.json", grammarGroupLabel: "Nhóm" },
 ];
 
 const UNIT_SIZE = 20;
@@ -1131,11 +1131,13 @@ async function renderGrammar(app, id) {
   const info = levelInfo(id);
   const lessons = await fetchGrammarData(id);
   const totalPoints = lessons ? lessons.reduce((sum, l) => sum + l.points.length, 0) : 0;
+  const groupLabel = info.grammarGroupLabel || "Bài";
+  const groupNoun = groupLabel === "Nhóm" ? "nhóm" : "bài";
 
   app.innerHTML = `
     <div class="crumbs"><a href="#/">Trang chủ</a> / <a href="#/level/${id}">${info.label}</a> / Ngữ pháp</div>
     <div class="section-title"><h2>Ngữ pháp ${info.label}</h2></div>
-    <p class="section-sub">${lessons ? `${totalPoints} điểm ngữ pháp · ${lessons.length} nhóm` : ""}</p>
+    <p class="section-sub">${lessons ? `${totalPoints} điểm ngữ pháp · ${lessons.length} ${groupNoun}` : ""}</p>
     <div id="gram-body"></div>
   `;
   const gbody = document.getElementById("gram-body");
@@ -1147,7 +1149,7 @@ async function renderGrammar(app, id) {
 
   gbody.innerHTML = lessons.map(l => `
     <div class="gram-lesson">
-      <h3 class="gram-lesson-title">Nhóm ${l.lesson}</h3>
+      <h3 class="gram-lesson-title">${groupLabel} ${l.lesson}</h3>
       <div class="grammar-list">
         ${l.points.map(p => `
           <div class="gram-card">

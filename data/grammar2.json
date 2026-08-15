@@ -1,0 +1,651 @@
+[
+  {
+    "lesson": 1,
+    "points": [
+      {
+        "hanzi": "Trợ động từ 要",
+        "vi": "được dùng trước động từ để cho biết người nào đó có nguyện vọng thực hiện việc gì",
+        "examples": [
+          {
+            "zh": "王方要学习英语",
+            "vi": "Vương Phang học tiếng Anh"
+          },
+          {
+            "zh": "我要吃米饭",
+            "vi": "Tôi ăn cơm"
+          },
+          {
+            "zh": "小王要去，我不想去",
+            "vi": "Tiểu Vương muốn đi, tôi không muốn đi"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ chỉ mức độ 最",
+        "vi": "có nghĩa là giữ vị trí hàng đầu trong các sự vật cùng loại",
+        "examples": [
+          {
+            "zh": "大卫的汉语最好",
+            "vi": "Tiếng Trung của Đại Vĩ tốt nhất"
+          },
+          {
+            "zh": "我最喜欢吃米饭",
+            "vi": "Tôi thích ăn cơm nhất"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách diễn tả số ước lượng 几 và 多",
+        "vi": "几 được dùng để chỉ con số không xác định nhỏ hơn 10, phía sau phải có lượng từ",
+        "examples": [
+          {
+            "zh": "车上有几个人",
+            "vi": "Trên xe có vài người"
+          },
+          {
+            "zh": "我想买几本书",
+            "vi": "Tôi muốn mua vài cuốn sách"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "points": [
+      {
+        "hanzi": "Câu hỏi với 是不是",
+        "vi": "Khi đặt câu hỏi, nếu có sự phỏng đoán khá chắc chắn...thường được dùng trước vị ngữ",
+        "examples": [
+          {
+            "zh": "你很少生病，是不是喜欢运动?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Đại từ 每",
+        "vi": "được dùng trước lượng từ để chỉ một cá thể hay một nhóm bất kỳ trong tổng thể",
+        "examples": [
+          {
+            "zh": "山姆每年都去中国旅游",
+            "vi": "Sam hàng năm đều đi du lịch Trung Quốc"
+          },
+          {
+            "zh": "我每天六点起床",
+            "vi": "Mỗi ngày tôi dậy lúc 6 giờ"
+          }
+        ]
+      },
+      {
+        "hanzi": "Đại từ nghi vấn 多",
+        "vi": "được dùng trước tính từ để hỏi về mức độ",
+        "examples": [
+          {
+            "zh": "你多大?",
+            "vi": "Bạn bao nhiêu tuổi?"
+          },
+          {
+            "zh": "王医生的儿子多高?",
+            "vi": "Con trai bác sĩ Vương cao bao nhiêu?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "points": [
+      {
+        "hanzi": "Cụm từ có 的",
+        "vi": "Đại từ, tính từ hay động từ kết hợp với 的 sẽ tạo thành cụm từ",
+        "examples": [
+          {
+            "zh": "这本书不是我的",
+            "vi": "Quyển sách này không phải là của tôi"
+          },
+          {
+            "zh": "这个杯子是昨天买的",
+            "vi": "Cốc này hôm qua mua"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách dùng 一下",
+        "vi": "được dùng sau động từ để diễn tả hành động xảy ra trong thời gian ngắn",
+        "examples": [
+          {
+            "zh": "我看一下",
+            "vi": "Tôi xem một chút"
+          },
+          {
+            "zh": "你休息一下吧",
+            "vi": "Bạn nghỉ một chút đi"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ ngữ khí 真",
+        "vi": "được dùng để thể hiện cảm thán, có nghĩa là thật, quả là",
+        "examples": [
+          {
+            "zh": "你真好!",
+            "vi": "Bạn thật giỏi!"
+          },
+          {
+            "zh": "今天天气真好!",
+            "vi": "Hôm nay thời tiết thật đẹp!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "points": [
+      {
+        "hanzi": "Cấu trúc 是……的",
+        "vi": "Mẫu câu dùng để nhấn mạnh chủ thể thực hiện hành động",
+        "examples": [
+          {
+            "zh": "这本书是我买的",
+            "vi": "Quyển sách này là tôi mua"
+          },
+          {
+            "zh": "晚饭是妈妈做的",
+            "vi": "Bữa tối là mẹ nấu"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc diễn tả thời gian ……的时候",
+        "vi": "Để diễn tả thời gian, ta dùng: Cụm từ chỉ số lượng + 的时候",
+        "examples": [
+          {
+            "zh": "今天早上八点的时候我没在家",
+            "vi": "Lúc 8h sáng hôm nay tôi không có ở nhà"
+          },
+          {
+            "zh": "我睡觉的时候，我妈妈在做饭",
+            "vi": "Lúc tôi ngủ thì mẹ tôi đang nấu cơm"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ chỉ thời gian 已经",
+        "vi": "Phó từ dùng để diễn tả hành động đã hoàn thành",
+        "examples": [
+          {
+            "zh": "王老师已经回家了",
+            "vi": "Thầy Vương về nhà rồi"
+          },
+          {
+            "zh": "我的身体已经好了",
+            "vi": "Sức khỏe của tôi ổn rồi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "points": [
+      {
+        "hanzi": "Phó từ 就",
+        "vi": "được dùng trong cấu trúc 'cũng + động từ' để kết nối nội dung trước đó",
+        "examples": [
+          {
+            "zh": "你不想去，就在家休息吧",
+            "vi": "Không muốn đi thì ở nhà nghỉ"
+          },
+          {
+            "zh": "这儿的咖啡不错，就喝咖啡吧",
+            "vi": "Cà phê ở đây tốt, uống cà phê đi"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ ngữ khí 还",
+        "vi": "dùng để diễn tả ý có thể chấp nhận được, tạm được",
+        "examples": [
+          {
+            "zh": "还好",
+            "vi": "Tạm ổn"
+          },
+          {
+            "zh": "还行，不太大",
+            "vi": "Cũng được, không to lắm"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ chỉ mức độ 有点儿",
+        "vi": "thường được dùng để diễn tả cảm xúc tiêu cực",
+        "examples": [
+          {
+            "zh": "今天天气有点儿冷",
+            "vi": "Thời tiết hôm nay hơi lạnh"
+          },
+          {
+            "zh": "我昨天有点儿累",
+            "vi": "Hôm qua tôi hơi mệt"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "points": [
+      {
+        "hanzi": "Đại từ nghi vấn 怎么",
+        "vi": "được dùng để hỏi về nguyên nhân...thường diễn tả thái độ ngạc nhiên",
+        "examples": [
+          {
+            "zh": "你怎么不吃饭?",
+            "vi": "Tại sao bạn không ăn cơm?"
+          },
+          {
+            "zh": "昨天他怎么不上课?",
+            "vi": "Tại sao hôm qua anh ấy không đến lớp?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Sự lặp lại lượng từ",
+        "vi": "Khi được lặp lại, lượng từ có nghĩa là mỗi/mọi",
+        "examples": [
+          {
+            "zh": "这个商店的衣服件件都很漂亮",
+            "vi": "Mọi bộ quần áo trong cửa hàng này đều rất đẹp"
+          },
+          {
+            "zh": "这个星期我天天都吃牛肉",
+            "vi": "Tôi ăn thịt bò mỗi ngày trong tuần này"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc 因为……，所以……",
+        "vi": "Hai liên từ dùng để nối...quan hệ nhân quả",
+        "examples": [
+          {
+            "zh": "因为她生病了，所以没上课",
+            "vi": "Vì cô ấy bị bệnh nên không lên lớp"
+          },
+          {
+            "zh": "因为下雨，所以我没去打篮球",
+            "vi": "Vì trời mưa nên tôi không đi chơi bóng rổ"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "points": [
+      {
+        "hanzi": "Phó từ ngữ khí 还",
+        "vi": "được dùng để chỉ sự tiếp diễn của hành động hay trạng thái",
+        "examples": [
+          {
+            "zh": "早上八点了，你还在睡觉",
+            "vi": "8 giờ sáng rồi, bạn còn ngủ"
+          },
+          {
+            "zh": "你怎么还没吃饭?",
+            "vi": "Bạn làm sao vẫn chưa ăn?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ chỉ thời gian 就",
+        "vi": "được dùng để nhấn mạnh sự vật xảy ra sớm hay diễn ra nhanh",
+        "examples": [
+          {
+            "zh": "我们七点就来教室了",
+            "vi": "Chúng tôi 7 giờ đã đến lớp rồi"
+          },
+          {
+            "zh": "我坐公共汽车一个小时就到学校了",
+            "vi": "Tôi ngồi xe buýt một tiếng thì tới trường rồi"
+          }
+        ]
+      },
+      {
+        "hanzi": "Động từ 离",
+        "vi": "dùng để chỉ khoảng cách trong mối tương quan với một địa điểm",
+        "examples": [
+          {
+            "zh": "我家离学校很近",
+            "vi": "Nhà tôi cách trường học rất gần"
+          },
+          {
+            "zh": "离这儿不远有一个中国饭馆",
+            "vi": "Gần đây có một quán ăn Trung Quốc"
+          }
+        ]
+      },
+      {
+        "hanzi": "Trợ từ ngữ khí 呢",
+        "vi": "được dùng ở cuối câu trần thuật để hỏi hoặc diễn tả bất ngờ",
+        "examples": [
+          {
+            "zh": "今天去哪儿吃饭呢?",
+            "vi": "Hôm nay ăn cơm ở đâu thế?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "points": [
+      {
+        "hanzi": "Câu hỏi có cấu trúc \"………, 好吗?\"",
+        "vi": "Mẫu câu thường được dùng để hỏi ý kiến của người khác",
+        "examples": [
+          {
+            "zh": "我们一起去吃饭，好吗?",
+            "vi": "Chúng ta cùng đi ăn cơm nha?"
+          },
+          {
+            "zh": "你明天下午给我打电话，好吗?",
+            "vi": "Chiều mai bạn gọi điện cho tôi được không?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ 再",
+        "vi": "được dùng để diễn tả hành động hoặc trạng thái lặp đi lặp lại",
+        "examples": [
+          {
+            "zh": "你再看看这本书吧",
+            "vi": "Bạn xem lại cuốn sách này đi"
+          },
+          {
+            "zh": "你明天再给我打电话吧",
+            "vi": "Ngày mai bạn gọi điện cho tôi lại"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu kiêm ngữ",
+        "vi": "Vị ngữ được tạo thành bởi hai cụm động từ, tân ngữ của động từ thứ nhất là chủ ngữ của động từ thứ hai",
+        "examples": [
+          {
+            "zh": "我请你吃饭",
+            "vi": "Tôi mời bạn ăn cơm"
+          },
+          {
+            "zh": "你让我再看看",
+            "vi": "Bạn để tôi xem lại"
+          }
+        ]
+      },
+      {
+        "hanzi": "Sự lặp lại của động từ",
+        "vi": "Dùng để diễn tả thời gian ngắn, số lượng ít...mang sắc thái nhẹ nhàng",
+        "examples": [
+          {
+            "zh": "说说 / 说一说",
+            "vi": "nói nói / nói thử"
+          },
+          {
+            "zh": "看看 / 看一看",
+            "vi": "xem xem / xem thử"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "points": [
+      {
+        "hanzi": "Câu cầu khiến",
+        "vi": "Câu được dùng để diễn tả ý ngăn cản hay cấm đoán",
+        "examples": [
+          {
+            "zh": "不要看电视了",
+            "vi": "Đừng xem tivi nữa"
+          },
+          {
+            "zh": "别看报纸了",
+            "vi": "Đừng đọc báo nữa"
+          }
+        ]
+      },
+      {
+        "hanzi": "Giới từ \"对\"",
+        "vi": "Giới từ có thể được dùng để chỉ mối tương quan giữa người và người",
+        "examples": [
+          {
+            "zh": "老师对学生非常好",
+            "vi": "Cô giáo rất tốt với học sinh"
+          },
+          {
+            "zh": "看电视对学汉语有帮助",
+            "vi": "Xem tivi có ích cho học tiếng Trung"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "points": [
+      {
+        "hanzi": "Cấu trúc có động từ làm định ngữ",
+        "vi": "Khi động từ được dùng làm định ngữ, ta phải thêm 的",
+        "examples": [
+          {
+            "zh": "新买的衣服",
+            "vi": "Bộ quần áo mới mua"
+          },
+          {
+            "zh": "我妈妈做的饭",
+            "vi": "Cơm mẹ tôi nấu"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu có từ 比",
+        "vi": "Mẫu câu dùng để diễn tả sự so sánh",
+        "examples": [
+          {
+            "zh": "哥哥比姐姐高",
+            "vi": "Anh cao hơn chị"
+          },
+          {
+            "zh": "今天比昨天热",
+            "vi": "Hôm nay nóng hơn hôm qua"
+          }
+        ]
+      },
+      {
+        "hanzi": "Trợ động từ 可能",
+        "vi": "thường được dùng trước động từ để diễn tả phỏng đoán",
+        "examples": [
+          {
+            "zh": "他可能早就知道这件事情了",
+            "vi": "Anh ấy có lẽ đã biết rồi"
+          },
+          {
+            "zh": "可能我明天不来上课了",
+            "vi": "Có thể ngày mai tôi không đến lớp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "points": [
+      {
+        "hanzi": "Bổ ngữ chỉ trạng thái",
+        "vi": "Được dùng để mô tả hay đánh giá kết quả...của hành động",
+        "examples": [
+          {
+            "zh": "他说得很好",
+            "vi": "Anh ấy nói rất tốt"
+          },
+          {
+            "zh": "我起得很早",
+            "vi": "Tôi dậy rất sớm"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu có từ 比 (2)",
+        "vi": "Nếu động từ có bổ ngữ chỉ trạng thái, ta đặt 比 trước hoặc sau",
+        "examples": [
+          {
+            "zh": "他比我学得好",
+            "vi": "Anh ấy học tốt hơn tôi"
+          },
+          {
+            "zh": "他学得比我好",
+            "vi": "Anh ấy học tốt hơn tôi"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "points": [
+      {
+        "hanzi": "Trợ từ động thái \"着\"",
+        "vi": "Động từ kết hợp với 着 chỉ sự kéo dài của trạng thái",
+        "examples": [
+          {
+            "zh": "门开着",
+            "vi": "Cửa đang mở"
+          },
+          {
+            "zh": "他们穿着红色的衣服",
+            "vi": "Họ đang mặc áo đỏ"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu phản vấn \"不是……吗?\"",
+        "vi": "Mẫu câu thường dùng để nhắc ai nhớ...bày tỏ khó hiểu",
+        "examples": [
+          {
+            "zh": "不是说今天有雨吗?怎么没下?",
+            "vi": "Không phải nói hôm nay có mưa sao không mưa?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Giới từ \"往\"",
+        "vi": "thường được dùng để chỉ phương hướng",
+        "examples": [
+          {
+            "zh": "从这儿往前走，就是我们学校",
+            "vi": "Đi thẳng từ đây là trường của chúng tôi"
+          },
+          {
+            "zh": "你看，往左走是医院，往右走是银行",
+            "vi": "Đi trái là bệnh viện, đi phải là ngân hàng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "points": [
+      {
+        "hanzi": "Trợ từ động thái \"过\"",
+        "vi": "Động từ + 过 chỉ trải nghiệm từng có...không kéo dài đến hiện tại",
+        "examples": [
+          {
+            "zh": "他们来过我家",
+            "vi": "Họ từng đến nhà tôi"
+          },
+          {
+            "zh": "我看过那个电影",
+            "vi": "Tôi từng xem phim đó"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc \"虽然……，但是……\"",
+        "vi": "Được dùng để nối hai mệnh đề...thể hiện quan hệ đối lập",
+        "examples": [
+          {
+            "zh": "虽然外面很冷，但是房间很热",
+            "vi": "Tuy ngoài lạnh, nhưng trong phòng ấm"
+          },
+          {
+            "zh": "虽然汉字很难，但是我很喜欢写",
+            "vi": "Mặc dù chữ Hán khó, nhưng tôi thích viết"
+          }
+        ]
+      },
+      {
+        "hanzi": "Bổ ngữ chỉ tần suất \"次\"",
+        "vi": "thường được dùng sau động từ để chỉ số lần",
+        "examples": [
+          {
+            "zh": "我们看过三次电影",
+            "vi": "Chúng tôi xem phim ba lần"
+          },
+          {
+            "zh": "他们坐过一次飞机",
+            "vi": "Họ ngồi máy bay một lần"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "points": [
+      {
+        "hanzi": "更 + động từ/hình dung từ",
+        "vi": "Cấu trúc thể hiện mức độ",
+        "examples": [
+          {
+            "zh": "更喜欢",
+            "vi": "Càng thích"
+          },
+          {
+            "zh": "更好",
+            "vi": "Càng tốt"
+          }
+        ]
+      },
+      {
+        "hanzi": "Động từ trạng thái \"要……了\"",
+        "vi": "được dùng để chỉ sự vật sắp xảy ra",
+        "examples": [
+          {
+            "zh": "火车就要来了",
+            "vi": "Xe lửa sắp đến rồi"
+          },
+          {
+            "zh": "天就要下雨了",
+            "vi": "Trời sắp mưa rồi"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc 都……了",
+        "vi": "có nghĩa là đã, thường được dùng để nhấn mạnh<br></content>",
+        "examples": [
+          {
+            "zh": "都8点了，快点儿起来吧",
+            "vi": "Đã 8 giờ rồi, mau dậy đi"
+          },
+          {
+            "zh": "都等你半个小时了",
+            "vi": "Đã đợi nửa tiếng rồi!"
+          }
+        ]
+      }
+    ]
+  }
+]

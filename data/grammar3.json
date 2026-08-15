@@ -1,0 +1,729 @@
+[
+  {
+    "lesson": 1,
+    "points": [
+      {
+        "hanzi": "Phân biệt 一直, 总是 và 一向",
+        "vi": "一直 nhấn mạnh thời gian tiếp diễn hoặc trạng thái tính chất được duy trì của hành động. 总是 nhấn mạnh tần suất, số lần thực hiện hành động là đều đặn. 一向 biểu thị thói quen được hình thành ổn định từ quá khứ đến hiện tại",
+        "examples": [
+          {
+            "zh": "我一直在这儿等你",
+            "vi": "Tôi vẫn luôn ở đây đợi bạn"
+          },
+          {
+            "zh": "最近她总是迟到",
+            "vi": "Gần đây cô ấy luôn đi trễ"
+          }
+        ]
+      },
+      {
+        "hanzi": "Bổ ngữ chỉ kết quả 好",
+        "vi": "Bổ ngữ chỉ kết quả 好 dùng để diễn tả một hành động đã được hoàn thành",
+        "examples": [
+          {
+            "zh": "今天的作业我做好了",
+            "vi": "Bài tập hôm nay tôi làm xong rồi"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc 一…… 也/都 + 不/没",
+        "vi": "Dùng để biểu thị sự phủ định, nghĩa tiếng Việt là... một chút cũng / đều không…",
+        "examples": [
+          {
+            "zh": "这个地方我一点也不想去"
+          },
+          {
+            "zh": "南方的天气一点都不冷"
+          }
+        ]
+      },
+      {
+        "hanzi": "Liên từ 那",
+        "vi": "Thường dùng ở đầu câu chỉ kết quả hoặc nhận xét, nối tiếp nội dung được đề ra ở phía trước",
+        "examples": [
+          {
+            "zh": "A: 我想喝奶茶。B: 那我去买给你"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 2,
+    "points": [
+      {
+        "hanzi": "Bổ ngữ chỉ xu hướng 来 và 去",
+        "vi": "来 biểu thị động tác hướng gần người nói. 去 biểu thị động tác hướng xa người nói",
+        "examples": [
+          {
+            "zh": "下大雨了，你进屋里来吧"
+          },
+          {
+            "zh": "他出去了"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu liên động V1了……就V2",
+        "vi": "Diễn tả 2 hành động xảy ra liên tiếp, hành động phía sau nối tiếp sau hành động thứ nhất",
+        "examples": [
+          {
+            "zh": "他吃药了就睡觉"
+          },
+          {
+            "zh": "我下了课就做作业"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu phản vấn 能……吗？",
+        "vi": "Nếu thành phần đứng giữa 能 và 吗 mang ý khẳng định thì câu diễn đạt sự phủ định",
+        "examples": [
+          {
+            "zh": "你吃晚饭了就睡觉，这样能不胖吗？"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 3,
+    "points": [
+      {
+        "hanzi": "还是 và 或者",
+        "vi": "还是 được dùng trong câu hỏi còn 或者 được dùng trong câu trần thuật",
+        "examples": [
+          {
+            "zh": "你喜欢喝奶茶还是喝咖啡？"
+          },
+          {
+            "zh": "我喝奶茶或者喝咖啡都可以"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách diễn tả sự tồn tại",
+        "vi": "Để diễn tả sự tồn tại của một vật, ta dùng 着 cùng cấu trúc",
+        "examples": [
+          {
+            "zh": "桌子上放着一杯茶"
+          },
+          {
+            "zh": "上面写着200元"
+          }
+        ]
+      },
+      {
+        "hanzi": "Trợ từ 会",
+        "vi": "Được dùng trong câu để diễn tả những sự việc chưa xảy ra",
+        "examples": [
+          {
+            "zh": "明天我会去打篮球"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "points": [
+      {
+        "hanzi": "Cấu trúc 又……又……",
+        "vi": "Được dùng để biểu thị về hai hay nhiều đặc điểm tính chất, trạng thái hoặc hành động nào đó cùng tồn tại",
+        "examples": [
+          {
+            "zh": "我的学生又认真又可爱"
+          },
+          {
+            "zh": "小丽的眼睛又大又漂亮"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc: Động từ 1 + 着 + Động từ 2",
+        "vi": "Được dùng để diễn tả hai hành động xảy ra cùng lúc, trong đó hành động thứ nhất là hành động đi kèm",
+        "examples": [
+          {
+            "zh": "弟弟吃着苹果看电影"
+          },
+          {
+            "zh": "她总是笑着回答老师的问题"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "points": [
+      {
+        "hanzi": "Trợ từ chỉ sự thay đổi \"了\"",
+        "vi": "Được dùng ở cuối câu trần thuật để diễn tả sự thay đổi trong một tình huống",
+        "examples": [
+          {
+            "zh": "我现在没有钱了"
+          },
+          {
+            "zh": "前几天有点儿发烧，现在好多了"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc 越来越",
+        "vi": "Dùng để chỉ sự thay đổi về mức độ theo thời gian",
+        "examples": [
+          {
+            "zh": "她越来越漂亮"
+          },
+          {
+            "zh": "我越来越胖"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách dùng 为",
+        "vi": "Hành động / tính từ được sử dụng với mục đích cho chủ ngữ",
+        "examples": [
+          {
+            "zh": "我为你买了很多水果"
+          },
+          {
+            "zh": "他也为你好"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 6,
+    "points": [
+      {
+        "hanzi": "Bổ ngữ chỉ khả năng",
+        "vi": "Dùng để diễn tả rằng một người có thể thu được kết quả hoặc đạt được mục đích nào đó",
+        "examples": [
+          {
+            "zh": "我能看得很清楚"
+          },
+          {
+            "zh": "我看不清楚"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu hỏi 呢",
+        "vi": "Dùng để hỏi một người hay một sự vật nào đó đang ở đâu",
+        "examples": [
+          {
+            "zh": "你的书呢？"
+          },
+          {
+            "zh": "我的钱呢？"
+          }
+        ]
+      },
+      {
+        "hanzi": "Phân biệt 刚 và 刚才",
+        "vi": "刚 là phó từ thời gian, chỉ đặt trước động từ. 刚才 làm trạng ngữ chỉ thời gian",
+        "examples": [
+          {
+            "zh": "爸爸刚出去"
+          },
+          {
+            "zh": "爸爸刚才出去"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "points": [
+      {
+        "hanzi": "Cách diễn tả khoảng thời gian",
+        "vi": "Để diễn tả hành động, trạng thái xảy ra hoặc kéo dài trong khoảng thời gian bao lâu",
+        "examples": [
+          {
+            "zh": "她工作了三年"
+          },
+          {
+            "zh": "我学习了一年汉语了"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc với 感兴趣",
+        "vi": "Cấu trúc 'đối…… cảm thấy hứng thú' được dùng để diễn tả sự hứng thú với điều gì đó",
+        "examples": [
+          {
+            "zh": "我们对电影感兴趣"
+          },
+          {
+            "zh": "我女儿对打篮球不感兴趣"
+          }
+        ]
+      },
+      {
+        "hanzi": "Diễn tả thời gian với 半, 刻, 差",
+        "vi": "Cách nói giờ rưỡi: Số giờ + 点 + 半",
+        "examples": [
+          {
+            "zh": "七点半"
+          },
+          {
+            "zh": "六点一刻"
+          },
+          {
+            "zh": "二十五分差九点"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "points": [
+      {
+        "hanzi": "又 và 再",
+        "vi": "又 cho biết hành động đã xảy ra. 再 cho biết hành động vẫn chưa xảy ra",
+        "examples": [
+          {
+            "zh": "昨天我买了一条裤子，今天又买了一条"
+          },
+          {
+            "zh": "家里只有一个面包了，我们再买一些吧"
+          }
+        ]
+      },
+      {
+        "hanzi": "Đại từ nghi vấn được sử dụng linh hoạt",
+        "vi": "就 được dùng ở giữa hai đại từ nghi vấn giống nhau, không diễn tả sự nghi vấn",
+        "examples": [
+          {
+            "zh": "你吃什么我就吃什么"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "points": [
+      {
+        "hanzi": "Cấu trúc 越A越B",
+        "vi": "Diễn tả ý B thay đổi theo sự biến đổi của A",
+        "examples": [
+          {
+            "zh": "雨越下越大"
+          },
+          {
+            "zh": "你的中文越说越好"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc A跟B一样",
+        "vi": "Diễn tả ý A và B giống nhau",
+        "examples": [
+          {
+            "zh": "这本书跟那本书一样"
+          },
+          {
+            "zh": "他的汉语说得跟中国人一样"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "points": [
+      {
+        "hanzi": "Cấu trúc so sánh: A比B + tính từ + 一点儿/一些/得多",
+        "vi": "Những từ này được dùng sau tính từ để chỉ mức độ chênh lệch",
+        "examples": [
+          {
+            "zh": "大山比大卫矮一点儿"
+          },
+          {
+            "zh": "今天的作业比昨天多得多"
+          },
+          {
+            "zh": "数学比历史难多了"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách diễn tả số lượng ước lượng",
+        "vi": "Hai từ chỉ số đếm liên tiếp được đặt cạnh nhau để diễn tả số ước lượng",
+        "examples": [
+          {
+            "zh": "我每天学习一两个小时汉语"
+          },
+          {
+            "zh": "你都喝了三四杯咖啡了"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "points": [
+      {
+        "hanzi": "Câu chữ 把",
+        "vi": "Mẫu câu 'A 把 B + Động từ' chỉ một hành động được thực hiện có tác động đến người hoặc sự vật nhất định",
+        "examples": [
+          {
+            "zh": "帮我把这本词典还吧"
+          },
+          {
+            "zh": "你把灯关了吧"
+          },
+          {
+            "zh": "我把爸爸的生日忘了"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "points": [
+      {
+        "hanzi": "才 và 就",
+        "vi": "就 diễn tả hành động xảy ra sớm. 才 diễn tả hành động xảy ra muộn",
+        "examples": [
+          {
+            "zh": "我早上六点就起床了"
+          },
+          {
+            "zh": "七点上课，你八点才起床"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu chữ 把 (Cấu trúc A把B + Động từ + 在/到 + Vị trí)",
+        "vi": "A 把 B + Động từ + 在/到 + Vị trí",
+        "examples": [
+          {
+            "zh": "我把照片放在你包里了"
+          },
+          {
+            "zh": "老师把作业放在桌子上了"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu chữ 把 (Cấu trúc A把B + Động từ + 给 + người)",
+        "vi": "A 把 B + Động từ + 给 + người nào đó",
+        "examples": [
+          {
+            "zh": "我把花送给老师了"
+          },
+          {
+            "zh": "我朋友把书给我"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "points": [
+      {
+        "hanzi": "Bổ ngữ chỉ phương hướng",
+        "vi": "Khi thêm bổ ngữ 来 hay 去 vào sau động từ chỉ phương hướng",
+        "examples": [
+          {
+            "zh": "老师拿出一本书来"
+          },
+          {
+            "zh": "小猫从房间跑出来"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc 一边……一边",
+        "vi": "Dùng để diễn tả hai hành động đang được diễn ra cùng lúc",
+        "examples": [
+          {
+            "zh": "我一边听音乐一边做作业"
+          },
+          {
+            "zh": "妈妈一边做饭一边唱歌"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "points": [
+      {
+        "hanzi": "Câu chữ 把 (Bổ ngữ kết quả/xu hướng)",
+        "vi": "Dùng để diễn tả một hành động có tác động đến người hay sự vật xác định",
+        "examples": [
+          {
+            "zh": "你把衣服洗干净了"
+          },
+          {
+            "zh": "妈妈还没把饭做好呢"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc 先……再/又…… 然后",
+        "vi": "Diễn tả trình sự của các hành động",
+        "examples": [
+          {
+            "zh": "下课以后，我先回家，再把作业做完"
+          },
+          {
+            "zh": "考完试以后，我先去旅游，再去看看爷爷奶奶，然后回家"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "points": [
+      {
+        "hanzi": "Cấu trúc 除了……以外，都/还/也",
+        "vi": "Được dùng để cho biết ngoại trừ thành phần được đề cập thì tất cả thành phần còn lại đều có đặc điểm giống nhau",
+        "examples": [
+          {
+            "zh": "除了这个汉字以外，别的汉字我都认识"
+          },
+          {
+            "zh": "除了我以外，大家都听懂了"
+          },
+          {
+            "zh": "除了唱歌以外，他还喜欢跳舞"
+          }
+        ]
+      },
+      {
+        "hanzi": "Đại từ nghi vấn được sử dụng linh hoạt (什么)",
+        "vi": "什么 có thể được dùng làm đại từ chỉ thị để thay thế người hay sự vật không xác định",
+        "examples": [
+          {
+            "zh": "周末你有没有什么打算？"
+          },
+          {
+            "zh": "你说得很好，没什么问题"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách diễn tả mức độ 极了",
+        "vi": "Có thể được dùng để diễn tả mức độ cao nhất",
+        "examples": [
+          {
+            "zh": "我的小猫可爱极了"
+          },
+          {
+            "zh": "今天天气热极了"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 16,
+    "points": [
+      {
+        "hanzi": "Cấu trúc 如果……（的话），就……",
+        "vi": "Mệnh đề theo sau 如果 là giả thuyết, mệnh đề theo sau 就 là kết quả",
+        "examples": [
+          {
+            "zh": "如果你太累了，就休息一会儿"
+          },
+          {
+            "zh": "如果你喜欢，我就给你买"
+          }
+        ]
+      },
+      {
+        "hanzi": "Bổ ngữ chỉ trạng thái có 得",
+        "vi": "Được dùng để diễn tả trạng thái nào đó",
+        "examples": [
+          {
+            "zh": "弟弟高兴得跳了起来"
+          },
+          {
+            "zh": "人们忙得没时间跟别人见面"
+          }
+        ]
+      },
+      {
+        "hanzi": "Tính từ có một âm tiết được lặp lại",
+        "vi": "Tính từ lặp lại với cách 'tính từ + tính từ + 的'",
+        "examples": [
+          {
+            "zh": "你送的花红红的，我很喜欢"
+          },
+          {
+            "zh": "这些草绿绿的，真漂亮"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 17,
+    "points": [
+      {
+        "hanzi": "Động từ có hai âm tiết được lặp lại",
+        "vi": "Lặp lại động từ có hai âm tiết với hình thức ABAB",
+        "examples": [
+          {
+            "zh": "他是谁？你介绍我们认识认识吧"
+          },
+          {
+            "zh": "这是本新书，你学习学习吧"
+          }
+        ]
+      },
+      {
+        "hanzi": "Đại từ nghi vấn được sử dụng linh hoạt (谁/什么/怎么)",
+        "vi": "Các đại từ như 谁，什么，怎么 có thể thay thế mọi đối tượng trong một phạm vi",
+        "examples": [
+          {
+            "zh": "谁都喜欢小丽"
+          },
+          {
+            "zh": "小刚什么都喜欢吃"
+          },
+          {
+            "zh": "我们怎么去公园都可以"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 18,
+    "points": [
+      {
+        "hanzi": "Cấu trúc 只要……，就……",
+        "vi": "Cấu trúc dùng để kết nối hai mệnh đề chỉ điều kiện",
+        "examples": [
+          {
+            "zh": "只要我有时间，就一定跟你去旅游"
+          },
+          {
+            "zh": "只要你给我买，我就能照顾好它"
+          }
+        ]
+      },
+      {
+        "hanzi": "Giới từ 关于",
+        "vi": "Được dùng trước danh từ để giới thiệu về đối tượng",
+        "examples": [
+          {
+            "zh": "我最近看了一些关于中国文化的电影"
+          },
+          {
+            "zh": "关于这件事，我们还没有决定呢"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 19,
+    "points": [
+      {
+        "hanzi": "出来 — Nghĩa mở rộng của bổ ngữ chỉ phương hướng",
+        "vi": "Được dùng sau động từ để chỉ sự xuất hiện của vật mới, hoặc diễn tả sự phân biệt",
+        "examples": [
+          {
+            "zh": "这个字你能写出来吗？"
+          },
+          {
+            "zh": "朋友想出来一个学韩语的好办法"
+          },
+          {
+            "zh": "你听出来了吗？这是谁打声音？"
+          }
+        ]
+      },
+      {
+        "hanzi": "下来 — Nghĩa mở rộng của bổ ngữ chỉ phương hướng",
+        "vi": "Được dùng sau tính từ/động từ để chỉ sự thay đổi",
+        "examples": [
+          {
+            "zh": "前面的车越开越慢，停下来了"
+          },
+          {
+            "zh": "天黑下来了，孩子们要回家了"
+          }
+        ]
+      },
+      {
+        "hanzi": "起来 — Nghĩa mở rộng của bổ ngữ chỉ phương hướng",
+        "vi": "Được dùng sau động từ để diễn tả hồi tưởng/nhớ lại",
+        "examples": [
+          {
+            "zh": "你记起来我是谁了吗？"
+          },
+          {
+            "zh": "对不起，我想不起来你的名字了"
+          },
+          {
+            "zh": "我想起来了"
+          }
+        ]
+      },
+      {
+        "hanzi": "\"使\", \"叫\" và \"让\"",
+        "vi": "Ba từ này được dùng kết hợp để diễn tả ý khiến cho",
+        "examples": [
+          {
+            "zh": "读书使我快乐"
+          },
+          {
+            "zh": "考试让我很紧张"
+          },
+          {
+            "zh": "叫朋友们也高兴高兴"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 20,
+    "points": [
+      {
+        "hanzi": "Câu có từ 被",
+        "vi": "Câu có từ 被 được dùng để diễn tả nghĩa bị động",
+        "examples": [
+          {
+            "zh": "我被男朋友影响了"
+          },
+          {
+            "zh": "帽子被刮跑了"
+          },
+          {
+            "zh": "蛋糕让弟弟吃完了"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cấu trúc 只有……才……",
+        "vi": "Được dùng để kết nối hai thành phần chỉ điều kiện<br></content>",
+        "examples": [
+          {
+            "zh": "只有写完作业，才能看电视"
+          },
+          {
+            "zh": "只有妈妈做的菜，她才爱吃"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,717 @@
+[
+  {
+    "lesson": 3,
+    "points": [
+      {
+        "hanzi": "Đại từ nghi vấn 什么",
+        "vi": "Đại từ nghi vấn 什么 được dùng trong câu nghi vấn, có thể đứng một mình hoặc kết hợp với thành phần theo sau có tính chất như danh từ làm tân ngữ.",
+        "examples": [
+          {
+            "zh": "你叫什么名字？",
+            "vi": "Bạn tên là gì?"
+          },
+          {
+            "zh": "这是什么？",
+            "vi": "Đây là cái gì?"
+          },
+          {
+            "zh": "你说什么？",
+            "vi": "Bạn nói cái gì?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu hỏi có từ 吗",
+        "vi": "吗 là trợ từ nghi vấn, cho nên chữ 吗 thường được dùng ở cuối câu trần thuật tạo nên một câu hỏi.",
+        "examples": [
+          {
+            "zh": "你是老师吗？",
+            "vi": "Bạn là thầy giáo à?"
+          },
+          {
+            "zh": "他是中国人吗？",
+            "vi": "Anh ấy là người Trung Quốc à?"
+          },
+          {
+            "zh": "他是学生吗？",
+            "vi": "Anh ấy là học sinh à?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu chữ 是",
+        "vi": "Câu chữ 是 là câu phán đoán hoặc khẳng định, được dùng để chỉ người hay sự vật.",
+        "examples": [
+          {
+            "zh": "他是老师。",
+            "vi": "Anh ấy là thầy giáo."
+          },
+          {
+            "zh": "他不是老师。",
+            "vi": "Anh ấy không phải thầy giáo."
+          },
+          {
+            "zh": "他是老师吗？",
+            "vi": "Anh ấy là thầy giáo à?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 4,
+    "points": [
+      {
+        "hanzi": "Đại từ nghi vấn 谁 và 哪",
+        "vi": "Đại từ nghi vấn 谁 được dùng trong câu hỏi để yêu cầu người khác cho biết thông tin về người nào đó.<br>Đại từ nghi vấn 哪 được dùng trong câu hỏi theo cấu trúc: 哪 + lượng từ / danh từ + danh từ",
+        "examples": [
+          {
+            "zh": "谁是李月？",
+            "vi": "Ai là Lý Nguyệt?"
+          },
+          {
+            "zh": "她是谁？",
+            "vi": "Cô ấy là ai?"
+          },
+          {
+            "zh": "哪本书？",
+            "vi": "Quyển sách nào?"
+          },
+          {
+            "zh": "哪个人？",
+            "vi": "Người nào?"
+          },
+          {
+            "zh": "你是哪国人？",
+            "vi": "Bạn là người nước nào?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Trợ từ kết cấu 的",
+        "vi": "Cấu trúc: Danh từ / đại từ + 的 + danh từ. Kết cấu 的 dùng để chỉ quan hệ sở hữu.",
+        "examples": [
+          {
+            "zh": "李月是我的老师。",
+            "vi": "Lý Nguyệt là cô giáo của tôi."
+          },
+          {
+            "zh": "这是我的书。",
+            "vi": "Đây là sách của tôi."
+          }
+        ]
+      },
+      {
+        "hanzi": "Trợ từ nghi vấn 呢",
+        "vi": "Trợ từ nghi vấn 呢 được dùng sau danh từ hay đại từ để đặt câu hỏi nhằm yêu cầu cho biết thông tin về một đối tượng.",
+        "examples": [
+          {
+            "zh": "我不是老师，我是学生。你呢？",
+            "vi": "Tôi không phải giáo viên, tôi là học sinh. Còn bạn?"
+          },
+          {
+            "zh": "我叫李月。你呢？",
+            "vi": "Tôi tên Lý Nguyệt, còn bạn?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 5,
+    "points": [
+      {
+        "hanzi": "Đại từ nghi vấn 几",
+        "vi": "Đại từ nghi vấn 几 được dùng cho những câu hỏi về số lượng cho nên câu trả lời thường sẽ là con số.",
+        "examples": [
+          {
+            "zh": "你有几个汉语老师？",
+            "vi": "Bạn có mấy giáo viên tiếng Trung?"
+          },
+          {
+            "zh": "李老师家有几口人？",
+            "vi": "Nhà cô Lý có bao nhiêu người?"
+          },
+          {
+            "zh": "你女儿几岁了？",
+            "vi": "Con gái bạn mấy tuổi rồi?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách đọc số dưới 100",
+        "vi": "Bảng đầy đủ cách đọc các con số từ 1-99 được cung cấp trong tài liệu.",
+        "examples": []
+      },
+      {
+        "hanzi": "Trợ từ chỉ sự thay đổi 了",
+        "vi": "了 được dùng ở cuối câu để chỉ sự thay đổi hay sự xuất hiện của một tình huống mới.",
+        "examples": [
+          {
+            "zh": "李老师今年50岁了。",
+            "vi": "Cô Lý năm nay 50 tuổi rồi."
+          },
+          {
+            "zh": "我朋友的女儿今年五岁了。",
+            "vi": "Con gái bạn tôi năm nay 5 tuổi rồi."
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách hỏi tuổi với 多大",
+        "vi": "多大 trong câu biểu thị nghi vấn, được sử dụng để hỏi tuổi người khác.",
+        "examples": [
+          {
+            "zh": "你多大了？",
+            "vi": "Bạn bao nhiêu tuổi?"
+          },
+          {
+            "zh": "你女儿今年多大了？",
+            "vi": "Con bạn năm nay bao nhiêu tuổi?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 7,
+    "points": [
+      {
+        "hanzi": "Diễn tả ngày tháng trong tiếng Trung",
+        "vi": "Trong tiếng Trung khi diễn tả về ngày tháng thì người Trung Quốc sẽ nói theo trình tự từ đơn vị lớn nhất đến đơn vị nhỏ.",
+        "examples": [
+          {
+            "zh": "9月1号，星期三。",
+            "vi": "Ngày 1 tháng 9, thứ ba"
+          },
+          {
+            "zh": "8月3日，星期五。",
+            "vi": "Ngày 3 tháng 8, thứ năm"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu có vị ngữ là danh từ",
+        "vi": "Câu có vị ngữ là danh từ là kiểu câu có vị ngữ là thành phần mang đặc điểm của danh từ, thường được dùng để nói về tuổi tác, thời gian, ngày tháng.",
+        "examples": [
+          {
+            "zh": "我的汉语老师33岁。",
+            "vi": "Giáo viên tiếng Trung của tôi 33 tuổi."
+          },
+          {
+            "zh": "明天星期三。",
+            "vi": "Ngày mai là thứ ba."
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu liên động 1: 去 + nơi chốn + làm gì",
+        "vi": "Trong câu liên động từ, vị ngữ có từ hai động trở lên, trong đó động từ đứng sau có thể diễn tả mục đích của động từ đứng trước.",
+        "examples": [
+          {
+            "zh": "我去中国学习汉语。",
+            "vi": "Tôi đi Trung Quốc học tiếng Trung."
+          },
+          {
+            "zh": "我们去中国饭馆儿吃中国菜。",
+            "vi": "Chúng tôi đi nhà hàng Trung Quốc ăn cơm Trung Quốc."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 8,
+    "points": [
+      {
+        "hanzi": "Động từ năng nguyện 想",
+        "vi": "Động từ năng nguyện 想 dùng để diễn tả mong muốn hay dự định. Cấu trúc: Chủ ngữ + 想 + động từ + tân ngữ.",
+        "examples": [
+          {
+            "zh": "我想学汉语。",
+            "vi": "Tôi muốn học tiếng Trung."
+          },
+          {
+            "zh": "明天我想去学校。",
+            "vi": "Ngày mai tôi muốn đi trường học."
+          }
+        ]
+      },
+      {
+        "hanzi": "Đại từ nghi vấn 多少",
+        "vi": "Đại từ nghi vấn 多少 dùng để hỏi số lượng trên 10.",
+        "examples": [
+          {
+            "zh": "你们学校有多少学生？",
+            "vi": "Trường học các bạn có bao nhiêu học sinh?"
+          },
+          {
+            "zh": "这个手机多少钱？",
+            "vi": "Chiếc điện thoại này bao nhiêu tiền?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Lượng từ 个 và 口",
+        "vi": "Lượng từ 个 là lượng từ thường gặp nhất được dùng trước những danh từ không có lượng từ riêng.<br>Lượng từ 口 cũng được sử dụng để nói về số lượng người.",
+        "examples": [
+          {
+            "zh": "两个杯子",
+            "vi": "Hai cái ly"
+          },
+          {
+            "zh": "六个学生",
+            "vi": "Sáu học sinh"
+          },
+          {
+            "zh": "你家有几口人？",
+            "vi": "Gia đình bạn có bao nhiêu người?"
+          },
+          {
+            "zh": "我家有五口人。",
+            "vi": "Gia đình tôi có 5 người."
+          }
+        ]
+      },
+      {
+        "hanzi": "Diễn đạt số tiền",
+        "vi": "Đơn vị tiền tệ cơ bản: 元 (văn viết) hoặc 块 (văn nói)",
+        "examples": [
+          {
+            "zh": "一元（块）",
+            "vi": "Một đồng"
+          },
+          {
+            "zh": "五十元（块）",
+            "vi": "Năm mươi đồng"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 9,
+    "points": [
+      {
+        "hanzi": "Động từ 在",
+        "vi": "Khi 在 là động từ chỉ vị trí kết hợp làm vị ngữ trong câu, diễn tả nơi chốn, vị trí của người và sự vật.",
+        "examples": [
+          {
+            "zh": "我朋友在学校。",
+            "vi": "Bạn tôi ở trường học."
+          },
+          {
+            "zh": "我妈妈在家。",
+            "vi": "Mẹ tôi ở nhà."
+          }
+        ]
+      },
+      {
+        "hanzi": "Đại từ nghi vấn 哪儿",
+        "vi": "Trong câu, đại từ nghi vấn 哪儿 được dùng để hỏi vị trí của người hoặc sự vật.",
+        "examples": [
+          {
+            "zh": "我的杯子在哪儿？",
+            "vi": "Cái ly của tôi ở đâu?"
+          },
+          {
+            "zh": "你的中国朋友在哪儿？",
+            "vi": "Người bạn Trung Quốc của bạn ở đâu?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Giới từ 在",
+        "vi": "Khi 在 là giới từ, sau nó sẽ có từ ngữ chỉ vị trí, phương hướng, được dùng để giới thiệu địa điểm, nơi chốn xảy ra hành động.",
+        "examples": [
+          {
+            "zh": "我在朋友家喝茶。",
+            "vi": "Tôi ở nhà bạn uống trà."
+          },
+          {
+            "zh": "他们在学校看书。",
+            "vi": "Họ ở trường học đọc sách."
+          }
+        ]
+      },
+      {
+        "hanzi": "Trợ từ nghi vấn 呢",
+        "vi": "",
+        "examples": [
+          {
+            "zh": "我的小猫呢？",
+            "vi": "Con mèo nhỏ của tôi ở đâu?"
+          },
+          {
+            "zh": "我的杯子呢？",
+            "vi": "Cái ly của tôi ở đâu?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 10,
+    "points": [
+      {
+        "hanzi": "Câu chữ 有 diễn tả sự tồn tại",
+        "vi": "Động từ 有 được dùng để cho biết một người hoặc một sự vật ở vị trí hoặc địa điểm nào đó.",
+        "examples": [
+          {
+            "zh": "椅子下面有一只小狗。",
+            "vi": "Dưới ghế có một con chó nhỏ."
+          },
+          {
+            "zh": "学校里有一个商店。",
+            "vi": "Trong trường học có một cửa hàng."
+          }
+        ]
+      },
+      {
+        "hanzi": "Liên từ 和",
+        "vi": "Liên từ 和 được dùng để nối hai hoặc nhiều thành phần ngang nhau nhằm thể hiện quan hệ ngang bằng.",
+        "examples": [
+          {
+            "zh": "我有一个中国朋友和一个美国朋友。",
+            "vi": "Tôi có một người bạn Trung Quốc và một người bạn Mỹ."
+          },
+          {
+            "zh": "桌子上有一个电脑和一本书。",
+            "vi": "Trên bàn có một máy tính và một cuốn sách."
+          }
+        ]
+      },
+      {
+        "hanzi": "Động từ năng nguyện 能",
+        "vi": "Động từ năng nguyện 能 diễn tả năng lực hay khả năng làm việc gì đó.",
+        "examples": [
+          {
+            "zh": "明天下午我能去商店。",
+            "vi": "Buổi chiều ngày mai tôi có thể đi cửa hàng."
+          },
+          {
+            "zh": "我能坐这儿吗？",
+            "vi": "Tôi có thể ngồi ở đây được không?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu cầu khiến với 请",
+        "vi": "Động từ 请 kết hợp với thành phần động từ đi sau tạo thành câu cầu khiến, diễn tả đề nghị, mong muốn và mang lại ngữ khí mềm mỏng, lịch sự.",
+        "examples": [
+          {
+            "zh": "请写您的名字。",
+            "vi": "Mời ngài viết tên của mình."
+          },
+          {
+            "zh": "请喝茶。",
+            "vi": "Mời uống trà."
+          },
+          {
+            "zh": "请坐。",
+            "vi": "Mời ngồi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 11,
+    "points": [
+      {
+        "hanzi": "Diễn tả thời gian",
+        "vi": "Để diễn tả thời gian trong tiếng Trung, chúng ta dùng 点 và 分 theo trình tự từ đơn vị lớn đến đơn vị nhỏ.",
+        "examples": [
+          {
+            "zh": "9:00",
+            "vi": "九点"
+          },
+          {
+            "zh": "5:30",
+            "vi": "五点三十分"
+          },
+          {
+            "zh": "11:10",
+            "vi": "十一点十分"
+          },
+          {
+            "zh": "上午八点",
+            "vi": "8:00 sáng"
+          },
+          {
+            "zh": "下午三点十五分",
+            "vi": "3:15 chiều"
+          }
+        ]
+      },
+      {
+        "hanzi": "Từ chỉ thời gian làm trạng ngữ",
+        "vi": "Khi thời gian được làm trạng ngữ trong câu, từ chỉ thời gian thường đứng sau chủ ngữ đôi lúc nó cũng có thể đứng trước chủ ngữ.",
+        "examples": [
+          {
+            "zh": "妈妈六点做饭。",
+            "vi": "Mẹ nấu cơm lúc 6 giờ."
+          },
+          {
+            "zh": "李老师上午八点去学校。",
+            "vi": "Cô Lý đi trường lúc 8 giờ sáng."
+          }
+        ]
+      },
+      {
+        "hanzi": "Danh từ 前",
+        "vi": "Danh từ 前 được dùng để chỉ khoảng thời gian trước hiện tại hay trước thời điểm được đề cập đến ở trong câu.",
+        "examples": [
+          {
+            "zh": "A: 你什么时候去学校？ B: 八点前。",
+            "vi": "A: Mấy giờ bạn đi trường? B: Trước 8 giờ."
+          },
+          {
+            "zh": "A: 你什么时候回北京？ B: 三天前。",
+            "vi": "A: Bao giờ bạn về Bắc Kinh? B: Ba ngày trước."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 12,
+    "points": [
+      {
+        "hanzi": "Đại từ nghi vấn 怎么样",
+        "vi": "Đại từ nghi vấn 怎么样 được dùng để hỏi tình hình, tình trạng.",
+        "examples": [
+          {
+            "zh": "你的汉语怎么样？",
+            "vi": "Tiếng Trung của bạn như thế nào?"
+          },
+          {
+            "zh": "明天天气怎么样？",
+            "vi": "Thời tiết ngày mai như thế nào?"
+          }
+        ]
+      },
+      {
+        "hanzi": "Câu có vị ngữ là kết cấu chủ vị",
+        "vi": "Trong câu này, vị ngữ là một cụm từ có kết cấu chủ vị. Cấu trúc: Chủ ngữ của cả câu + Vị ngữ của cả câu.",
+        "examples": [
+          {
+            "zh": "我身体不太好。",
+            "vi": "Cơ thể tôi không khoẻ lắm."
+          },
+          {
+            "zh": "明天天气很好。",
+            "vi": "Thời tiết ngày mai rất tốt."
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ chỉ mức độ 太",
+        "vi": "Phó từ chỉ mức độ 太 diễn tả mức độ hơn mức thông thường.",
+        "examples": [
+          {
+            "zh": "太热了。",
+            "vi": "Nóng quá."
+          },
+          {
+            "zh": "天气太冷了。",
+            "vi": "Thời tiết lạnh quá."
+          },
+          {
+            "zh": "我身体不太好。",
+            "vi": "Cơ thể tôi không khoẻ lắm."
+          }
+        ]
+      },
+      {
+        "hanzi": "Động từ năng nguyện 会",
+        "vi": "会 được dùng để diễn tả tình huống có khả năng xảy ra.",
+        "examples": [
+          {
+            "zh": "A: 爸爸八点前会回家吗？",
+            "vi": "Trước 8 giờ bố có thể sẽ về nhà không?"
+          },
+          {
+            "zh": "B: 会。",
+            "vi": "Có."
+          },
+          {
+            "zh": "A: 明天他会来吗？",
+            "vi": "Ngày mai cậu ấy sẽ tới chứ?"
+          },
+          {
+            "zh": "B: 他会来。",
+            "vi": "Cậu ấy sẽ tới."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 13,
+    "points": [
+      {
+        "hanzi": "Hành động đang diễn ra",
+        "vi": "Khi muốn diễn tả hành động đang diễn ra dùng: Phó từ 在 + động từ + trợ từ ngữ khí 呢.<br>Thể phủ định: Chủ ngữ + 没在 + động từ + tân ngữ",
+        "examples": [
+          {
+            "zh": "我在睡觉呢。",
+            "vi": "Tôi đang ngủ."
+          },
+          {
+            "zh": "你在做什么呢？",
+            "vi": "Bạn đang làm gì?"
+          },
+          {
+            "zh": "小王在学习汉语呢。",
+            "vi": "Tiểu Vương đang học tiếng Trung."
+          },
+          {
+            "zh": "我没在看电视。",
+            "vi": "Tôi không đang xem TV."
+          },
+          {
+            "zh": "他们没在工作。",
+            "vi": "Họ không đang làm việc."
+          }
+        ]
+      },
+      {
+        "hanzi": "Cách đọc số điện thoại",
+        "vi": "Để đọc số điện thoại, ta đọc lần lượt từng số một từ trái sang phải. Số 1 đọc là 'yāo'.",
+        "examples": [
+          {
+            "zh": "8728839",
+            "vi": "/bā qī èr bā bā sān jiǔ/"
+          },
+          {
+            "zh": "013383372",
+            "vi": "/líng yāo sān sān bā sān sān qī èr/"
+          }
+        ]
+      },
+      {
+        "hanzi": "Trợ từ ngữ khí 吧",
+        "vi": "Trợ từ ngữ khí 吧 được dùng ở cuối câu cầu khiến để diễn tả lời đề nghị hay mệnh lệnh.",
+        "examples": [
+          {
+            "zh": "这儿没有人，请坐吧。",
+            "vi": "Ở đây không có ai, mời bạn ngồi."
+          },
+          {
+            "zh": "今天我们在家吃饭吧。",
+            "vi": "Hôm nay chúng mình ở nhà ăn cơm đi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 14,
+    "points": [
+      {
+        "hanzi": "Trợ từ 了 diễn tả sự việc đã xảy ra",
+        "vi": "了 được dùng ở cuối câu hoặc giữa động từ và tân ngữ để diễn tả sự việc đã xảy ra hoặc hoàn thành.<br>Thể phủ định: Chủ ngữ + 没 + động từ + tân ngữ (lược bỏ 了)",
+        "examples": [
+          {
+            "zh": "我去商店了。",
+            "vi": "Tôi đã đi cửa hàng."
+          },
+          {
+            "zh": "她去学开车了。",
+            "vi": "Cô ấy đã đi học lái xe."
+          },
+          {
+            "zh": "她买了一点儿苹果。",
+            "vi": "Cô ấy đã mua một ít táo."
+          },
+          {
+            "zh": "她没去商店。",
+            "vi": "Cô ấy không đi cửa hàng."
+          },
+          {
+            "zh": "我没买。",
+            "vi": "Tôi không mua."
+          }
+        ]
+      },
+      {
+        "hanzi": "Danh từ 后",
+        "vi": "Danh từ 后 được dùng để chỉ thời gian sau thời điểm hiện tại hoặc sau thời điểm được đề cập.",
+        "examples": [
+          {
+            "zh": "A: 你几点去工作？ B: 八点后。",
+            "vi": "A: Mấy giờ bạn đi làm? B: Sau 8 giờ."
+          },
+          {
+            "zh": "A: 你什么时候回家？ B: 五点后。",
+            "vi": "A: Bao giờ bạn về nhà? B: Sau 5 giờ."
+          }
+        ]
+      },
+      {
+        "hanzi": "Phó từ 都",
+        "vi": "都 mang ý nghĩa bao gồm toàn bộ. Các đối tượng được bao gồm phải đặt trước 都.",
+        "examples": [
+          {
+            "zh": "我们都是中国人。",
+            "vi": "Chúng tôi đều là người Trung Quốc."
+          },
+          {
+            "zh": "他们都喜欢喝茶。",
+            "vi": "Họ đều thích uống trà."
+          },
+          {
+            "zh": "这些都是王方的东西。",
+            "vi": "Những thứ này đều là đồ của Vương Phang."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lesson": 15,
+    "points": [
+      {
+        "hanzi": "Cấu trúc 是……的",
+        "vi": "Nếu biết sự việc xảy ra ta có thể dùng cấu trúc 是……的 để nhấn mạnh thời gian, địa điểm và cách thức sự việc đó xảy ra.<br>Thể phủ định: Chủ ngữ + 不是 + (Thời gian/địa điểm/hành động) + động từ + 的",
+        "examples": [
+          {
+            "zh": "我是昨天来的。",
+            "vi": "Tôi là hôm qua tới."
+          },
+          {
+            "zh": "这是在北京买的。",
+            "vi": "Cái này được mua ở Bắc Kinh."
+          },
+          {
+            "zh": "你们是怎么来的？",
+            "vi": "Các bạn tới như thế nào?"
+          },
+          {
+            "zh": "我不是昨天来的。",
+            "vi": "Tôi không phải hôm qua tới."
+          },
+          {
+            "zh": "这不是在北京买的。",
+            "vi": "Cái này không được mua ở Bắc Kinh."
+          }
+        ]
+      },
+      {
+        "hanzi": "Diễn tả ngày tháng năm",
+        "vi": "Khi diễn tả ngày tháng năm thì sẽ từ đơn vị lớn nhất đến đơn vị nhỏ nhất. Năm đọc từng con số + 年, tháng + 月, ngày + 日.<br></content>",
+        "examples": [
+          {
+            "zh": "明天是2022年三月一日。",
+            "vi": "Ngày mai là ngày 1 tháng 3 năm 2022."
+          },
+          {
+            "zh": "今天9月10日星期二。",
+            "vi": "Hôm nay thứ 2, ngày 10 tháng 9."
+          }
+        ]
+      }
+    ]
+  }
+]
