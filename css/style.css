@@ -1015,6 +1015,21 @@ a.student-name-display[hidden] { display: none; }
 .bk-label { font-weight: 700; color: var(--indigo-deep); font-size: 15px; }
 .bk-title-zh { font-size: 15px; color: var(--ink); }
 .bk-head .bk-pinyin { font-size: 13px; color: var(--teal); }
+.bk-read-btn {
+  margin-left: auto;
+  font: inherit;
+  cursor: pointer;
+  font-size: 12.5px;
+  padding: 5px 12px;
+  border-radius: 16px;
+  border: 1px solid var(--indigo);
+  background: #fff;
+  color: var(--indigo-deep);
+  white-space: nowrap;
+}
+.bk-read-btn:hover { background: #f4f0ff; }
+.bk-read-btn.bk-playing { background: var(--indigo-deep); color: #fff; border-color: var(--indigo-deep); }
+.bk-read-btn:disabled { opacity: .5; cursor: default; }
 .bk-title-vi { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 10px; }
 .bk-lines { margin-top: 8px; }
 .bk-line { padding: 7px 0; border-top: 1px dashed var(--line); }

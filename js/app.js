@@ -248,6 +248,7 @@ async function render() {
   const app = document.getElementById("app");
   app.innerHTML = `<p class="empty-note">Đang tải...</p>`;
   if (window.HSKAuth) HSKAuth.stopHeartbeat(); // chỉ chạy khi đang ở trang một bài học cụ thể
+  if ("speechSynthesis" in window) window.speechSynthesis.cancel(); // dừng đọc bài khóa nếu đang chuyển trang
 
   try {
     if (parts.length === 0) {
@@ -506,6 +507,145 @@ async function renderCurriculumLevel(app, levelId) {
   `;
 }
 
+/* ---------------- Đọc bài khóa (giọng nam/nữ theo nhân vật hội thoại) ----------------
+   Bài khóa (课文) thường là hội thoại giữa 2+ người (nhãn "A："/"B：" hoặc tên
+   riêng như "小丽："/"妈妈："), đôi khi là 1 đoạn văn độc thoại không có nhãn.
+   Vì Web Speech API của trình duyệt hầu như không cho biết trước giọng nào là
+   nam/nữ (nhiều máy chỉ có đúng 1 giọng tiếng Trung), cách đọc được "gán giọng"
+   theo 2 lớp:
+   1) Tên nhân vật thường gặp trong 3 bộ dữ liệu (小丽/妈妈.../小刚/爸爸...) được
+      gán giới tính cố định theo nghĩa/quy ước thường thấy trong sách.
+   2) Nhãn còn lại (đặc biệt "A"/"B" — chiếm đa số) được gán XEN KẼ nam/nữ theo
+      thứ tự xuất hiện, để 2 lượt thoại liền nhau luôn khác giọng nghe được.
+   Nếu bài khóa chỉ có 1 người nói (hoặc không có nhãn — đoạn văn độc thoại),
+   chọn ngẫu nhiên (nhưng ổn định theo nội dung, để bấm đọc lại vẫn cùng 1
+   giọng) 1 trong 2 giới cho cả đoạn.
+   Để giọng nam/nữ luôn khác nhau dù máy chỉ có 1 giọng tiếng Trung, luôn chỉnh
+   thêm "pitch" (cao độ) theo giới tính — đây là yếu tố khác biệt CHẮC CHẮN có
+   tác dụng ở mọi trình duyệt, cộng thêm việc chọn voice object khác nhau khi
+   máy có sẵn nhiều giọng zh. */
+const SPEAKER_GENDER_HINTS = {
+  "小丽": "f", "小红": "f", "妈妈": "f", "周太太": "f", "张太太": "f",
+  "女儿": "f", "姐姐": "f", "妹妹": "f", "阿姨": "f", "小姐": "f",
+  "小刚": "m", "小明": "m", "周明": "m", "大山": "m", "马可": "m", "大卫": "m",
+  "儿子": "m", "爸爸": "m", "哥哥": "m", "弟弟": "m", "先生": "m",
+};
+
+function hashStr(s) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
+  return Math.abs(h);
+}
+
+/* Tách 课文 thành từng lượt thoại {speaker, text} — speaker = null nếu dòng
+   không có nhãn "X："/"X:" ở đầu (câu văn thường/dẫn truyện). */
+function parseSpeakerLines(contentZh) {
+  return (contentZh || "").split("\n").map((l) => l.trim()).filter(Boolean).map((line) => {
+    const m = line.match(/^([^\s：:]{1,8})[：:]\s*(.*)$/);
+    if (m && m[2]) return { speaker: m[1], text: m[2] };
+    return { speaker: null, text: line };
+  });
+}
+
+/* Trả về map { [speaker]: "f"|"m", __default: "f"|"m" } cho MỘT bài khóa. */
+function assignSpeakerGenders(lines, textKey) {
+  const distinct = [];
+  lines.forEach((l) => { if (l.speaker && !distinct.includes(l.speaker)) distinct.push(l.speaker); });
+  const map = {};
+  if (distinct.length <= 1) {
+    const g = hashStr(textKey) % 2 === 0 ? "f" : "m";
+    if (distinct.length === 1) map[distinct[0]] = g;
+    map.__default = g;
+    return map;
+  }
+  let lastGender = null;
+  distinct.forEach((sp) => {
+    let g = SPEAKER_GENDER_HINTS[sp];
+    if (!g) g = lastGender === "m" ? "f" : "m";
+    map[sp] = g;
+    lastGender = g;
+  });
+  map.__default = "f";
+  return map;
+}
+
+function ensureVoicesLoaded() {
+  return new Promise((resolve) => {
+    if (!("speechSynthesis" in window)) { resolve(); return; }
+    if (window.speechSynthesis.getVoices().length) { resolve(); return; }
+    let done = false;
+    const finish = () => { if (!done) { done = true; resolve(); } };
+    window.speechSynthesis.onvoiceschanged = finish;
+    setTimeout(finish, 500);
+  });
+}
+
+const FEMALE_VOICE_HINTS = /female|nữ|huihui|yaoyao|tingting|ting-ting|xiaoxiao|xiaoyi|meijia|mei-jia|sinji|sin-ji|yating|ya-ting|xiaomeng|siqi/i;
+const MALE_VOICE_HINTS = /male|nam|kangkang|yunjian|yunxi|yunyang|yunfeng|zhiwei/i;
+
+function pickVoiceAndPitch(gender) {
+  const pitch = gender === "f" ? 1.15 : 0.82;
+  if (!("speechSynthesis" in window)) return { voice: null, pitch };
+  const voices = window.speechSynthesis.getVoices().filter((v) => /^zh/i.test(v.lang));
+  if (!voices.length) return { voice: null, pitch };
+  const hintRe = gender === "f" ? FEMALE_VOICE_HINTS : MALE_VOICE_HINTS;
+  let voice = voices.find((v) => hintRe.test(v.name));
+  if (!voice && voices.length > 1) voice = gender === "f" ? voices[0] : voices[voices.length - 1];
+  if (!voice) voice = voices[0];
+  return { voice, pitch };
+}
+
+let bkPlaybackToken = 0;
+let activeReadBtn = null;
+
+function resetReadBtn(btn) {
+  btn.dataset.playing = "0";
+  btn.textContent = "🔊 Đọc bài khóa";
+  btn.classList.remove("bk-playing");
+}
+
+async function toggleReadAloud(btn, contentZh, textKey) {
+  if (!("speechSynthesis" in window)) {
+    btn.disabled = true;
+    btn.textContent = "🔇 Trình duyệt không hỗ trợ đọc";
+    return;
+  }
+  if (btn.dataset.playing === "1") {
+    window.speechSynthesis.cancel();
+    resetReadBtn(btn);
+    activeReadBtn = null;
+    return;
+  }
+  if (activeReadBtn && activeReadBtn !== btn) resetReadBtn(activeReadBtn);
+  window.speechSynthesis.cancel();
+  await ensureVoicesLoaded();
+  activeReadBtn = btn;
+  const myToken = ++bkPlaybackToken;
+  const lines = parseSpeakerLines(contentZh);
+  const genderMap = assignSpeakerGenders(lines, textKey);
+  btn.dataset.playing = "1";
+  btn.textContent = "⏹ Dừng đọc";
+  btn.classList.add("bk-playing");
+
+  let idx = 0;
+  function playNext() {
+    if (myToken !== bkPlaybackToken) return;
+    if (idx >= lines.length) { resetReadBtn(btn); if (activeReadBtn === btn) activeReadBtn = null; return; }
+    const line = lines[idx++];
+    const gender = (line.speaker && genderMap[line.speaker]) || genderMap.__default || "f";
+    const { voice, pitch } = pickVoiceAndPitch(gender);
+    const u = new SpeechSynthesisUtterance(line.text);
+    u.lang = "zh-CN";
+    u.pitch = pitch;
+    u.rate = 0.95;
+    if (voice) u.voice = voice;
+    u.onend = playNext;
+    u.onerror = playNext;
+    window.speechSynthesis.speak(u);
+  }
+  playNext();
+}
+
 /* Ghép từng dòng nội dung (中文) với dòng pinyin/nghĩa Việt tương ứng —
    3 chuỗi contentZh/pinyin/vi được tách dòng song song nhau từ nguồn Excel
    (mỗi câu thoại 1 dòng ở cả 3 cột), nên chỉ cần zip theo chỉ số dòng. */
@@ -579,6 +719,7 @@ async function renderCurriculumLesson(app, levelId, lessonNumStr) {
             <span class="bk-label">${escapeHtml(t.label || `课文${i + 1}`)}</span>
             <span class="bk-title-zh">${escapeHtml(t.titleZh || "")}</span>
             ${t.titlePinyin ? `<span class="bk-title-py bk-pinyin">${escapeHtml(t.titlePinyin)}</span>` : ""}
+            <button class="bk-read-btn" type="button" data-bk-idx="${i}" data-playing="0">🔊 Đọc bài khóa</button>
           </div>
           ${t.titleVi ? `<div class="bk-title-vi bk-vi">${escapeHtml(t.titleVi)}</div>` : ""}
           <div class="bk-lines">${bkLinesHtml(t)}</div>
@@ -629,6 +770,14 @@ async function renderCurriculumLesson(app, levelId, lessonNumStr) {
   }
   pinyinToggle.addEventListener("change", applyToggles);
   viToggle.addEventListener("change", applyToggles);
+
+  Array.from(app.querySelectorAll(".bk-read-btn")).forEach((btn) => {
+    const idx = Number(btn.dataset.bkIdx);
+    const t = lesson.texts[idx];
+    if (!t) return;
+    const textKey = `${levelId}-${lesson.lesson}-${idx}`;
+    btn.addEventListener("click", () => toggleReadAloud(btn, t.contentZh, textKey));
+  });
 }
 
 /* ---------------- Unit (4 modes) ---------------- */
