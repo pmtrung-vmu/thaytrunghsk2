@@ -277,9 +277,10 @@
   }
 
   /* prefix dùng làm tiền tố tên trường lưu điểm trong classStats — TÁCH RIÊNG
-     5 chế độ: "quiz" (trắc nghiệm Hán tự↔nghĩa), "fill" (điền pinyin),
+     6 chế độ: "quiz" (trắc nghiệm Hán tự↔nghĩa), "fill" (điền pinyin),
      "cloze" (điền từ vào chỗ trống), "translate" (dịch câu, học viên tự
-     chấm), và "write" (viết chữ tay). Trước đây "cloze" từng bị gộp chung
+     chấm), "write" (viết chữ tay), và "advfill" (điền từ nâng cao — nhiều chỗ
+     trống/đoạn, chỉ có ở HSK3 hiện tại). Trước đây "cloze" từng bị gộp chung
      vào "quiz" (một sơ suất cũ) — từ bản có điểm điền từ riêng, các chế độ
      được tính tách biệt hoàn toàn. Lưu ý: "translate" hiện chỉ được LƯU vào
      Firestore (classStats.{cid}.translate*), CHƯA có cột hiển thị riêng
@@ -289,6 +290,7 @@
     if (mode === "cloze") return "cloze";
     if (mode === "translate") return "translate";
     if (mode === "write") return "write";
+    if (mode === "advfill") return "advfill";
     return "quiz";
   }
 

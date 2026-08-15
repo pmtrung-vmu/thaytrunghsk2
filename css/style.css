@@ -973,7 +973,102 @@ a.student-name-display[hidden] { display: none; }
 .attempt-count { font-weight: 600; color: var(--indigo-deep); font-size: 13px; }
 .attempt-list { color: var(--ink-soft); font-size: 12.5px; margin-top: 2px; line-height: 1.5; }
 
+/* ---------- Giáo trình (xem theo đúng thứ tự sách: bài khóa 课文 + ngữ pháp riêng của từng bài) ---------- */
+.curr-lesson-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+}
+.curr-lesson-nav a:not(.btn) {
+  color: var(--indigo-deep);
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+}
+.curr-lesson-nav a:not(.btn):hover { text-decoration: underline; }
+
+.curr-toggles {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  padding: 10px 14px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+.toggle-item { display: flex; align-items: center; gap: 7px; font-size: 13.5px; color: var(--ink); cursor: pointer; user-select: none; }
+.toggle-item input { margin: 0; width: 16px; height: 16px; cursor: pointer; }
+
+.baikhoa-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px 18px;
+  margin-bottom: 16px;
+}
+.bk-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 4px; }
+.bk-label { font-weight: 700; color: var(--indigo-deep); font-size: 15px; }
+.bk-title-zh { font-size: 15px; color: var(--ink); }
+.bk-head .bk-pinyin { font-size: 13px; color: var(--teal); }
+.bk-title-vi { font-size: 13.5px; color: var(--ink-soft); margin-bottom: 10px; }
+.bk-lines { margin-top: 8px; }
+.bk-line { padding: 7px 0; border-top: 1px dashed var(--line); }
+.bk-line:first-child { border-top: none; }
+.bk-line .bk-zh { font-size: 16px; color: var(--ink); line-height: 1.6; }
+.bk-line .bk-pinyin { font-size: 13px; color: var(--teal); margin-top: 2px; }
+.bk-line .bk-vi { font-size: 13.5px; color: var(--ink-soft); margin-top: 2px; }
+.curr-pane.hide-pinyin .bk-pinyin { display: none; }
+.curr-pane.hide-vi .bk-vi { display: none; }
+
+/* ---------- Điền từ nâng cao (nhiều chỗ trống/đoạn, có ngân hàng từ) ---------- */
+.af-wrap { max-width: 820px; }
+.af-block {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px 18px;
+  margin-bottom: 16px;
+}
+.af-bank { font-size: 13px; color: var(--ink-soft); margin-bottom: 10px; }
+.af-bank-word {
+  display: inline-block;
+  background: #eef2f4;
+  color: var(--indigo);
+  padding: 2px 9px;
+  border-radius: 6px;
+  margin: 2px 3px 2px 0;
+  font-size: 13px;
+}
+.af-text { font-size: 16px; line-height: 2.2; color: var(--ink); }
+.af-blank {
+  font: inherit;
+  font-size: 14px;
+  padding: 2px 6px;
+  margin: 0 2px;
+  border-radius: 6px;
+  border: 1.5px solid var(--indigo);
+  background: #fff;
+  color: var(--indigo-deep);
+  max-width: 108px;
+}
+.af-blank.af-correct { border-color: #2fa86a; background: #e5f4ea; color: #1f6b3c; }
+.af-blank.af-wrong { border-color: #d9534f; background: #fbe7e7; color: #9c3a3a; }
+.af-answer-hint { font-size: 12px; color: #2fa86a; margin-left: 4px; }
+.af-actions { margin: 18px 0; }
+
 @media (max-width: 640px) {
   .word-row { flex-wrap: wrap; }
   .word-row .mn { min-width: 100%; order: 3; }
+
+  .curr-lesson-nav { justify-content: center; text-align: center; }
+  .curr-lesson-nav .btn { order: -1; flex-basis: 100%; text-align: center; }
+  .af-text { font-size: 15px; line-height: 2.4; }
+  .af-blank { font-size: 13px; max-width: 92px; }
+  .bk-line .bk-zh { font-size: 15px; }
 }

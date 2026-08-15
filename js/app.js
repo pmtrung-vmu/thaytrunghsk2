@@ -4,7 +4,7 @@
 const LEVELS = [
   { id: "1", label: "HSK 1", file: "hsk1.json", grammar: "grammar1.json", grammarGroupLabel: "Bài" },
   { id: "2", label: "HSK 2", file: "hsk2.json", grammar: "grammar2.json", grammarGroupLabel: "Bài" },
-  { id: "3", label: "HSK 3", file: "hsk3.json", grammar: "grammar3.json", grammarGroupLabel: "Bài" },
+  { id: "3", label: "HSK 3", file: "hsk3.json", grammar: "grammar3.json", grammarGroupLabel: "Bài", curriculum: "curriculum3.json", dienTu: "dientu3.json" },
   { id: "4", label: "HSK 4", file: "hsk4.json", grammar: "grammar4.json", grammarGroupLabel: "Nhóm" },
 ];
 
@@ -67,6 +67,34 @@ async function fetchGrammarData(id) {
   const res = await fetch(`data/${info.grammar}`);
   const data = await res.json();
   grammarCache[id] = data;
+  return data;
+}
+
+/* Dữ liệu "giáo trình" (xem theo đúng thứ tự sách: bài khóa 课文 + ngữ pháp
+   riêng của từng bài) — khác với dữ liệu "Từ vựng"/"Ngữ pháp" tổng hợp theo
+   trình độ đã có ở trên. Hiện chỉ HSK3 có dữ liệu; HSK1/2/4 chưa có (info.curriculum
+   undefined) nên trang sẽ hiện "chưa có dữ liệu". */
+const curriculumCache = {};
+async function fetchCurriculumData(id) {
+  if (curriculumCache[id]) return curriculumCache[id];
+  const info = levelInfo(id);
+  if (!info || !info.curriculum) return null;
+  const res = await fetch(`data/${info.curriculum}`);
+  const data = await res.json();
+  curriculumCache[id] = data;
+  return data;
+}
+
+/* Dữ liệu bài tập "Điền từ nâng cao" (điền nhiều chỗ trống có ngân hàng từ,
+   theo đúng bài trong giáo trình) — chỉ HSK3 có hiện tại. */
+const dienTuCache = {};
+async function fetchDienTuData(id) {
+  if (dienTuCache[id]) return dienTuCache[id];
+  const info = levelInfo(id);
+  if (!info || !info.dienTu) return null;
+  const res = await fetch(`data/${info.dienTu}`);
+  const data = await res.json();
+  dienTuCache[id] = data;
   return data;
 }
 
@@ -230,6 +258,17 @@ async function render() {
     if (parts[0] === "login") { markActiveNav(null); await renderLogin(app); return; }
     if (parts[0] === "signup") { markActiveNav(null); await renderSignup(app); return; }
     if (parts[0] === "progress") { markActiveNav(null); await renderMyProgressPage(app); return; }
+    if (parts[0] === "curriculum") {
+      markActiveNav(null);
+      if (parts[1] && parts[2] === "lesson" && parts[3]) {
+        await renderCurriculumLesson(app, parts[1], parts[3]);
+      } else if (parts[1]) {
+        await renderCurriculumLevel(app, parts[1]);
+      } else {
+        await renderCurriculumHome(app);
+      }
+      return;
+    }
     if (parts[0] === "teacher") {
       markActiveNav(null);
       if (parts[1] === "class" && parts[2]) {
@@ -299,7 +338,7 @@ async function renderHome(app) {
           <p class="lead">Flashcard, trắc nghiệm, điền từ và luyện viết tay chữ Hán — theo đúng giáo trình 新HSK教程, có giáo viên theo dõi tiến độ từng buổi học.</p>
           <div class="hero-actions">
             ${firstPracticeLevel ? `<a class="btn primary" href="#/level/${firstPracticeLevel.id}">Bắt đầu ôn tập →</a>` : ""}
-            <a class="btn ghost" href="#level-grid-section">Xem giáo trình</a>
+            <a class="btn ghost" href="#/curriculum">Xem giáo trình</a>
           </div>
           <div class="stat-row">
             <div class="stat"><b>${LEVELS.length}</b><span>Cấp độ</span></div>
@@ -387,6 +426,12 @@ async function renderLevel(app, id) {
         <div class="u-sub">Lý thuyết + ví dụ</div>
         <div class="u-sample">Xem điểm ngữ pháp</div>
       </a>` : ""}
+      ${info.curriculum ? `
+      <a class="unit-card highlight-card" href="#/curriculum/${id}">
+        <div class="u-title">📘 Giáo trình ${info.label}</div>
+        <div class="u-sub">Bài khóa (课文) + ngữ pháp theo từng bài</div>
+        <div class="u-sample">Xem theo đúng thứ tự sách</div>
+      </a>` : ""}
       ${units.map((u, i) => `
         <a class="unit-card" href="#/level/${id}/unit/${i}/list">
           <div class="u-title">${u.title}</div>
@@ -397,6 +442,181 @@ async function renderLevel(app, id) {
       `).join("")}
     </div>
   `;
+}
+
+/* ---------------- Giáo trình (xem theo đúng thứ tự sách: bài khóa + ngữ pháp) ---------------- */
+
+async function renderCurriculumHome(app) {
+  app.innerHTML = `
+    <div class="crumbs"><a href="#/">Trang chủ</a> / Giáo trình</div>
+    <div class="section-title"><h2>📘 Giáo trình theo sách</h2></div>
+    <p class="section-sub">Xem bài khóa (课文) và ngữ pháp theo đúng thứ tự từng bài trong giáo trình — chọn trình độ để bắt đầu.</p>
+    <div class="level-grid">
+      ${LEVELS.map((l) => {
+        const has = !!l.curriculum;
+        const inner = `
+          <div class="lc-top">
+            <span class="badge">${l.label}</span>
+            ${!has ? '<span class="badge" style="background:#f1f1f4;color:#8a8a99;">chưa có dữ liệu</span>' : ""}
+          </div>
+          <h3>Giáo trình ${l.label}</h3>
+          <p>${has ? "20 bài · bài khóa + ngữ pháp" : "Sẽ được cập nhật sau"}</p>
+        `;
+        return has
+          ? `<a class="level-card" href="#/curriculum/${l.id}">${inner}</a>`
+          : `<div class="level-card locked" title="Chưa có dữ liệu giáo trình cho trình độ này">${inner}</div>`;
+      }).join("")}
+    </div>
+  `;
+}
+
+async function renderCurriculumLevel(app, levelId) {
+  const info = levelInfo(levelId);
+  if (!info) { app.innerHTML = `<p class="empty-note">Trình độ không tồn tại.</p>`; return; }
+  const data = await fetchCurriculumData(levelId);
+  if (!data) {
+    app.innerHTML = `
+      <div class="crumbs"><a href="#/">Trang chủ</a> / <a href="#/curriculum">Giáo trình</a> / ${info.label}</div>
+      <div class="section-title"><h2>Giáo trình ${info.label}</h2></div>
+      <p class="empty-note">Chưa có dữ liệu giáo trình cho ${info.label}. Sẽ được cập nhật sau.</p>
+    `;
+    return;
+  }
+  app.innerHTML = `
+    <div class="crumbs"><a href="#/">Trang chủ</a> / <a href="#/curriculum">Giáo trình</a> / ${info.label}</div>
+    <div class="section-title"><h2>📘 Giáo trình ${info.label}</h2></div>
+    <p class="section-sub">${data.length} bài · mỗi bài gồm bài khóa (课文) và ngữ pháp riêng</p>
+    <div class="unit-grid">
+      ${data.map((l) => `
+        <a class="unit-card" href="#/curriculum/${levelId}/lesson/${l.lesson}">
+          <div class="u-title">Bài ${l.lesson} · ${escapeHtml(l.titleZh || "")}</div>
+          <div class="u-sub">${escapeHtml(l.titleVi || "")}</div>
+          <div class="u-sample">${l.texts.length} bài khóa · ${l.grammar.length} điểm ngữ pháp</div>
+        </a>
+      `).join("")}
+    </div>
+  `;
+}
+
+/* Ghép từng dòng nội dung (中文) với dòng pinyin/nghĩa Việt tương ứng —
+   3 chuỗi contentZh/pinyin/vi được tách dòng song song nhau từ nguồn Excel
+   (mỗi câu thoại 1 dòng ở cả 3 cột), nên chỉ cần zip theo chỉ số dòng. */
+function bkLinesHtml(t) {
+  const zhLines = (t.contentZh || "").split("\n");
+  const pyLines = (t.pinyin || "").split("\n");
+  const viLines = (t.vi || "").split("\n");
+  const n = Math.max(zhLines.length, pyLines.length, viLines.length);
+  let html = "";
+  for (let i = 0; i < n; i++) {
+    const zh = (zhLines[i] || "").trim();
+    if (!zh && !(pyLines[i] || "").trim() && !(viLines[i] || "").trim()) continue;
+    html += `<div class="bk-line">
+      <div class="bk-zh">${escapeHtml(zh)}</div>
+      ${(pyLines[i] || "").trim() ? `<div class="bk-pinyin">${escapeHtml(pyLines[i].trim())}</div>` : ""}
+      ${(viLines[i] || "").trim() ? `<div class="bk-vi">${escapeHtml(viLines[i].trim())}</div>` : ""}
+    </div>`;
+  }
+  return html;
+}
+
+async function renderCurriculumLesson(app, levelId, lessonNumStr) {
+  const info = levelInfo(levelId);
+  if (!info) { app.innerHTML = `<p class="empty-note">Trình độ không tồn tại.</p>`; return; }
+  const data = await fetchCurriculumData(levelId);
+  if (!data) { app.innerHTML = `<p class="empty-note">Chưa có dữ liệu giáo trình cho ${info.label}.</p>`; return; }
+  const lessonNum = Number(lessonNumStr);
+  const lesson = data.find((l) => l.lesson === lessonNum);
+  if (!lesson) { app.innerHTML = `<p class="empty-note">Không tìm thấy bài học.</p>`; return; }
+
+  /* Dữ liệu từ vựng HSK1-3 đã theo đúng thứ tự giáo trình (lesson N ↔ unit
+     index N-1 trong getUnits()/isLessonBased()), nên có thể suy ra thẳng URL
+     sang phần luyện tập "Điền từ nâng cao" của đúng bài này. */
+  const unitIdx = lessonNum - 1;
+  const dienTuData = await fetchDienTuData(levelId);
+  const dienTuLesson = dienTuData && dienTuData.find((d) => d.lesson === lessonNum);
+  const hasDienTu = !!(dienTuLesson && dienTuLesson.blocks && dienTuLesson.blocks.length);
+
+  const prevLesson = data.find((l) => l.lesson === lessonNum - 1);
+  const nextLesson = data.find((l) => l.lesson === lessonNum + 1);
+
+  app.innerHTML = `
+    <div class="crumbs"><a href="#/">Trang chủ</a> / <a href="#/curriculum">Giáo trình</a> / <a href="#/curriculum/${levelId}">${info.label}</a> / Bài ${lesson.lesson}</div>
+    <div class="section-title"><h2>Bài ${lesson.lesson} · ${escapeHtml(lesson.titleZh || "")}</h2></div>
+    <p class="section-sub">${lesson.titlePinyin ? escapeHtml(lesson.titlePinyin) + " — " : ""}${escapeHtml(lesson.titleVi || "")}</p>
+
+    <div class="curr-lesson-nav">
+      ${prevLesson ? `<a href="#/curriculum/${levelId}/lesson/${prevLesson.lesson}">← Bài ${prevLesson.lesson}</a>` : `<span></span>`}
+      ${hasDienTu ? `<a class="btn primary btn-sm" href="#/level/${levelId}/unit/${unitIdx}/advfill">🧩 Luyện điền từ nâng cao — Bài ${lesson.lesson}</a>` : `<span></span>`}
+      ${nextLesson ? `<a href="#/curriculum/${levelId}/lesson/${nextLesson.lesson}">Bài ${nextLesson.lesson} →</a>` : `<span></span>`}
+    </div>
+
+    <div class="tab-row curr-tab-row">
+      <a class="curr-tab active" data-tab="baikhoa">📖 Bài khóa (课文)</a>
+      <a class="curr-tab" data-tab="ngupap">📐 Ngữ pháp${lesson.grammar.length ? ` (${lesson.grammar.length})` : ""}</a>
+    </div>
+
+    <div class="curr-toggles" id="curr-baikhoa-toggles">
+      <label class="toggle-item"><input type="checkbox" id="toggle-pinyin" checked> Hiện pinyin</label>
+      <label class="toggle-item"><input type="checkbox" id="toggle-vi" checked> Hiện nghĩa tiếng Việt</label>
+    </div>
+
+    <div id="curr-pane-baikhoa" class="curr-pane">
+      ${lesson.texts.map((t, i) => `
+        <div class="baikhoa-card">
+          <div class="bk-head">
+            <span class="bk-label">${escapeHtml(t.label || `课文${i + 1}`)}</span>
+            <span class="bk-title-zh">${escapeHtml(t.titleZh || "")}</span>
+            ${t.titlePinyin ? `<span class="bk-title-py bk-pinyin">${escapeHtml(t.titlePinyin)}</span>` : ""}
+          </div>
+          ${t.titleVi ? `<div class="bk-title-vi bk-vi">${escapeHtml(t.titleVi)}</div>` : ""}
+          <div class="bk-lines">${bkLinesHtml(t)}</div>
+        </div>
+      `).join("")}
+    </div>
+
+    <div id="curr-pane-ngupap" class="curr-pane" hidden>
+      <div class="grammar-list">
+        ${lesson.grammar.length ? lesson.grammar.map((g) => `
+          <div class="gram-card">
+            <h4 class="gram-name">${escapeHtml(g.hanzi || "")}</h4>
+            ${g.meaning ? `<div class="gram-vi">${escapeHtml(g.meaning)}</div>` : ""}
+            ${g.structure ? `<div class="gram-struct">${escapeHtml(g.structure)}</div>` : ""}
+            ${g.explain ? `<p class="gram-explain">${escapeHtml(g.explain)}</p>` : ""}
+            ${(g.examples || []).map((ex) => `
+              <div class="gram-ex">
+                <div class="zh">${escapeHtml(ex.zh || "")}</div>
+                ${ex.vi ? `<div class="vi">${escapeHtml(ex.vi)}</div>` : ""}
+              </div>
+            `).join("")}
+          </div>
+        `).join("") : `<p class="empty-note">Bài này chưa có điểm ngữ pháp riêng.</p>`}
+      </div>
+    </div>
+  `;
+
+  const tabs = Array.from(app.querySelectorAll(".curr-tab"));
+  const paneBaiKhoa = document.getElementById("curr-pane-baikhoa");
+  const paneNguPhap = document.getElementById("curr-pane-ngupap");
+  const toggles = document.getElementById("curr-baikhoa-toggles");
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((t) => t.classList.remove("active"));
+      tab.classList.add("active");
+      const target = tab.dataset.tab;
+      paneBaiKhoa.hidden = target !== "baikhoa";
+      paneNguPhap.hidden = target !== "ngupap";
+      toggles.hidden = target !== "baikhoa";
+    });
+  });
+
+  const pinyinToggle = document.getElementById("toggle-pinyin");
+  const viToggle = document.getElementById("toggle-vi");
+  function applyToggles() {
+    paneBaiKhoa.classList.toggle("hide-pinyin", !pinyinToggle.checked);
+    paneBaiKhoa.classList.toggle("hide-vi", !viToggle.checked);
+  }
+  pinyinToggle.addEventListener("change", applyToggles);
+  viToggle.addEventListener("change", applyToggles);
 }
 
 /* ---------------- Unit (4 modes) ---------------- */
@@ -410,7 +630,7 @@ async function renderLevel(app, id) {
      danh sách từ/lật thẻ/ngữ pháp bình thường, chỉ riêng phần luyện tập có
      chấm điểm là bị khoá.
    - Giáo viên: dùng được ở mọi trình độ. */
-const PRACTICE_MODES = ["quiz", "fill", "cloze", "translate", "write"];
+const PRACTICE_MODES = ["quiz", "fill", "cloze", "translate", "write", "advfill"];
 function canUsePracticeModes(levelId) {
   return isLoggedIn() && canPracticeLevel(levelId);
 }
@@ -450,6 +670,20 @@ async function renderUnit(app, id, unitIdx, mode) {
   const practiceAllowed = canUsePracticeModes(id);
 
   const canWriteQuiz = STROKE_ORDER_LEVELS.includes(id) && typeof HanziWriter !== "undefined";
+
+  /* "Điền từ nâng cao" — bài tập điền nhiều chỗ trống (có ngân hàng từ) lấy
+     từ đúng bài trong giáo trình. Chỉ có ở các trình độ có info.dienTu, và
+     chỉ ở trang MỘT bài cụ thể (không áp dụng cho "Ôn toàn bộ" vì dữ liệu
+     gắn theo từng bài riêng). Dữ liệu từ vựng HSK1-3 đã theo đúng thứ tự
+     giáo trình nên unitIdx (0-based) ↔ lesson (1-based) = unitIdx + 1. */
+  let dienTuBlocks = null;
+  if (info.dienTu && !isAll) {
+    const dienTuData = await fetchDienTuData(id);
+    const lessonNum = Number(unitIdx) + 1;
+    const lessonData = dienTuData && dienTuData.find((d) => d.lesson === lessonNum);
+    if (lessonData && lessonData.blocks && lessonData.blocks.length) dienTuBlocks = lessonData.blocks;
+  }
+
   const tabs = [
     ["list", "📋 Danh sách", false],
     ["flash", "🔄 Lật thẻ", false],
@@ -458,6 +692,7 @@ async function renderUnit(app, id, unitIdx, mode) {
     ["cloze", "📝 Điền từ", true],
     ["translate", "🌐 Dịch câu", true],
     ...(canWriteQuiz ? [["write", "🖌️ Viết chữ", true]] : []),
+    ...(dienTuBlocks ? [["advfill", "🧩 Điền từ nâng cao", true]] : []),
   ];
 
   const header = `
@@ -492,6 +727,10 @@ async function renderUnit(app, id, unitIdx, mode) {
   else if (mode === "write") {
     if (canWriteQuiz) renderWriteQuizMode(body, words, ctx);
     else body.innerHTML = `<div class="empty-note">Luyện viết chữ hiện chỉ hỗ trợ HSK 1-3.</div>`;
+  }
+  else if (mode === "advfill") {
+    if (dienTuBlocks) renderAdvFillMode(body, dienTuBlocks, ctx);
+    else body.innerHTML = `<div class="empty-note">Bài này chưa có bài tập điền từ nâng cao.</div>`;
   }
   else body.innerHTML = `<p class="empty-note">Chế độ không hợp lệ.</p>`;
 }
@@ -888,6 +1127,84 @@ function renderClozeMode(body, words, ctx) {
         }
         setTimeout(() => { qi++; draw(); }, 1000);
       });
+    });
+  }
+  draw();
+}
+
+/* ---- Điền từ nâng cao — bài tập điền NHIỀU chỗ trống trong 1 đoạn hội
+   thoại/đoạn văn, chọn đúng từ trong "ngân hàng từ" cho từng chỗ (không phải
+   trắc nghiệm 1 từ như "cloze" ở trên) — lấy nguyên bài tập gốc trong sách,
+   theo đúng bài học. Mỗi lesson có 1-2 "khối" (block), mỗi khối có wordBank +
+   text (chứa các chuỗi gạch dưới/dấu chấm đánh dấu chỗ trống) + answers (đáp
+   án đúng theo thứ tự chỗ trống xuất hiện trong text). */
+const ADV_FILL_BLANK_RE = /([_]{2,}|[.]{2,})/g;
+
+function renderAdvFillMode(body, blocks, ctx) {
+  function draw() {
+    const blockHtml = blocks.map((block, bi) => {
+      const segments = block.text.split(ADV_FILL_BLANK_RE);
+      let blankIdx = 0;
+      const textHtml = segments.map((seg) => {
+        if (/^([_]{2,}|[.]{2,})$/.test(seg)) {
+          const bk = blankIdx++;
+          const options = block.wordBank
+            .map((w) => `<option value="${escapeHtml(w)}">${escapeHtml(w)}</option>`)
+            .join("");
+          return `<select class="af-blank" id="af-${bi}-${bk}" data-block="${bi}" data-blank="${bk}"><option value="">___</option>${options}</select>`;
+        }
+        return escapeHtml(seg).replace(/\n/g, "<br>");
+      }).join("");
+      return `
+        <div class="af-block">
+          <div class="af-bank"><b>Ngân hàng từ:</b> ${block.wordBank.map((w) => `<span class="af-bank-word">${escapeHtml(w)}</span>`).join(" ")}</div>
+          <div class="af-text">${textHtml}</div>
+        </div>
+      `;
+    }).join("");
+
+    body.innerHTML = `
+      <div class="af-wrap">
+        <p class="section-sub">Chọn từ đúng trong ngân hàng từ cho mỗi chỗ trống, sau đó bấm "Nộp bài" để chấm điểm. Bài tập nguyên gốc theo đúng giáo trình — nâng cao hơn phần "Điền từ" cơ bản vì mỗi đoạn có nhiều chỗ trống liên quan đến nhau.</p>
+        ${blockHtml}
+        <div class="af-actions"><button class="btn primary" id="af-submit">✅ Nộp bài</button></div>
+        <div id="af-result"></div>
+      </div>
+    `;
+
+    document.getElementById("af-submit").addEventListener("click", () => {
+      let score = 0, total = 0;
+      blocks.forEach((block, bi) => {
+        block.answers.forEach((ans, bk) => {
+          total++;
+          const sel = document.getElementById(`af-${bi}-${bk}`);
+          if (!sel) return;
+          sel.disabled = true;
+          if (sel.value === ans) {
+            score++;
+            sel.classList.add("af-correct");
+          } else {
+            sel.classList.add("af-wrong");
+            const hint = document.createElement("span");
+            hint.className = "af-answer-hint";
+            hint.textContent = `đúng: ${ans}`;
+            sel.insertAdjacentElement("afterend", hint);
+          }
+        });
+      });
+      if (window.HSKAuth && HSKAuth.user && ctx) {
+        HSKAuth.recordAttempt({ level: ctx.level, unitKey: ctx.unitKey, unitLabel: ctx.unitLabel, mode: "advfill", score, total });
+      }
+      document.getElementById("af-submit").disabled = true;
+      const resultBox = document.getElementById("af-result");
+      resultBox.innerHTML = `
+        <div class="quiz-result-box">
+          <div class="score-big">${score}/${total}</div>
+          <p>Bạn đã điền đúng ${score} trên ${total} chỗ trống.</p>
+          <button class="btn primary" id="af-retry">Làm lại</button>
+        </div>`;
+      document.getElementById("af-retry").addEventListener("click", draw);
+      resultBox.scrollIntoView({ behavior: "smooth", block: "center" });
     });
   }
   draw();
@@ -1393,13 +1710,14 @@ function dateKey(offsetDays) {
    bảng danh sách lớp (tổng quan) và trang chi tiết lớp. */
 function classAggStats(students, classId) {
   const inClass = students.filter((s) => Array.isArray(s.classIds) && s.classIds.includes(classId));
-  let quizC = 0, quizQ = 0, fillC = 0, fillQ = 0, clozeC = 0, clozeQ = 0, writeC = 0, writeQ = 0;
+  let quizC = 0, quizQ = 0, fillC = 0, fillQ = 0, clozeC = 0, clozeQ = 0, writeC = 0, writeQ = 0, advfillC = 0, advfillQ = 0;
   inClass.forEach((s) => {
     const st = (s.classStats && s.classStats[classId]) || {};
     quizC += st.quizCorrectTotal || 0; quizQ += st.quizQuestionsTotal || 0;
     fillC += st.fillCorrectTotal || 0; fillQ += st.fillQuestionsTotal || 0;
     clozeC += st.clozeCorrectTotal || 0; clozeQ += st.clozeQuestionsTotal || 0;
     writeC += st.writeCorrectTotal || 0; writeQ += st.writeQuestionsTotal || 0;
+    advfillC += st.advfillCorrectTotal || 0; advfillQ += st.advfillQuestionsTotal || 0;
   });
   return {
     count: inClass.length,
@@ -1407,6 +1725,7 @@ function classAggStats(students, classId) {
     fillAvg: fillQ ? Math.round((100 * fillC) / fillQ) : null,
     clozeAvg: clozeQ ? Math.round((100 * clozeC) / clozeQ) : null,
     writeAvg: writeQ ? Math.round((100 * writeC) / writeQ) : null,
+    advfillAvg: advfillQ ? Math.round((100 * advfillC) / advfillQ) : null,
   };
 }
 
@@ -1491,7 +1810,7 @@ function renderClassTable(container, classes, students, onRefresh) {
       <table class="teacher-table">
         <thead><tr>
           <th>Tên lớp</th><th>Trình độ</th><th>Số học viên</th>
-          <th>Điểm TB trắc nghiệm</th><th>Điểm TB điền pinyin</th><th>Điểm TB điền từ</th><th>Điểm TB viết chữ</th><th>Thao tác</th>
+          <th>Điểm TB trắc nghiệm</th><th>Điểm TB điền pinyin</th><th>Điểm TB điền từ</th><th>Điểm TB điền từ nâng cao</th><th>Điểm TB viết chữ</th><th>Thao tác</th>
         </tr></thead>
         <tbody>
           ${classes.map((c) => {
@@ -1517,6 +1836,7 @@ function renderClassTable(container, classes, students, onRefresh) {
               <td>${agg.quizAvg === null ? "—" : agg.quizAvg + "%"}</td>
               <td>${agg.fillAvg === null ? "—" : agg.fillAvg + "%"}</td>
               <td>${agg.clozeAvg === null ? "—" : agg.clozeAvg + "%"}</td>
+              <td>${agg.advfillAvg === null ? "—" : agg.advfillAvg + "%"}</td>
               <td>${agg.writeAvg === null ? "—" : agg.writeAvg + "%"}</td>
               <td class="row-actions">
                 <a class="btn btn-sm" href="#/teacher/class/${c.id}">Xem chi tiết →</a>
@@ -1591,6 +1911,7 @@ function mergedStatsForStudent(s, scopedClassId) {
   const merged = {
     quizCorrectTotal: 0, quizQuestionsTotal: 0, fillCorrectTotal: 0, fillQuestionsTotal: 0,
     clozeCorrectTotal: 0, clozeQuestionsTotal: 0, writeCorrectTotal: 0, writeQuestionsTotal: 0,
+    advfillCorrectTotal: 0, advfillQuestionsTotal: 0,
     viewedUnitKeys: [], wrongWords: {}, studyDays: {},
   };
   buckets.forEach((b) => {
@@ -1602,6 +1923,8 @@ function mergedStatsForStudent(s, scopedClassId) {
     merged.clozeQuestionsTotal += b.clozeQuestionsTotal || 0;
     merged.writeCorrectTotal += b.writeCorrectTotal || 0;
     merged.writeQuestionsTotal += b.writeQuestionsTotal || 0;
+    merged.advfillCorrectTotal += b.advfillCorrectTotal || 0;
+    merged.advfillQuestionsTotal += b.advfillQuestionsTotal || 0;
     merged.viewedUnitKeys.push(...(b.viewedUnitKeys || []));
     Object.entries(b.wrongWords || {}).forEach(([w, c]) => { merged.wrongWords[w] = (merged.wrongWords[w] || 0) + c; });
     Object.entries(b.studyDays || {}).forEach(([d, m]) => { merged.studyDays[d] = (merged.studyDays[d] || 0) + m; });
@@ -1637,8 +1960,8 @@ function unitBreakdownRows(bucket) {
     if (sep < 0) return;
     const mode = fullKey.slice(0, sep);
     const key = fullKey.slice(sep + 1);
-    if (!rows[key]) rows[key] = { key, label: labels[key] || key, quiz: [], fill: [], cloze: [], write: [], lastTs: null };
-    if (mode === "quiz" || mode === "fill" || mode === "cloze" || mode === "write") {
+    if (!rows[key]) rows[key] = { key, label: labels[key] || key, quiz: [], fill: [], cloze: [], write: [], advfill: [], lastTs: null };
+    if (mode === "quiz" || mode === "fill" || mode === "cloze" || mode === "write" || mode === "advfill") {
       const attempts = normalizeAttempts(val);
       rows[key][mode] = attempts;
       attempts.forEach((a) => { if (a.ts && (!rows[key].lastTs || a.ts > rows[key].lastTs)) rows[key].lastTs = a.ts; });
@@ -1665,7 +1988,7 @@ function unitBreakdownTableHtml(bucket) {
     <div class="teacher-table-wrap">
       <table class="teacher-table">
         <thead><tr>
-          <th>Bài học</th><th>Trắc nghiệm</th><th>Điền pinyin</th><th>Điền từ</th><th>Viết chữ</th><th>Lần làm gần nhất</th>
+          <th>Bài học</th><th>Trắc nghiệm</th><th>Điền pinyin</th><th>Điền từ</th><th>Điền từ nâng cao</th><th>Viết chữ</th><th>Lần làm gần nhất</th>
         </tr></thead>
         <tbody>
           ${rows.map((r) => `
@@ -1674,6 +1997,7 @@ function unitBreakdownTableHtml(bucket) {
               <td>${scoreCell(r.quiz)}</td>
               <td>${scoreCell(r.fill)}</td>
               <td>${scoreCell(r.cloze)}</td>
+              <td>${scoreCell(r.advfill)}</td>
               <td>${scoreCell(r.write)}</td>
               <td>${r.lastTs ? r.lastTs.toLocaleString("vi-VN") : "—"}</td>
             </tr>
@@ -1699,12 +2023,13 @@ function renderStudentTable(container, students, classes, onRefresh, scopedClass
     const fillAvg = stats.fillQuestionsTotal ? Math.round((100 * stats.fillCorrectTotal) / stats.fillQuestionsTotal) : null;
     const clozeAvg = stats.clozeQuestionsTotal ? Math.round((100 * stats.clozeCorrectTotal) / stats.clozeQuestionsTotal) : null;
     const writeAvg = stats.writeQuestionsTotal ? Math.round((100 * stats.writeCorrectTotal) / stats.writeQuestionsTotal) : null;
+    const advfillAvg = stats.advfillQuestionsTotal ? Math.round((100 * stats.advfillCorrectTotal) / stats.advfillQuestionsTotal) : null;
     const wrongEntries = Object.entries(stats.wrongWords).sort((a, b) => b[1] - a[1]).slice(0, 5);
     const minsToday = stats.studyDays[todayK] || 0;
     let minsWeek = 0;
     for (let i = 0; i < 7; i++) minsWeek += stats.studyDays[dateKey(i)] || 0;
     const lastActive = s.lastActiveTs && s.lastActiveTs.toDate ? s.lastActiveTs.toDate() : null;
-    return { s, viewedCount, quizAvg, fillAvg, clozeAvg, writeAvg, wrongEntries, minsToday, minsWeek, lastActive };
+    return { s, viewedCount, quizAvg, fillAvg, clozeAvg, writeAvg, advfillAvg, wrongEntries, minsToday, minsWeek, lastActive };
   }).sort((a, b) => (b.lastActive ? b.lastActive.getTime() : 0) - (a.lastActive ? a.lastActive.getTime() : 0));
 
   container.innerHTML = `
@@ -1714,7 +2039,7 @@ function renderStudentTable(container, students, classes, onRefresh, scopedClass
       <table class="teacher-table">
         <thead><tr>
           <th>Học viên</th><th>Lớp</th><th>Hoạt động gần nhất</th><th>Bài đã ôn</th>
-          <th>Điểm TB trắc nghiệm</th><th>Điểm TB điền pinyin</th><th>Điểm TB điền từ</th><th>Điểm TB viết chữ</th>
+          <th>Điểm TB trắc nghiệm</th><th>Điểm TB điền pinyin</th><th>Điểm TB điền từ</th><th>Điểm TB điền từ nâng cao</th><th>Điểm TB viết chữ</th>
           <th>Từ hay sai</th><th>Học hôm nay</th><th>Học 7 ngày qua</th><th>Thao tác</th>
         </tr></thead>
         <tbody>
@@ -1753,6 +2078,7 @@ function renderStudentTable(container, students, classes, onRefresh, scopedClass
               <td>${r.quizAvg === null ? "—" : r.quizAvg + "%"}</td>
               <td>${r.fillAvg === null ? "—" : r.fillAvg + "%"}</td>
               <td>${r.clozeAvg === null ? "—" : r.clozeAvg + "%"}</td>
+              <td>${r.advfillAvg === null ? "—" : r.advfillAvg + "%"}</td>
               <td>${r.writeAvg === null ? "—" : r.writeAvg + "%"}</td>
               <td>${r.wrongEntries.length ? escapeHtml(r.wrongEntries.map(([w, c]) => `${w} (${c})`).join(", ")) : "—"}</td>
               <td>${r.minsToday.toFixed(1)} phút</td>
@@ -1899,6 +2225,7 @@ async function renderClassDetailPage(app, classId) {
       Điểm TB trắc nghiệm ${agg.quizAvg === null ? "—" : agg.quizAvg + "%"} ·
       Điểm TB điền pinyin ${agg.fillAvg === null ? "—" : agg.fillAvg + "%"} ·
       Điểm TB điền từ ${agg.clozeAvg === null ? "—" : agg.clozeAvg + "%"} ·
+      Điểm TB điền từ nâng cao ${agg.advfillAvg === null ? "—" : agg.advfillAvg + "%"} ·
       Điểm TB viết chữ ${agg.writeAvg === null ? "—" : agg.writeAvg + "%"}
     </p>
     <div id="class-detail-table"></div>
@@ -1948,6 +2275,7 @@ async function renderStudentDetailPage(app, uid) {
   const overallFillAvg = overall.fillQuestionsTotal ? Math.round((100 * overall.fillCorrectTotal) / overall.fillQuestionsTotal) : null;
   const overallClozeAvg = overall.clozeQuestionsTotal ? Math.round((100 * overall.clozeCorrectTotal) / overall.clozeQuestionsTotal) : null;
   const overallWriteAvg = overall.writeQuestionsTotal ? Math.round((100 * overall.writeCorrectTotal) / overall.writeQuestionsTotal) : null;
+  const overallAdvFillAvg = overall.advfillQuestionsTotal ? Math.round((100 * overall.advfillCorrectTotal) / overall.advfillQuestionsTotal) : null;
 
   app.innerHTML = `
     <div class="crumbs"><a href="#/teacher">📊 Trang giáo viên</a> / ${escapeHtml(s.name || "(chưa đặt tên)")}</div>
@@ -1960,6 +2288,7 @@ async function renderStudentDetailPage(app, uid) {
       Tổng tất cả các lớp — Trắc nghiệm ${overallQuizAvg === null ? "—" : overallQuizAvg + "%"} ·
       Điền pinyin ${overallFillAvg === null ? "—" : overallFillAvg + "%"} ·
       Điền từ ${overallClozeAvg === null ? "—" : overallClozeAvg + "%"} ·
+      Điền từ nâng cao ${overallAdvFillAvg === null ? "—" : overallAdvFillAvg + "%"} ·
       Viết chữ ${overallWriteAvg === null ? "—" : overallWriteAvg + "%"}
     </p>
     ${myClasses.length === 0 ? `<p class="empty-note">Học viên chưa thuộc lớp nào nên chưa có bài nào để hiện chi tiết.</p>` : myClasses.map((c) => {
@@ -2001,6 +2330,7 @@ async function renderMyProgressPage(app) {
   const overallFillAvg = overall.fillQuestionsTotal ? Math.round((100 * overall.fillCorrectTotal) / overall.fillQuestionsTotal) : null;
   const overallClozeAvg = overall.clozeQuestionsTotal ? Math.round((100 * overall.clozeCorrectTotal) / overall.clozeQuestionsTotal) : null;
   const overallWriteAvg = overall.writeQuestionsTotal ? Math.round((100 * overall.writeCorrectTotal) / overall.writeQuestionsTotal) : null;
+  const overallAdvFillAvg = overall.advfillQuestionsTotal ? Math.round((100 * overall.advfillCorrectTotal) / overall.advfillQuestionsTotal) : null;
   const wrongEntries = Object.entries(overall.wrongWords).sort((a, b) => b[1] - a[1]).slice(0, 10);
   const todayK = dateKey(0);
   const minsToday = overall.studyDays[todayK] || 0;
@@ -2018,6 +2348,7 @@ async function renderMyProgressPage(app) {
       <div class="progress-stat"><b>${overallQuizAvg === null ? "—" : overallQuizAvg + "%"}</b><span>Điểm TB trắc nghiệm</span></div>
       <div class="progress-stat"><b>${overallFillAvg === null ? "—" : overallFillAvg + "%"}</b><span>Điểm TB điền pinyin</span></div>
       <div class="progress-stat"><b>${overallClozeAvg === null ? "—" : overallClozeAvg + "%"}</b><span>Điểm TB điền từ</span></div>
+      <div class="progress-stat"><b>${overallAdvFillAvg === null ? "—" : overallAdvFillAvg + "%"}</b><span>Điểm TB điền từ nâng cao</span></div>
       <div class="progress-stat"><b>${overallWriteAvg === null ? "—" : overallWriteAvg + "%"}</b><span>Điểm TB viết chữ</span></div>
       <div class="progress-stat"><b>${minsToday.toFixed(1)}</b><span>Phút học hôm nay</span></div>
       <div class="progress-stat"><b>${minsWeek.toFixed(1)}</b><span>Phút học 7 ngày qua</span></div>
