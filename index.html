@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thầy Trung HSK — Học từ vựng HSK 3.0</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Be+Vietnam+Pro:wght@400;500;600;700&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#/" class="brand">
+        <span class="brand-mark">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Con dấu thư pháp 老師馮">
+            <defs>
+              <radialGradient id="sealDepth" cx="50%" cy="46%" r="72%">
+                <stop offset="0%" stop-color="#d5453a"/>
+                <stop offset="65%" stop-color="#b7332a"/>
+                <stop offset="100%" stop-color="#93251d"/>
+              </radialGradient>
+              <filter id="sealInk" x="-30%" y="-30%" width="160%" height="160%">
+                <feTurbulence type="fractalNoise" baseFrequency="0.22 0.26" numOctaves="3" seed="30" result="grain"/>
+                <feColorMatrix in="grain" type="matrix"
+                  values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.4 -0.05" result="grainAlpha"/>
+                <feTurbulence type="fractalNoise" baseFrequency="0.055" numOctaves="2" seed="8" result="edgeNoise"/>
+                <feDisplacementMap in="SourceGraphic" in2="edgeNoise" xChannelSelector="R" yChannelSelector="G" scale="3" result="roughShape"/>
+                <feComposite in="roughShape" in2="grainAlpha" operator="out"/>
+              </filter>
+            </defs>
+            <g filter="url(#sealInk)">
+              <rect x="4" y="4" width="92" height="92" rx="7" fill="url(#sealDepth)"/>
+            </g>
+            <g filter="url(#sealInk)" opacity="0.9">
+              <rect x="10.5" y="10.5" width="79" height="79" rx="3" fill="none" stroke="#f6e3d6" stroke-width="1.6"/>
+            </g>
+            <g class="seal-name" fill="#faf0e2">
+              <text x="34" y="72" text-anchor="middle" font-size="50" transform="rotate(-2 34 72)">馮</text>
+              <text x="76" y="40" text-anchor="middle" font-size="29" transform="rotate(2 76 40)">老</text>
+              <text x="76" y="78" text-anchor="middle" font-size="29" transform="rotate(-1.5 76 78)">師</text>
+            </g>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>Thầy Trung HSK</strong>
+          <small>Học từ vựng HSK 3.0 mỗi ngày</small>
+        </span>
+      </a>
+      <nav id="level-nav" class="level-nav"><!-- filled by JS --></nav>
+    </div>
+    <div class="header-inner auth-bar">
+      <div id="auth-slot" class="auth-slot"><!-- filled by auth.js --></div>
+    </div>
+  </header>
+
+  <main id="app" class="app"></main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      Từ vựng HSK 1-3 (Hán tự, phiên âm, Hán Việt, từ loại, nghĩa, ví dụ) được biên soạn theo
+      tài liệu "Từ vựng HSK1 / HSK2 / HSK3 — Tiếng Trung thương mại" (Trường Đại học Thương mại).
+      Hoạt hình nét viết ("cách viết") dùng thư viện mã nguồn mở
+      <a href="https://github.com/chanind/hanzi-writer" target="_blank" rel="noopener">HanziWriter</a> (giấy phép MIT).
+      <br>Thông tin liên hệ: Thầy Trung HSK · 0799920186
+    </div>
+  </footer>
+
+  <div class="float-contact">
+    <a class="fab zalo" href="https://zalo.me/0799920186" target="_blank" rel="noopener">Zalo<span class="tip">Chat Zalo: 0799920186</span></a>
+    <a class="fab fb" href="https://www.facebook.com/phungmt201" target="_blank" rel="noopener">f<span class="tip">Facebook: phungmt201</span></a>
+  </div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5/dist/hanzi-writer.min.js"></script>
+<script src="js/firebase-config.js"></script>
+<script src="js/auth.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

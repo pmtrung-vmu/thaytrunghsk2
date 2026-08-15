@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isTeacher() {
+      return isSignedIn() &&
+        exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+        get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'teacher';
+    }
+
+    match /users/{uid} {
+      // Học viên chỉ đọc được hồ sơ của chính mình; giáo viên đọc được tất cả.
+      allow read: if isSignedIn() && (request.auth.uid == uid || isTeacher());
+
+      // KHÔNG ai tự đăng ký được nữa — chỉ tài khoản giáo viên (đã đăng nhập)
+      // mới được tạo hồ sơ users/* cho người khác, và luôn phải là học viên.
+      // (Tài khoản giáo viên đầu tiên được tạo thủ công qua Firebase Console —
+      // xem FIREBASE_SETUP.md — nên không cần một đường tự đăng ký nào ở đây.)
+      allow create: if isTeacher() && request.resource.data.role == 'student';
+
+      // Học viên được cập nhật hồ sơ/tiến độ của chính mình, nhưng KHÔNG được
+      // tự đổi vai trò hay tự đổi lớp/trình độ của mình. Giáo viên được đổi
+      // lớp/trình độ của học viên (không đổi vai trò).
+      allow update: if isSignedIn() && (
+        (request.auth.uid == uid
+          && request.resource.data.role == resource.data.role
+          && request.resource.data.get('classIds', null) == resource.data.get('classIds', null))
+        ||
+        (isTeacher() && request.resource.data.role == resource.data.role)
+      );
+
+      // Giáo viên được xóa hồ sơ của HỌC VIÊN (không được xóa hồ sơ giáo
+      // viên khác) — dùng khi cần gỡ một học viên khỏi hệ thống. Đây chỉ
+      // xóa hồ sơ Firestore (thu hồi quyền xem nội dung ngay lập tức),
+      // KHÔNG xóa được tài khoản đăng nhập gốc (Firebase Authentication) —
+      // xem ghi chú trong FIREBASE_SETUP.md.
+      allow delete: if isTeacher() && resource.data.role == 'student';
+    }
+
+    match /classes/{classId} {
+      // Mọi giáo viên xem được tất cả lớp (để cùng quản lý học viên).
+      allow read: if isTeacher();
+      // Chỉ giáo viên tạo lớp, và lớp đó gắn với chính giáo viên tạo ra nó.
+      allow create: if isTeacher() && request.resource.data.teacherUid == request.auth.uid;
+      // Chỉ giáo viên đã tạo ra lớp mới được sửa/xoá lớp đó.
+      allow update, delete: if isTeacher() && resource.data.teacherUid == request.auth.uid;
+    }
+  }
+}
