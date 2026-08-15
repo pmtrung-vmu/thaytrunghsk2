@@ -234,6 +234,8 @@ async function render() {
         await renderClassDetailPage(app, parts[2]);
       } else if (parts[1] === "student" && parts[2]) {
         await renderStudentDetailPage(app, parts[2]);
+      } else if (parts[1] === "level" && parts[2]) {
+        await renderTeacherLevelPage(app, parts[2]);
       } else {
         await renderTeacherPage(app);
       }
@@ -1323,7 +1325,8 @@ async function renderTeacherPage(app) {
     </div>
 
     <div class="section-title" style="margin-top:8px;"><h3>📚 Danh sách lớp</h3></div>
-    <div id="teacher-class-table-container"></div>
+    <p class="section-sub">Chọn một trình độ để xem các lớp thuộc trình độ đó.</p>
+    <div id="teacher-level-grid"></div>
 
     <div class="section-title" style="margin-top:28px;"><h3>👥 Danh sách học viên</h3></div>
     <div id="teacher-table-container"></div>
@@ -1331,7 +1334,7 @@ async function renderTeacherPage(app) {
 
   const refresh = () => renderTeacherPage(app);
 
-  renderClassTable(document.getElementById("teacher-class-table-container"), classes, students, refresh);
+  renderTeacherLevelGrid(document.getElementById("teacher-level-grid"), classes, students);
   renderStudentTable(document.getElementById("teacher-table-container"), students, classes, refresh);
 
   const classForm = document.getElementById("class-form");
@@ -1408,6 +1411,78 @@ function classAggStats(students, classId) {
     clozeAvg: clozeQ ? Math.round((100 * clozeC) / clozeQ) : null,
     writeAvg: writeQ ? Math.round((100 * writeC) / writeQ) : null,
   };
+}
+
+/* Lưới thẻ trình độ HSK trong trang giáo viên — bấm vào 1 thẻ để xem danh
+   sách lớp thuộc đúng trình độ đó, thay vì dồn hết mọi lớp (mọi trình độ)
+   vào một bảng dài, dễ rối khi có nhiều trình độ/nhiều lớp. */
+function renderTeacherLevelGrid(container, classes, students) {
+  if (!classes.length) {
+    container.innerHTML = `<p class="empty-note">Chưa có lớp nào — tạo lớp ở khung bên trên trước.</p>`;
+    return;
+  }
+  container.innerHTML = `
+    <div class="level-grid teacher-level-grid">
+      ${LEVELS.map((l) => {
+        const levelClasses = classes.filter((c) => c.level === l.id);
+        const classIds = new Set(levelClasses.map((c) => c.id));
+        const studentCount = students.filter((s) =>
+          Array.isArray(s.classIds) && s.classIds.some((cid) => classIds.has(cid))
+        ).length;
+        const inner = `
+          <div class="lc-top"><span class="badge">${l.label}</span></div>
+          <h3>${l.label}</h3>
+          <p>${levelClasses.length} lớp · ${studentCount} học viên</p>
+        `;
+        return levelClasses.length
+          ? `<a class="level-card" href="#/teacher/level/${l.id}">${inner}</a>`
+          : `<div class="level-card locked" title="Chưa có lớp nào ở trình độ này">${inner}</div>`;
+      }).join("")}
+    </div>
+  `;
+}
+
+/* Trang "Danh sách lớp" của MỘT trình độ — chỉ hiện các lớp thuộc trình độ
+   đó; bấm vào 1 lớp vẫn dẫn tới trang chi tiết lớp như cũ (#/teacher/class/:id). */
+async function renderTeacherLevelPage(app, levelId) {
+  if (!window.HSKAuth || !HSKAuth.isConfigured) { app.innerHTML = authNotConfiguredNote(); return; }
+  await HSKAuth.ready;
+  if (!HSKAuth.user) {
+    app.innerHTML = `<div class="empty-note">Bạn cần <a href="#/login">đăng nhập</a> để xem trang này.</div>`;
+    return;
+  }
+  if (!HSKAuth.profile || HSKAuth.profile.role !== "teacher") {
+    app.innerHTML = `<div class="empty-note">Tài khoản này chưa có quyền giáo viên.</div>`;
+    return;
+  }
+  const info = levelInfo(levelId);
+  if (!info) { app.innerHTML = `<p class="empty-note">Trình độ không tồn tại.</p>`; return; }
+
+  app.innerHTML = `<p class="section-sub">Đang tải dữ liệu...</p>`;
+
+  let students, classes;
+  try {
+    [students, classes] = await Promise.all([HSKAuth.fetchAllStudents(), HSKAuth.fetchClasses()]);
+  } catch (err) {
+    app.innerHTML = `<p class="empty-note">Không tải được dữ liệu: ${HSKAuth.friendlyError(err)}</p>`;
+    return;
+  }
+
+  const levelClasses = classes.filter((c) => c.level === levelId);
+
+  app.innerHTML = `
+    <div class="crumbs"><a href="#/teacher">📊 Trang giáo viên</a> / ${info.label}</div>
+    <div class="section-title"><h2>Danh sách lớp — ${info.label}</h2></div>
+    <p class="section-sub">${levelClasses.length} lớp</p>
+    <div id="teacher-level-class-table"></div>
+  `;
+
+  renderClassTable(
+    document.getElementById("teacher-level-class-table"),
+    levelClasses,
+    students,
+    () => renderTeacherLevelPage(app, levelId)
+  );
 }
 
 /* onRefresh: hàm async gọi lại sau khi sửa/xóa lớp thành công, để tải lại

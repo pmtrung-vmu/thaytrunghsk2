@@ -86,6 +86,14 @@ h1, h2, h3, .brand-text strong, .seal-name { font-family: "Baloo 2", "Be Vietnam
   font-weight: 700;
 }
 
+/* Trên di động, thu nhỏ khoảng đệm/cỡ chữ của các nút cấp độ một chút để
+   vừa nhiều nút hơn trên một dòng (bớt bị rớt dòng lẻ loi khi có 4-5 cấp
+   độ); phần còn lại vẫn tự xuống dòng bình thường nếu màn hình quá hẹp. */
+@media (max-width: 640px) {
+  .level-nav { gap: 2px; }
+  .level-nav a { padding: 7px 11px; font-size: 12.5px; }
+}
+
 /* ---------- Auth bar (đăng nhập) ---------- */
 .auth-bar { padding-top: 0; padding-bottom: 10px; }
 .auth-slot {
@@ -174,9 +182,28 @@ h1, h2, h3, .brand-text strong, .seal-name { font-family: "Baloo 2", "Be Vietnam
   opacity: 0; pointer-events: none; transition: opacity .15s;
 }
 .fab:hover .tip { opacity: 1; }
+
+/* Trên di động, nút nổi kiểu cột dọc bên phải sẽ đè lên chữ/nút của trang
+   (danh sách từ, thẻ ngữ pháp, form...) vì màn hình hẹp không còn "lề" bên
+   phải để nó nổi mà không chạm nội dung. Đổi thành 1 thanh ngang cố định ở
+   sát đáy màn hình, dành riêng một dải không gian của nó (padding-bottom
+   thêm vào body) để không bao giờ che nội dung bên trên. */
 @media (max-width: 640px) {
-  .float-contact { right: 14px; bottom: 14px; }
-  .fab { width: 48px; height: 48px; }
+  body { padding-bottom: 62px; }
+  .float-contact {
+    left: 0; right: 0; bottom: 0;
+    flex-direction: row;
+    justify-content: center;
+    gap: 22px;
+    padding: 9px 14px calc(9px + env(safe-area-inset-bottom, 0px));
+    background: rgba(251, 249, 255, 0.94);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border-top: 1px solid var(--line);
+    box-shadow: 0 -6px 18px rgba(92, 61, 240, 0.1);
+  }
+  .fab { width: 42px; height: 42px; border-width: 2px; }
+  .fab .tip { display: none; }
 }
 
 /* ---------- Auth pages (đăng nhập / đăng ký) ---------- */
